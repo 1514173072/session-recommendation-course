@@ -1,0 +1,82 @@
+{
+  "dataset": "amazon_m2",
+  "test_queries": 8970,
+  "validation_queries": 8886,
+  "catalogue_items": 42503,
+  "features": [
+    "transition",
+    "cooccurrence",
+    "text",
+    "brand",
+    "color",
+    "material",
+    "price",
+    "popularity"
+  ],
+  "filter_history": true,
+  "grids": {
+    "A": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "B": [
+      0,
+      1,
+      2,
+      7,
+      15
+    ],
+    "C": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "D": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "unique_validation_configurations": 17,
+  "selection": "validation MRR@10, then Recall@10, then NDCG@10; baseline then grid order for exact ties",
+  "already_viewed_test_set": true,
+  "test_used_for_this_round_selection": false,
+  "source_gnn_training_seed": 42,
+  "new_gnn_training": false,
+  "numeric_state_bytes": 13832732,
+  "statistics_fit_seconds": 0.5504267,
+  "statistics_fit_scope": "training statistics reconstruction and existing static attributes loading",
+  "adapter_loading_seconds": 1.2003115000000002,
+  "sha256": {
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\data.json": "92d09affda99f4f99b92f72948ea46056caa52562fe9af9ddf580160447ab93e",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\attributes.npz": "68918582571fbb3f6f76d25921a677e1683c1eb534ad72638dff6fd08a21effc",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\common.py": "b1ffa29af3d47ef37b5a31d745eb3108bc63acfb7ff3e2103222a22502031814",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\train.py": "abfa17cb33ec466681351e3e52d8c2a19e2dcf60b6e9681890c526231a5b59de",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\predictions\\grey.jsonl": "a12a5019340949492fb6255a3d084ad8a2a3f030b61ed695afe772bd04afabc6",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\models\\SRGNN.pt": "4dec369e02323e556bf97ab37f315ec4aa9f358440198d7d183581ce3d6a04f1",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\predictions\\SRGNN.jsonl": "57a078d2503708b3d9380885acd664e8aa70ffd599b4d01f3f82960fd831ebd7",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\results\\SRGNN_training.json": "16435e3fab977cf0f5736f5a1c732a7c35f6704f544356e25dc9e9c6a5d35cab",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\models\\GCSAN.pt": "42e01ad2f22b320769a15051567f73a4005c571a9b5bb352050269f7f0cb076a",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\predictions\\GCSAN.jsonl": "56145901052def293fd97c7e75d43c6e9ca4774fa6f07e68a43bbb175f2901cd",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\results\\GCSAN_training.json": "40dc36d2f26c7565dbcfed9334fbe96fd02b9edb9a65ab7181cb569e2e00e100",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\models\\GCEGNN.pt": "e5c7398ee6c41c72e60fa23a13da000f7bf14c1f63a22fca3cac753106dfd2ad",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\predictions\\GCEGNN.jsonl": "25e042571c9e8d5c2330297d18d228105bdbc4da92c6f86d79784c2f1da76644",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\results\\GCEGNN_training.json": "dc92d65008fd6342acf3f19a7501e28804bb0783455c6b1ca14c33dd88314647",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\experiments\\grey_four_axes.py": "caac49344cb6e608f7525f909a71154cc070fcceca632169590bfa2db096835b",
+    "D:\\Projects\\算法分析与理论课程\\05_灰预测与决策方法课程论文\\四组灰关联单因素对比试验方案.md": "8e498393c43977d07b9e9960929e52f20355ab877d45ea4aa6a6add7fe98148f"
+  },
+  "created_unix": 1794575232.743694,
+  "environment": {
+    "python": "3.9.21",
+    "numpy": "1.23.5",
+    "torch": "2.1.2+cpu",
+    "platform": "Windows-10-10.0.19044-SP0"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "dataset": "diginetica",
+  "test_queries": 20000,
+  "validation_queries": 20000,
+  "catalogue_items": 32968,
+  "features": [
+    "transition",
+    "cooccurrence",
+    "repeat",
+    "popularity"
+  ],
+  "filter_history": false,
+  "grids": {
+    "A": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "B": [
+      0,
+      1,
+      2,
+      7,
+      15
+    ],
+    "C": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "D": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "unique_validation_configurations": 17,
+  "selection": "validation MRR@10, then Recall@10, then NDCG@10; baseline then grid order for exact ties",
+  "already_viewed_test_set": true,
+  "test_used_for_this_round_selection": false,
+  "source_gnn_training_seed": 42,
+  "new_gnn_training": false,
+  "numeric_state_bytes": 4938028,
+  "statistics_fit_seconds": 0.44335609999999903,
+  "statistics_fit_scope": "existing training statistics loading; historical fit time reported separately",
+  "adapter_loading_seconds": 0.08888149999999984,
+  "sha256": {
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\grey_improved\\splits.npz": "e2a2d5d382659b551582a12016b366fc1adf1fa2c84ee517e6d1e20088850bc0",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\grey_improved\\tokens.json": "627e0248640a6c05e7c1d6069505a410492070a49a603fd863901bb908511b5f",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\grey_relation\\grey_model.npz": "92e6972b44d51e88594956be25fde3ab2afc0253d93f63059b2f052034a9f601",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\data\\diginetica-formal\\diginetica-formal.inter": "d5e0c1c2ca3f3fe629ec1a3fa0e5bd06b2633ffd97323cf09000447178608c45",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\configs\\formal.yaml": "68d993325f9671ee102bd188ac16159b1594b83fcff29c35c0456436ef170a74",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\experiments\\grey_session.py": "739d567276fd223db0d8a26b4fff23e313d9ade38eba888b3eb7eb795a0f6732",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\grey_relation\\GRA.jsonl": "fb9685db9ce1e679d271872aed054b60be03142a7e3c91e84dea55811a5ea525",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\SRGNN\\seed42\\checkpoints\\SRGNN-Nov-02-2026_17-51-46.pth": "7fc72a0aa664a1a44ce79c06eafd53846ea80d3c7a96c72a25d76e7b99e918c0",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\predictions\\SRGNN.jsonl": "d76f47d236285573f860f4486162eedfa5bdbe7da525b5193909008cb171af0e",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\SRGNN\\seed42\\result.json": "9e6600f2386417a728a8158a7519066a05fb666f4e4d01f70620a9ae592950f8",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\GCSAN\\seed42\\checkpoints\\GCSAN-Nov-02-2026_17-59-07.pth": "fc997bda916752dc98acc7c08cae5f48b135d47893cf5f635be470676ea25c7c",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\predictions\\GCSAN.jsonl": "077e87f2a7048c1b06069b3beb09cdbc23caf7226b100e6de1d2448e4755413c",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\GCSAN\\seed42\\result.json": "96e19bb5364f99d379eed1d71fa42169efbc11811025fc87b0d13d27c3412bf3",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\GCEGNN\\seed42\\checkpoints\\GCEGNN-Nov-02-2026_18-10-10.pth": "16a22b26e44fd4cfdbd82eeac92889851da7572065506c5fa173d4bcc3ce93b6",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\predictions\\GCEGNN.jsonl": "e639a4ed7adf449d840724d893bae0135fce8bf74861c42cadca61286d272b75",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\GCEGNN\\seed42\\result.json": "e553a0c50be62559f8daa2c686c5a45c6563da710bccbf5a19b5d4ed9f93fe49",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\experiments\\grey_four_axes.py": "caac49344cb6e608f7525f909a71154cc070fcceca632169590bfa2db096835b",
+    "D:\\Projects\\算法分析与理论课程\\05_灰预测与决策方法课程论文\\四组灰关联单因素对比试验方案.md": "8e498393c43977d07b9e9960929e52f20355ab877d45ea4aa6a6add7fe98148f"
+  },
+  "created_unix": 1794575195.4416156,
+  "environment": {
+    "python": "3.9.21",
+    "numpy": "1.23.5",
+    "torch": "2.1.2+cpu",
+    "platform": "Windows-10-10.0.19044-SP0"
+  }
+}

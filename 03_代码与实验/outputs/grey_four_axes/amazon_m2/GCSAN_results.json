@@ -1,0 +1,27 @@
+{
+  "model": "GCSAN",
+  "recall@10": 0.551170568561873,
+  "mrr@10": 0.33619357293270336,
+  "ndcg@10": 0.38740298923607036,
+  "test_sessions": 8970,
+  "loading_and_catalogue_compile_seconds": 3.3959308000000004,
+  "numeric_state_bytes": 18407076,
+  "learned_parameters": 1498977,
+  "checkpoint_file_bytes": 12979626,
+  "catalogue_embedding_precomputed": true,
+  "model_module": "recbole_gnn.model.sequential_recommender.gcsan",
+  "checkpoint_sha256": "42e01ad2f22b320769a15051567f73a4005c571a9b5bb352050269f7f0cb076a",
+  "fresh_checkpoint_inference": true,
+  "new_training": false,
+  "quality_evaluation_seconds": 3.7491413000000016,
+  "previous_top10_exact_rows": 8970,
+  "previous_rank_exact_rows": 8970,
+  "previous_metrics": {
+    "recall@10": 0.551170568561873,
+    "mrr@10": 0.33619357293270336,
+    "ndcg@10": 0.38740298923607036
+  },
+  "divergence_examples": [],
+  "batch1_batch128_rank_checks": 40,
+  "prediction_sha256": "1950c91c81efae488fdba840ae86cdcbfa1506a5367e47f3debb96823c4d65e9"
+}

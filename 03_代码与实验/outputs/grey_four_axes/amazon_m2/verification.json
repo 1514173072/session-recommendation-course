@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "dataset": "amazon_m2",
+  "methods": 8,
+  "test_queries_per_method": 8970,
+  "aligned_prediction_rows": 71760,
+  "original_prediction_rows_exact": 8970,
+  "restore_checks": 35880,
+  "validation_unique_configs": 17,
+  "all_metrics_recomputed": true,
+  "frozen_selection_intact": true,
+  "source_fingerprints_match": true,
+  "latency_calls_per_method": 900,
+  "method_checks": {
+    "Base": {
+      "rows": 8970,
+      "metrics_recomputed": {
+        "recall@10": 0.4672240802675585,
+        "mrr@10": 0.3271956344782432,
+        "ndcg@10": 0.36092426047877385
+      },
+      "top10_legal": true
+    },
+    "A": {
+      "rows": 8970,
+      "metrics_recomputed": {
+        "recall@10": 0.4802675585284281,
+        "mrr@10": 0.3340846029976465,
+        "ndcg@10": 0.3692250589753976
+      },
+      "top10_legal": true
+    },
+    "B": {
+      "rows": 8970,
+      "metrics_recomputed": {
+        "recall@10": 0.4950947603121516,
+        "mrr@10": 0.33772128435171916,
+        "ndcg@10": 0.37552981682140907
+      },
+      "top10_legal": true
+    },
+    "C": {
+      "rows": 8970,
+      "metrics_recomputed": {
+        "recall@10": 0.4936454849498328,
+        "mrr@10": 0.33949770841075194,
+        "ndcg@10": 0.37666337266686634
+      },
+      "top10_legal": true
+    },
+    "D": {
+      "rows": 8970,
+      "metrics_recomputed": {
+        "recall@10": 0.4672240802675585,
+        "mrr@10": 0.3271956344782432,
+        "ndcg@10": 0.36092426047877385
+      },
+      "top10_legal": true
+    },
+    "SRGNN": {
+      "rows": 8970,
+      "metrics_recomputed": {
+        "recall@10": 0.5099219620958751,
+        "mrr@10": 0.3133717329369503,
+        "ndcg@10": 0.36021904172029107
+      },
+      "top10_legal": true
+    },
+    "GCSAN": {
+      "rows": 8970,
+      "metrics_recomputed": {
+        "recall@10": 0.551170568561873,
+        "mrr@10": 0.33619357293270336,
+        "ndcg@10": 0.38740298923607036
+      },
+      "top10_legal": true
+    },
+    "GCEGNN": {
+      "rows": 8970,
+      "metrics_recomputed": {
+        "recall@10": 0.5394648829431438,
+        "mrr@10": 0.3310917785917786,
+        "ndcg@10": 0.3806808230000825
+      },
+      "top10_legal": true
+    }
+  },
+  "prediction_sha256": {
+    "Base": "1677189aef1bf6e4e5701849b27e1ad9aae4f0c9735db6811efbfc079171aada",
+    "A": "46313e7e3ce2aa6590815768caae2e0b16c0b134cd0be6356a078b30e185c324",
+    "B": "c328a3c857802f4b45a3d2af93a6517b8fc163ac7ca6900984530bd755bcd75d",
+    "C": "0a58861ee17853aada30c82a1acc8710ff874abf4d7350609cbaa326a26a4d0b",
+    "D": "1677189aef1bf6e4e5701849b27e1ad9aae4f0c9735db6811efbfc079171aada",
+    "SRGNN": "ad2b0a3a388b5d30082c897bbed4efd5b2791b20a2b5e4638d139fb943689472",
+    "GCSAN": "1950c91c81efae488fdba840ae86cdcbfa1506a5367e47f3debb96823c4d65e9",
+    "GCEGNN": "c44fd47afd159cbdd73c41d79d6bdccf4cd0ff959e61c7b11704b9b62bf2ee73"
+  },
+  "manifest_sha256": "a3f1aff3866b3fd1addd973caf2d791eee15398e40dd068db977d95f00d95b3e",
+  "selection_sha256": "5e17c37f6fec7901c809b81ea2e90e3e1e28af617edd09639ae34198e09a4a52",
+  "limits": "Existing already-viewed splits; one original GNN training seed; no new independent generalization claim."
+}

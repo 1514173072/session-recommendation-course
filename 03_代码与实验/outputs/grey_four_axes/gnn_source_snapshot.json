@@ -1,0 +1,12 @@
+{
+  "sha256": {
+    "D:\\Projects\\算法分析与理论课程\\app\\predictor.py": "03e9d2a7a1dd44256d5a3c6aac1640ae45f3533f54a86b6f95d5ed6be566f306",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\train.py": "abfa17cb33ec466681351e3e52d8c2a19e2dcf60b6e9681890c526231a5b59de",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\RecBole-GNN\\recbole_gnn\\model\\layers.py": "994ecbff189cbdc3d3698c04469840139ce92cc79354c0120d8c97ca62b53740",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\RecBole-GNN\\recbole_gnn\\model\\sequential_recommender\\srgnn.py": "7e0f3d7f70b42d31185ebda4418ea6b62c85185b929b50d39ab40e0cc02608d9",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\RecBole-GNN\\recbole_gnn\\model\\sequential_recommender\\gcsan.py": "9471acc9ab9d5b512c0dda9c65eaf348ca3b389ac0db8573624af0d7f590c336",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\RecBole-GNN\\recbole_gnn\\model\\sequential_recommender\\gcegnn.py": "07a321e42fb332b46fab5d982438cb76605edd1744ff9c8d73a5733bf039a0b1"
+  },
+  "amazon_training_source_hashes_match": true,
+  "recorded_unix": 1794574563.043809
+}

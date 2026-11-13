@@ -1,0 +1,59 @@
+{
+  "A_Wang_2024_DGRA.pdf": {
+    "title": "A hybrid MADM method considering expert consensus for emergency recovery plan selection: Dynamic grey relation analysis and partial ordinal priority approach",
+    "identifier": "10.1016/j.ins.2024.120784",
+    "url": "https://renlong-wang.github.io/papers/pdfs/Wang%20-%202024%20-%20A%20hybrid%20MADM%20method%20considering%20expert%20consensus%20.pdf",
+    "sha256": "007848427690ba260a21cfaeae7748e6ef1003f05069e542ea8d1596783d24a7",
+    "original_pdf_pages_visually_checked": [
+      4,
+      5
+    ],
+    "verified_on": "2026-11-13",
+    "scope": "method-direction support; candidate parameterization is explicitly distinguished from source method"
+  },
+  "B_Zheng_2025_Distance_Response.pdf": {
+    "title": "Robust Grey Relational Analysis-Based Accuracy Evaluation Method",
+    "identifier": "10.3390/app15094926",
+    "url": "https://mdpi-res.com/d_attachment/applsci/applsci-15-04926/article_deploy/applsci-15-04926-v2.pdf",
+    "sha256": "e7b0c483508bb6623d8ccdca5936630ab2ababdada62ea7f5576f4049469d8a5",
+    "original_pdf_pages_visually_checked": [
+      12
+    ],
+    "verified_on": "2026-11-13",
+    "scope": "method-direction support; candidate parameterization is explicitly distinguished from source method"
+  },
+  "B_Isnain_2025_GRA_Modification.pdf": {
+    "title": "Modification of Grey Relational Analysis (GRA) Method for Improved Decision Making",
+    "identifier": "10.5109/7388852",
+    "url": "https://catalog.lib.kyushu-u.ac.jp/opac_download_md/7388852/p1598-1610.pdf",
+    "sha256": "ef05bb270562ac1240f442ac2959837f40101253ae941cc986220961bf90b8ac",
+    "original_pdf_pages_visually_checked": [
+      5
+    ],
+    "verified_on": "2026-11-13",
+    "scope": "method-direction support; candidate parameterization is explicitly distinguished from source method"
+  },
+  "C_Satria_2025_Weighting.pdf": {
+    "title": "Modification of Grey Relational Analysis for Dynamic Criteria Weighting in Decision-Making Systems",
+    "identifier": "10.31436/iiumej.v26i2.3494",
+    "url": "https://journals.iium.edu.my/ejournal/index.php/iiumej/article/download/3494/1085",
+    "sha256": "09628a5cd0c68e977212c133b8582db3ed1e0d5134d7a875afd951d059229b5e",
+    "original_pdf_pages_visually_checked": [
+      8
+    ],
+    "verified_on": "2026-11-13",
+    "scope": "method-direction support; candidate parameterization is explicitly distinguished from source method"
+  },
+  "D_Feng_2025_Choquet.pdf": {
+    "title": "基于2-可加Choquet积分的混合信息灰关联决策方法及其应用",
+    "identifier": "10.16381/j.cnki.issn1003-207x.2022.2502",
+    "url": "https://www.zgglkx.com/CN/article/downloadArticleFile.do?attachType=PDF&id=19823",
+    "sha256": "9e49735061ea770cffc10e6b47c79aada92dfa9f189574623a8a768750602360",
+    "original_pdf_pages_visually_checked": [
+      3,
+      6
+    ],
+    "verified_on": "2026-11-13",
+    "scope": "method-direction support; candidate parameterization is explicitly distinguished from source method"
+  }
+}

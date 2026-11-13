@@ -1,0 +1,84 @@
+{
+  "dataset": "diginetica",
+  "selection_criterion": "validation MRR@10, then Recall@10, then NDCG@10; baseline then grid order for exact ties",
+  "test_used_in_this_round_selection": false,
+  "prior_test_exposure": true,
+  "grids": {
+    "A": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "B": [
+      0,
+      1,
+      2,
+      7,
+      15
+    ],
+    "C": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "D": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "validation_sessions": 20000,
+  "unique_configurations": 17,
+  "baseline": {
+    "recall@10": 0.27565,
+    "mrr@10": 0.14170093253968255,
+    "ndcg@10": 0.17382686952254975
+  },
+  "selected": {
+    "A": {
+      "group": "A",
+      "value": 1.0,
+      "validation": {
+        "recall@10": 0.30395,
+        "mrr@10": 0.14853686507936506,
+        "ndcg@10": 0.18562520474248287
+      }
+    },
+    "B": {
+      "group": "B",
+      "value": 7,
+      "validation": {
+        "recall@10": 0.3453,
+        "mrr@10": 0.1597728968253968,
+        "ndcg@10": 0.2035423265894494
+      }
+    },
+    "C": {
+      "group": "C",
+      "value": -1,
+      "validation": {
+        "recall@10": 0.2568,
+        "mrr@10": 0.14396470238095238,
+        "ndcg@10": 0.17122253964951473
+      }
+    },
+    "D": {
+      "group": "D",
+      "value": 0,
+      "validation": {
+        "recall@10": 0.27565,
+        "mrr@10": 0.14170093253968255,
+        "ndcg@10": 0.17382686952254975
+      }
+    }
+  },
+  "validation_search_sha256": "4f0282b95ede4eda2f60cd4535aaec2a976a055868efa30dc59ad5669b7010f1",
+  "manifest_sha256": "685cd7fac07f2bcf5f162bf3d608b79266528f203bead3a6d964d5860fe030e6",
+  "frozen_unix": 1794575197.1243844
+}

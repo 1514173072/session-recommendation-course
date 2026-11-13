@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "all_original_top10_match_saved": 8970,
+  "full_test_restoring_parameter_checks": 35880,
+  "selection_sha256_before_after": "5e17c37f6fec7901c809b81ea2e90e3e1e28af617edd09639ae34198e09a4a52",
+  "new_gra_test_seconds_including_writes_and_restore_checks": 113.0170262
+}

@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "dataset": "diginetica",
+  "methods": 8,
+  "test_queries_per_method": 20000,
+  "aligned_prediction_rows": 160000,
+  "original_prediction_rows_exact": 20000,
+  "restore_checks": 80000,
+  "validation_unique_configs": 17,
+  "all_metrics_recomputed": true,
+  "frozen_selection_intact": true,
+  "source_fingerprints_match": true,
+  "latency_calls_per_method": 900,
+  "method_checks": {
+    "Base": {
+      "rows": 20000,
+      "metrics_recomputed": {
+        "recall@10": 0.28875,
+        "mrr@10": 0.14374609126984125,
+        "ndcg@10": 0.1784833848016636
+      },
+      "top10_legal": true
+    },
+    "A": {
+      "rows": 20000,
+      "metrics_recomputed": {
+        "recall@10": 0.31905,
+        "mrr@10": 0.1512806746031746,
+        "ndcg@10": 0.1912395947005681
+      },
+      "top10_legal": true
+    },
+    "B": {
+      "rows": 20000,
+      "metrics_recomputed": {
+        "recall@10": 0.3554,
+        "mrr@10": 0.16099371031746032,
+        "ndcg@10": 0.20680910676426043
+      },
+      "top10_legal": true
+    },
+    "C": {
+      "rows": 20000,
+      "metrics_recomputed": {
+        "recall@10": 0.2756,
+        "mrr@10": 0.15267523809523809,
+        "ndcg@10": 0.18229974732775897
+      },
+      "top10_legal": true
+    },
+    "D": {
+      "rows": 20000,
+      "metrics_recomputed": {
+        "recall@10": 0.28875,
+        "mrr@10": 0.14374609126984125,
+        "ndcg@10": 0.1784833848016636
+      },
+      "top10_legal": true
+    },
+    "SRGNN": {
+      "rows": 20000,
+      "metrics_recomputed": {
+        "recall@10": 0.28175,
+        "mrr@10": 0.13395529761904762,
+        "ndcg@10": 0.1687674312224673
+      },
+      "top10_legal": true
+    },
+    "GCSAN": {
+      "rows": 20000,
+      "metrics_recomputed": {
+        "recall@10": 0.29525,
+        "mrr@10": 0.13874021825396826,
+        "ndcg@10": 0.17556878527687858
+      },
+      "top10_legal": true
+    },
+    "GCEGNN": {
+      "rows": 20000,
+      "metrics_recomputed": {
+        "recall@10": 0.33135,
+        "mrr@10": 0.15904168650793649,
+        "ndcg@10": 0.19979042781804632
+      },
+      "top10_legal": true
+    }
+  },
+  "prediction_sha256": {
+    "Base": "2f3deb0f5b0c6fbdeaf8e77a6f47c3f25dbc5481b998ec1f79cca8b68a09d782",
+    "A": "cb3fa2332e20fd55cf361b0d1c1f55e9a9fb62c721a1ef92523d16ca497ccc75",
+    "B": "8f1cf8a2369644a10f6e995d17757602d583da04de55b0fd34cf30f1610b24f5",
+    "C": "7d90a3de4a4d9f6b322ce41a08cecd789184715630b00219d1321e76bb8394a5",
+    "D": "2f3deb0f5b0c6fbdeaf8e77a6f47c3f25dbc5481b998ec1f79cca8b68a09d782",
+    "SRGNN": "6a436a2e6f44ac0953eda5a3bf611541f9b32c1345ca9aef8ada83e142aee7d0",
+    "GCSAN": "5082d8554fdb7e52eea24210ef7cb33f6398c6c7d8533700f6e00170e84fc92f",
+    "GCEGNN": "0c2de095f8b83b334d3386b3764a3be7aeae449b81382a78c384e21275bc556b"
+  },
+  "manifest_sha256": "685cd7fac07f2bcf5f162bf3d608b79266528f203bead3a6d964d5860fe030e6",
+  "selection_sha256": "84cd8cf70415cab6b9a79df9b76400035ca868e9662c4aee226fc1f337d4cb2d",
+  "limits": "Existing already-viewed splits; one original GNN training seed; no new independent generalization claim."
+}

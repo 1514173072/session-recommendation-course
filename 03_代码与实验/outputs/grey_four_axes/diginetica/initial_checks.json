@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "original_restore_checks": 200,
+  "sampled_feature_bounds": [
+    0.0,
+    1.0
+  ],
+  "reference_rows_aligned": 20000,
+  "reference_metrics": {
+    "recall@10": 0.28875,
+    "mrr@10": 0.14374609126984125,
+    "ndcg@10": 0.1784833848016636
+  },
+  "interaction_slopes_nonnegative": true
+}

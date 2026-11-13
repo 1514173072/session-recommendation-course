@@ -47,7 +47,669 @@ button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,inpu
  </div>
  <footer class="footer"><span id="datasetFooter"></span><span>独立性能比较 · 不触发模型训练或推理</span></footer>
 </main>
-<script id="experiment-data" type="application/json">{"default_dataset":"diginetica","datasets":[{"records":[{"id":"gra","scope":"20000","n":20000,"recall":0.28875,"mrr":0.14374609126984125,"ndcg":0.1784833848016636,"mean_ms":0.640736222222222,"p95_ms":0.7585099999999999,"source":"06_教师学生推荐性能测试/results/comparison.csv","timing":"推荐质量：完整20,000条；耗时：历史300条请求×3轮，共900次预热CPU调用。含原始ID→特征/图→全商品评分→Top10；不含加载。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gra_improved","scope":"20000","n":20000,"recall":0.3554,"mrr":0.16099371031746032,"ndcg":0.20680910676426043,"mean_ms":0.6939185555555556,"p95_ms":0.79899,"source":"06_教师学生推荐性能测试/results/comparison.csv","timing":"推荐质量：完整20,000条；耗时：历史300条请求×3轮，共900次预热CPU调用。含原始ID→特征/图→全商品评分→Top10；不含加载。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"srgnn","scope":"20000","n":20000,"recall":0.28175,"mrr":0.13395529761904762,"ndcg":0.1687674312224673,"mean_ms":1.4251327777777778,"p95_ms":1.816765,"source":"06_教师学生推荐性能测试/results/comparison.csv","timing":"推荐质量：完整20,000条；耗时：历史300条请求×3轮，共900次预热CPU调用。含原始ID→特征/图→全商品评分→Top10；不含加载。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gcsan","scope":"20000","n":20000,"recall":0.29525,"mrr":0.13874021825396826,"ndcg":0.17556878527687858,"mean_ms":1.8417321111111111,"p95_ms":2.3250549999999994,"source":"06_教师学生推荐性能测试/results/comparison.csv","timing":"推荐质量：完整20,000条；耗时：历史300条请求×3轮，共900次预热CPU调用。含原始ID→特征/图→全商品评分→Top10；不含加载。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gcegnn","scope":"20000","n":20000,"recall":0.33135,"mrr":0.15904168650793649,"ndcg":0.19979042781804632,"mean_ms":2.0354076666666665,"p95_ms":2.55274,"source":"06_教师学生推荐性能测试/results/comparison.csv","timing":"推荐质量：完整20,000条；耗时：历史300条请求×3轮，共900次预热CPU调用。含原始ID→特征/图→全商品评分→Top10；不含加载。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gra","scope":"1000","n":1000,"recall":0.282,"mrr":0.13034047619047617,"ndcg":0.16641042835946449,"mean_ms":0.6522948999999976,"p95_ms":0.7531250000002654,"source":"10_本地2B低延迟优化/results/baseline_gra_original.json","timing":"本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gra","scope":"30","n":30,"recall":0.3333333333333333,"mrr":0.14837301587301585,"ndcg":0.19204429517415716,"mean_ms":0.6392099999999493,"p95_ms":0.749260000000107,"source":"10_本地2B低延迟优化/results/baseline_gra_original.json","timing":"本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"srgnn","scope":"1000","n":1000,"recall":0.277,"mrr":0.12910357142857146,"ndcg":0.16368687111121735,"mean_ms":1.281407799999993,"p95_ms":1.6050250000002817,"source":"10_本地2B低延迟优化/results/baseline_SRGNN.json","timing":"本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"srgnn","scope":"30","n":30,"recall":0.26666666666666666,"mrr":0.1861111111111111,"ndcg":0.2064178688405436,"mean_ms":1.2951766666667197,"p95_ms":1.6957000000006768,"source":"10_本地2B低延迟优化/results/baseline_SRGNN.json","timing":"本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gcsan","scope":"1000","n":1000,"recall":0.299,"mrr":0.13004603174603177,"ndcg":0.1694502213444609,"mean_ms":1.7685492999999575,"p95_ms":2.1722450000003946,"source":"10_本地2B低延迟优化/results/baseline_GCSAN.json","timing":"本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gcsan","scope":"30","n":30,"recall":0.23333333333333334,"mrr":0.13115079365079366,"ndcg":0.15453117169328473,"mean_ms":1.787676666666253,"p95_ms":2.115795000000098,"source":"10_本地2B低延迟优化/results/baseline_GCSAN.json","timing":"本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gcegnn","scope":"1000","n":1000,"recall":0.336,"mrr":0.15903174603174602,"ndcg":0.20096918743918632,"mean_ms":2.001660299999976,"p95_ms":2.4338249999967587,"source":"10_本地2B低延迟优化/results/baseline_GCEGNN.json","timing":"本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gcegnn","scope":"30","n":30,"recall":0.26666666666666666,"mrr":0.19444444444444445,"ndcg":0.21309297535714578,"mean_ms":1.969220000000386,"p95_ms":2.422819999997827,"source":"10_本地2B低延迟优化/results/baseline_GCEGNN.json","timing":"本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gra_improved","scope":"30","n":30,"recall":0.3333333333333333,"mrr":0.2111111111111111,"ndcg":0.24163321492741316,"mean_ms":0.6939185555555556,"p95_ms":0.79899,"source":"06_教师学生推荐性能测试/predictions/gra_beta7.jsonl","timing":"质量由同一批会话的已保存预测重新汇总；耗时沿用历史900次预热CPU调用，未将其表述为本子集重新计时。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gra_improved","scope":"1000","n":1000,"recall":0.369,"mrr":0.1480857142857143,"ndcg":0.19987022205664812,"mean_ms":0.6939185555555556,"p95_ms":0.79899,"source":"06_教师学生推荐性能测试/predictions/gra_beta7.jsonl","timing":"质量由同一批会话的已保存预测重新汇总；耗时沿用历史900次预热CPU调用，未将其表述为本子集重新计时。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"qwen_plain","scope":"30","n":30,"recall":0.3,"mrr":0.16277777777777777,"ndcg":0.19561512329229125,"mean_ms":683.0334700000018,"p95_ms":null,"source":"09_本地2B推荐测试/results/summary.json","timing":"常驻模型的本地API调用＋全商品评分/Top10；商品特征预先准备。不含约71秒的首次加载与预热。","device":"本地RTX 3050 · Q4","valid":30,"p95_note":"源汇总的P95只覆盖API调用，未覆盖评分；为保持同列口径，此处显示未记录。"},{"id":"qwen_teacher","scope":"30","n":30,"recall":0.3333333333333333,"mrr":0.20753968253968255,"ndcg":0.23751210025178374,"mean_ms":766.5323833333313,"p95_ms":null,"source":"09_本地2B推荐测试/results/summary.json","timing":"常驻模型的本地API调用＋全商品评分/Top10；商品特征预先准备。不含约71秒的首次加载与预热。","device":"本地RTX 3050 · Q4","valid":30,"p95_note":"源汇总的P95只覆盖API调用，未覆盖评分；为保持同列口径，此处显示未记录。"},{"id":"qwen_offline","scope":"1000","n":1000,"recall":0.368,"mrr":0.16598650793650793,"ndcg":0.2136391701306838,"mean_ms":0.6055693000000012,"p95_ms":0.6961150000000192,"source":"10_本地2B低延迟优化/results/cache_comparison.json","timing":"对应全部会话的CPU实测：原始ID→状态查表→当前会话特征→全商品评分→Top10。不含12次离线LLM调用（共约0.875秒）；在线不运行2B。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"qwen_offline","scope":"30","n":30,"recall":0.3333333333333333,"mrr":0.24166666666666664,"ndcg":0.2643558852691131,"mean_ms":0.6156799999999851,"p95_ms":0.7148300000000994,"source":"10_本地2B低延迟优化/results/cache_comparison.json","timing":"对应全部会话的CPU实测：原始ID→状态查表→当前会话特征→全商品评分→Top10。不含12次离线LLM调用（共约0.875秒）；在线不运行2B。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"qwen_offline","scope":"20000","n":20000,"recall":0.3662,"mrr":0.1745411904761905,"ndcg":0.21988778665226946,"mean_ms":0.6032055050000046,"p95_ms":0.6854000000000582,"source":"10_本地2B低延迟优化/results/cache_comparison.json","timing":"对应全部会话的CPU实测：原始ID→状态查表→当前会话特征→全商品评分→Top10。不含12次离线LLM调用（共约0.875秒）；在线不运行2B。","device":"本地CPU · 4线程","valid":null,"p95_note":""}],"snapshot":"2026-11-12","scopes":[{"id":"30","name":"原30条会话","n":30,"description":"同一组真实会话，包含原版qwen3.5-2B。小样本试测。"},{"id":"1000","name":"固定1,000条","n":1000,"description":"低延迟优化实验的固定测试子集；不包含原30条会话。"},{"id":"20000","name":"完整20,000条","n":20000,"description":"完整测试集。部分基线耗时来自既有900次预热测量。"}],"id":"diginetica","name":"Diginetica","catalogue_items":32968,"default_scope":"30","description":"匿名商品点击序列；保留原有三个样本范围。","footer":"Diginetica · 32,968个候选商品 · 已有实验结果"},{"id":"amazon_m2","name":"Amazon-M2 · 西班牙站","catalogue_items":42503,"default_scope":"8970","snapshot":"2026-11-13","description":"真实购物会话及商品属性；全站89,047条会话，本地划分训练、验证和测试。","footer":"Amazon-M2 · 西班牙站 · 42,503个候选商品 · 本地划分实测","records":[{"id":"gra","scope":"8970","n":8970,"recall":0.4672240802675585,"mrr":0.3271956344782432,"ndcg":0.36092426047877385,"mean_ms":3.441625333333333,"p95_ms":3.7445,"source":"15_Amazon_M2算法对比/run/results/comparison.json","timing":"质量：完整8,970条测试会话。耗时：CPU4线程、batch1，固定200条历史×3轮，共600次预热调用；含内部ID→特征/图→42,503件商品评分→历史过滤→Top10。排除模型加载、静态商品向量准备、CSV解析和界面网络。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gra_improved","scope":"8970","n":8970,"recall":0.5036789297658862,"mrr":0.3376360797012971,"ndcg":0.3776011187176238,"mean_ms":4.764420333333334,"p95_ms":5.207134999999999,"source":"15_Amazon_M2算法对比/run/results/comparison.json","timing":"质量：完整8,970条测试会话。耗时：CPU4线程、batch1，固定200条历史×3轮，共600次预热调用；含内部ID→特征/图→42,503件商品评分→历史过滤→Top10。排除模型加载、静态商品向量准备、CSV解析和界面网络。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"qwen_offline","scope":"8970","n":8970,"recall":0.554180602006689,"mrr":0.35491842296190124,"ndcg":0.40253461686986536,"mean_ms":1.0405391666666666,"p95_ms":1.217625,"source":"15_Amazon_M2算法对比/run/results/comparison.json","timing":"质量：完整8,970条测试会话。耗时：CPU4线程、batch1，固定200条历史×3轮，共600次预热调用；含内部ID→特征/图→42,503件商品评分→历史过滤→Top10。排除模型加载、静态商品向量准备、CSV解析和界面网络。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"srgnn","scope":"8970","n":8970,"recall":0.5099219620958751,"mrr":0.3133717329369503,"ndcg":0.36021904172029107,"mean_ms":1.0449696666666668,"p95_ms":1.26577,"source":"15_Amazon_M2算法对比/run/results/comparison.json","timing":"质量：完整8,970条测试会话。耗时：CPU4线程、batch1，固定200条历史×3轮，共600次预热调用；含内部ID→特征/图→42,503件商品评分→历史过滤→Top10。排除模型加载、静态商品向量准备、CSV解析和界面网络。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gcsan","scope":"8970","n":8970,"recall":0.551170568561873,"mrr":0.33619357293270336,"ndcg":0.38740298923607036,"mean_ms":1.3844251666666665,"p95_ms":1.7257749999999996,"source":"15_Amazon_M2算法对比/run/results/comparison.json","timing":"质量：完整8,970条测试会话。耗时：CPU4线程、batch1，固定200条历史×3轮，共600次预热调用；含内部ID→特征/图→42,503件商品评分→历史过滤→Top10。排除模型加载、静态商品向量准备、CSV解析和界面网络。","device":"本地CPU · 4线程","valid":null,"p95_note":""},{"id":"gcegnn","scope":"8970","n":8970,"recall":0.5394648829431438,"mrr":0.3310917785917786,"ndcg":0.3806808230000825,"mean_ms":1.306295,"p95_ms":1.6086099999999999,"source":"15_Amazon_M2算法对比/run/results/comparison.json","timing":"质量：完整8,970条测试会话。耗时：CPU4线程、batch1，固定200条历史×3轮，共600次预热调用；含内部ID→特征/图→42,503件商品评分→历史过滤→Top10。排除模型加载、静态商品向量准备、CSV解析和界面网络。","device":"本地CPU · 4线程","valid":null,"p95_note":""}],"scopes":[{"id":"8970","name":"完整8,970条","n":8970,"description":"训练71,191条 · 验证8,886条 · 测试8,970条；完整商品目录Top10。"}]}],"models":[{"id":"gra","name":"原始灰关联","group":"基础方法","color":"#536b80","formal":"原始灰关联","mechanism":"四项训练侧行为证据归一化后，计算灰色关联系数并等权汇总。","execution":"本地CPU；每次重新计算推荐"},{"id":"gra_improved","name":"改进灰关联（β=7）","group":"基础方法","color":"#a18c67","formal":"改进灰关联（β=7）","mechanism":"保留原始四项特征和等权汇总，仅将差异d替换为d/[1+7(1-d)]。","execution":"本地CPU；每次重新计算推荐"},{"id":"srgnn","name":"SR-GNN","group":"深度学习","color":"#397d9a","formal":"SR-GNN","mechanism":"将当前会话构造成图，用图神经网络学习商品转移并对全部商品评分。","execution":"本地CPU；每次重新计算推荐"},{"id":"gcsan","name":"GC-SAN","group":"深度学习","color":"#526bc1","formal":"GC-SAN","mechanism":"结合会话图表示与自注意力进行下一商品推荐。","execution":"本地CPU；每次重新计算推荐"},{"id":"gcegnn","name":"GCE-GNN","group":"深度学习","color":"#8666aa","formal":"GCE-GNN","mechanism":"结合会话与全局上下文图信息进行下一商品推荐。","execution":"本地CPU；每次重新计算推荐"},{"id":"qwen_plain","name":"qwen3.5-2B · 无强模型关联分析","group":"本地LLM","color":"#b67743","formal":"在线 LLM 动态策略生成 · Online LLM Policy Generation","mechanism":"每次将当前会话及行为证据送入本地Qwen3.5-2B Q4，生成4个权重和6个交互系数，再对全部商品评分。权重未微调。","execution":"每次实际运行本地2B"},{"id":"qwen_teacher","name":"qwen3.5-2B · 有强模型关联分析","group":"本地LLM","color":"#c66b45","formal":"在线 LLM 动态策略生成 · Online LLM Policy Generation","mechanism":"沿用原始在线流程，在提示词中加入训练侧教师原型；每次生成完整系数JSON。没有更新2B权重。","execution":"每次实际运行本地2B"},{"id":"qwen_offline","name":"离线qwen3.5-2B","group":"本地LLM","color":"#168a80","formal":"离线 LLM 策略预计算 · Offline LLM Policy Precomputation","mechanism":"本地2B提前为12类会话状态选择候选策略。在线查状态→策略表，重新计算当前会话下的商品得分和Top10。没有知识蒸馏或微调。","execution":"在线查表，不执行2B；不是缓存商品名单"}]}</script>
+<script id="experiment-data" type="application/json">
+{
+  "default_dataset": "diginetica",
+  "datasets": [
+    {
+      "records": [
+        {
+          "id": "gra",
+          "scope": "1000",
+          "n": 1000,
+          "recall": 0.282,
+          "mrr": 0.13034047619047617,
+          "ndcg": 0.16641042835946449,
+          "mean_ms": 0.6522948999999976,
+          "p95_ms": 0.7531250000002654,
+          "source": "10_本地2B低延迟优化/results/baseline_gra_original.json",
+          "timing": "本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "gra",
+          "scope": "30",
+          "n": 30,
+          "recall": 0.3333333333333333,
+          "mrr": 0.14837301587301585,
+          "ndcg": 0.19204429517415716,
+          "mean_ms": 0.6392099999999493,
+          "p95_ms": 0.749260000000107,
+          "source": "10_本地2B低延迟优化/results/baseline_gra_original.json",
+          "timing": "本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "srgnn",
+          "scope": "1000",
+          "n": 1000,
+          "recall": 0.277,
+          "mrr": 0.12910357142857146,
+          "ndcg": 0.16368687111121735,
+          "mean_ms": 1.281407799999993,
+          "p95_ms": 1.6050250000002817,
+          "source": "10_本地2B低延迟优化/results/baseline_SRGNN.json",
+          "timing": "本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "srgnn",
+          "scope": "30",
+          "n": 30,
+          "recall": 0.26666666666666666,
+          "mrr": 0.1861111111111111,
+          "ndcg": 0.2064178688405436,
+          "mean_ms": 1.2951766666667197,
+          "p95_ms": 1.6957000000006768,
+          "source": "10_本地2B低延迟优化/results/baseline_SRGNN.json",
+          "timing": "本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "gcsan",
+          "scope": "1000",
+          "n": 1000,
+          "recall": 0.299,
+          "mrr": 0.13004603174603177,
+          "ndcg": 0.1694502213444609,
+          "mean_ms": 1.7685492999999575,
+          "p95_ms": 2.1722450000003946,
+          "source": "10_本地2B低延迟优化/results/baseline_GCSAN.json",
+          "timing": "本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "gcsan",
+          "scope": "30",
+          "n": 30,
+          "recall": 0.23333333333333334,
+          "mrr": 0.13115079365079366,
+          "ndcg": 0.15453117169328473,
+          "mean_ms": 1.787676666666253,
+          "p95_ms": 2.115795000000098,
+          "source": "10_本地2B低延迟优化/results/baseline_GCSAN.json",
+          "timing": "本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "gcegnn",
+          "scope": "1000",
+          "n": 1000,
+          "recall": 0.336,
+          "mrr": 0.15903174603174602,
+          "ndcg": 0.20096918743918632,
+          "mean_ms": 2.001660299999976,
+          "p95_ms": 2.4338249999967587,
+          "source": "10_本地2B低延迟优化/results/baseline_GCEGNN.json",
+          "timing": "本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "gcegnn",
+          "scope": "30",
+          "n": 30,
+          "recall": 0.26666666666666666,
+          "mrr": 0.19444444444444445,
+          "ndcg": 0.21309297535714578,
+          "mean_ms": 1.969220000000386,
+          "p95_ms": 2.422819999997827,
+          "source": "10_本地2B低延迟优化/results/baseline_GCEGNN.json",
+          "timing": "本次对应会话的预热CPU实测：原始ID→特征/图构造→全商品评分→Top10原始ID。加载排除。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "gra_improved",
+          "scope": "30",
+          "n": 30,
+          "recall": 0.3333333333333333,
+          "mrr": 0.2111111111111111,
+          "ndcg": 0.24163321492741316,
+          "mean_ms": 0.6939185555555556,
+          "p95_ms": 0.79899,
+          "source": "06_教师学生推荐性能测试/predictions/gra_beta7.jsonl",
+          "timing": "质量由同一批会话的已保存预测重新汇总；耗时沿用历史900次预热CPU调用，未将其表述为本子集重新计时。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "β = 7 · 历史实验"
+        },
+        {
+          "id": "gra_improved",
+          "scope": "1000",
+          "n": 1000,
+          "recall": 0.369,
+          "mrr": 0.1480857142857143,
+          "ndcg": 0.19987022205664812,
+          "mean_ms": 0.6939185555555556,
+          "p95_ms": 0.79899,
+          "source": "06_教师学生推荐性能测试/predictions/gra_beta7.jsonl",
+          "timing": "质量由同一批会话的已保存预测重新汇总；耗时沿用历史900次预热CPU调用，未将其表述为本子集重新计时。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "β = 7 · 历史实验"
+        },
+        {
+          "id": "qwen_plain",
+          "scope": "30",
+          "n": 30,
+          "recall": 0.3,
+          "mrr": 0.16277777777777777,
+          "ndcg": 0.19561512329229125,
+          "mean_ms": 683.0334700000018,
+          "p95_ms": null,
+          "source": "09_本地2B推荐测试/results/summary.json",
+          "timing": "常驻模型的本地API调用＋全商品评分/Top10；商品特征预先准备。不含约71秒的首次加载与预热。",
+          "device": "本地RTX 3050 · Q4",
+          "valid": 30,
+          "p95_note": "源汇总的P95只覆盖API调用，未覆盖评分；为保持同列口径，此处显示未记录。"
+        },
+        {
+          "id": "qwen_teacher",
+          "scope": "30",
+          "n": 30,
+          "recall": 0.3333333333333333,
+          "mrr": 0.20753968253968255,
+          "ndcg": 0.23751210025178374,
+          "mean_ms": 766.5323833333313,
+          "p95_ms": null,
+          "source": "09_本地2B推荐测试/results/summary.json",
+          "timing": "常驻模型的本地API调用＋全商品评分/Top10；商品特征预先准备。不含约71秒的首次加载与预热。",
+          "device": "本地RTX 3050 · Q4",
+          "valid": 30,
+          "p95_note": "源汇总的P95只覆盖API调用，未覆盖评分；为保持同列口径，此处显示未记录。"
+        },
+        {
+          "id": "qwen_offline",
+          "scope": "1000",
+          "n": 1000,
+          "recall": 0.368,
+          "mrr": 0.16598650793650793,
+          "ndcg": 0.2136391701306838,
+          "mean_ms": 0.6055693000000012,
+          "p95_ms": 0.6961150000000192,
+          "source": "10_本地2B低延迟优化/results/cache_comparison.json",
+          "timing": "对应全部会话的CPU实测：原始ID→状态查表→当前会话特征→全商品评分→Top10。不含12次离线LLM调用（共约0.875秒）；在线不运行2B。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "qwen_offline",
+          "scope": "30",
+          "n": 30,
+          "recall": 0.3333333333333333,
+          "mrr": 0.24166666666666664,
+          "ndcg": 0.2643558852691131,
+          "mean_ms": 0.6156799999999851,
+          "p95_ms": 0.7148300000000994,
+          "source": "10_本地2B低延迟优化/results/cache_comparison.json",
+          "timing": "对应全部会话的CPU实测：原始ID→状态查表→当前会话特征→全商品评分→Top10。不含12次离线LLM调用（共约0.875秒）；在线不运行2B。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "qwen_offline",
+          "scope": "20000",
+          "n": 20000,
+          "recall": 0.3662,
+          "mrr": 0.1745411904761905,
+          "ndcg": 0.21988778665226946,
+          "mean_ms": 0.6032055050000046,
+          "p95_ms": 0.6854000000000582,
+          "source": "10_本地2B低延迟优化/results/cache_comparison.json",
+          "timing": "对应全部会话的CPU实测：原始ID→状态查表→当前会话特征→全商品评分→Top10。不含12次离线LLM调用（共约0.875秒）；在线不运行2B。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "gra",
+          "scope": "20000",
+          "n": 20000,
+          "recall": 0.28875,
+          "mrr": 0.14374609126984125,
+          "ndcg": 0.1784833848016636,
+          "mean_ms": 0.7630878888888889,
+          "p95_ms": 0.8937499999999998,
+          "source": "03_代码与实验/outputs/grey_four_axes/diginetica/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gra_rho",
+          "scope": "20000",
+          "n": 20000,
+          "recall": 0.31905,
+          "mrr": 0.1512806746031746,
+          "ndcg": 0.1912395947005681,
+          "mean_ms": 0.7280374444444444,
+          "p95_ms": 0.8660299999999999,
+          "source": "03_代码与实验/outputs/grey_four_axes/diginetica/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "ρ = 1",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gra_improved",
+          "scope": "20000",
+          "n": 20000,
+          "recall": 0.3554,
+          "mrr": 0.16099371031746032,
+          "ndcg": 0.20680910676426043,
+          "mean_ms": 0.8033884444444443,
+          "p95_ms": 0.9437849999999999,
+          "source": "03_代码与实验/outputs/grey_four_axes/diginetica/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "β = 7",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gra_weight",
+          "scope": "20000",
+          "n": 20000,
+          "recall": 0.2756,
+          "mrr": 0.15267523809523809,
+          "ndcg": 0.18229974732775897,
+          "mean_ms": 0.7349017777777778,
+          "p95_ms": 0.88218,
+          "source": "03_代码与实验/outputs/grey_four_axes/diginetica/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "λ = -1",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gra_interaction",
+          "scope": "20000",
+          "n": 20000,
+          "recall": 0.28875,
+          "mrr": 0.14374609126984125,
+          "ndcg": 0.1784833848016636,
+          "mean_ms": 0.7184058888888889,
+          "p95_ms": 0.841765,
+          "source": "03_代码与实验/outputs/grey_four_axes/diginetica/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "η = 0 · 等同原版评分",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "srgnn",
+          "scope": "20000",
+          "n": 20000,
+          "recall": 0.28175,
+          "mrr": 0.13395529761904762,
+          "ndcg": 0.1687674312224673,
+          "mean_ms": 1.1836200000000001,
+          "p95_ms": 1.517475,
+          "source": "03_代码与实验/outputs/grey_four_axes/diginetica/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gcsan",
+          "scope": "20000",
+          "n": 20000,
+          "recall": 0.29525,
+          "mrr": 0.13874021825396826,
+          "ndcg": 0.17556878527687858,
+          "mean_ms": 1.5637746666666665,
+          "p95_ms": 1.98986,
+          "source": "03_代码与实验/outputs/grey_four_axes/diginetica/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gcegnn",
+          "scope": "20000",
+          "n": 20000,
+          "recall": 0.33135,
+          "mrr": 0.15904168650793649,
+          "ndcg": 0.19979042781804632,
+          "mean_ms": 1.5369772222222224,
+          "p95_ms": 1.888275,
+          "source": "03_代码与实验/outputs/grey_four_axes/diginetica/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "",
+          "benchmark": "grey_four_axes_900"
+        }
+      ],
+      "snapshot": "2026-11-13",
+      "scopes": [
+        {
+          "id": "30",
+          "name": "历史30条会话",
+          "n": 30,
+          "description": "同一组真实会话，包含原版qwen3.5-2B。小样本试测。"
+        },
+        {
+          "id": "1000",
+          "name": "历史1,000条",
+          "n": 1000,
+          "description": "低延迟优化实验的固定测试子集；不包含原30条会话。"
+        },
+        {
+          "id": "20000",
+          "name": "完整20,000条",
+          "n": 20000,
+          "description": "完整测试集质量；灰关联与GNN统一300条×3轮计时。"
+        }
+      ],
+      "id": "diginetica",
+      "name": "Diginetica",
+      "catalogue_items": 32968,
+      "default_scope": "20000",
+      "description": "匿名商品点击序列；保留原有三个样本范围。",
+      "footer": "Diginetica · 32,968个候选商品 · 已有实验结果"
+    },
+    {
+      "id": "amazon_m2",
+      "name": "Amazon-M2 · 西班牙站",
+      "catalogue_items": 42503,
+      "default_scope": "8970",
+      "snapshot": "2026-11-13",
+      "description": "真实购物会话及商品属性；全站89,047条会话，本地划分训练、验证和测试。",
+      "footer": "Amazon-M2 · 西班牙站 · 42,503个候选商品 · 本地划分实测",
+      "records": [
+        {
+          "id": "qwen_offline",
+          "scope": "8970",
+          "n": 8970,
+          "recall": 0.554180602006689,
+          "mrr": 0.35491842296190124,
+          "ndcg": 0.40253461686986536,
+          "mean_ms": 1.0405391666666666,
+          "p95_ms": 1.217625,
+          "source": "15_Amazon_M2算法对比/run/results/comparison.json",
+          "timing": "质量：完整8,970条测试会话。耗时：CPU4线程、batch1，固定200条历史×3轮，共600次预热调用；含内部ID→特征/图→42,503件商品评分→历史过滤→Top10。排除模型加载、静态商品向量准备、CSV解析和界面网络。",
+          "device": "本地CPU · 4线程",
+          "valid": null,
+          "p95_note": ""
+        },
+        {
+          "id": "gra",
+          "scope": "8970",
+          "n": 8970,
+          "recall": 0.4672240802675585,
+          "mrr": 0.3271956344782432,
+          "ndcg": 0.36092426047877385,
+          "mean_ms": 3.7246149999999996,
+          "p95_ms": 4.114294999999999,
+          "source": "03_代码与实验/outputs/grey_four_axes/amazon_m2/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gra_rho",
+          "scope": "8970",
+          "n": 8970,
+          "recall": 0.4802675585284281,
+          "mrr": 0.3340846029976465,
+          "ndcg": 0.3692250589753976,
+          "mean_ms": 3.723967,
+          "p95_ms": 4.18351,
+          "source": "03_代码与实验/outputs/grey_four_axes/amazon_m2/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "ρ = 1",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gra_improved",
+          "scope": "8970",
+          "n": 8970,
+          "recall": 0.4950947603121516,
+          "mrr": 0.33772128435171916,
+          "ndcg": 0.37552981682140907,
+          "mean_ms": 5.1487828888888885,
+          "p95_ms": 5.60495,
+          "source": "03_代码与实验/outputs/grey_four_axes/amazon_m2/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "β = 2",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gra_weight",
+          "scope": "8970",
+          "n": 8970,
+          "recall": 0.4936454849498328,
+          "mrr": 0.33949770841075194,
+          "ndcg": 0.37666337266686634,
+          "mean_ms": 4.131580888888889,
+          "p95_ms": 4.832979999999999,
+          "source": "03_代码与实验/outputs/grey_four_axes/amazon_m2/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "λ = 2",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gra_interaction",
+          "scope": "8970",
+          "n": 8970,
+          "recall": 0.4672240802675585,
+          "mrr": 0.3271956344782432,
+          "ndcg": 0.36092426047877385,
+          "mean_ms": 3.753902888888889,
+          "p95_ms": 4.179569999999999,
+          "source": "03_代码与实验/outputs/grey_four_axes/amazon_m2/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "η = 0 · 等同原版评分",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "srgnn",
+          "scope": "8970",
+          "n": 8970,
+          "recall": 0.5099219620958751,
+          "mrr": 0.3133717329369503,
+          "ndcg": 0.36021904172029107,
+          "mean_ms": 1.0687688888888889,
+          "p95_ms": 1.3953799999999998,
+          "source": "03_代码与实验/outputs/grey_four_axes/amazon_m2/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "使用商品属性",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gcsan",
+          "scope": "8970",
+          "n": 8970,
+          "recall": 0.551170568561873,
+          "mrr": 0.33619357293270336,
+          "ndcg": 0.38740298923607036,
+          "mean_ms": 1.404193111111111,
+          "p95_ms": 1.7761699999999998,
+          "source": "03_代码与实验/outputs/grey_four_axes/amazon_m2/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "使用商品属性",
+          "benchmark": "grey_four_axes_900"
+        },
+        {
+          "id": "gcegnn",
+          "scope": "8970",
+          "n": 8970,
+          "recall": 0.5394648829431438,
+          "mrr": 0.3310917785917786,
+          "ndcg": 0.3806808230000825,
+          "mean_ms": 1.300142222222222,
+          "p95_ms": 1.6360799999999998,
+          "source": "03_代码与实验/outputs/grey_four_axes/amazon_m2/comparison.json",
+          "timing": "本轮统一计时：CPU 4线程、batch 1；同300条请求×3轮，共900次。内部商品ID输入 → 特征/图构造 → 全目录评分 → 过滤与Top10。排除模型加载和静态目录预计算。",
+          "device": "CPU",
+          "valid": null,
+          "p95_note": "",
+          "parameter_label": "使用商品属性",
+          "benchmark": "grey_four_axes_900"
+        }
+      ],
+      "scopes": [
+        {
+          "id": "8970",
+          "name": "完整8,970条",
+          "n": 8970,
+          "description": "训练71,191条 · 验证8,886条 · 测试8,970条；完整商品目录Top10。"
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "id": "gra",
+      "name": "原始灰关联",
+      "group": "基础方法",
+      "color": "#536b80",
+      "formal": "原始灰关联",
+      "mechanism": "四项训练侧行为证据归一化后，计算灰色关联系数并等权汇总。",
+      "execution": "本地CPU；每次重新计算推荐"
+    },
+    {
+      "id": "gra_rho",
+      "name": "A 分辨系数调优",
+      "group": "基础方法",
+      "color": "#49877b"
+    },
+    {
+      "id": "gra_improved",
+      "name": "B 差异压缩",
+      "group": "基础方法",
+      "color": "#a18c67",
+      "formal": "差异压缩灰色关联",
+      "mechanism": "仅改变差异映射，参数由各数据集验证集选择。",
+      "execution": "本地CPU；每次重新计算推荐"
+    },
+    {
+      "id": "gra_weight",
+      "name": "C 转移指标权重调优",
+      "group": "基础方法",
+      "color": "#a07093"
+    },
+    {
+      "id": "gra_interaction",
+      "name": "D 双指标交互聚合",
+      "group": "基础方法",
+      "color": "#869449"
+    },
+    {
+      "id": "srgnn",
+      "name": "SR-GNN",
+      "group": "深度学习",
+      "color": "#397d9a",
+      "formal": "SR-GNN",
+      "mechanism": "将当前会话构造成图，用图神经网络学习商品转移并对全部商品评分。",
+      "execution": "本地CPU；每次重新计算推荐"
+    },
+    {
+      "id": "gcsan",
+      "name": "GC-SAN",
+      "group": "深度学习",
+      "color": "#526bc1",
+      "formal": "GC-SAN",
+      "mechanism": "结合会话图表示与自注意力进行下一商品推荐。",
+      "execution": "本地CPU；每次重新计算推荐"
+    },
+    {
+      "id": "gcegnn",
+      "name": "GCE-GNN",
+      "group": "深度学习",
+      "color": "#8666aa",
+      "formal": "GCE-GNN",
+      "mechanism": "结合会话与全局上下文图信息进行下一商品推荐。",
+      "execution": "本地CPU；每次重新计算推荐"
+    },
+    {
+      "id": "qwen_plain",
+      "name": "qwen3.5-2B · 无强模型关联分析",
+      "group": "本地LLM",
+      "color": "#b67743",
+      "formal": "在线 LLM 动态策略生成 · Online LLM Policy Generation",
+      "mechanism": "每次将当前会话及行为证据送入本地Qwen3.5-2B Q4，生成4个权重和6个交互系数，再对全部商品评分。权重未微调。",
+      "execution": "每次实际运行本地2B"
+    },
+    {
+      "id": "qwen_teacher",
+      "name": "qwen3.5-2B · 有强模型关联分析",
+      "group": "本地LLM",
+      "color": "#c66b45",
+      "formal": "在线 LLM 动态策略生成 · Online LLM Policy Generation",
+      "mechanism": "沿用原始在线流程，在提示词中加入训练侧教师原型；每次生成完整系数JSON。没有更新2B权重。",
+      "execution": "每次实际运行本地2B"
+    },
+    {
+      "id": "qwen_offline",
+      "name": "离线qwen3.5-2B",
+      "group": "本地LLM",
+      "color": "#168a80",
+      "formal": "离线 LLM 策略预计算 · Offline LLM Policy Precomputation",
+      "mechanism": "本地2B提前为12类会话状态选择候选策略。在线查状态→策略表，重新计算当前会话下的商品得分和Top10。没有知识蒸馏或微调。",
+      "execution": "在线查表，不执行2B；不是缓存商品名单"
+    }
+  ]
+}
+</script>
 <script>
 'use strict';
 const BUNDLE=JSON.parse(document.getElementById('experiment-data').textContent);
@@ -55,10 +717,11 @@ let DATA=BUNDLE.datasets.find(d=>d.id===BUNDLE.default_dataset);
 let RECORDS=new Map(DATA.records.map(r=>[r.scope+'|'+r.id,r]));
 const datasetScopes=new Map();
 const MODELS=BUNDLE.models;
-const DEFAULT_IDS=['gra','gra_improved','srgnn','gcsan','gcegnn','qwen_teacher','qwen_offline'];
+const DEFAULT_IDS=['gra','gra_rho','gra_improved','gra_weight','gra_interaction','srgnn','gcsan','gcegnn','qwen_offline'];
 let scope=DATA.default_scope, selected=new Set(DEFAULT_IDS), sortKey=null, sortDirection=1;
 const byId=id=>document.getElementById(id);
 const escapeHtml=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtPercent=v=>new Intl.NumberFormat('en-US',{style:'percent',minimumFractionDigits:2,maximumFractionDigits:2}).format(v);
 const fmtMs=v=>v==null?'—':v.toLocaleString('en-US',{minimumFractionDigits:3,maximumFractionDigits:3});
 const getRecord=id=>RECORDS.get(scope+'|'+id);
 function teacher(id){if(id==='qwen_offline'||id==='qwen_teacher')return '有';if(id==='qwen_plain')return '无';return '—';}
@@ -71,23 +734,26 @@ function renderTable(){const rr=activeRows(),best={};for(const k of ['recall','m
 byId('selectedCount').textContent=`已选 ${rr.length} 项`;
 const n=DATA.scopes.find(s=>s.id===scope).n;byId('sampleSize').textContent=n.toLocaleString('en-US')+' 条';byId('sampleSub').textContent=`${DATA.name} · ${rr.length} 种方法`;
 const qr=rr.filter(r=>r.recall!=null&&r.recall===best.recall),tr=rr.filter(r=>r.mean_ms!=null&&r.mean_ms===best.mean_ms),emptyHint=rr.length?'当前选择尚无结果':'请勾选方法';
-byId('bestRecall').textContent=best.recall!=null?(best.recall*100).toFixed(2)+'%':'—';byId('bestRecallName').textContent=qr.length?qr[0].model.name+(qr.length>1?` 等${qr.length}项`:''):emptyHint;
+byId('bestRecall').textContent=best.recall!=null?fmtPercent(best.recall):'—';byId('bestRecallName').textContent=qr.length?qr[0].model.name+(qr.length>1?` 等${qr.length}项`:''):emptyHint;
 byId('bestLatency').textContent=best.mean_ms!=null?fmtMs(best.mean_ms)+' ms':'—';byId('bestLatencyName').textContent=tr.length?tr[0].model.name:emptyHint;
 byId('tableCaption').textContent=`${DATA.name} · ${n.toLocaleString('en-US')}条会话 · ${DATA.catalogue_items.toLocaleString('en-US')}件商品Top10`;
-if(!rr.length){byId('rows').innerHTML='<tr><td colspan="7" class="empty"><strong>选择要比较的算法</strong><small>在左侧勾选方法，结果将同时显示在这里。</small></td></tr>';}else{byId('rows').innerHTML=rr.map(r=>{const m=r.model;let t=teacher(m.id);const cell=(k,text)=>`<td class="${r[k]!=null&&Math.abs(r[k]-best[k])<1e-12?'best':''}" title="${k==='p95_ms'&&r[k]==null?escapeHtml(r.p95_note||'未记录同口径P95'):r[k]!=null&&Math.abs(r[k]-best[k])<1e-12?'当前选择中的最优值':''}">${text}</td>`;return `<tr data-method="${m.id}"><td title="${escapeHtml(r.timing||'当前数据集与样本范围尚无该方法的测试结果')}"><div class="modelcell"><span class="modeldot" style="background:${m.color}"></span><div><div class="model-name">${escapeHtml(m.name)}</div><div class="model-sub">${escapeHtml(getRecord(m.id)?shortMode(m):'当前数据集与样本范围未测试')}${r.valid!=null&&r.valid<r.n?` · 有效输出${r.valid}/${r.n}`:''}</div></div></div></td><td><span class="teacher ${t==='有'?'yes':''}">${t}</span></td>${cell('recall',r.recall==null?'—':(r.recall*100).toFixed(2)+'%')}${cell('mrr',r.mrr==null?'—':r.mrr.toFixed(5))}${cell('ndcg',r.ndcg==null?'—':r.ndcg.toFixed(5))}${cell('mean_ms',fmtMs(r.mean_ms))}${cell('p95_ms',fmtMs(r.p95_ms))}</tr>`}).join('');}
+if(!rr.length){byId('rows').innerHTML='<tr><td colspan="7" class="empty"><strong>选择要比较的算法</strong><small>在左侧勾选方法，结果将同时显示在这里。</small></td></tr>';}else{byId('rows').innerHTML=rr.map(r=>{const m=r.model;let t=teacher(m.id);const cell=(k,text)=>`<td class="${r[k]!=null&&Math.abs(r[k]-best[k])<1e-12?'best':''}" title="${k==='p95_ms'&&r[k]==null?escapeHtml(r.p95_note||'未记录同口径P95'):r[k]!=null&&Math.abs(r[k]-best[k])<1e-12?'当前选择中的最优值':''}">${text}</td>`;return `<tr data-method="${m.id}"><td title="${escapeHtml(r.timing||'当前数据集与样本范围尚无该方法的测试结果')}"><div class="modelcell"><span class="modeldot" style="background:${m.color}"></span><div><div class="model-name">${escapeHtml(m.name)}</div><div class="model-sub">${escapeHtml(getRecord(m.id)?[shortMode(m),r.parameter_label,r.benchmark?'本轮900次计时':m.id.startsWith('qwen_')?'沿用此前计时':'历史实验'].filter(Boolean).join(' · '):'当前数据集与样本范围未测试')}${r.valid!=null&&r.valid<r.n?` · 有效输出${r.valid}/${r.n}`:''}</div></div></div></td><td><span class="teacher ${t==='有'?'yes':''}">${t}</span></td>${cell('recall',r.recall==null?'—':fmtPercent(r.recall))}${cell('mrr',r.mrr==null?'—':r.mrr.toFixed(5))}${cell('ndcg',r.ndcg==null?'—':r.ndcg.toFixed(5))}${cell('mean_ms',fmtMs(r.mean_ms))}${cell('p95_ms',fmtMs(r.p95_ms))}</tr>`}).join('');}
 document.querySelectorAll('th[data-sort]').forEach(th=>{const active=th.dataset.sort===sortKey;th.setAttribute('aria-sort',active?(sortDirection===1?'ascending':'descending'):'none');th.querySelector('.arrow').textContent=active?(sortDirection===1?'↑':'↓'):'↕';});
-const cloud=rr.some(r=>r.model.group==='云端LLM'),online=rr.some(r=>['qwen_plain','qwen_teacher'].includes(r.id)),sync=rr.some(r=>r.id==='qwen_sync'),offline=rr.some(r=>r.id==='qwen_offline');
-let notes=[];if(offline)notes.push('<strong>离线qwen3.5-2B：</strong>已引入强模型关联分析，在线查策略表，不运行2B。');
-if(online)notes.push('<strong>原版在线qwen3.5-2B：</strong>有、无强模型关联分析两组各完成30条；其他样本范围尚无结果。');
-if(cloud)notes.push('<strong>云端耗时：</strong>包含Harness启动、网络和生成，最多4路并发；与本地CPU/GPU计时范围不同。');
-if(scope==='20000')notes.push('<strong>计时范围：</strong>基线为历史900次预热CPU测量；离线Qwen为本次完整20,000条测量。');
-if(scope==='1000')notes.push('<strong>计时范围：</strong>原始灰关联与GNN为本次同1,000条的实测；改进灰关联沿用历史900次计时。');
-if(scope==='30'&&rr.some(r=>r.id==='gra_improved'))notes.push('<strong>改进灰关联：</strong>质量来自同30条保存预测，耗时沿用历史900次预热测量。');
-if(sync)notes.push('<strong>单Token同步：</strong>表中为连续请求预热均值，空闲后首次请求可能更慢。');
-if(DATA.id==='amazon_m2'){notes=['<strong>实验口径：</strong>使用商品属性；离线qwen3.5-2B展示验证校准版本的结果。','<strong>计时范围：</strong>CPU4线程、batch1，固定200条历史×3轮；计入特征/图、全目录评分和Top10，排除加载与静态预计算。','<strong>数据集差异：</strong>两套实验的商品信息、划分与计时入口不同，各数据集内部比较算法。'];}
+const online=rr.some(r=>['qwen_plain','qwen_teacher'].includes(r.id)),offline=rr.some(r=>r.id==='qwen_offline');
+let notes=[];
+if(scope==='20000'||DATA.id==='amazon_m2'){
+ if(rr.some(r=>r.benchmark))notes.push('<strong>本轮计时：</strong>灰关联与GNN使用CPU 4线程、batch 1，同300条请求×3轮，共900次；包含特征/图构造、全目录评分与Top10，排除加载与静态预计算。质量指标覆盖完整测试集。');
+ if(rr.some(r=>r.id==='gra_interaction'))notes.push('<strong>D组：</strong>两个数据集均由验证集选中η=0，评分与原版相同；微小耗时差异属于测量波动。');
+}else{
+ if(scope==='1000')notes.push('<strong>历史计时：</strong>原版灰关联与GNN使用同1,000条实测；B差异压缩沿用历史900次测量。');
+ if(scope==='30'&&rr.some(r=>r.id==='gra_improved'))notes.push('<strong>历史计时：</strong>B差异压缩质量来自同30条保存预测，耗时沿用历史900次测量。');
+}
+if(offline)notes.push('<strong>离线Qwen：</strong>保留此前质量与耗时结果，未参加本轮900次统一计时；在线查策略表，不运行2B。'+(DATA.id==='amazon_m2'?' 此处为验证校准版本。':''));
+if(online)notes.push('<strong>在线Qwen：</strong>有、无强模型关联分析两组仅在Diginetica历史30条范围有结果。');
+if(DATA.id==='amazon_m2')notes.push('<strong>数据口径：</strong>使用商品属性并过滤已浏览商品；Diginetica允许重复推荐。各数据集内部比较算法。');
 if(rr.some(r=>!getRecord(r.id)))notes.push('<strong>未测试：</strong>保留已勾选算法，缺少当前数据集或样本范围的结果时显示 —。');
 byId('notes').innerHTML=notes.map(x=>'<p>'+x+'</p>').join('');
-byId('timingNote').textContent='全部耗时统一为毫秒，模型加载不计入。— 表示缺少同口径P95记录。悬停方法名称可查看计时范围；点击列标题可排序。';
+byId('timingNote').textContent='全部耗时统一为毫秒，模型加载不计入。— 表示尚无该结果或P95记录。悬停方法名称可查看计时范围；点击列标题可排序。';
 }
 function render(){renderDataset();renderScopes();renderChoices();renderTable();}
 byId('datasetSelect').addEventListener('change',e=>{datasetScopes.set(DATA.id,scope);DATA=BUNDLE.datasets.find(d=>d.id===e.target.value);RECORDS=new Map(DATA.records.map(r=>[r.scope+'|'+r.id,r]));scope=datasetScopes.get(DATA.id)||DATA.default_scope;render();});

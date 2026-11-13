@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "datasets": {
+    "diginetica": {
+      "passed": true,
+      "dataset": "diginetica",
+      "fully_audited_prediction_rows": 160000,
+      "original_gra_top10_compared_directly": 20000,
+      "prior_gnn_top10_compared_directly": {
+        "SRGNN": 20000,
+        "GCSAN": 20000,
+        "GCEGNN": 20000
+      },
+      "independent_validation_metric_columns": 17,
+      "selected_parameters_recomputed": 4,
+      "matched_latency_records": 7200,
+      "real_query_formula_and_prediction_checks": 80,
+      "manifest_sha256": "685cd7fac07f2bcf5f162bf3d608b79266528f203bead3a6d964d5860fe030e6",
+      "verification_sha256": "13fb5afe3eab98262132b94240e434e5cef5e72bbce52cd8c3b7d631614c267c"
+    },
+    "amazon_m2": {
+      "passed": true,
+      "dataset": "amazon_m2",
+      "fully_audited_prediction_rows": 71760,
+      "original_gra_top10_compared_directly": 8970,
+      "prior_gnn_top10_compared_directly": {
+        "SRGNN": 8970,
+        "GCSAN": 8970,
+        "GCEGNN": 8970
+      },
+      "independent_validation_metric_columns": 17,
+      "selected_parameters_recomputed": 4,
+      "matched_latency_records": 7200,
+      "real_query_formula_and_prediction_checks": 80,
+      "manifest_sha256": "a3f1aff3866b3fd1addd973caf2d791eee15398e40dd068db977d95f00d95b3e",
+      "verification_sha256": "6649a341f9f792716dfa944eb5184f38bd210fc47fa0aa246d7434bda1cf15b9"
+    }
+  },
+  "gnn_imported_source_snapshot_sha256": "41cff0cfd39bfab2a2929473698ed2cc2f7c21c4918a02f5ee4a6c63ef3c0390",
+  "gnn_imported_source_hashes_unchanged": true,
+  "complete_method_rows": 16,
+  "summary_csv_sha256": "a1808e96fcd99760277a3b614e34ac5d4b120b86ca18850b8fc31360bb774ebc"
+}

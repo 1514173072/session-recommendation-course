@@ -1,0 +1,17 @@
+﻿dataset,method_key,numeric_state_mb,shared_gra_statistics_seconds,statistics_measurement_scope,checkpoint_load_and_catalogue_precompute_seconds,historical_training_validation_seconds,historical_training_scope,learned_parameters,checkpoint_file_bytes
+diginetica,Base,4.938028,0.44335609999999903,"previous fit measurement, shared by five GRA methods",,,,,
+diginetica,A,4.938036,0.44335609999999903,"previous fit measurement, shared by five GRA methods",,,,,
+diginetica,B,4.938036,0.44335609999999903,"previous fit measurement, shared by five GRA methods",,,,,
+diginetica,C,4.938052,0.44335609999999903,"previous fit measurement, shared by five GRA methods",,,,,
+diginetica,D,4.938036,0.44335609999999903,"previous fit measurement, shared by five GRA methods",,,,,
+diginetica,SRGNN,8.688896,,,15.397641800000002,416.69802400000003,stored previous training+validation wall time; no new training,2172224,26089878
+diginetica,GCSAN,8.822272,,,13.505259299999992,603.6835454000001,stored previous training+validation wall time; no new training,2205568,26500906
+diginetica,GCEGNN,13.309712,,,47.4304468,731.1827973999999,stored previous training+validation wall time; no new training,2140544,30452297
+amazon_m2,Base,13.832732,0.5504267,"current adapter preparation, shared by five GRA methods; includes loading static attributes",,,,,
+amazon_m2,A,13.83274,0.5504267,"current adapter preparation, shared by five GRA methods; includes loading static attributes",,,,,
+amazon_m2,B,13.83274,0.5504267,"current adapter preparation, shared by five GRA methods; includes loading static attributes",,,,,
+amazon_m2,C,13.832772,0.5504267,"current adapter preparation, shared by five GRA methods; includes loading static attributes",,,,,
+amazon_m2,D,13.83274,0.5504267,"current adapter preparation, shared by five GRA methods; includes loading static attributes",,,,,
+amazon_m2,SRGNN,18.389796,,,4.5119363,1768.0370907000001,stored previous concurrent-training wall time; not an isolated training efficiency comparison,1494657,12958085
+amazon_m2,GCSAN,18.407076,,,3.3959308000000004,2126.0052393,stored previous concurrent-training wall time; not an isolated training efficiency comparison,1498977,12979626
+amazon_m2,GCEGNN,22.439588,,,4.487475799999999,2242.6771252,stored previous concurrent-training wall time; not an isolated training efficiency comparison,1487009,12926161

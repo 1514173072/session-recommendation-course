@@ -1,0 +1,84 @@
+{
+  "dataset": "amazon_m2",
+  "selection_criterion": "validation MRR@10, then Recall@10, then NDCG@10; baseline then grid order for exact ties",
+  "test_used_in_this_round_selection": false,
+  "prior_test_exposure": true,
+  "grids": {
+    "A": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "B": [
+      0,
+      1,
+      2,
+      7,
+      15
+    ],
+    "C": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "D": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "validation_sessions": 8886,
+  "unique_configurations": 17,
+  "baseline": {
+    "recall@10": 0.4699527346387576,
+    "mrr@10": 0.32889957093198147,
+    "ndcg@10": 0.36276564690211127
+  },
+  "selected": {
+    "A": {
+      "group": "A",
+      "value": 1.0,
+      "validation": {
+        "recall@10": 0.47906819716407834,
+        "mrr@10": 0.33325152103004907,
+        "ndcg@10": 0.36827825376018714
+      }
+    },
+    "B": {
+      "group": "B",
+      "value": 2,
+      "validation": {
+        "recall@10": 0.4932478055367995,
+        "mrr@10": 0.33908917719687465,
+        "ndcg@10": 0.3761175627508804
+      }
+    },
+    "C": {
+      "group": "C",
+      "value": 2,
+      "validation": {
+        "recall@10": 0.4967364393427864,
+        "mrr@10": 0.34392677620226575,
+        "ndcg@10": 0.3807149912984326
+      }
+    },
+    "D": {
+      "group": "D",
+      "value": 0,
+      "validation": {
+        "recall@10": 0.4699527346387576,
+        "mrr@10": 0.32889957093198147,
+        "ndcg@10": 0.36276564690211127
+      }
+    }
+  },
+  "validation_search_sha256": "816be126020375e2a273308b6a4a8ff4526962fd0e1e538dc04291eaff3b5a1d",
+  "manifest_sha256": "a3f1aff3866b3fd1addd973caf2d791eee15398e40dd068db977d95f00d95b3e",
+  "frozen_unix": 1794575237.5011916
+}

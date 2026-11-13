@@ -1,0 +1,47 @@
+{
+  "Base": {
+    "group": "Base",
+    "value": null,
+    "recall@10": 0.28875,
+    "mrr@10": 0.14374609126984125,
+    "ndcg@10": 0.1784833848016636,
+    "test_sessions": 20000,
+    "prediction_sha256": "2f3deb0f5b0c6fbdeaf8e77a6f47c3f25dbc5481b998ec1f79cca8b68a09d782"
+  },
+  "A": {
+    "group": "A",
+    "value": 1.0,
+    "recall@10": 0.31905,
+    "mrr@10": 0.1512806746031746,
+    "ndcg@10": 0.1912395947005681,
+    "test_sessions": 20000,
+    "prediction_sha256": "cb3fa2332e20fd55cf361b0d1c1f55e9a9fb62c721a1ef92523d16ca497ccc75"
+  },
+  "B": {
+    "group": "B",
+    "value": 7,
+    "recall@10": 0.3554,
+    "mrr@10": 0.16099371031746032,
+    "ndcg@10": 0.20680910676426043,
+    "test_sessions": 20000,
+    "prediction_sha256": "8f1cf8a2369644a10f6e995d17757602d583da04de55b0fd34cf30f1610b24f5"
+  },
+  "C": {
+    "group": "C",
+    "value": -1,
+    "recall@10": 0.2756,
+    "mrr@10": 0.15267523809523809,
+    "ndcg@10": 0.18229974732775897,
+    "test_sessions": 20000,
+    "prediction_sha256": "7d90a3de4a4d9f6b322ce41a08cecd789184715630b00219d1321e76bb8394a5"
+  },
+  "D": {
+    "group": "D",
+    "value": 0,
+    "recall@10": 0.28875,
+    "mrr@10": 0.14374609126984125,
+    "ndcg@10": 0.1784833848016636,
+    "test_sessions": 20000,
+    "prediction_sha256": "2f3deb0f5b0c6fbdeaf8e77a6f47c3f25dbc5481b998ec1f79cca8b68a09d782"
+  }
+}
