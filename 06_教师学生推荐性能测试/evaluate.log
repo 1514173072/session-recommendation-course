@@ -1,0 +1,78 @@
+gra_original: 5000/20000, elapsed=3.4s
+gra_original: 10000/20000, elapsed=6.8s
+gra_original: 15000/20000, elapsed=10.2s
+gra_original: 20000/20000, elapsed=13.6s
+gra_beta7: 5000/20000, elapsed=3.9s
+gra_beta7: 10000/20000, elapsed=7.6s
+gra_beta7: 15000/20000, elapsed=11.3s
+gra_beta7: 20000/20000, elapsed=15.0s
+teacher_rules: 5000/20000, elapsed=3.5s
+teacher_rules: 10000/20000, elapsed=7.0s
+teacher_rules: 15000/20000, elapsed=10.7s
+teacher_rules: 20000/20000, elapsed=14.2s
+student_plain: 5000/20000, elapsed=4.2s
+student_plain: 10000/20000, elapsed=8.5s
+student_plain: 15000/20000, elapsed=12.7s
+student_plain: 20000/20000, elapsed=16.9s
+student_teacher: 5000/20000, elapsed=4.3s
+student_teacher: 10000/20000, elapsed=8.5s
+student_teacher: 15000/20000, elapsed=12.6s
+student_teacher: 20000/20000, elapsed=16.9s
+{
+  "gra_original": {
+    "recall@10": 0.28875,
+    "mrr@10": 0.14374609126984125,
+    "ndcg@10": 0.1784833848016636,
+    "hit@10": 0.28875,
+    "precision@10": 0.028875
+  },
+  "gra_beta7": {
+    "recall@10": 0.3554,
+    "mrr@10": 0.16099371031746032,
+    "ndcg@10": 0.20680910676426043,
+    "hit@10": 0.3554,
+    "precision@10": 0.03554
+  },
+  "teacher_rules": {
+    "recall@10": 0.3548,
+    "mrr@10": 0.1604913492063492,
+    "ndcg@10": 0.20620896401894273,
+    "hit@10": 0.3548,
+    "precision@10": 0.03548
+  },
+  "student_plain": {
+    "recall@10": 0.36375,
+    "mrr@10": 0.16767579365079363,
+    "ndcg@10": 0.21377222309760108,
+    "hit@10": 0.36375,
+    "precision@10": 0.036375000000000005
+  },
+  "student_teacher": {
+    "recall@10": 0.36475,
+    "mrr@10": 0.17241988095238098,
+    "ndcg@10": 0.21772275495159174,
+    "hit@10": 0.36475,
+    "precision@10": 0.036475
+  },
+  "SRGNN": {
+    "recall@10": 0.28175,
+    "mrr@10": 0.13395529761904762,
+    "ndcg@10": 0.1687674312224673,
+    "hit@10": 0.28175,
+    "precision@10": 0.028175
+  },
+  "GCSAN": {
+    "recall@10": 0.29525,
+    "mrr@10": 0.13874021825396826,
+    "ndcg@10": 0.17556878527687858,
+    "hit@10": 0.29525,
+    "precision@10": 0.029525000000000003
+  },
+  "GCEGNN": {
+    "recall@10": 0.33135,
+    "mrr@10": 0.15904168650793649,
+    "ndcg@10": 0.19979042781804632,
+    "hit@10": 0.33135,
+    "precision@10": 0.033135
+  }
+}

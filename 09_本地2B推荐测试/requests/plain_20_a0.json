@@ -1,0 +1,40 @@
+{
+  "response": {
+    "model": "qwen3.5:2b-q4_K_M",
+    "created_at": "2026-11-12T10:46:10.2956546Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"weights\":[0.2,0.3,0.25,0.25],\"interactions\":[0.1,0.15,-0.1,0.15,-0.1,0.1]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 650205400,
+    "load_duration": 2674200,
+    "prompt_eval_count": 384,
+    "prompt_eval_cached_count": 89,
+    "prompt_eval_duration": 109244000,
+    "eval_count": 51,
+    "eval_duration": 533533000
+  },
+  "success": true,
+  "text": "{\"weights\":[0.2,0.3,0.25,0.25],\"interactions\":[0.1,0.15,-0.1,0.15,-0.1,0.1]}",
+  "thinking_characters": 0,
+  "coefficients": [
+    0.20000000298023224,
+    0.30000001192092896,
+    0.25,
+    0.25,
+    0.10000000149011612,
+    0.15000000596046448,
+    -0.10000000149011612,
+    0.15000000596046448,
+    -0.10000000149011612,
+    0.10000000149011612
+  ],
+  "raw_weight_sum": 1.0,
+  "condition": "plain",
+  "case_index": 20,
+  "attempt": 0,
+  "wall_seconds": 0.6814466999999951,
+  "prompt_sha256": "9270c5de851c2cc5d0c5a7f3a9989cf927daab1297c072ad4a06951d9bbb802f"
+}

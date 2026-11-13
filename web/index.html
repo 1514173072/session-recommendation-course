@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>下一次点击，预测得准吗？｜电商会话推荐闭环实验</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="paper-grain" aria-hidden="true"></div>
+<div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+<aside class="rail">
+  <div class="rail-top">
+    <div class="rail-mark">SG</div>
+    <div class="rail-title">SESSION<br>RECOMMENDATION</div>
+  </div>
+  <nav class="rail-nav" id="railNav" aria-label="章节导航">
+    <a href="#overview" data-section="overview"><span>01</span>实验全景</a>
+    <a href="#compare" data-section="compare"><span>02</span>三模型对照</a>
+    <a href="#learning" data-section="learning"><span>03</span>学习过程</a>
+    <a href="#replay" data-section="replay"><span>04</span>会话回放</a>
+    <a href="#graph" data-section="graph"><span>05</span>模型看见了什么</a>
+    <a href="#limits" data-section="limits"><span>06</span>失败与边界</a>
+  </nav>
+  <div class="rail-foot">
+    <div>算法分析与理论</div>
+    <div>期末项目 · 2026</div>
+  </div>
+</aside>
+
+<main>
+  <!-- ───────────────── 封面 ───────────────── -->
+  <section class="cover" id="cover">
+    <div class="cover-kicker">算法分析与理论 · 期末项目 / 2026</div>
+    <h1>下一次点击，<br><em>预测得准吗？</em></h1>
+    <div class="cover-grid">
+      <div class="cover-lede">
+        <p>把一次浏览会话变成一张图，让模型在数万个商品里排出接下来的十个。这个页面只回答三个问题：<strong>推荐得准不准</strong>、<strong>要花多少代价</strong>、<strong>什么时候会失败</strong>。</p>
+        <div class="cover-tags">
+          <span>GCE-GNN</span><span>SR-GNN</span><span>GC-SAN</span><span>Diginetica</span>
+        </div>
+        <div class="cover-note">单种子 · 20k 会话 · 20 轮 · CPU 闭环实验</div>
+      </div>
+      <div class="specimen">
+        <div class="specimen-head">EXPERIMENT SPECIMEN <span>NO. 001</span></div>
+        <div class="specimen-numbers" id="specimenNumbers"></div>
+        <div class="specimen-strip" id="heroStrip" aria-label="真实会话示例"></div>
+        <div class="specimen-foot">一条真实浏览序列：商品 → 商品 → … → 下一次点击</div>
+      </div>
+    </div>
+    <div class="cover-scroll">SCROLL TO TRACE THE LOOP <span>↓</span></div>
+  </section>
+
+  <!-- ───────────────── 01 实验全景 ───────────────── -->
+  <section class="section" id="overview">
+    <div class="section-head">
+      <div class="section-num">01</div>
+      <div class="section-copy">
+        <div class="eyebrow">THE SETUP</div>
+        <h2>实验全景</h2>
+        <p class="section-lede">数据从完整 Diginetica 出发，先做全局 item 5-core，再抽 20,000 个真实会话。三个模型共享同一份训练、验证、测试划分。</p>
+      </div>
+    </div>
+
+    <div class="funnel" id="funnel"></div>
+
+    <div class="kpi-row" id="kpiRow"></div>
+
+    <div class="note-row">
+      <div class="note">
+        <div class="note-mark">!</div>
+        <p><strong>为什么是 20k，不是全量？</strong> 全量 20 万会话在 CPU 上训练三模型成本过高；20k 是固定种子的随机子集，足以比较模型，也保证一次闭环能在数十分钟内完成。</p>
+      </div>
+      <div class="note">
+        <div class="note-mark">?</div>
+        <p><strong>评价口径</strong> 每个测试会话只留一个真实“下一次点击”，模型对全部候选商品打分，取 Top-10。Recall@10 等于命中会话占比。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── 02 三模型对照 ───────────────── -->
+  <section class="section" id="compare">
+    <div class="section-head">
+      <div class="section-num">02</div>
+      <div class="section-copy">
+        <div class="eyebrow">QUALITY × COST</div>
+        <h2>三模型对照</h2>
+        <p class="section-lede">横轴是训练加验证时间，纵轴是 Recall@10。点越靠左上越好：更准、更便宜。气泡大小表示参数量。</p>
+      </div>
+    </div>
+
+    <div class="compare-grid">
+      <div class="chart-card">
+        <div class="card-head"><h3>效果与代价</h3><span>Recall@10 vs 训练时间</span></div>
+        <div class="chart tall" id="qualityCost"></div>
+        <p class="caption">同一数据、同一划分、同一候选集与评价口径；时间为 20 轮训练 + 验证 + 保存，不含数据准备、环境安装与 GCE 全局图构建。</p>
+      </div>
+      <div class="chart-card">
+        <div class="card-head"><h3>三项指标</h3><span>Recall / MRR / NDCG @10</span></div>
+        <div class="chart tall" id="metricBars"></div>
+        <p class="caption">MRR 与 NDCG 同时反映命中商品的排名位置，不只看“有没有进前十”。</p>
+      </div>
+    </div>
+
+    <blockquote class="pull" id="compareQuote"></blockquote>
+  </section>
+
+  <!-- ───────────────── 03 学习过程 ───────────────── -->
+  <section class="section" id="learning">
+    <div class="section-head">
+      <div class="section-num">03</div>
+      <div class="section-copy">
+        <div class="eyebrow">LEARNING TRACE</div>
+        <h2>学习过程</h2>
+        <p class="section-lede">每轮训练后在验证集上算一次 MRR@10，用早停选择最优权重。曲线用于观察是否稳定，不用于宣称充分收敛。</p>
+      </div>
+    </div>
+    <div class="two-col">
+      <div class="chart-card">
+        <div class="card-head"><h3>验证 MRR@10</h3><span>越高越好</span></div>
+        <div class="chart" id="mrrCurve"></div>
+      </div>
+      <div class="chart-card">
+        <div class="card-head"><h3>训练损失</h3><span>对数轴，越低越好</span></div>
+        <div class="chart" id="lossCurve"></div>
+      </div>
+    </div>
+    <p class="caption" id="learningNote"></p>
+  </section>
+
+  <!-- ───────────────── 04 会话回放 ───────────────── -->
+  <section class="section" id="replay">
+    <div class="section-head">
+      <div class="section-num">04</div>
+      <div class="section-copy">
+        <div class="eyebrow">ONE SESSION, THREE MODELS</div>
+        <h2>会话回放</h2>
+        <p class="section-lede">选一个真实测试会话，切换模型，看它把哪些商品排进前十，以及真实下一商品落在第几位。</p>
+      </div>
+    </div>
+
+    <div class="replay-toolbar">
+      <div class="case-picker">
+        <button id="prevCase" class="icon-btn" aria-label="上一个会话">←</button>
+        <select id="caseSelect" aria-label="选择测试会话"></select>
+        <button id="nextCase" class="icon-btn" aria-label="下一个会话">→</button>
+      </div>
+      <div class="model-tabs" id="modelTabs" role="tablist">
+        <button data-model="SRGNN" role="tab">SR-GNN</button>
+        <button data-model="GCSAN" role="tab">GC-SAN</button>
+        <button data-model="GCEGNN" role="tab" class="active">GCE-GNN</button>
+      </div>
+    </div>
+
+    <div class="replay-stage">
+      <div class="replay-left">
+        <div class="case-meta" id="caseMeta"></div>
+        <div class="history-strip" id="historyStrip"></div>
+        <div class="verdict" id="verdict"></div>
+      </div>
+      <div class="replay-right">
+        <div class="chart-card flush">
+          <div class="card-head"><h3>Top-10 推荐</h3><span id="replaySubtitle"></span></div>
+          <div class="chart replay" id="replayChart"></div>
+        </div>
+      </div>
+    </div>
+    <p class="caption">条形长度为模型得分，不是购买概率；绿色为真实下一商品，红色表示它没有进入 Top-10。商品 ID 来自 Diginetica 匿名编码。</p>
+  </section>
+
+  <!-- ───────────────── 05 会话图 ───────────────── -->
+  <section class="section" id="graph">
+    <div class="section-head">
+      <div class="section-num">05</div>
+      <div class="section-copy">
+        <div class="eyebrow">WHAT THE MODEL SEES</div>
+        <h2>模型看见了什么</h2>
+        <p class="section-lede">同一段浏览序列变成有向图：节点是商品，边是连续点击。GCE-GNN 还会从训练集里取当前商品的全局邻居。</p>
+      </div>
+    </div>
+
+    <div class="graph-toolbar">
+      <div class="segmented" id="graphToggle">
+        <button data-mode="local" class="active">局部会话图</button>
+        <button data-mode="global">GCE 全局邻居</button>
+      </div>
+      <span class="graph-hint" id="graphHint"></span>
+    </div>
+
+    <div class="graph-stage">
+      <div class="chart graph" id="graphChart"></div>
+      <aside class="graph-notes">
+        <div class="graph-note">
+          <div class="graph-note-num">A</div>
+          <p><strong>局部图</strong> 节点大小表示该商品在本次会话中出现的次数；重复点击会形成回访边。</p>
+        </div>
+        <div class="graph-note">
+          <div class="graph-note-num">B</div>
+          <p><strong>全局邻居</strong> 来自训练集的商品共现关系，只展示当前会话最后一个商品的邻居，不表示注意力权重。</p>
+        </div>
+        <div class="graph-note">
+          <div class="graph-note-num">C</div>
+          <p><strong>读图边界</strong> 图用于解释信息流，不用来证明“模型一定因为这条边而推荐”。</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ───────────────── 06 失败与边界 ───────────────── -->
+  <section class="section" id="limits">
+    <div class="section-head">
+      <div class="section-num">06</div>
+      <div class="section-copy">
+        <div class="eyebrow">FAILURE & BOUNDARY</div>
+        <h2>失败与边界</h2>
+        <p class="section-lede">整体指标更高的模型，也会在具体会话上失败。下面保留真实失败案例，并写清这次实验不能证明什么。</p>
+      </div>
+    </div>
+
+    <div class="failure-grid" id="failureGrid"></div>
+
+    <div class="limits-grid">
+      <div class="limit-card">
+        <div class="limit-kicker">DATA</div>
+        <h3>匿名商品 ID</h3>
+        <p>Diginetica 只提供编码后的商品标识，无法还原名称、图片或品类。页面展示的是真实行为与真实排名，不是商品内容。</p>
+      </div>
+      <div class="limit-card">
+        <div class="limit-kicker">EVIDENCE</div>
+        <h3>单种子、单次实验</h3>
+        <p>本轮固定 seed=42，只报告一次运行结果。没有多种子均值与标准差，不能据此宣称统计显著。</p>
+      </div>
+      <div class="limit-card">
+        <div class="limit-kicker">ATTRIBUTION</div>
+        <h3>没有做消融</h3>
+        <p>三模型对比不能单独证明“全局关系带来提升”。要回答这个问题，需要去掉全局分支的 GCE-GNN 对照。</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-kicker">SOURCE</div>
+        <p>RecBole-GNN 官方实现（commit <code>632ef88</code>）· Diginetica · Python 3.9 / PyTorch 2.1.2 CPU / RecBole 1.1.1</p>
+      </div>
+      <div>
+        <div class="footer-kicker">SCOPE</div>
+        <p>20,000 个测试会话、20 轮、单种子；训练与验证时间包含保存，不含数据准备、环境安装与 GCE 全局图构建。</p>
+      </div>
+      <div>
+        <div class="footer-kicker">READ</div>
+        <p>页面数字来自 <code>outputs/formal/comparison.csv</code> 与各模型 <code>result.json</code>；会话回放来自正式 checkpoint 的测试集推理。</p>
+      </div>
+    </div>
+    <div class="footer-end"><span>下一次点击，预测得准吗？</span><span>算法分析与理论 · 2026</span></div>
+  </footer>
+</main>
+
+<script src="assets/echarts.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

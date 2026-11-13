@@ -1,0 +1,24 @@
+Thu 29 Oct 2026 15:57:32 INFO  Constructing session graphs.
+Thu 29 Oct 2026 15:57:32 INFO  Constructing session graphs.
+Thu 29 Oct 2026 15:57:32 INFO  Constructing session graphs.
+Thu 29 Oct 2026 15:57:33 INFO  SessionGraph Transform in DataLoader.
+Thu 29 Oct 2026 15:57:33 INFO  SessionGraph Transform in DataLoader.
+Thu 29 Oct 2026 15:57:33 INFO  SessionGraph Transform in DataLoader.
+Thu 29 Oct 2026 15:57:33 INFO  [Training]: train_batch_size = [64] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Thu 29 Oct 2026 15:57:33 INFO  [Evaluation]: eval_batch_size = [64] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Thu 29 Oct 2026 15:57:36 INFO  epoch 0 training [time: 3.10s, train loss: 1380.4357]
+Thu 29 Oct 2026 15:57:36 INFO  epoch 0 evaluating [time: 0.25s, valid_score: 0.072900]
+Thu 29 Oct 2026 15:57:36 INFO  valid result: 
+recall@10 : 0.103    mrr@10 : 0.0729    ndcg@10 : 0.08    hit@10 : 0.103    precision@10 : 0.0103
+Thu 29 Oct 2026 15:57:36 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCSAN\checkpoints\GCSAN-Oct-29-2026_15-57-33.pth
+Thu 29 Oct 2026 15:57:39 INFO  epoch 1 training [time: 3.11s, train loss: 1263.4308]
+Thu 29 Oct 2026 15:57:39 INFO  epoch 1 evaluating [time: 0.23s, valid_score: 0.095500]
+Thu 29 Oct 2026 15:57:39 INFO  valid result: 
+recall@10 : 0.1595    mrr@10 : 0.0955    ndcg@10 : 0.1108    hit@10 : 0.1595    precision@10 : 0.016
+Thu 29 Oct 2026 15:57:39 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCSAN\checkpoints\GCSAN-Oct-29-2026_15-57-33.pth
+Thu 29 Oct 2026 15:57:42 INFO  epoch 2 training [time: 3.05s, train loss: 1126.9561]
+Thu 29 Oct 2026 15:57:43 INFO  epoch 2 evaluating [time: 0.30s, valid_score: 0.112900]
+Thu 29 Oct 2026 15:57:43 INFO  valid result: 
+recall@10 : 0.1885    mrr@10 : 0.1129    ndcg@10 : 0.1313    hit@10 : 0.1885    precision@10 : 0.0189
+Thu 29 Oct 2026 15:57:43 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCSAN\checkpoints\GCSAN-Oct-29-2026_15-57-33.pth
+Thu 29 Oct 2026 15:57:43 INFO  Loading model structure and parameters from D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCSAN\checkpoints\GCSAN-Oct-29-2026_15-57-33.pth

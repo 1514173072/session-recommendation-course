@@ -1,0 +1,279 @@
+{
+  "criterion": "Within each family maximize full-validation MRR@10, tie-break Recall@10; primary family selected by the same rule before test.",
+  "test_used_in_selection": false,
+  "valid_queries": 20000,
+  "families": 18,
+  "configurations_including_baseline": 79,
+  "baseline": {
+    "config": {
+      "family": "baseline",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.27565,
+      "mrr@10": 0.14170093253968255,
+      "ndcg@10": 0.17382686952254975,
+      "hit@10": 0.27565,
+      "precision@10": 0.027565
+    }
+  },
+  "selected_per_family": [
+    {
+      "config": {
+        "family": "all_binary",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.3201,
+        "mrr@10": 0.1500388492063492,
+        "ndcg@10": 0.19045267009798655,
+        "hit@10": 0.3201,
+        "precision@10": 0.03201
+      }
+    },
+    {
+      "config": {
+        "family": "all_power",
+        "value": 0.0625
+      },
+      "valid": {
+        "recall@10": 0.3481,
+        "mrr@10": 0.1605458134920635,
+        "ndcg@10": 0.2047661950258599,
+        "hit@10": 0.3481,
+        "precision@10": 0.03481
+      }
+    },
+    {
+      "config": {
+        "family": "cooccurrence_power",
+        "value": 0.125
+      },
+      "valid": {
+        "recall@10": 0.32985,
+        "mrr@10": 0.15232049603174605,
+        "ndcg@10": 0.19429494218792825,
+        "hit@10": 0.32985,
+        "precision@10": 0.032985
+      }
+    },
+    {
+      "config": {
+        "family": "cooccurrence_weight",
+        "value": 1.5
+      },
+      "valid": {
+        "recall@10": 0.30095,
+        "mrr@10": 0.14136503968253966,
+        "ndcg@10": 0.17930531117724555,
+        "hit@10": 0.30095,
+        "precision@10": 0.030095
+      }
+    },
+    {
+      "config": {
+        "family": "geometric_mean",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.3122,
+        "mrr@10": 0.15045212301587302,
+        "ndcg@10": 0.18900177814891667,
+        "hit@10": 0.3122,
+        "precision@10": 0.031219999999999998
+      }
+    },
+    {
+      "config": {
+        "family": "harmonic_mean",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.33185,
+        "mrr@10": 0.1555922619047619,
+        "ndcg@10": 0.19736680798822104,
+        "hit@10": 0.33185,
+        "precision@10": 0.033185
+      }
+    },
+    {
+      "config": {
+        "family": "keep_self_cooccurrence",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.2549,
+        "mrr@10": 0.145895,
+        "ndcg@10": 0.17239493645176965,
+        "hit@10": 0.2549,
+        "precision@10": 0.025490000000000002
+      }
+    },
+    {
+      "config": {
+        "family": "max_aggregation",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.19355,
+        "mrr@10": 0.08303232142857143,
+        "ndcg@10": 0.10999196084092501,
+        "hit@10": 0.19355,
+        "precision@10": 0.019355
+      }
+    },
+    {
+      "config": {
+        "family": "popularity_power",
+        "value": 0.0625
+      },
+      "valid": {
+        "recall@10": 0.3353,
+        "mrr@10": 0.1528486507936508,
+        "ndcg@10": 0.19583840225273924,
+        "hit@10": 0.3353,
+        "precision@10": 0.03353
+      }
+    },
+    {
+      "config": {
+        "family": "popularity_weight",
+        "value": 0.05
+      },
+      "valid": {
+        "recall@10": 0.3374,
+        "mrr@10": 0.15264992063492064,
+        "ndcg@10": 0.1960938391334264,
+        "hit@10": 0.3374,
+        "precision@10": 0.03374
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_binary",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.30645,
+        "mrr@10": 0.14322410714285713,
+        "ndcg@10": 0.18218970553324665,
+        "hit@10": 0.30645,
+        "precision@10": 0.030645
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_count",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.2817,
+        "mrr@10": 0.14016795634920634,
+        "ndcg@10": 0.17399420291595316,
+        "hit@10": 0.2817,
+        "precision@10": 0.02817
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_last_only",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.2215,
+        "mrr@10": 0.12475617063492063,
+        "ndcg@10": 0.14810635792268254,
+        "hit@10": 0.2215,
+        "precision@10": 0.02215
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_power",
+        "value": 0.25
+      },
+      "valid": {
+        "recall@10": 0.3018,
+        "mrr@10": 0.1472154365079365,
+        "ndcg@10": 0.18425784235496898,
+        "hit@10": 0.3018,
+        "precision@10": 0.030180000000000002
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_weight",
+        "value": 32
+      },
+      "valid": {
+        "recall@10": 0.30625,
+        "mrr@10": 0.15901575396825396,
+        "ndcg@10": 0.19454094960893298,
+        "hit@10": 0.30625,
+        "precision@10": 0.030625000000000003
+      }
+    },
+    {
+      "config": {
+        "family": "rho",
+        "value": 1.0
+      },
+      "valid": {
+        "recall@10": 0.30395,
+        "mrr@10": 0.14853686507936506,
+        "ndcg@10": 0.18562520474248287,
+        "hit@10": 0.30395,
+        "precision@10": 0.030395
+      }
+    },
+    {
+      "config": {
+        "family": "transition_power",
+        "value": 0.125
+      },
+      "valid": {
+        "recall@10": 0.2871,
+        "mrr@10": 0.14441384920634923,
+        "ndcg@10": 0.17846418868620922,
+        "hit@10": 0.2871,
+        "precision@10": 0.028710000000000003
+      }
+    },
+    {
+      "config": {
+        "family": "transition_weight",
+        "value": 0.5
+      },
+      "valid": {
+        "recall@10": 0.26365,
+        "mrr@10": 0.14534694444444443,
+        "ndcg@10": 0.17385487125310084,
+        "hit@10": 0.26365,
+        "precision@10": 0.026365
+      }
+    }
+  ],
+  "primary": {
+    "config": {
+      "family": "all_power",
+      "value": 0.0625
+    },
+    "valid": {
+      "recall@10": 0.3481,
+      "mrr@10": 0.1605458134920635,
+      "ndcg@10": 0.2047661950258599,
+      "hit@10": 0.3481,
+      "precision@10": 0.03481
+    }
+  },
+  "invariants": [
+    "four original features only",
+    "original training statistics except the sole self-diagonal variant",
+    "no session neighbours",
+    "no simultaneous interventions",
+    "rho=.5 unless rho is the sole changed parameter",
+    "equal weights unless one weight multiplier is the sole intervention"
+  ],
+  "source_sha256": "739d567276fd223db0d8a26b4fff23e313d9ade38eba888b3eb7eb795a0f6732",
+  "candidate_implementation_sha256": "024a21327ab4fc8648194c30002008cc82bce08e03b65bb03f50b9ba4b71a9e7"
+}

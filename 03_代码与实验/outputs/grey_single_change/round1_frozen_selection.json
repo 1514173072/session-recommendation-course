@@ -1,0 +1,266 @@
+{
+  "criterion": "Within each family maximize full-validation MRR@10, tie-break Recall@10; primary family selected by the same rule before test.",
+  "test_used_in_selection": false,
+  "valid_queries": 20000,
+  "families": 17,
+  "configurations_including_baseline": 62,
+  "baseline": {
+    "config": {
+      "family": "baseline",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.27565,
+      "mrr@10": 0.14170093253968255,
+      "ndcg@10": 0.17382686952254975,
+      "hit@10": 0.27565,
+      "precision@10": 0.027565
+    }
+  },
+  "selected_per_family": [
+    {
+      "config": {
+        "family": "all_power",
+        "value": 0.25
+      },
+      "valid": {
+        "recall@10": 0.343,
+        "mrr@10": 0.1587106150793651,
+        "ndcg@10": 0.20223988714572613,
+        "hit@10": 0.343,
+        "precision@10": 0.034300000000000004
+      }
+    },
+    {
+      "config": {
+        "family": "cooccurrence_power",
+        "value": 0.25
+      },
+      "valid": {
+        "recall@10": 0.32095,
+        "mrr@10": 0.15102015873015873,
+        "ndcg@10": 0.1913618424130344,
+        "hit@10": 0.32095,
+        "precision@10": 0.032095
+      }
+    },
+    {
+      "config": {
+        "family": "cooccurrence_weight",
+        "value": 1.5
+      },
+      "valid": {
+        "recall@10": 0.30095,
+        "mrr@10": 0.14136503968253966,
+        "ndcg@10": 0.17930531117724555,
+        "hit@10": 0.30095,
+        "precision@10": 0.030095
+      }
+    },
+    {
+      "config": {
+        "family": "geometric_mean",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.3122,
+        "mrr@10": 0.15045212301587302,
+        "ndcg@10": 0.18900177814891667,
+        "hit@10": 0.3122,
+        "precision@10": 0.031219999999999998
+      }
+    },
+    {
+      "config": {
+        "family": "harmonic_mean",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.33185,
+        "mrr@10": 0.1555922619047619,
+        "ndcg@10": 0.19736680798822104,
+        "hit@10": 0.33185,
+        "precision@10": 0.033185
+      }
+    },
+    {
+      "config": {
+        "family": "keep_self_cooccurrence",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.2549,
+        "mrr@10": 0.145895,
+        "ndcg@10": 0.17239493645176965,
+        "hit@10": 0.2549,
+        "precision@10": 0.025490000000000002
+      }
+    },
+    {
+      "config": {
+        "family": "max_aggregation",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.19355,
+        "mrr@10": 0.08303232142857143,
+        "ndcg@10": 0.10999196084092501,
+        "hit@10": 0.19355,
+        "precision@10": 0.019355
+      }
+    },
+    {
+      "config": {
+        "family": "popularity_power",
+        "value": 0.25
+      },
+      "valid": {
+        "recall@10": 0.319,
+        "mrr@10": 0.1500362103174603,
+        "ndcg@10": 0.19009344745548323,
+        "hit@10": 0.319,
+        "precision@10": 0.0319
+      }
+    },
+    {
+      "config": {
+        "family": "popularity_weight",
+        "value": 0.05
+      },
+      "valid": {
+        "recall@10": 0.3374,
+        "mrr@10": 0.15264992063492064,
+        "ndcg@10": 0.1960938391334264,
+        "hit@10": 0.3374,
+        "precision@10": 0.03374
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_binary",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.30645,
+        "mrr@10": 0.14322410714285713,
+        "ndcg@10": 0.18218970553324665,
+        "hit@10": 0.30645,
+        "precision@10": 0.030645
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_count",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.2817,
+        "mrr@10": 0.14016795634920634,
+        "ndcg@10": 0.17399420291595316,
+        "hit@10": 0.2817,
+        "precision@10": 0.02817
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_last_only",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.2215,
+        "mrr@10": 0.12475617063492063,
+        "ndcg@10": 0.14810635792268254,
+        "hit@10": 0.2215,
+        "precision@10": 0.02215
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_power",
+        "value": 0.25
+      },
+      "valid": {
+        "recall@10": 0.3018,
+        "mrr@10": 0.1472154365079365,
+        "ndcg@10": 0.18425784235496898,
+        "hit@10": 0.3018,
+        "precision@10": 0.030180000000000002
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_weight",
+        "value": 8
+      },
+      "valid": {
+        "recall@10": 0.305,
+        "mrr@10": 0.15833615079365082,
+        "ndcg@10": 0.1937053922608666,
+        "hit@10": 0.305,
+        "precision@10": 0.0305
+      }
+    },
+    {
+      "config": {
+        "family": "rho",
+        "value": 1.0
+      },
+      "valid": {
+        "recall@10": 0.30395,
+        "mrr@10": 0.14853686507936506,
+        "ndcg@10": 0.18562520474248287,
+        "hit@10": 0.30395,
+        "precision@10": 0.030395
+      }
+    },
+    {
+      "config": {
+        "family": "transition_power",
+        "value": 0.25
+      },
+      "valid": {
+        "recall@10": 0.28625,
+        "mrr@10": 0.14421861111111112,
+        "ndcg@10": 0.17816404513253878,
+        "hit@10": 0.28625,
+        "precision@10": 0.028625
+      }
+    },
+    {
+      "config": {
+        "family": "transition_weight",
+        "value": 0.5
+      },
+      "valid": {
+        "recall@10": 0.26365,
+        "mrr@10": 0.14534694444444443,
+        "ndcg@10": 0.17385487125310084,
+        "hit@10": 0.26365,
+        "precision@10": 0.026365
+      }
+    }
+  ],
+  "primary": {
+    "config": {
+      "family": "all_power",
+      "value": 0.25
+    },
+    "valid": {
+      "recall@10": 0.343,
+      "mrr@10": 0.1587106150793651,
+      "ndcg@10": 0.20223988714572613,
+      "hit@10": 0.343,
+      "precision@10": 0.034300000000000004
+    }
+  },
+  "invariants": [
+    "four original features only",
+    "original training statistics except the sole self-diagonal variant",
+    "no session neighbours",
+    "no simultaneous interventions",
+    "rho=.5 unless rho is the sole changed parameter",
+    "equal weights unless one weight multiplier is the sole intervention"
+  ],
+  "source_sha256": "739d567276fd223db0d8a26b4fff23e313d9ade38eba888b3eb7eb795a0f6732",
+  "candidate_implementation_sha256": "793b2afd738d7b67622774cc6a7964edb6103da9a3652931713bd42b03e983cd"
+}

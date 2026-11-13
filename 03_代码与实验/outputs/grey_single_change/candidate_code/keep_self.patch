@@ -1,0 +1,10 @@
+--- grey_session.py
++++ grey_session.py
+@@ -72,7 +72,6 @@
+         inv = np.zeros(self.item_num, dtype=np.float32)
+         np.divide(1.0, np.sqrt(session_counts), out=inv, where=session_counts > 0)
+         cooc = (incidence.T @ incidence).tocsr()
+-        cooc.setdiag(0)
+         cooc.eliminate_zeros()
+         self.cooccurrence = (sparse.diags(inv) @ cooc @ sparse.diags(inv)).tocsr()
+         transitions = sparse.csr_matrix(

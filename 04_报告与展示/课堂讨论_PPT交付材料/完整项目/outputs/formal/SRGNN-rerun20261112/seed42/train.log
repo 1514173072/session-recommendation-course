@@ -1,0 +1,49 @@
+2026-11-12 00:12:19,392 - Constructing session graphs.
+2026-11-12 00:12:25,519 - Constructing session graphs.
+2026-11-12 00:12:26,916 - Constructing session graphs.
+2026-11-12 00:12:28,560 - SessionGraph Transform in DataLoader.
+2026-11-12 00:12:28,561 - SessionGraph Transform in DataLoader.
+2026-11-12 00:12:28,561 - SessionGraph Transform in DataLoader.
+2026-11-12 00:12:28,562 - [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+2026-11-12 00:12:28,562 - [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+2026-11-12 00:13:03,088 - epoch 0 training [time: 34.29s, train loss: 7358.8455]
+2026-11-12 00:13:05,869 - epoch 0 evaluating [time: 2.78s, valid_score: 0.074000]
+2026-11-12 00:13:05,869 - valid result: 
+recall@10 : 0.1318    mrr@10 : 0.074    ndcg@10 : 0.0877    hit@10 : 0.1318    precision@10 : 0.0132
+2026-11-12 00:13:05,894 - Saving current: .\outputs\formal\SRGNN-rerun20261112\seed42\checkpoints\SRGNN-Nov-12-2026_00-12-28.pth
+2026-11-12 00:13:40,175 - epoch 1 training [time: 34.28s, train loss: 5752.3895]
+2026-11-12 00:13:42,885 - epoch 1 evaluating [time: 2.71s, valid_score: 0.131700]
+2026-11-12 00:13:42,885 - valid result: 
+recall@10 : 0.2627    mrr@10 : 0.1317    ndcg@10 : 0.1627    hit@10 : 0.2627    precision@10 : 0.0263
+2026-11-12 00:13:42,918 - Saving current: .\outputs\formal\SRGNN-rerun20261112\seed42\checkpoints\SRGNN-Nov-12-2026_00-12-28.pth
+2026-11-12 00:14:17,498 - epoch 2 training [time: 34.58s, train loss: 4143.3973]
+2026-11-12 00:14:20,256 - epoch 2 evaluating [time: 2.76s, valid_score: 0.144600]
+2026-11-12 00:14:20,256 - valid result: 
+recall@10 : 0.2974    mrr@10 : 0.1446    ndcg@10 : 0.1807    hit@10 : 0.2974    precision@10 : 0.0297
+2026-11-12 00:14:20,288 - Saving current: .\outputs\formal\SRGNN-rerun20261112\seed42\checkpoints\SRGNN-Nov-12-2026_00-12-28.pth
+2026-11-12 00:14:55,933 - epoch 3 training [time: 35.65s, train loss: 3313.3733]
+2026-11-12 00:14:58,670 - epoch 3 evaluating [time: 2.74s, valid_score: 0.138400]
+2026-11-12 00:14:58,671 - valid result: 
+recall@10 : 0.2929    mrr@10 : 0.1384    ndcg@10 : 0.1749    hit@10 : 0.2929    precision@10 : 0.0293
+2026-11-12 00:15:33,792 - epoch 4 training [time: 35.12s, train loss: 2718.7701]
+2026-11-12 00:15:36,506 - epoch 4 evaluating [time: 2.71s, valid_score: 0.137500]
+2026-11-12 00:15:36,506 - valid result: 
+recall@10 : 0.2858    mrr@10 : 0.1375    ndcg@10 : 0.1725    hit@10 : 0.2858    precision@10 : 0.0286
+2026-11-12 00:16:12,380 - epoch 5 training [time: 35.87s, train loss: 2240.5459]
+2026-11-12 00:16:15,116 - epoch 5 evaluating [time: 2.73s, valid_score: 0.131200]
+2026-11-12 00:16:15,116 - valid result: 
+recall@10 : 0.2738    mrr@10 : 0.1312    ndcg@10 : 0.1648    hit@10 : 0.2738    precision@10 : 0.0274
+2026-11-12 00:16:51,155 - epoch 6 training [time: 36.04s, train loss: 1875.8201]
+2026-11-12 00:16:53,947 - epoch 6 evaluating [time: 2.79s, valid_score: 0.121500]
+2026-11-12 00:16:53,947 - valid result: 
+recall@10 : 0.2524    mrr@10 : 0.1215    ndcg@10 : 0.1524    hit@10 : 0.2524    precision@10 : 0.0252
+2026-11-12 00:17:30,044 - epoch 7 training [time: 36.10s, train loss: 1605.6144]
+2026-11-12 00:17:33,216 - epoch 7 evaluating [time: 3.17s, valid_score: 0.121700]
+2026-11-12 00:17:33,216 - valid result: 
+recall@10 : 0.2516    mrr@10 : 0.1217    ndcg@10 : 0.1523    hit@10 : 0.2516    precision@10 : 0.0252
+2026-11-12 00:18:09,157 - epoch 8 training [time: 35.94s, train loss: 1407.5470]
+2026-11-12 00:18:11,954 - epoch 8 evaluating [time: 2.80s, valid_score: 0.117400]
+2026-11-12 00:18:11,955 - valid result: 
+recall@10 : 0.2385    mrr@10 : 0.1174    ndcg@10 : 0.146    hit@10 : 0.2385    precision@10 : 0.0239
+2026-11-12 00:18:11,955 - Finished training, best eval result in epoch 2
+2026-11-12 00:18:11,999 - Loading model structure and parameters from .\outputs\formal\SRGNN-rerun20261112\seed42\checkpoints\SRGNN-Nov-12-2026_00-12-28.pth

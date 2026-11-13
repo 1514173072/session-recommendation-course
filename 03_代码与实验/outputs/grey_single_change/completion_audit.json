@@ -1,0 +1,22 @@
+{
+  "all_passed": true,
+  "original_source_unchanged": true,
+  "each_of_18_variants_has_exactly_one_source_line_location": true,
+  "all_19_methods_20000_rank_metrics_independently_recomputed": true,
+  "cache_full_catalogue_top10_checks": 760,
+  "all_19_methods_literal_code_300_queries_verified_and_900_calls_timed": true,
+  "recommendation_literal_one_line_code_verified_all_20000": true,
+  "primary_literal_one_line_code_verified_all_20000": true,
+  "recommended_config": {
+    "family": "harmonic_mean",
+    "new_hyperparameters": 0
+  },
+  "frozen_validation_primary": {
+    "family": "all_power",
+    "value": 0.0625
+  },
+  "report_sha256": "2a9f5a94cbb87821818bedae46360b4be63f3efbedb13d1375b26f362368857b",
+  "recommended_predictions_sha256": "0355294b2c30f26f8b8c969e16313155c3938096703cbaaa35bb56365500eeca",
+  "original_source_sha256": "739d567276fd223db0d8a26b4fff23e313d9ade38eba888b3eb7eb795a0f6732",
+  "scope": "Exploratory OFAT on existing 20k split. Per-family settings selected by validation. Recommendation weighs no added tuning and measured cost, while the validation-MRR primary is recorded separately."
+}

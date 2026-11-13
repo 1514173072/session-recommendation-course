@@ -1,0 +1,1044 @@
+{
+  "features": [
+    "transition",
+    "cooccurrence",
+    "text",
+    "brand",
+    "color",
+    "material",
+    "price",
+    "popularity"
+  ],
+  "global_best": 1,
+  "groups": [
+    {
+      "state": 0,
+      "support": 101,
+      "history_examples": [
+        [
+          {
+            "title": "Báscula de Cocina, Báscula Balanzas de Alta Precisión En Balanza de Alimento Mul",
+            "brand": "himaly",
+            "color": "negro - 1297",
+            "material": "vidrio templado",
+            "price_EUR": 40000028.0
+          },
+          {
+            "title": "Bascula de Precision, [0.01g/500g] Diyife Báscula Digital para Cocina, Bascula P",
+            "brand": "diyife",
+            "color": "blanco",
+            "material": "acero inoxidable",
+            "price_EUR": 15.99
+          }
+        ],
+        [
+          {
+            "title": "Descalcificador para cafetera concentrado liquido 10 litros - Compatible con mar",
+            "brand": "woldoclean",
+            "color": "blanco",
+            "material": "",
+            "price_EUR": 29.99
+          },
+          {
+            "title": "Purivita - Líquido descalcificador 750 ml universal - cafeteras superautomáticas",
+            "brand": "purivita",
+            "color": "rojo",
+            "material": "",
+            "price_EUR": 8.99
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 3,
+          "name": "brand",
+          "corrected_mrr": 0.35240438371481186,
+          "global_mrr": 0.3225926959325397,
+          "active_features": 6
+        },
+        {
+          "candidate": 24,
+          "name": "cooccurrence+brand",
+          "corrected_mrr": 0.3485033406778918,
+          "global_mrr": 0.32144019717261907,
+          "active_features": 2
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.34777803127466456,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.3417954704902219,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        }
+      ]
+    },
+    {
+      "state": 1,
+      "support": 125,
+      "history_examples": [
+        [
+          {
+            "title": "Akake Cable Ethernet Cat 8, 0,5 m, 1 m, 2 m, 3 m, 5 m, 6 m, 9 m, 12 m, 15 m, 18 ",
+            "brand": "akake",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 3.99
+          },
+          {
+            "title": "Akake Cable Ethernet Cat 8, 0,5 m, 1 m, 2 m, 3 m, 5 m, 6 m, 9 m, 12 m, 15 m, 18 ",
+            "brand": "akake",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 21.99
+          }
+        ],
+        [
+          {
+            "title": "Auriculares Inalambricos, Auriculares Bluetooth 5.3 con 3D Estéreo Inmersivo, 30",
+            "brand": "tatuner",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 27.99
+          },
+          {
+            "title": "Así es la puta vida",
+            "brand": "plan b",
+            "color": "",
+            "material": "",
+            "price_EUR": 8.54
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.36717334494773524,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.3662785823170732,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.36551684088269454,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 17,
+          "name": "transition+text",
+          "corrected_mrr": 0.3383731368563686,
+          "global_mrr": 0.3272398933531746,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 2,
+      "support": 0,
+      "history_examples": [],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.3498449900793651,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.3485045417906746,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.3422867063492063,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 23,
+          "name": "cooccurrence+text",
+          "corrected_mrr": 0.3316433376736111,
+          "global_mrr": 0.3316433376736111,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 3,
+      "support": 27,
+      "history_examples": [
+        [
+          {
+            "title": "eSynic UV-5R Walkie Talkie 128 Canales VOX Banda Dual con Pantalla LED de Memori",
+            "brand": "esynic",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 40.99
+          },
+          {
+            "title": "Baofeng UV-5RA Radio",
+            "brand": "baofeng",
+            "color": "negro",
+            "material": "plástico",
+            "price_EUR": 35.29
+          }
+        ],
+        [
+          {
+            "title": "Colorante alimentario 12*10ml, Colorante Alimentario Alta Concentración Liquid S",
+            "brand": "hxdzfx",
+            "color": "white",
+            "material": "",
+            "price_EUR": 40000028.0
+          },
+          {
+            "title": "Colorante alimentario 12*6ml, Colorante Alimentario Alta Concentración Liquid Se",
+            "brand": "hxdzfx",
+            "color": "amarillo",
+            "material": "",
+            "price_EUR": 9.59
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.31468161252039756,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.31330112603842164,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 2,
+          "name": "text",
+          "corrected_mrr": 0.3104196799436285,
+          "global_mrr": 0.33081132192460316,
+          "active_features": 5
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.30943109330959795,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 4,
+      "support": 130,
+      "history_examples": [
+        [
+          {
+            "title": "Halcyerdu Capa de Vampiro de Halloween, Larga Capa para Adultos, Disfraz de Hall",
+            "brand": "halcyerdu",
+            "color": "",
+            "material": "",
+            "price_EUR": 13.99
+          },
+          {
+            "title": "Halcyerdu Disfraz de Halloween, Capas de Halloween con máscara de Calavera, Guan",
+            "brand": "halcyerdu",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 19.99
+          }
+        ],
+        [
+          {
+            "title": "Energizer - MAX, Pack de 1 pilas 4,5V, larga duración para uso cotidiano, sin su",
+            "brand": "energizer",
+            "color": "no aplica",
+            "material": "",
+            "price_EUR": 5.5
+          },
+          {
+            "title": "Energizer - MAX, Pack de 1 pilas 9V, larga duración para uso cotidiano, sin sulf",
+            "brand": "energizer",
+            "color": "multicolor",
+            "material": "0",
+            "price_EUR": 2.99
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.3990471466364324,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.39481200987339393,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.38748299319727897,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 23,
+          "name": "cooccurrence+text",
+          "corrected_mrr": 0.3845413773148148,
+          "global_mrr": 0.3316433376736111,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 5,
+      "support": 70,
+      "history_examples": [
+        [
+          {
+            "title": "Moon Terror - Látex Líquido Pro FX - 15ml (Juego de 6)",
+            "brand": "moon terror",
+            "color": "white",
+            "material": "",
+            "price_EUR": 20.99
+          },
+          {
+            "title": "Moon Terror - Látex Líquido Pro FX - 50ml (Juego de 3)",
+            "brand": "moon terror",
+            "color": "white",
+            "material": "",
+            "price_EUR": 29.96
+          }
+        ],
+        [
+          {
+            "title": "Cable Ethernet 5 metros, Cable de red Cat 6 alta Velocidad, Cable Internet plano",
+            "brand": "nixsto",
+            "color": "white",
+            "material": "",
+            "price_EUR": 5.99
+          },
+          {
+            "title": "Cable Ethernet 7 metros, Cable de red Cat 6 alta Velocidad, Cable Internet plano",
+            "brand": "nixsto",
+            "color": "white",
+            "material": "",
+            "price_EUR": 7.99
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.40736177248677247,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.4057579778439154,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.4012751322751322,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 17,
+          "name": "transition+text",
+          "corrected_mrr": 0.38715757275132273,
+          "global_mrr": 0.3272398933531746,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 6,
+      "support": 16,
+      "history_examples": [
+        [
+          {
+            "title": "Halloween Disfraz Perro, Disfraces de Halloween para Mascotas, Halloween Costume",
+            "brand": "kateluo",
+            "color": "a",
+            "material": "algodón",
+            "price_EUR": 6.39
+          },
+          {
+            "title": "Halloween Disfraz Perro, Disfraces de Halloween para Mascotas, Halloween Costume",
+            "brand": "kateluo",
+            "color": "a",
+            "material": "algodón",
+            "price_EUR": 6.39
+          }
+        ],
+        [
+          {
+            "title": "morpilot Espumador de Leche Automático Espuma Leche Caliente/Frío, Vaporizador d",
+            "brand": "aivane",
+            "color": "espumador de leche",
+            "material": "plastic",
+            "price_EUR": 49.99
+          },
+          {
+            "title": "morpilot Espumador Batidor de Leche Automático Espuma Leche Caliente/Frío, Vapor",
+            "brand": "morpilot",
+            "color": "blanco",
+            "material": "stainless steel",
+            "price_EUR": 40000028.0
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.3496972139550265,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.3475385070477844,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.34027364417989414,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 17,
+          "name": "transition+text",
+          "corrected_mrr": 0.3327693555720899,
+          "global_mrr": 0.3272398933531746,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 7,
+      "support": 43,
+      "history_examples": [
+        [
+          {
+            "title": "Dodot Toallitas Aqua Pure para Bebé, 99% Agua, 864 Toallitas, 18 Paquetes (18x48",
+            "brand": "dodot",
+            "color": "azul",
+            "material": "",
+            "price_EUR": 45.5
+          },
+          {
+            "title": "Dodot Toallitas Aqua Pure para Bebé, 99% Agua, 864 Toallitas, 18 Paquetes (18x48",
+            "brand": "dodot",
+            "color": "azul",
+            "material": "",
+            "price_EUR": 45.5
+          }
+        ],
+        [
+          {
+            "title": "Finocam - Agenda 2022 2023 Secundaria Semana Vista Horizontal Septiembre 2022 - ",
+            "brand": "cabero group 1916, s.a",
+            "color": "mejor",
+            "material": "papel",
+            "price_EUR": 4.51
+          },
+          {
+            "title": "Finocam - Agenda 2022 2023 Secundaria Semana Vista Horizontal Septiembre 2022 - ",
+            "brand": "cabero group 1916, s.a",
+            "color": "mejor",
+            "material": "papel",
+            "price_EUR": 3.69
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.2843487869402504,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.2815089547844883,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 24,
+          "name": "cooccurrence+brand",
+          "corrected_mrr": 0.27731431071751195,
+          "global_mrr": 0.32144019717261907,
+          "active_features": 2
+        },
+        {
+          "candidate": 23,
+          "name": "cooccurrence+text",
+          "corrected_mrr": 0.2765172824719318,
+          "global_mrr": 0.3316433376736111,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 8,
+      "support": 104,
+      "history_examples": [
+        [
+          {
+            "title": "Plátano de Canarias bolsa (1.3 Kg aprox.)",
+            "brand": "arc-eurobanan, s.l.",
+            "color": "",
+            "material": "",
+            "price_EUR": 40000028.0
+          },
+          {
+            "title": "SELECCIÓN DE DIA cinta de lomo de cerdo en trozo (peso aprox. 1.1 Kg)",
+            "brand": "campofrio food group, s.a.u",
+            "color": "",
+            "material": "",
+            "price_EUR": 40000028.0
+          }
+        ],
+        [
+          {
+            "title": "RR 0 Silla de Oficina Sin Reposabrazos con Soporte Lumbar y Tela de Malla, Negro",
+            "brand": "rr",
+            "color": "negro",
+            "material": "metal",
+            "price_EUR": 52.99
+          },
+          {
+            "title": "TT AM-OC533 Silla de Oficina con Soporte Lumbar, Acero, Negro, Universal",
+            "brand": "tt",
+            "color": "negro",
+            "material": "malla",
+            "price_EUR": 59.99
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.3591755426695134,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.35784107574189106,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.3550681504485852,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 23,
+          "name": "cooccurrence+text",
+          "corrected_mrr": 0.3546762786296584,
+          "global_mrr": 0.3316433376736111,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 9,
+      "support": 20,
+      "history_examples": [
+        [
+          {
+            "title": "Báscula de Cocina Digital, Báscula Profesional de Pesaje de Alimentos de Acero I",
+            "brand": "fivefine",
+            "color": "",
+            "material": "acero inoxidable",
+            "price_EUR": 15.99
+          },
+          {
+            "title": "FiveFine Báscula de Cocina, Báscula Digital para Cocina de Acero Inoxidable,Bala",
+            "brand": "fivefine",
+            "color": "",
+            "material": "acero inoxidable",
+            "price_EUR": 11.99
+          }
+        ],
+        [
+          {
+            "title": "2022 Smartwatch con Llamadas Bluetooth , XINGHESF 1,7'' Reloj Inteligente Hombre",
+            "brand": "xinghesf",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 49.99
+          },
+          {
+            "title": "2022 Smartwatch Mujer con Llamadas Bluetooth, XINGHESF 1,7'' Reloj Inteligente M",
+            "brand": "xinghesf",
+            "color": "rosa",
+            "material": "",
+            "price_EUR": 49.99
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.32190376984126984,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.32038696676587297,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 2,
+          "name": "text",
+          "corrected_mrr": 0.317093501984127,
+          "global_mrr": 0.33081132192460316,
+          "active_features": 5
+        },
+        {
+          "candidate": 17,
+          "name": "transition+text",
+          "corrected_mrr": 0.3137363591269841,
+          "global_mrr": 0.3272398933531746,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 10,
+      "support": 0,
+      "history_examples": [],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.3498449900793651,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.3485045417906746,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.3422867063492063,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 23,
+          "name": "cooccurrence+text",
+          "corrected_mrr": 0.3316433376736111,
+          "global_mrr": 0.3316433376736111,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 11,
+      "support": 16,
+      "history_examples": [
+        [
+          {
+            "title": "Linterna Frontal LED Recargable, Alta Potencia Linterna Cabeza con 4 Modos, Alca",
+            "brand": "dawinsie",
+            "color": "negro 1",
+            "material": "",
+            "price_EUR": 19.58
+          },
+          {
+            "title": "Linterna Frontal LED Recargable, Alta Potencia Linterna Cabeza con 4 Modos, Alca",
+            "brand": "dawinsie",
+            "color": "negro 1",
+            "material": "",
+            "price_EUR": 19.58
+          }
+        ],
+        [
+          {
+            "title": "iVoler Funda para Samsung Galaxy A13 4G / A13 5G / A04S con 3 Piezas Cristal Tem",
+            "brand": "ivoler",
+            "color": "a13 4g / 5g / a40s negro",
+            "material": "vidrio templado",
+            "price_EUR": 9.95
+          },
+          {
+            "title": "Vansdon Funda Compatible con Samsung Galaxy A13 4G, 2 Unidades Protector Pantall",
+            "brand": "vansdon",
+            "color": "negro",
+            "material": "silikon",
+            "price_EUR": 8.99
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.31167638062169317,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.3105882755663029,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.30433614417989413,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 3,
+          "name": "brand",
+          "corrected_mrr": 0.29949854290674605,
+          "global_mrr": 0.3225926959325397,
+          "active_features": 6
+        }
+      ]
+    },
+    {
+      "state": 12,
+      "support": 201,
+      "history_examples": [
+        [
+          {
+            "title": "Science4you - Robotics Alfabot 3 En 1 - Juguete Científico Y Educativo Stem, Con",
+            "brand": "science4you",
+            "color": "surtido",
+            "material": "plástico",
+            "price_EUR": 19.99
+          },
+          {
+            "title": "Science4you Robotics Deltabot - Kit Robotica para Niños con 117 Piezas, Construy",
+            "brand": "science4you",
+            "color": "multicolor",
+            "material": "plástico",
+            "price_EUR": 14.66
+          }
+        ],
+        [
+          {
+            "title": "Braun Recortadora De Barba BT3222 Recortadora De Barba Y Cortapelos Para Hombre,",
+            "brand": "braun",
+            "color": "negro",
+            "material": "plástico",
+            "price_EUR": 22.97
+          },
+          {
+            "title": "Braun Recortadora Barba, Máquina Cortar Pelo, Maquina de Afeitar de Hombre con L",
+            "brand": "braun",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 26.96
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.3940698610405016,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.3930414557207818,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 49,
+          "name": "sparse_5",
+          "corrected_mrr": 0.3875281555386093,
+          "global_mrr": 0.3280676463293651,
+          "active_features": 3
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.3862480935434672,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 13,
+      "support": 43,
+      "history_examples": [
+        [
+          {
+            "title": "Logitech MK270 Combo Teclado y Ratón Inalámbrico para Windows, 2,4GHz Inalámbric",
+            "brand": "logitech",
+            "color": "negro",
+            "material": "plástico",
+            "price_EUR": 25.59
+          },
+          {
+            "title": "Logitech MK235 Combo con Teclado y Ratón Inalámbrico para Windows, Receptor USB ",
+            "brand": "logitech",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 23.99
+          }
+        ],
+        [
+          {
+            "title": "Philips Avent SCF044/27-2 - Tetinas natural flujo rápido, 6m+, con 3 agujeros",
+            "brand": "philips",
+            "color": "transparente",
+            "material": "",
+            "price_EUR": 6.49
+          },
+          {
+            "title": "Philips Avent SCF045/27-2 - Tetinas natural flujo variable, 3m+, con 2 agujeros",
+            "brand": "philips",
+            "color": "transparente",
+            "material": "",
+            "price_EUR": 6.49
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.3499991934443154,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.3472206595205833,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.3408149438637243,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 2,
+          "name": "text",
+          "corrected_mrr": 0.3225563379145696,
+          "global_mrr": 0.33081132192460316,
+          "active_features": 5
+        }
+      ]
+    },
+    {
+      "state": 14,
+      "support": 83,
+      "history_examples": [
+        [
+          {
+            "title": "QUIRUMED Silla de ruedas plegable para traslado",
+            "brand": "quirumed",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 159.29
+          },
+          {
+            "title": "QUIRUMED Silla de ruedas plegable para traslado",
+            "brand": "quirumed",
+            "color": "negro",
+            "material": "",
+            "price_EUR": 159.29
+          }
+        ],
+        [
+          {
+            "title": "Pájaros Plague Doctor Nariz de Cosplay Fancy diseño gótico Steampunk Retro Másca",
+            "brand": "faihong",
+            "color": "blanco",
+            "material": "látex",
+            "price_EUR": 20.99
+          },
+          {
+            "title": "Pájaros Plague Doctor Nariz de Cosplay Fancy diseño gótico Steampunk Retro Másca",
+            "brand": "faihong",
+            "color": "negro",
+            "material": "látex",
+            "price_EUR": 24.99
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 2,
+          "name": "text",
+          "corrected_mrr": 0.29114461607751485,
+          "global_mrr": 0.33081132192460316,
+          "active_features": 5
+        },
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.2910696026877008,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 0,
+          "name": "balanced",
+          "corrected_mrr": 0.28692111877982274,
+          "global_mrr": 0.3205938430059524,
+          "active_features": 8
+        },
+        {
+          "candidate": 23,
+          "name": "cooccurrence+text",
+          "corrected_mrr": 0.2849651788757425,
+          "global_mrr": 0.3316433376736111,
+          "active_features": 2
+        }
+      ]
+    },
+    {
+      "state": 15,
+      "support": 45,
+      "history_examples": [
+        [
+          {
+            "title": "KINGTOP KT568-DE, Lámpara Frontal Impermeable Linterna LED 1800 Lumens, 3 Modos ",
+            "brand": "kingtop",
+            "color": "negro",
+            "material": "aluminio",
+            "price_EUR": 21.99
+          },
+          {
+            "title": "KINGTOP KT568-DE, Lámpara Frontal Impermeable Linterna LED 1800 Lumens, 3 Modos ",
+            "brand": "kingtop",
+            "color": "negro",
+            "material": "aluminio",
+            "price_EUR": 21.99
+          }
+        ],
+        [
+          {
+            "title": "Probuk Memoria USB 128gb，Mini Impermeable y a Prueba de Polvo Metal Pen Drive 12",
+            "brand": "probuk",
+            "color": "plata 128gb",
+            "material": "",
+            "price_EUR": 9.99
+          },
+          {
+            "title": "Probuk Memoria USB 64gb，Mini Impermeable y a Prueba de Polvo Metal Pen Drive 64 ",
+            "brand": "probuk",
+            "color": "plata 64gb",
+            "material": "",
+            "price_EUR": 6.49
+          }
+        ]
+      ],
+      "options": [
+        {
+          "candidate": 57,
+          "name": "sparse_13",
+          "corrected_mrr": 0.2966429067460317,
+          "global_mrr": 0.3485045417906746,
+          "active_features": 3
+        },
+        {
+          "candidate": 1,
+          "name": "behavior",
+          "corrected_mrr": 0.293034126984127,
+          "global_mrr": 0.3498449900793651,
+          "active_features": 5
+        },
+        {
+          "candidate": 16,
+          "name": "transition+cooccurrence",
+          "corrected_mrr": 0.2920952380952381,
+          "global_mrr": 0.3422867063492063,
+          "active_features": 2
+        },
+        {
+          "candidate": 59,
+          "name": "sparse_15",
+          "corrected_mrr": 0.28330570436507935,
+          "global_mrr": 0.3211026630704365,
+          "active_features": 3
+        }
+      ]
+    }
+  ],
+  "thresholds": [
+    3.0,
+    0.0,
+    0.6666666666666666,
+    0.1693926453590393
+  ],
+  "candidate_count": 60
+}

@@ -1,0 +1,28 @@
+{
+  "key": "qwen_offline",
+  "method": "离线qwen3.5-2B（验证校准）",
+  "ablation": false,
+  "test_sessions": 8970,
+  "catalogue_items": 42503,
+  "recall@10": 0.554180602006689,
+  "mrr@10": 0.35491842296190124,
+  "ndcg@10": 0.40253461686986536,
+  "mean_ms": 1.0405391666666666,
+  "p95_ms": 1.217625,
+  "calls": 600,
+  "scope": "CPU4, batch1, internal history -> features/graph -> full catalogue scores -> history mask -> Top10; model loading and static catalogue preparation excluded",
+  "warm_metrics": {
+    "recall@10": 0.563854047890536,
+    "mrr@10": 0.36171535356826123,
+    "ndcg@10": 0.4100365377991473
+  },
+  "cold_metrics": {
+    "recall@10": 0.13,
+    "mrr@10": 0.05687301587301587,
+    "ndcg@10": 0.07357538412085304
+  },
+  "cold_targets": 200,
+  "quality_evaluation_seconds": 9.809209200000012,
+  "online_llm_calls": 0,
+  "prediction_sha256": "6eee54aba58f9152a06145e2ab114c60de37522c04a48ccd1a71b4b104b24a7f"
+}

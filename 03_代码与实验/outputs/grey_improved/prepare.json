@@ -1,0 +1,14 @@
+{
+  "split_hashes": {
+    "train": "b9d1b3bd47d3bc7905ffa4dc4219618a19a2539427983d3a40f064b286a77f11",
+    "valid": "dce0721d44aaa6eb2285ff8135450ab9616a17d535fb1279b04085d6913f8311",
+    "test": "6e490221d53344ec678614e5ab9fe2051e079b7036e324b893228796ae717212"
+  },
+  "exact_prefix_checks": true,
+  "sessions": 20000,
+  "items": 32968,
+  "train_prefix_clicks": 117273,
+  "statistics_and_index_fit_seconds": 0.5604125999999994,
+  "raw_array_bytes_initial": 7109648,
+  "source_sha256": "d5e0c1c2ca3f3fe629ec1a3fa0e5bd06b2633ffd97323cf09000447178608c45"
+}

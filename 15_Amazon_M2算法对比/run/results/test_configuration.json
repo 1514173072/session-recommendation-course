@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\data.json": "92d09affda99f4f99b92f72948ea46056caa52562fe9af9ddf580160447ab93e",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\attributes.npz": "68918582571fbb3f6f76d25921a677e1683c1eb534ad72638dff6fd08a21effc",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\results\\frozen_policy.json": "05b79c843600f1bcd8eb46601fe22f7b8c230543a74d6a1bf252389b3cfc0565",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\models\\SRGNN.pt": "4dec369e02323e556bf97ab37f315ec4aa9f358440198d7d183581ce3d6a04f1",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\models\\GCSAN.pt": "42e01ad2f22b320769a15051567f73a4005c571a9b5bb352050269f7f0cb076a",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\run\\models\\GCEGNN.pt": "e5c7398ee6c41c72e60fa23a13da000f7bf14c1f63a22fca3cac753106dfd2ad",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\common.py": "b1ffa29af3d47ef37b5a31d745eb3108bc63acfb7ff3e2103222a22502031814",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\train.py": "abfa17cb33ec466681351e3e52d8c2a19e2dcf60b6e9681890c526231a5b59de",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\policy.py": "91cc384436d5967390d96d2a1270bf415bde05c99645dbfeb764281470d3e446",
+    "D:\\Projects\\算法分析与理论课程\\15_Amazon_M2算法对比\\evaluate.py": "e73cc5157eb843379e1a42bf65ba131358dd2afde1a9b48f7c2b354c69ce82bb"
+  },
+  "protocol": "Single fixed held-out test; all decisions chosen from training/calibration/validation before first test"
+}

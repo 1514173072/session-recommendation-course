@@ -1,0 +1,130 @@
+python.exe : 29 Oct 16:01    INFO  Reversing sessions.
+At D:\Projects\算法分析与理论课程\03_代码与实验\run_smoke.ps1:27 char:9
++         & $runtimePython @scriptArguments 2>&1 | Tee-Object -FilePath ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (29 Oct 16:01   ...rsing sessions.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  0%|          | 0/9813 [00:00<?, ?it/s]
+ 39%|███▉      | 3870/9813 [00:00<00:00, 38585.04it/s]
+ 79%|███████▉  | 7734/9813 [00:00<00:00, 38444.17it/s]
+100%|██████████| 9813/9813 [00:00<00:00, 38875.29it/s]
+29 Oct 16:01    INFO  Constructing session graphs.
+  0%|          | 0/9813 [00:00<?, ?it/s]
+  4%|▍         | 368/9813 [00:00<00:02, 3671.10it/s]
+  8%|▊         | 737/9813 [00:00<00:02, 3681.77it/s]
+ 12%|█▏        | 1146/9813 [00:00<00:02, 3850.49it/s]
+ 16%|█▌        | 1531/9813 [00:00<00:02, 3694.76it/s]
+ 20%|█▉        | 1931/9813 [00:00<00:02, 3788.48it/s]
+ 24%|██▍       | 2349/9813 [00:00<00:01, 3916.73it/s]
+ 28%|██▊       | 2742/9813 [00:00<00:01, 3790.98it/s]
+ 32%|███▏      | 3123/9813 [00:00<00:01, 3681.15it/s]
+ 36%|███▌      | 3495/9813 [00:00<00:01, 3687.15it/s]
+ 39%|███▉      | 3865/9813 [00:01<00:01, 3623.15it/s]
+ 43%|████▎     | 4254/9813 [00:01<00:01, 3697.58it/s]
+ 47%|████▋     | 4645/9813 [00:01<00:01, 3757.44it/s]
+ 51%|█████     | 5022/9813 [00:01<00:01, 3760.39it/s]
+ 55%|█████▌    | 5399/9813 [00:01<00:01, 3753.26it/s]
+ 59%|█████▉    | 5810/9813 [00:01<00:01, 3851.10it/s]
+ 63%|██████▎   | 6197/9813 [00:01<00:00, 3852.81it/s]
+ 67%|██████▋   | 6591/9813 [00:01<00:00, 3875.94it/s]
+ 71%|███████▏  | 7000/9813 [00:01<00:00, 3928.87it/s]
+ 76%|███████▌  | 7410/9813 [00:01<00:00, 3972.33it/s]
+ 80%|███████▉  | 7811/9813 [00:02<00:00, 3975.49it/s]
+ 84%|████████▎ | 8209/9813 [00:02<00:00, 3964.94it/s]
+ 88%|████████▊ | 8606/9813 [00:02<00:00, 3889.12it/s]
+ 92%|█████████▏| 8996/9813 [00:02<00:00, 3810.35it/s]
+ 96%|█████████▌| 9378/9813 [00:02<00:00, 3684.13it/s]
+ 99%|█████████▉| 9748/9813 [00:02<00:00, 3568.83it/s]
+100%|██████████| 9813/9813 [00:02<00:00, 3773.27it/s]
+29 Oct 16:01    INFO  Reversing sessions.
+  0%|          | 0/2000 [00:00<?, ?it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 40755.43it/s]
+29 Oct 16:01    INFO  Constructing session graphs.
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 18%|█▊        | 354/2000 [00:00<00:00, 3508.00it/s]
+ 36%|███▌      | 718/2000 [00:00<00:00, 3567.13it/s]
+ 54%|█████▍    | 1082/2000 [00:00<00:00, 3591.34it/s]
+ 72%|███████▏  | 1442/2000 [00:00<00:00, 2666.06it/s]
+ 89%|████████▊ | 1773/2000 [00:00<00:00, 2852.89it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 3029.29it/s]
+29 Oct 16:01    INFO  Reversing sessions.
+  0%|          | 0/2000 [00:00<?, ?it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 47434.00it/s]
+29 Oct 16:01    INFO  Constructing session graphs.
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 18%|█▊        | 352/2000 [00:00<00:00, 3490.28it/s]
+ 35%|███▌      | 704/2000 [00:00<00:00, 3487.38it/s]
+ 54%|█████▎    | 1070/2000 [00:00<00:00, 3549.82it/s]
+ 71%|███████▏  | 1425/2000 [00:00<00:00, 3528.07it/s]
+ 89%|████████▉ | 1778/2000 [00:00<00:00, 3524.30it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 3515.22it/s]
+29 Oct 16:01    INFO  SessionGraph Transform in DataLoader.
+29 Oct 16:01    INFO  SessionGraph Transform in DataLoader.
+29 Oct 16:01    INFO  SessionGraph Transform in DataLoader.
+29 Oct 16:01    INFO  [Training]: train_batch_size = [64] negative sampling: [{'distribution': 'none', 'sample_num': 'n
+one', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+29 Oct 16:01    INFO  [Evaluation]: eval_batch_size = [64] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO
+', 'mode': 'full', 'group_by': 'user'}]
+29 Oct 16:01    INFO  Constructing global graphs.
+Converting:   0%|          | 0/9813 [00:00<?, ?it/s]
+Converting: 100%|██████████| 9813/9813 [00:00<00:00, 584292.11it/s]
+Sorting:   0%|          | 0/9110 [00:00<?, ?it/s]
+Sorting: 100%|██████████| 9110/9110 [00:00<00:00, 356045.67it/s]
+29 Oct 16:01    INFO  Constructing global graphs.
+Converting:   0%|          | 0/9813 [00:00<?, ?it/s]
+Converting: 100%|██████████| 9813/9813 [00:00<00:00, 576880.67it/s]
+Sorting:   0%|          | 0/9110 [00:00<?, ?it/s]
+Sorting: 100%|██████████| 9110/9110 [00:00<00:00, 276068.65it/s]
+{
+  "model": "GCEGNN",
+  "dataset": "diginetica-smoke",
+  "scope": "Small-scale runtime verification; not official leaderboard reproduction.",
+  "epochs_requested": 3,
+  "seed": 42,
+  "device": "cpu",
+  "raw_session_count": 2000,
+  "candidate_items": 9109,
+  "train_examples": 9813,
+  "valid_examples": 2000,
+  "test_examples": 2000,
+  "split_session_target_sha256": {
+    "train": "1d6793d55d6957ce0aacbce57365978da0ee4c8482a1debdefd0229d34c9ce3c",
+    "valid": "fd87f69f683ffebc0035aca6898189126dd32dbde9096de0351cc75f939774e8",
+    "test": "ef21ccbc6647adbcac71320878a0555d26e8dbb6cc0fc5e7026ff829be82d73e"
+  },
+  "best_valid_score": 0.1485,
+  "best_valid_result": {
+    "recall@10": 0.2575,
+    "mrr@10": 0.1485,
+    "ndcg@10": 0.1753,
+    "hit@10": 0.2575,
+    "precision@10": 0.0258
+  },
+  "test_result": {
+    "recall@10": 0.2485,
+    "mrr@10": 0.1518,
+    "ndcg@10": 0.1754,
+    "hit@10": 0.2485,
+    "precision@10": 0.0249
+  },
+  "data_preparation_seconds": 4.656556300000001,
+  "training_and_validation_seconds": 0.0,
+  "test_seconds": 0.3109763999999995,
+  "prediction_batch_size": 64,
+  "prediction_batch_seconds": 0.007311699999998922,
+  "checkpoint": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\diginetica-smoke\\GCEGNN\\checkpoints\\GCEGNN-Oct-29-2026_15-57-52.pth",
+  "checkpoint_sha256": "35ca70e9d5bca8376f34e5b84f82e751e1b7520aeccceca8ef407044f4a2ff73",
+  "checkpoint_reload_passed": true,
+  "max_reload_score_difference": 0.0,
+  "top10_validation_passed": true,
+  "parameters": 613568,
+  "environment": {
+    "python": "3.9.21",
+    "torch": "2.1.2+cpu",
+    "numpy": "1.23.5",
+    "recbole": "1.1.1",
+    "pyg": "2.4.0",
+    "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+  }
+}

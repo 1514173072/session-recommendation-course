@@ -1,0 +1,24 @@
+figures:
+  - id: F01
+    claim_id: runtime_training_trace
+    task: 显示三轮实测训练中每模型损失变化与统一验证MRR变化
+    source:
+      kind: new_candidate
+      gallery_searches:
+        - 时间序列 / 折线：无匹配
+        - 机器学习 / 训练：无匹配
+        - 收敛：检查了分面收敛曲线Markdown、PNG和数据契约
+      rejected_gallery_entry: D:/Vault/60_图表库/分面收敛曲线.md
+      rejection_reason: 模板要求双超参数分面和随样本量变化的得分；当前只有单次三轮训练、两种指标，不符合该数据契约
+    data: figures/candidates/training_curves.input.json
+    code: scripts/export_showcase.py
+    outputs:
+      - figures/candidates/training_curves.png
+      - figures/candidates/training_curves.pdf
+    statistics: 每轮批次损失求和、验证集MRR@10；单次固定种子，无误差带
+    scope: 2000个真实会话，3轮，CPU，seed42；不判断充分收敛或普遍模型优劣
+    style: Microsoft YaHei；12.8x5.5英寸；颜色、点形与线型同时区分模型
+    status: verified
+    caption_checked: true
+    text_figure_checked: true
+    reproduction_contract: 输入日志SHA256固定；PNG/PDF非内容时间元数据固定；连续两次生成SHA256相同，详见figures/candidates/reproduction_check.json

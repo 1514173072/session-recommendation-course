@@ -1,0 +1,28 @@
+{
+  "key": "grey",
+  "method": "灰色关联",
+  "ablation": false,
+  "test_sessions": 8970,
+  "catalogue_items": 42503,
+  "recall@10": 0.4672240802675585,
+  "mrr@10": 0.3271956344782432,
+  "ndcg@10": 0.36092426047877385,
+  "mean_ms": 3.441625333333333,
+  "p95_ms": 3.7445,
+  "calls": 600,
+  "scope": "CPU4, batch1, internal history -> features/graph -> full catalogue scores -> history mask -> Top10; model loading and static catalogue preparation excluded",
+  "warm_metrics": {
+    "recall@10": 0.4733181299885975,
+    "mrr@10": 0.33230624785071766,
+    "ndcg@10": 0.36628438297565924
+  },
+  "cold_metrics": {
+    "recall@10": 0.2,
+    "mrr@10": 0.1030952380952381,
+    "ndcg@10": 0.12588288899035344
+  },
+  "cold_targets": 200,
+  "quality_evaluation_seconds": 31.792659300000004,
+  "online_llm_calls": 0,
+  "prediction_sha256": "a12a5019340949492fb6255a3d084ad8a2a3f030b61ed695afe772bd04afabc6"
+}

@@ -1,0 +1,23 @@
+{
+  "sources": {
+    "06_教师学生推荐性能测试/results/comparison.csv": "8ebafbdf0bbdaf0465a7534aa6271df6a64231ee0e252c1ed720b908ce7e30cc",
+    "10_本地2B低延迟优化/results/baseline_gra_original.json": "20fb1184e961243718d6a7bb0eef8d9c47274d4615bab607908f7e4dbc757480",
+    "10_本地2B低延迟优化/results/baseline_SRGNN.json": "6d47f88ab5181c285c1e5ea243e1b3b635a18fe01f0c6ad4dd8f756700074219",
+    "10_本地2B低延迟优化/results/baseline_GCSAN.json": "732a2524a4167f1da7e647f9f3926910c5a9b034991cd7780996f99f76ef8d74",
+    "10_本地2B低延迟优化/results/baseline_GCEGNN.json": "b3f030dc4859aa52b0b5588cfceaca96521c5b475ef59c4146db3831fa7ee831",
+    "06_教师学生推荐性能测试/predictions/gra_beta7.jsonl": "ddb5711ac1c5a91916bfea3faeafbb743e1cf935b34705f54cf8cced1830105e",
+    "10_本地2B低延迟优化/frozen_before_selection.json": "42464f1da4e0120ca7f67e811deb01b23a59aa27ad9f6fdcee52c7f2519c1f8c",
+    "07_云端模型八组测试/cases.json": "d5f846f1daebeada137f7b977f17f4f14e1449238bf91850ca0c6125b72a9373",
+    "09_本地2B推荐测试/results/summary.json": "458d42b5a89db1af893b03afd250d490ebb4295c74db7629db162e055b97edd1",
+    "10_本地2B低延迟优化/results/cache_comparison.json": "38fbeb8ac4993f75bceb5fd36e0478d12bc7c5d4955e7a30f21e69b89b5e9591"
+  },
+  "models": 8,
+  "records": 20,
+  "counts": {
+    "30": 8,
+    "1000": 6,
+    "20000": 6
+  },
+  "output": "D:\\Projects\\算法分析与理论课程\\08扩展对比\\推荐性能与耗时对比.html",
+  "sha256": "0e2fd0ee0823c9c404375904439b950e58008bc962d37233b8a5abeca9b53944"
+}

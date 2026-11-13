@@ -1,0 +1,4622 @@
+[
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 0,
+    "test_index": 13906,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:41.4842325Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.4,0.3,0.2,0.1],\"interactions\":[-0.5,-0.5,-0.5,0.5,0.5,0.5]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 1303672300,
+          "load_duration": 2708500,
+          "prompt_eval_count": 387,
+          "prompt_eval_cached_count": 0,
+          "prompt_eval_duration": 780165000,
+          "eval_count": 48,
+          "eval_duration": 510844000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.4,0.3,0.2,0.1],\"interactions\":[-0.5,-0.5,-0.5,0.5,0.5,0.5]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.4000000059604645,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.10000000149011612,
+          -0.5,
+          -0.5,
+          -0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 0,
+        "attempt": 0,
+        "wall_seconds": 1.329005599999988,
+        "prompt_sha256": "905d7b70faf023bcd3401433f2754b7fb83ced15f5cc8ab9b0404eb3df8dcc9a"
+      }
+    ],
+    "api_wall_seconds": 1.329005599999988,
+    "target_rank": 2,
+    "recommendations": [
+      "4759",
+      "8091",
+      "51340",
+      "33890",
+      "11338",
+      "4926",
+      "54421",
+      "78270",
+      "14016",
+      "11114"
+    ],
+    "ranking_seconds": 0.0014929000000023507,
+    "coefficients": [
+      0.4000000059604645,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.10000000149011612,
+      -0.5,
+      -0.5,
+      -0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "recommendation_seconds": 1.3304984999999903
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 1,
+    "test_index": 2437,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:43.6936058Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.2,0.3,0.3,0.2],\"interactions\":[-0.5,-0.5,0.5,0.5,0.5,0.5]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 643643500,
+          "load_duration": 2172800,
+          "prompt_eval_count": 379,
+          "prompt_eval_cached_count": 9,
+          "prompt_eval_duration": 126672000,
+          "eval_count": 48,
+          "eval_duration": 510327000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.2,0.3,0.3,0.2],\"interactions\":[-0.5,-0.5,0.5,0.5,0.5,0.5]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.20000000298023224,
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          -0.5,
+          -0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 1,
+        "attempt": 0,
+        "wall_seconds": 0.6768319999999903,
+        "prompt_sha256": "ed74dff4d7fadc8ee8c8dd8423315c63ab0e95766f4dcc9204ef908f4ee5f3b1"
+      }
+    ],
+    "api_wall_seconds": 0.6768319999999903,
+    "target_rank": 0,
+    "recommendations": [
+      "83105",
+      "65407",
+      "36024",
+      "36645",
+      "6910",
+      "8755",
+      "1327",
+      "76374",
+      "25043",
+      "14740"
+    ],
+    "ranking_seconds": 0.00041539999999429256,
+    "coefficients": [
+      0.20000000298023224,
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      -0.5,
+      -0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "recommendation_seconds": 0.6772473999999846
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 2,
+    "test_index": 1034,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:44.3421434Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 614427700,
+          "load_duration": 2214800,
+          "prompt_eval_count": 377,
+          "prompt_eval_cached_count": 9,
+          "prompt_eval_duration": 116634000,
+          "eval_count": 47,
+          "eval_duration": 491551000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 2,
+        "attempt": 0,
+        "wall_seconds": 0.6458109999999948,
+        "prompt_sha256": "063fd42b8a0bd1ba8b8a3d4c2019efa6ba27fcba4004d1b3384cf04aa70a5d34"
+      }
+    ],
+    "api_wall_seconds": 0.6458109999999948,
+    "target_rank": 0,
+    "recommendations": [
+      "35311",
+      "79130",
+      "35495",
+      "35377",
+      "5454",
+      "79178",
+      "13729",
+      "43167",
+      "12962",
+      "35378"
+    ],
+    "ranking_seconds": 0.0004554000000069891,
+    "coefficients": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612
+    ],
+    "recommendation_seconds": 0.6462664000000018
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 3,
+    "test_index": 8009,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:46.546742Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 617358200,
+          "load_duration": 3313600,
+          "prompt_eval_count": 370,
+          "prompt_eval_cached_count": 9,
+          "prompt_eval_duration": 117214000,
+          "eval_count": 47,
+          "eval_duration": 493121000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 3,
+        "attempt": 0,
+        "wall_seconds": 0.6393466000000103,
+        "prompt_sha256": "942caefb3da4c45d30b9819fe1b9f62fea6b6a9db0d09b203b0780bc2acb36e5"
+      }
+    ],
+    "api_wall_seconds": 0.6393466000000103,
+    "target_rank": 0,
+    "recommendations": [
+      "14097",
+      "151678",
+      "135945",
+      "5773",
+      "58181",
+      "5740",
+      "68982",
+      "25350",
+      "5776",
+      "47357"
+    ],
+    "ranking_seconds": 0.0004281000000077029,
+    "coefficients": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612
+    ],
+    "recommendation_seconds": 0.639774700000018
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 4,
+    "test_index": 6235,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:47.2561218Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.25,0.15,0.15,0.45],\"interactions\":[-0.5,-0.5,0.5,0.5,0.5,0.5]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 705648000,
+          "load_duration": 2119300,
+          "prompt_eval_count": 478,
+          "prompt_eval_cached_count": 9,
+          "prompt_eval_duration": 139765000,
+          "eval_count": 52,
+          "eval_duration": 559809000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.25,0.15,0.15,0.45],\"interactions\":[-0.5,-0.5,0.5,0.5,0.5,0.5]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.25,
+          0.15000000596046448,
+          0.15000000596046448,
+          0.44999998807907104,
+          -0.5,
+          -0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 4,
+        "attempt": 0,
+        "wall_seconds": 0.7071933000000001,
+        "prompt_sha256": "7cd02d9e8fa3a71d680731c972809bc933b6ea3b8bab2b12b0b20865afdf7d65"
+      }
+    ],
+    "api_wall_seconds": 0.7071933000000001,
+    "target_rank": 0,
+    "recommendations": [
+      "133356",
+      "46871",
+      "7017",
+      "19145",
+      "36955",
+      "69239",
+      "19823",
+      "126325",
+      "171363",
+      "58638"
+    ],
+    "ranking_seconds": 0.0004612000000037142,
+    "coefficients": [
+      0.25,
+      0.15000000596046448,
+      0.15000000596046448,
+      0.44999998807907104,
+      -0.5,
+      -0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "recommendation_seconds": 0.7076545000000038
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 5,
+    "test_index": 12999,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:49.6298734Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.15,0.25,0.40,0.20],\"interactions\":[-0.25,-0.25,0.00,0.00,0.00,0.00]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 731863900,
+          "load_duration": 2159200,
+          "prompt_eval_count": 419,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 114953000,
+          "eval_count": 58,
+          "eval_duration": 610803000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.15,0.25,0.40,0.20],\"interactions\":[-0.25,-0.25,0.00,0.00,0.00,0.00]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.15000000596046448,
+          0.25,
+          0.4000000059604645,
+          0.20000000298023224,
+          -0.25,
+          -0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 5,
+        "attempt": 0,
+        "wall_seconds": 0.7475002000000046,
+        "prompt_sha256": "9c785bbd4510b50d78d7f4169f60f98ae884d2ed2f5048abfa8bda92cf84040a"
+      }
+    ],
+    "api_wall_seconds": 0.7475002000000046,
+    "target_rank": 0,
+    "recommendations": [
+      "88228",
+      "3039",
+      "74821",
+      "23193",
+      "85517",
+      "9126",
+      "32949",
+      "174618",
+      "3218",
+      "32948"
+    ],
+    "ranking_seconds": 0.0004251000000010663,
+    "coefficients": [
+      0.15000000596046448,
+      0.25,
+      0.4000000059604645,
+      0.20000000298023224,
+      -0.25,
+      -0.25,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recommendation_seconds": 0.7479253000000057
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 6,
+    "test_index": 6406,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:50.282377Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.4,0.35,0.15,0.1],\"interactions\":[0.1,-0.1,0.1,0.1,-0.1,0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 624264500,
+          "load_duration": 2434000,
+          "prompt_eval_count": 393,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 105353000,
+          "eval_count": 49,
+          "eval_duration": 512706000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.4,0.35,0.15,0.1],\"interactions\":[0.1,-0.1,0.1,0.1,-0.1,0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.4000000059604645,
+          0.3499999940395355,
+          0.15000000596046448,
+          0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 6,
+        "attempt": 0,
+        "wall_seconds": 0.6502665999999948,
+        "prompt_sha256": "a673584b57dd3b975cf051e00a0fb5507cb2bc06f0d3b2fd996721b64f196578"
+      }
+    ],
+    "api_wall_seconds": 0.6502665999999948,
+    "target_rank": 4,
+    "recommendations": [
+      "30947",
+      "16480",
+      "21991",
+      "83603",
+      "33567",
+      "73775",
+      "1419",
+      "53214",
+      "58010",
+      "37382"
+    ],
+    "ranking_seconds": 0.00046460000000081436,
+    "coefficients": [
+      0.4000000059604645,
+      0.3499999940395355,
+      0.15000000596046448,
+      0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612
+    ],
+    "recommendation_seconds": 0.6507311999999956
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 7,
+    "test_index": 17842,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:52.5155477Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.25,-0.25,0.25,-0.25,0.25,-0.25]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 735201800,
+          "load_duration": 2011900,
+          "prompt_eval_count": 402,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 109448000,
+          "eval_count": 57,
+          "eval_duration": 619064000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.25,-0.25,0.25,-0.25,0.25,-0.25]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          -0.25,
+          0.25,
+          -0.25,
+          0.25,
+          -0.25
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 7,
+        "attempt": 0,
+        "wall_seconds": 0.761835700000006,
+        "prompt_sha256": "e44f811bb11db25d23898d458e3d0cea273feb8ce53c0e2fff8cd11e092e238d"
+      }
+    ],
+    "api_wall_seconds": 0.761835700000006,
+    "target_rank": 10,
+    "recommendations": [
+      "55241",
+      "165975",
+      "387092",
+      "67816",
+      "77497",
+      "117439",
+      "35063",
+      "375650",
+      "375426",
+      "76852"
+    ],
+    "ranking_seconds": 0.0004136000000016793,
+    "coefficients": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      -0.25,
+      0.25,
+      -0.25,
+      0.25,
+      -0.25
+    ],
+    "recommendation_seconds": 0.7622493000000077
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 8,
+    "test_index": 1819,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:53.2529465Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.25,-0.25,0.25,-0.25,0.25,-0.25]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 708883900,
+          "load_duration": 3133300,
+          "prompt_eval_count": 376,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 103062000,
+          "eval_count": 57,
+          "eval_duration": 599069000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.25,-0.25,0.25,-0.25,0.25,-0.25]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          -0.25,
+          0.25,
+          -0.25,
+          0.25,
+          -0.25
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 8,
+        "attempt": 0,
+        "wall_seconds": 0.7345030000000037,
+        "prompt_sha256": "13d35052e9b2f2b159ba3784ef86b01fd3e21b209f90926adbe07ccba91b689e"
+      }
+    ],
+    "api_wall_seconds": 0.7345030000000037,
+    "target_rank": 0,
+    "recommendations": [
+      "1599",
+      "10434",
+      "31159",
+      "13866",
+      "345445",
+      "16935",
+      "30681",
+      "14614",
+      "6848",
+      "12862"
+    ],
+    "ranking_seconds": 0.00044300000000419004,
+    "coefficients": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      -0.25,
+      0.25,
+      -0.25,
+      0.25,
+      -0.25
+    ],
+    "recommendation_seconds": 0.7349460000000079
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 9,
+    "test_index": 8036,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:55.4196229Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.75,0.15,0.05,0.05],\"interactions\":[-0.5,-0.5,0.5,0.5,0.5,0.5]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 650083800,
+          "load_duration": 2239600,
+          "prompt_eval_count": 377,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 98331000,
+          "eval_count": 52,
+          "eval_duration": 545257000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.75,0.15,0.05,0.05],\"interactions\":[-0.5,-0.5,0.5,0.5,0.5,0.5]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.75,
+          0.15000000596046448,
+          0.05000000074505806,
+          0.05000000074505806,
+          -0.5,
+          -0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 9,
+        "attempt": 0,
+        "wall_seconds": 0.662111699999997,
+        "prompt_sha256": "431b299fd25055903dc73710d73c74b4c0bbf18abd0ca52ff41865848872f02a"
+      }
+    ],
+    "api_wall_seconds": 0.662111699999997,
+    "target_rank": 0,
+    "recommendations": [
+      "19701",
+      "4104",
+      "9103",
+      "23016",
+      "36351",
+      "766",
+      "11354",
+      "5959",
+      "32956",
+      "10311"
+    ],
+    "ranking_seconds": 0.0004261999999926047,
+    "coefficients": [
+      0.75,
+      0.15000000596046448,
+      0.05000000074505806,
+      0.05000000074505806,
+      -0.5,
+      -0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "recommendation_seconds": 0.6625378999999896
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 10,
+    "test_index": 12017,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:56.0381485Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 604281600,
+          "load_duration": 2211200,
+          "prompt_eval_count": 378,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 96809000,
+          "eval_count": 47,
+          "eval_duration": 501298000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 10,
+        "attempt": 0,
+        "wall_seconds": 0.6161630000000002,
+        "prompt_sha256": "e97684940bc43bcbc705792ee834360ac2051606127063641e45c6d310e42b6e"
+      }
+    ],
+    "api_wall_seconds": 0.6161630000000002,
+    "target_rank": 0,
+    "recommendations": [
+      "36031",
+      "89212",
+      "58637",
+      "6848",
+      "13748",
+      "58636",
+      "13557",
+      "36094",
+      "9052",
+      "13620"
+    ],
+    "ranking_seconds": 0.000343499999999608,
+    "coefficients": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612
+    ],
+    "recommendation_seconds": 0.6165064999999998
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 11,
+    "test_index": 13691,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:58.2057113Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 603827200,
+          "load_duration": 2132000,
+          "prompt_eval_count": 382,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 104423000,
+          "eval_count": 47,
+          "eval_duration": 493348000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 11,
+        "attempt": 0,
+        "wall_seconds": 0.6152947000000069,
+        "prompt_sha256": "0779646854682d97d0e38c03cc3ac4e4ee816d3c279c162e02c5e85ea232cda5"
+      }
+    ],
+    "api_wall_seconds": 0.6152947000000069,
+    "target_rank": 1,
+    "recommendations": [
+      "13362",
+      "14771",
+      "379031",
+      "377075",
+      "36956",
+      "6848",
+      "378243",
+      "17799",
+      "375091",
+      "380239"
+    ],
+    "ranking_seconds": 0.0004105000000009795,
+    "coefficients": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612
+    ],
+    "recommendation_seconds": 0.6157052000000078
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 12,
+    "test_index": 6585,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:58.8965708Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.3,0.3,-0.25,0.15,-0.15,0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 667342400,
+          "load_duration": 2191100,
+          "prompt_eval_count": 377,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 99109000,
+          "eval_count": 54,
+          "eval_duration": 562043000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.3,0.3,-0.25,0.15,-0.15,0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.30000001192092896,
+          0.30000001192092896,
+          -0.25,
+          0.15000000596046448,
+          -0.15000000596046448,
+          0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 12,
+        "attempt": 0,
+        "wall_seconds": 0.6886861000000124,
+        "prompt_sha256": "512735ba62bfb269f9a2e9dd39024bed6b4f55bb2e559bf017ebbf7398065693"
+      }
+    ],
+    "api_wall_seconds": 0.6886861000000124,
+    "target_rank": 1,
+    "recommendations": [
+      "96568",
+      "41750",
+      "118538",
+      "33003",
+      "14614",
+      "6848",
+      "12862",
+      "36031",
+      "49272",
+      "36956"
+    ],
+    "ranking_seconds": 0.0004623000000094635,
+    "coefficients": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.30000001192092896,
+      0.30000001192092896,
+      -0.25,
+      0.15000000596046448,
+      -0.15000000596046448,
+      0.10000000149011612
+    ],
+    "recommendation_seconds": 0.6891484000000219
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 13,
+    "test_index": 15906,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:00.804058Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[1,0,0,0],\"interactions\":[0,0,0,0,0,0]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 383989300,
+          "load_duration": 2144900,
+          "prompt_eval_count": 376,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 98850000,
+          "eval_count": 27,
+          "eval_duration": 278709000
+        },
+        "success": true,
+        "text": "{\"weights\":[1,0,0,0],\"interactions\":[0,0,0,0,0,0]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 13,
+        "attempt": 0,
+        "wall_seconds": 0.4128165999999993,
+        "prompt_sha256": "1f1a1d2e689c1a2c2feff9f2498f1ff935cc902b6d5f11a69c2fbb7050f1e301"
+      }
+    ],
+    "api_wall_seconds": 0.4128165999999993,
+    "target_rank": 0,
+    "recommendations": [
+      "136395",
+      "59248",
+      "9416",
+      "40639",
+      "73816",
+      "32742",
+      "79626",
+      "38873",
+      "31579",
+      "44491"
+    ],
+    "ranking_seconds": 0.00035650000000941873,
+    "coefficients": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recommendation_seconds": 0.41317310000000873
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 14,
+    "test_index": 2560,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:01.4530454Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 615672100,
+          "load_duration": 2864800,
+          "prompt_eval_count": 377,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 97378000,
+          "eval_count": 47,
+          "eval_duration": 511452000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 14,
+        "attempt": 0,
+        "wall_seconds": 0.6513611000000026,
+        "prompt_sha256": "222f7fc9881fe699de044381177c933d6f7b15cc0f4f2b672bdba700c6c2221e"
+      }
+    ],
+    "api_wall_seconds": 0.6513611000000026,
+    "target_rank": 5,
+    "recommendations": [
+      "15986",
+      "382296",
+      "26643",
+      "36890",
+      "169596",
+      "40908",
+      "8328",
+      "10598",
+      "17044",
+      "375863"
+    ],
+    "ranking_seconds": 0.0004447000000027401,
+    "coefficients": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612
+    ],
+    "recommendation_seconds": 0.6518058000000053
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 15,
+    "test_index": 6869,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:03.6565992Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.5,0.25,0.125,0.125],\"interactions\":[-0.5,-0.5,-0.5,0.5,0.5,0.5]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 666422200,
+          "load_duration": 3656100,
+          "prompt_eval_count": 393,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 103716000,
+          "eval_count": 53,
+          "eval_duration": 555207000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.5,0.25,0.125,0.125],\"interactions\":[-0.5,-0.5,-0.5,0.5,0.5,0.5]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.5,
+          0.25,
+          0.125,
+          0.125,
+          -0.5,
+          -0.5,
+          -0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 15,
+        "attempt": 0,
+        "wall_seconds": 0.6956071999999978,
+        "prompt_sha256": "941fb6afe50b99d328b802e3243c8e70b452c9529a870efa0faa44c64982c166"
+      }
+    ],
+    "api_wall_seconds": 0.6956071999999978,
+    "target_rank": 0,
+    "recommendations": [
+      "47765",
+      "14179",
+      "6440",
+      "36925",
+      "36334",
+      "25580",
+      "35626",
+      "129064",
+      "7393",
+      "102091"
+    ],
+    "ranking_seconds": 0.00040189999999995507,
+    "coefficients": [
+      0.5,
+      0.25,
+      0.125,
+      0.125,
+      -0.5,
+      -0.5,
+      -0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "recommendation_seconds": 0.6960090999999977
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 16,
+    "test_index": 10747,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:04.3294292Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.5,-0.5,0.5,-0.5,0.5,-0.5]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 639814400,
+          "load_duration": 2686700,
+          "prompt_eval_count": 373,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 98820000,
+          "eval_count": 51,
+          "eval_duration": 535025999
+        },
+        "success": true,
+        "text": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.5,-0.5,0.5,-0.5,0.5,-0.5]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.5,
+          -0.5,
+          0.5,
+          -0.5,
+          0.5,
+          -0.5
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 16,
+        "attempt": 0,
+        "wall_seconds": 0.6703198999999955,
+        "prompt_sha256": "7b58cc71b3cfddd8078669c9e037af7082d06408200023d2118c28c81aa746f9"
+      }
+    ],
+    "api_wall_seconds": 0.6703198999999955,
+    "target_rank": 0,
+    "recommendations": [
+      "14648",
+      "6754",
+      "35598",
+      "6762",
+      "11786",
+      "12736",
+      "19831",
+      "6308",
+      "13557",
+      "36094"
+    ],
+    "ranking_seconds": 0.0004442999999980657,
+    "coefficients": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.5,
+      -0.5,
+      0.5,
+      -0.5,
+      0.5,
+      -0.5
+    ],
+    "recommendation_seconds": 0.6707641999999936
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 17,
+    "test_index": 17689,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:06.5422935Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.25,-0.25,0.25,0.25,-0.25,0.25]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 706991700,
+          "load_duration": 2166300,
+          "prompt_eval_count": 372,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 97637000,
+          "eval_count": 57,
+          "eval_duration": 603411000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.25,-0.25,0.25,0.25,-0.25,0.25]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          -0.25,
+          0.25,
+          0.25,
+          -0.25,
+          0.25
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 17,
+        "attempt": 0,
+        "wall_seconds": 0.7190470999999974,
+        "prompt_sha256": "c0a35e20e84a1a76a28abee4fb64e8a696ebf4d8598149716c0677a16d03298a"
+      }
+    ],
+    "api_wall_seconds": 0.7190470999999974,
+    "target_rank": 0,
+    "recommendations": [
+      "14589",
+      "385910",
+      "43804",
+      "9100",
+      "9273",
+      "9483",
+      "28689",
+      "14614",
+      "6848",
+      "28000"
+    ],
+    "ranking_seconds": 0.0004499000000066644,
+    "coefficients": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      -0.25,
+      0.25,
+      0.25,
+      -0.25,
+      0.25
+    ],
+    "recommendation_seconds": 0.719497000000004
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 18,
+    "test_index": 2000,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:07.3186415Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.25,-0.25,0.25,-0.25,0.25,-0.25]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 737590700,
+          "load_duration": 2170700,
+          "prompt_eval_count": 411,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 109418000,
+          "eval_count": 57,
+          "eval_duration": 622038000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.25,-0.25,0.25,-0.25,0.25,-0.25]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          -0.25,
+          0.25,
+          -0.25,
+          0.25,
+          -0.25
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 18,
+        "attempt": 0,
+        "wall_seconds": 0.7640223000000077,
+        "prompt_sha256": "fc78e49dd7bf277aac6f1c93322b4e21494c69ca49baa813c512ec4c1ccb9261"
+      }
+    ],
+    "api_wall_seconds": 0.7640223000000077,
+    "target_rank": 0,
+    "recommendations": [
+      "31744",
+      "38811",
+      "30961",
+      "35965",
+      "1255",
+      "4732",
+      "60555",
+      "129516",
+      "94351",
+      "133536"
+    ],
+    "ranking_seconds": 0.0004571000000055392,
+    "coefficients": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      -0.25,
+      0.25,
+      -0.25,
+      0.25,
+      -0.25
+    ],
+    "recommendation_seconds": 0.7644794000000132
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 19,
+    "test_index": 15205,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:09.6125893Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.5,-0.5,0.5,-0.5,0.5,-0.5]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 634244600,
+          "load_duration": 2632200,
+          "prompt_eval_count": 379,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 112949000,
+          "eval_count": 47,
+          "eval_duration": 513943999
+        },
+        "success": true,
+        "text": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.5,-0.5,0.5,-0.5,0.5,-0.5]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.5,
+          -0.5,
+          0.5,
+          -0.5,
+          0.5,
+          -0.5
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 19,
+        "attempt": 0,
+        "wall_seconds": 0.6674533999999994,
+        "prompt_sha256": "31b5e952178471ee01026ef14a3cad078c2384ac3977a57255950c8004c0c8e8"
+      }
+    ],
+    "api_wall_seconds": 0.6674533999999994,
+    "target_rank": 0,
+    "recommendations": [
+      "151405",
+      "36355",
+      "23959",
+      "7464",
+      "11217",
+      "42",
+      "31325",
+      "67639",
+      "377812",
+      "126320"
+    ],
+    "ranking_seconds": 0.000407600000002617,
+    "coefficients": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.5,
+      -0.5,
+      0.5,
+      -0.5,
+      0.5,
+      -0.5
+    ],
+    "recommendation_seconds": 0.667861000000002
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 20,
+    "test_index": 17467,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:10.2956546Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.2,0.3,0.25,0.25],\"interactions\":[0.1,0.15,-0.1,0.15,-0.1,0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 650205400,
+          "load_duration": 2674200,
+          "prompt_eval_count": 384,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 109244000,
+          "eval_count": 51,
+          "eval_duration": 533533000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.2,0.3,0.25,0.25],\"interactions\":[0.1,0.15,-0.1,0.15,-0.1,0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.20000000298023224,
+          0.30000001192092896,
+          0.25,
+          0.25,
+          0.10000000149011612,
+          0.15000000596046448,
+          -0.10000000149011612,
+          0.15000000596046448,
+          -0.10000000149011612,
+          0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 20,
+        "attempt": 0,
+        "wall_seconds": 0.6814466999999951,
+        "prompt_sha256": "9270c5de851c2cc5d0c5a7f3a9989cf927daab1297c072ad4a06951d9bbb802f"
+      }
+    ],
+    "api_wall_seconds": 0.6814466999999951,
+    "target_rank": 3,
+    "recommendations": [
+      "13044",
+      "31502",
+      "33890",
+      "11119",
+      "1596",
+      "5348",
+      "6117",
+      "5659",
+      "11338",
+      "6118"
+    ],
+    "ranking_seconds": 0.00044290000001012686,
+    "coefficients": [
+      0.20000000298023224,
+      0.30000001192092896,
+      0.25,
+      0.25,
+      0.10000000149011612,
+      0.15000000596046448,
+      -0.10000000149011612,
+      0.15000000596046448,
+      -0.10000000149011612,
+      0.10000000149011612
+    ],
+    "recommendation_seconds": 0.6818896000000052
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 21,
+    "test_index": 15886,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:12.5052357Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.6,0.2,0.15,0.05],\"interactions\":[-0.5,-0.5,0.5,0.5,0.5,0.5]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 653118000,
+          "load_duration": 2739100,
+          "prompt_eval_count": 437,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 118338000,
+          "eval_count": 50,
+          "eval_duration": 527721000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.6,0.2,0.15,0.05],\"interactions\":[-0.5,-0.5,0.5,0.5,0.5,0.5]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.6000000238418579,
+          0.20000000298023224,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.5,
+          -0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 21,
+        "attempt": 0,
+        "wall_seconds": 0.6889626999999905,
+        "prompt_sha256": "51e69e6af340381230f43d981c776d936f306a693d8f9ceeb49d3732e37290f2"
+      }
+    ],
+    "api_wall_seconds": 0.6889626999999905,
+    "target_rank": 0,
+    "recommendations": [
+      "70659",
+      "15518",
+      "33907",
+      "11809",
+      "9416",
+      "1985",
+      "15386",
+      "34142",
+      "20022",
+      "4151"
+    ],
+    "ranking_seconds": 0.0003981000000123913,
+    "coefficients": [
+      0.6000000238418579,
+      0.20000000298023224,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.5,
+      -0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "recommendation_seconds": 0.6893608000000029
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 22,
+    "test_index": 1991,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:13.1583816Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.4,-0.2,0.1,-0.1,0.2,-0.3]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 619742500,
+          "load_duration": 2272100,
+          "prompt_eval_count": 373,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 103779000,
+          "eval_count": 47,
+          "eval_duration": 509675000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.4,-0.2,0.1,-0.1,0.2,-0.3]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.4000000059604645,
+          -0.20000000298023224,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.20000000298023224,
+          -0.30000001192092896
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 22,
+        "attempt": 0,
+        "wall_seconds": 0.650618399999999,
+        "prompt_sha256": "efe64b1c09d85d5448f1eaf95110c6c96c2b9473170e6c966bd3fc0dd76567ac"
+      }
+    ],
+    "api_wall_seconds": 0.650618399999999,
+    "target_rank": 0,
+    "recommendations": [
+      "5446",
+      "10162",
+      "2877",
+      "30058",
+      "2047",
+      "34215",
+      "5818",
+      "6066",
+      "33041",
+      "9145"
+    ],
+    "ranking_seconds": 0.0004251000000010663,
+    "coefficients": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.4000000059604645,
+      -0.20000000298023224,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.20000000298023224,
+      -0.30000001192092896
+    ],
+    "recommendation_seconds": 0.6510435000000001
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 23,
+    "test_index": 2735,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:15.4160699Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.5,0.25,0.125,0.125],\"interactions\":[-0.5,-0.5,-0.5,0.5,0.5,0.5]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 680786100,
+          "load_duration": 2263800,
+          "prompt_eval_count": 422,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 116903000,
+          "eval_count": 53,
+          "eval_duration": 557444000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.5,0.25,0.125,0.125],\"interactions\":[-0.5,-0.5,-0.5,0.5,0.5,0.5]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.5,
+          0.25,
+          0.125,
+          0.125,
+          -0.5,
+          -0.5,
+          -0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 23,
+        "attempt": 0,
+        "wall_seconds": 0.6994526000000008,
+        "prompt_sha256": "04778a2e8c5d53cd5606b9b9cf048195664d7c93562b49fa2ea6a2d99494cf28"
+      }
+    ],
+    "api_wall_seconds": 0.6994526000000008,
+    "target_rank": 2,
+    "recommendations": [
+      "32126",
+      "65708",
+      "35386",
+      "87515",
+      "125",
+      "1822",
+      "15190",
+      "6272",
+      "90570",
+      "9313"
+    ],
+    "ranking_seconds": 0.00045450000000357704,
+    "coefficients": [
+      0.5,
+      0.25,
+      0.125,
+      0.125,
+      -0.5,
+      -0.5,
+      -0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "recommendation_seconds": 0.6999071000000043
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 24,
+    "test_index": 19823,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:16.0251587Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 605656300,
+          "load_duration": 2707900,
+          "prompt_eval_count": 383,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 107244000,
+          "eval_count": 47,
+          "eval_duration": 492103000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 24,
+        "attempt": 0,
+        "wall_seconds": 0.6162053999999983,
+        "prompt_sha256": "b7931c2ed8e3ab4f161addc6f3e09bff56613d11eb7454e5a754ca6686b744cc"
+      }
+    ],
+    "api_wall_seconds": 0.6162053999999983,
+    "target_rank": 0,
+    "recommendations": [
+      "117680",
+      "139070",
+      "35690",
+      "89648",
+      "133228",
+      "85555",
+      "10540",
+      "4868",
+      "66013",
+      "14614"
+    ],
+    "ranking_seconds": 0.0004254999999915299,
+    "coefficients": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612
+    ],
+    "recommendation_seconds": 0.6166308999999899
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 25,
+    "test_index": 8327,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:18.2232959Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 601258600,
+          "load_duration": 2131800,
+          "prompt_eval_count": 381,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 101966000,
+          "eval_count": 47,
+          "eval_duration": 493052000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.3,0.3,0.2,0.2],\"interactions\":[0.1,-0.1,0.1,-0.1,0.1,-0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.20000000298023224,
+          0.20000000298023224,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612,
+          0.10000000149011612,
+          -0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 25,
+        "attempt": 0,
+        "wall_seconds": 0.6383612000000056,
+        "prompt_sha256": "ecfb96e5db2c87127f9e29652caf768858f7c33982fa4751c5a6d46fef6c8071"
+      }
+    ],
+    "api_wall_seconds": 0.6383612000000056,
+    "target_rank": 0,
+    "recommendations": [
+      "41203",
+      "2552",
+      "73596",
+      "43939",
+      "73597",
+      "10858",
+      "87021",
+      "36451",
+      "11588",
+      "189275"
+    ],
+    "ranking_seconds": 0.0004612000000037142,
+    "coefficients": [
+      0.30000001192092896,
+      0.30000001192092896,
+      0.20000000298023224,
+      0.20000000298023224,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612,
+      0.10000000149011612,
+      -0.10000000149011612
+    ],
+    "recommendation_seconds": 0.6388224000000093
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 26,
+    "test_index": 1922,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:18.9302783Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.3,0.3,-0.25,0.15,-0.15,0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 675430000,
+          "load_duration": 3427100,
+          "prompt_eval_count": 375,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 103689000,
+          "eval_count": 54,
+          "eval_duration": 564479000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.3,0.3,-0.25,0.15,-0.15,0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.30000001192092896,
+          0.30000001192092896,
+          -0.25,
+          0.15000000596046448,
+          -0.15000000596046448,
+          0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 26,
+        "attempt": 0,
+        "wall_seconds": 0.7035225000000054,
+        "prompt_sha256": "17dda962687844192792e079f226655a8efad957197727c2e590d196d6537ec1"
+      }
+    ],
+    "api_wall_seconds": 0.7035225000000054,
+    "target_rank": 0,
+    "recommendations": [
+      "73408",
+      "35800",
+      "13623",
+      "162071",
+      "14614",
+      "6848",
+      "12862",
+      "36031",
+      "49272",
+      "36956"
+    ],
+    "ranking_seconds": 0.0006010999999972455,
+    "coefficients": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.30000001192092896,
+      0.30000001192092896,
+      -0.25,
+      0.15000000596046448,
+      -0.15000000596046448,
+      0.10000000149011612
+    ],
+    "recommendation_seconds": 0.7041236000000026
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 27,
+    "test_index": 19656,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:21.1151269Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[1.0,0.0,0.0,0.0],\"interactions\":[0.5,-0.5,0.0,0.0,0.0,0.0]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 625306000,
+          "load_duration": 2177600,
+          "prompt_eval_count": 377,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 105518000,
+          "eval_count": 47,
+          "eval_duration": 514059999
+        },
+        "success": true,
+        "text": "{\"weights\":[1.0,0.0,0.0,0.0],\"interactions\":[0.5,-0.5,0.0,0.0,0.0,0.0]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          -0.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 27,
+        "attempt": 0,
+        "wall_seconds": 0.6272411000000062,
+        "prompt_sha256": "ccf848dc15afd9650b40fd72430265e862d7def04211e0c986062b2e2652c870"
+      }
+    ],
+    "api_wall_seconds": 0.6272411000000062,
+    "target_rank": 0,
+    "recommendations": [
+      "59248",
+      "9416",
+      "40639",
+      "73816",
+      "32742",
+      "79626",
+      "38873",
+      "31579",
+      "44491",
+      "11732"
+    ],
+    "ranking_seconds": 0.0003356999999937216,
+    "coefficients": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.5,
+      -0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recommendation_seconds": 0.6275767999999999
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 28,
+    "test_index": 8571,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:21.8086597Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.3,0.3,-0.25,0.15,-0.15,0.1]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 689604800,
+          "load_duration": 2601600,
+          "prompt_eval_count": 377,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 108262000,
+          "eval_count": 54,
+          "eval_duration": 574692000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.25,0.25,0.25,0.25],\"interactions\":[0.3,0.3,-0.25,0.15,-0.15,0.1]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.30000001192092896,
+          0.30000001192092896,
+          -0.25,
+          0.15000000596046448,
+          -0.15000000596046448,
+          0.10000000149011612
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 28,
+        "attempt": 0,
+        "wall_seconds": 0.7003589999999917,
+        "prompt_sha256": "7780f0953dafe90f3735091818d291e4be3a1137b835bb96d330a7991aa4cf18"
+      }
+    ],
+    "api_wall_seconds": 0.7003589999999917,
+    "target_rank": 1,
+    "recommendations": [
+      "33655",
+      "169146",
+      "198614",
+      "14614",
+      "6848",
+      "12862",
+      "36031",
+      "49272",
+      "36956",
+      "10858"
+    ],
+    "ranking_seconds": 0.0004251000000010663,
+    "coefficients": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.30000001192092896,
+      0.30000001192092896,
+      -0.25,
+      0.15000000596046448,
+      -0.15000000596046448,
+      0.10000000149011612
+    ],
+    "recommendation_seconds": 0.7007840999999928
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "case_index": 29,
+    "test_index": 2159,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:23.7552542Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[1,0,0,0],\"interactions\":[0,0,0,0,0,0]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 399575100,
+          "load_duration": 2901700,
+          "prompt_eval_count": 378,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 109577000,
+          "eval_count": 27,
+          "eval_duration": 283158000
+        },
+        "success": true,
+        "text": "{\"weights\":[1,0,0,0],\"interactions\":[0,0,0,0,0,0]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "plain",
+        "case_index": 29,
+        "attempt": 0,
+        "wall_seconds": 0.4157518999999894,
+        "prompt_sha256": "7b2bb4babe66a6f7e247580d9be0c9c9281dbeda405c1fb36c91a479490806a5"
+      }
+    ],
+    "api_wall_seconds": 0.4157518999999894,
+    "target_rank": 0,
+    "recommendations": [
+      "13417",
+      "9511",
+      "65597",
+      "59248",
+      "9416",
+      "40639",
+      "73816",
+      "32742",
+      "79626",
+      "38873"
+    ],
+    "ranking_seconds": 0.00033249999999895863,
+    "coefficients": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recommendation_seconds": 0.41608439999998836
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 0,
+    "test_index": 13906,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:42.2598612Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 748698700,
+          "load_duration": 3545900,
+          "prompt_eval_count": 521,
+          "prompt_eval_cached_count": 0,
+          "prompt_eval_duration": 152502000,
+          "eval_count": 56,
+          "eval_duration": 588409000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 0,
+        "attempt": 0,
+        "wall_seconds": 0.7702295999999933,
+        "prompt_sha256": "7f12bccdb97d5cffe328fc14983de376f18eafb11b97e9800f2d2037e1a74af8"
+      }
+    ],
+    "api_wall_seconds": 0.7702295999999933,
+    "target_rank": 4,
+    "recommendations": [
+      "103958",
+      "19053",
+      "51340",
+      "8091",
+      "4759",
+      "62801",
+      "33890",
+      "11338",
+      "2645",
+      "78270"
+    ],
+    "ranking_seconds": 0.0004998000000000502,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7707293999999933
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 1,
+    "test_index": 2437,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:43.0249048Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 760726400,
+          "load_duration": 2651400,
+          "prompt_eval_count": 499,
+          "prompt_eval_cached_count": 9,
+          "prompt_eval_duration": 147538000,
+          "eval_count": 55,
+          "eval_duration": 604827000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.3100000023841858,
+          0.4000000059604645,
+          0.05000000074505806,
+          0.12999999523162842,
+          0.10000000149011612,
+          -0.029999999329447746,
+          0.12999999523162842,
+          -0.029999999329447746,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 1,
+        "attempt": 0,
+        "wall_seconds": 0.7625337999999999,
+        "prompt_sha256": "a1ea7a51a5171ce42d225bebd1d02742e0ef99156b4cc99772c407c3909dc1db"
+      }
+    ],
+    "api_wall_seconds": 0.7625337999999999,
+    "target_rank": 0,
+    "recommendations": [
+      "6910",
+      "83105",
+      "36645",
+      "65407",
+      "8755",
+      "36024",
+      "18060",
+      "41013",
+      "14740",
+      "128073"
+    ],
+    "ranking_seconds": 0.0005874000000005708,
+    "coefficients": [
+      0.23999999463558197,
+      0.3100000023841858,
+      0.4000000059604645,
+      0.05000000074505806,
+      0.12999999523162842,
+      0.10000000149011612,
+      -0.029999999329447746,
+      0.12999999523162842,
+      -0.029999999329447746,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.7631212000000005
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 2,
+    "test_index": 1034,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:45.1200802Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.42,0.28,0.25,0.05],\"interactions\":[0.1,-0.03,0.15,0.05,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 739287900,
+          "load_duration": 2698100,
+          "prompt_eval_count": 511,
+          "prompt_eval_cached_count": 9,
+          "prompt_eval_duration": 142680000,
+          "eval_count": 56,
+          "eval_duration": 589635000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.42,0.28,0.25,0.05],\"interactions\":[0.1,-0.03,0.15,0.05,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.41999998688697815,
+          0.2800000011920929,
+          0.25,
+          0.05000000074505806,
+          0.10000000149011612,
+          -0.029999999329447746,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 2,
+        "attempt": 0,
+        "wall_seconds": 0.7758673000000016,
+        "prompt_sha256": "f25b41c673df9c52eddbccc41f4bc0c10bd7ec67cd6a761f88483b6c79926414"
+      }
+    ],
+    "api_wall_seconds": 0.7758673000000016,
+    "target_rank": 0,
+    "recommendations": [
+      "35311",
+      "35495",
+      "35377",
+      "79130",
+      "5454",
+      "43167",
+      "5450",
+      "13338",
+      "79141",
+      "35734"
+    ],
+    "ranking_seconds": 0.00043569999999704123,
+    "coefficients": [
+      0.41999998688697815,
+      0.2800000011920929,
+      0.25,
+      0.05000000074505806,
+      0.10000000149011612,
+      -0.029999999329447746,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7763029999999986
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 3,
+    "test_index": 8009,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:45.8951934Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 739773100,
+          "load_duration": 2155700,
+          "prompt_eval_count": 500,
+          "prompt_eval_cached_count": 9,
+          "prompt_eval_duration": 142639000,
+          "eval_count": 56,
+          "eval_duration": 590398000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.14000000059604645,
+          0.3799999952316284,
+          0.4399999976158142,
+          0.03999999910593033,
+          0.07999999821186066,
+          0.03999999910593033,
+          -0.009999999776482582,
+          0.10000000149011612,
+          -0.019999999552965164,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 3,
+        "attempt": 0,
+        "wall_seconds": 0.7725393999999994,
+        "prompt_sha256": "5a7bcf083c7c12698d622eae50ce82386f7924353c1f368e1d97a2d365e906f1"
+      }
+    ],
+    "api_wall_seconds": 0.7725393999999994,
+    "target_rank": 0,
+    "recommendations": [
+      "5740",
+      "5773",
+      "128645",
+      "151678",
+      "68982",
+      "135945",
+      "14097",
+      "25350",
+      "5776",
+      "58181"
+    ],
+    "ranking_seconds": 0.0004451999999872669,
+    "coefficients": [
+      0.14000000059604645,
+      0.3799999952316284,
+      0.4399999976158142,
+      0.03999999910593033,
+      0.07999999821186066,
+      0.03999999910593033,
+      -0.009999999776482582,
+      0.10000000149011612,
+      -0.019999999552965164,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.7729845999999867
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 4,
+    "test_index": 6235,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:48.0755466Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 792665600,
+          "load_duration": 2340400,
+          "prompt_eval_count": 601,
+          "prompt_eval_cached_count": 9,
+          "prompt_eval_duration": 168566000,
+          "eval_count": 57,
+          "eval_duration": 616939000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.4300000071525574,
+          0.2800000011920929,
+          0.05000000074505806,
+          0.14000000059604645,
+          0.05999999865889549,
+          -0.029999999329447746,
+          0.11999999731779099,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 4,
+        "attempt": 0,
+        "wall_seconds": 0.8168517000000008,
+        "prompt_sha256": "c5bd393540a738e980ad17451b29567019868f32f9e493569eb35f5260ca7ff5"
+      }
+    ],
+    "api_wall_seconds": 0.8168517000000008,
+    "target_rank": 0,
+    "recommendations": [
+      "25272",
+      "19145",
+      "133356",
+      "46871",
+      "171363",
+      "128738",
+      "36955",
+      "380431",
+      "19823",
+      "69239"
+    ],
+    "ranking_seconds": 0.0004234999999965794,
+    "coefficients": [
+      0.23999999463558197,
+      0.4300000071525574,
+      0.2800000011920929,
+      0.05000000074505806,
+      0.14000000059604645,
+      0.05999999865889549,
+      -0.029999999329447746,
+      0.11999999731779099,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.8172751999999974
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 5,
+    "test_index": 12999,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:48.8796743Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 789847600,
+          "load_duration": 4257100,
+          "prompt_eval_count": 542,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 154147000,
+          "eval_count": 57,
+          "eval_duration": 615364000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.4300000071525574,
+          0.2800000011920929,
+          0.05000000074505806,
+          0.14000000059604645,
+          0.05999999865889549,
+          -0.029999999329447746,
+          0.11999999731779099,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 5,
+        "attempt": 0,
+        "wall_seconds": 0.8024503000000038,
+        "prompt_sha256": "cbdeea5d26527ce616fc8a4717ba53b79dd34150dd02808651cdf679c3127b4f"
+      }
+    ],
+    "api_wall_seconds": 0.8024503000000038,
+    "target_rank": 0,
+    "recommendations": [
+      "402987",
+      "88228",
+      "3039",
+      "74821",
+      "23193",
+      "188194",
+      "10463",
+      "174618",
+      "43561",
+      "4904"
+    ],
+    "ranking_seconds": 0.0004615000000001146,
+    "coefficients": [
+      0.23999999463558197,
+      0.4300000071525574,
+      0.2800000011920929,
+      0.05000000074505806,
+      0.14000000059604645,
+      0.05999999865889549,
+      -0.029999999329447746,
+      0.11999999731779099,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.802911800000004
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 6,
+    "test_index": 6406,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:51.0012624Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 714008300,
+          "load_duration": 3149100,
+          "prompt_eval_count": 513,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 129237000,
+          "eval_count": 55,
+          "eval_duration": 576978000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.3100000023841858,
+          0.4000000059604645,
+          0.05000000074505806,
+          0.12999999523162842,
+          0.10000000149011612,
+          -0.029999999329447746,
+          0.12999999523162842,
+          -0.029999999329447746,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 6,
+        "attempt": 0,
+        "wall_seconds": 0.7154366999999979,
+        "prompt_sha256": "e905c50218f2309a7897dd437f6c3e9dda2d6b21bbd9c343e14b94c90e68abc4"
+      }
+    ],
+    "api_wall_seconds": 0.7154366999999979,
+    "target_rank": 4,
+    "recommendations": [
+      "30947",
+      "21991",
+      "16480",
+      "83603",
+      "33567",
+      "73775",
+      "1419",
+      "53214",
+      "58010",
+      "37382"
+    ],
+    "ranking_seconds": 0.0006541999999996051,
+    "coefficients": [
+      0.23999999463558197,
+      0.3100000023841858,
+      0.4000000059604645,
+      0.05000000074505806,
+      0.12999999523162842,
+      0.10000000149011612,
+      -0.029999999329447746,
+      0.12999999523162842,
+      -0.029999999329447746,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.7160908999999975
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 7,
+    "test_index": 17842,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:51.7518214Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 746507700,
+          "load_duration": 2792100,
+          "prompt_eval_count": 525,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 130743000,
+          "eval_count": 57,
+          "eval_duration": 608456000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.4300000071525574,
+          0.2800000011920929,
+          0.05000000074505806,
+          0.14000000059604645,
+          0.05999999865889549,
+          -0.029999999329447746,
+          0.11999999731779099,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 7,
+        "attempt": 0,
+        "wall_seconds": 0.7580965000000077,
+        "prompt_sha256": "d9c1933741a2a889104e2c4cc50fb0779773b6fd8752e2973fb106230b70293a"
+      }
+    ],
+    "api_wall_seconds": 0.7580965000000077,
+    "target_rank": 1,
+    "recommendations": [
+      "76852",
+      "42155",
+      "77397",
+      "165975",
+      "375650",
+      "35063",
+      "55241",
+      "117439",
+      "192137",
+      "77497"
+    ],
+    "ranking_seconds": 0.0004330000000010159,
+    "coefficients": [
+      0.23999999463558197,
+      0.4300000071525574,
+      0.2800000011920929,
+      0.05000000074505806,
+      0.14000000059604645,
+      0.05999999865889549,
+      -0.029999999329447746,
+      0.11999999731779099,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7585295000000087
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 8,
+    "test_index": 1819,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:54.0168359Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 730302000,
+          "load_duration": 2167900,
+          "prompt_eval_count": 510,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 130422000,
+          "eval_count": 56,
+          "eval_duration": 593242000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 8,
+        "attempt": 0,
+        "wall_seconds": 0.751761799999997,
+        "prompt_sha256": "b9be5a2308a29b55178c0d62e5fd8d7567710f55b29b5dabade3c279af7ff17c"
+      }
+    ],
+    "api_wall_seconds": 0.751761799999997,
+    "target_rank": 0,
+    "recommendations": [
+      "13866",
+      "1599",
+      "16935",
+      "30681",
+      "345445",
+      "31159",
+      "10434",
+      "32955",
+      "133995",
+      "550"
+    ],
+    "ranking_seconds": 0.00040559999999345564,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7521673999999905
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 9,
+    "test_index": 8036,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:54.7547259Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.42,0.28,0.25,0.05],\"interactions\":[0.1,-0.03,0.15,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 716306300,
+          "load_duration": 2566700,
+          "prompt_eval_count": 511,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 130881000,
+          "eval_count": 55,
+          "eval_duration": 578666000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.42,0.28,0.25,0.05],\"interactions\":[0.1,-0.03,0.15,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.41999998688697815,
+          0.2800000011920929,
+          0.25,
+          0.05000000074505806,
+          0.10000000149011612,
+          -0.029999999329447746,
+          0.15000000596046448,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 9,
+        "attempt": 0,
+        "wall_seconds": 0.7462891999999925,
+        "prompt_sha256": "41975f7801739ae7e4c7215ca04f2951235e0af65109d1a9329bf2fe1b1aa74c"
+      }
+    ],
+    "api_wall_seconds": 0.7462891999999925,
+    "target_rank": 0,
+    "recommendations": [
+      "19701",
+      "9103",
+      "4104",
+      "13788",
+      "5959",
+      "36351",
+      "23016",
+      "128301",
+      "276635",
+      "382946"
+    ],
+    "ranking_seconds": 0.0004481999999939035,
+    "coefficients": [
+      0.41999998688697815,
+      0.2800000011920929,
+      0.25,
+      0.05000000074505806,
+      0.10000000149011612,
+      -0.029999999329447746,
+      0.15000000596046448,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7467373999999865
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 10,
+    "test_index": 12017,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:56.8071253Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 755094300,
+          "load_duration": 2207800,
+          "prompt_eval_count": 512,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 133011000,
+          "eval_count": 56,
+          "eval_duration": 615419000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 10,
+        "attempt": 0,
+        "wall_seconds": 0.7663425000000075,
+        "prompt_sha256": "94210c3e841e2e7ded06a046272ad4de405f4c434463d4a3f6832b890f833734"
+      }
+    ],
+    "api_wall_seconds": 0.7663425000000075,
+    "target_rank": 0,
+    "recommendations": [
+      "89212",
+      "58637",
+      "36031",
+      "6848",
+      "13748",
+      "67116",
+      "204990",
+      "67420",
+      "9052",
+      "13805"
+    ],
+    "ranking_seconds": 0.00031169999999747233,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.766654200000005
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 11,
+    "test_index": 13691,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:57.5883815Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 754870900,
+          "load_duration": 2244500,
+          "prompt_eval_count": 516,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 132570000,
+          "eval_count": 56,
+          "eval_duration": 615547000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 11,
+        "attempt": 0,
+        "wall_seconds": 0.7788108999999963,
+        "prompt_sha256": "788b27e47980b7f62d2a117110d4f27e60c53587e4f1ee5c96916f7d7a9898ce"
+      }
+    ],
+    "api_wall_seconds": 0.7788108999999963,
+    "target_rank": 1,
+    "recommendations": [
+      "13362",
+      "379031",
+      "14771",
+      "377075",
+      "375091",
+      "17799",
+      "378243",
+      "17800",
+      "12103",
+      "19390"
+    ],
+    "ranking_seconds": 0.00044499999999914053,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7792558999999954
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 12,
+    "test_index": 6585,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:45:59.6363407Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 725937500,
+          "load_duration": 2718000,
+          "prompt_eval_count": 507,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 128043000,
+          "eval_count": 56,
+          "eval_duration": 590661000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.14000000059604645,
+          0.3799999952316284,
+          0.4399999976158142,
+          0.03999999910593033,
+          0.07999999821186066,
+          0.03999999910593033,
+          -0.009999999776482582,
+          0.10000000149011612,
+          -0.019999999552965164,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 12,
+        "attempt": 0,
+        "wall_seconds": 0.7378513000000027,
+        "prompt_sha256": "7ff9944f62b03bf99a9a8d039347847af9a394aad6a87f6067c5b5dd0fd9ae5b"
+      }
+    ],
+    "api_wall_seconds": 0.7378513000000027,
+    "target_rank": 1,
+    "recommendations": [
+      "96568",
+      "33003",
+      "118538",
+      "41750",
+      "62004",
+      "686",
+      "74945",
+      "81225",
+      "26346",
+      "134145"
+    ],
+    "ranking_seconds": 0.00041670000000237906,
+    "coefficients": [
+      0.14000000059604645,
+      0.3799999952316284,
+      0.4399999976158142,
+      0.03999999910593033,
+      0.07999999821186066,
+      0.03999999910593033,
+      -0.009999999776482582,
+      0.10000000149011612,
+      -0.019999999552965164,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.738268000000005
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 13,
+    "test_index": 15906,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:00.3933893Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 719686300,
+          "load_duration": 4257800,
+          "prompt_eval_count": 496,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 127645000,
+          "eval_count": 55,
+          "eval_duration": 583556000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.3100000023841858,
+          0.4000000059604645,
+          0.05000000074505806,
+          0.12999999523162842,
+          0.10000000149011612,
+          -0.029999999329447746,
+          0.12999999523162842,
+          -0.029999999329447746,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 13,
+        "attempt": 0,
+        "wall_seconds": 0.7444686999999988,
+        "prompt_sha256": "4bc5a5efc05a691857113eaa2b20cc06e675a40e25a5105b21b7b1e93e75d1d5"
+      }
+    ],
+    "api_wall_seconds": 0.7444686999999988,
+    "target_rank": 0,
+    "recommendations": [
+      "129172",
+      "136395",
+      "72356",
+      "38364",
+      "198998",
+      "125060",
+      "36164",
+      "136255",
+      "35381",
+      "48461"
+    ],
+    "ranking_seconds": 0.0004574000000019396,
+    "coefficients": [
+      0.23999999463558197,
+      0.3100000023841858,
+      0.4000000059604645,
+      0.05000000074505806,
+      0.12999999523162842,
+      0.10000000149011612,
+      -0.029999999329447746,
+      0.12999999523162842,
+      -0.029999999329447746,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.7449261000000007
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 14,
+    "test_index": 2560,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:02.2170609Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 729044700,
+          "load_duration": 2677100,
+          "prompt_eval_count": 511,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 130449999,
+          "eval_count": 56,
+          "eval_duration": 592034000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 14,
+        "attempt": 0,
+        "wall_seconds": 0.7623744999999928,
+        "prompt_sha256": "acf8cf478d962cfbcd785330780da855c0ae94296007c55afe2885b995dfd6c1"
+      }
+    ],
+    "api_wall_seconds": 0.7623744999999928,
+    "target_rank": 4,
+    "recommendations": [
+      "15986",
+      "382296",
+      "26643",
+      "169596",
+      "36890",
+      "40908",
+      "375863",
+      "17044",
+      "10598",
+      "28395"
+    ],
+    "ranking_seconds": 0.00040949999998929343,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7627839999999821
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 15,
+    "test_index": 6869,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:02.9587245Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 728121700,
+          "load_duration": 2648100,
+          "prompt_eval_count": 527,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 131788000,
+          "eval_count": 56,
+          "eval_duration": 588827000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 15,
+        "attempt": 0,
+        "wall_seconds": 0.7396283000000068,
+        "prompt_sha256": "ed4736bbb0303dbbff5644b1146a3e0a1586693429ca7cb37ea9b5e0a383f1f2"
+      }
+    ],
+    "api_wall_seconds": 0.7396283000000068,
+    "target_rank": 0,
+    "recommendations": [
+      "35626",
+      "32823",
+      "47765",
+      "164189",
+      "7573",
+      "387920",
+      "6440",
+      "36925",
+      "175977",
+      "64020"
+    ],
+    "ranking_seconds": 0.00048379999999781376,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7401121000000046
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 16,
+    "test_index": 10747,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:05.0814349Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 722029400,
+          "load_duration": 2222400,
+          "prompt_eval_count": 493,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 127315000,
+          "eval_count": 55,
+          "eval_duration": 587942000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.3100000023841858,
+          0.4000000059604645,
+          0.05000000074505806,
+          0.12999999523162842,
+          0.10000000149011612,
+          -0.029999999329447746,
+          0.12999999523162842,
+          -0.029999999329447746,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 16,
+        "attempt": 0,
+        "wall_seconds": 0.7395621000000006,
+        "prompt_sha256": "217506f0a5f2a63d88a55669a892dadccbb1698400923dddfa73b3951ad30014"
+      }
+    ],
+    "api_wall_seconds": 0.7395621000000006,
+    "target_rank": 1,
+    "recommendations": [
+      "7122",
+      "14648",
+      "6754",
+      "11786",
+      "35598",
+      "6762",
+      "126222",
+      "79659",
+      "58662",
+      "58266"
+    ],
+    "ranking_seconds": 0.00042460000000232867,
+    "coefficients": [
+      0.23999999463558197,
+      0.3100000023841858,
+      0.4000000059604645,
+      0.05000000074505806,
+      0.12999999523162842,
+      0.10000000149011612,
+      -0.029999999329447746,
+      0.12999999523162842,
+      -0.029999999329447746,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.7399867000000029
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 17,
+    "test_index": 17689,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:05.8311125Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 745963800,
+          "load_duration": 2325500,
+          "prompt_eval_count": 506,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 132609000,
+          "eval_count": 56,
+          "eval_duration": 606689000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 17,
+        "attempt": 0,
+        "wall_seconds": 0.7475496999999933,
+        "prompt_sha256": "6e1010cf7105a13a996f3ee914fb9a881782ae14994409bc74f368aaba922764"
+      }
+    ],
+    "api_wall_seconds": 0.7475496999999933,
+    "target_rank": 0,
+    "recommendations": [
+      "385910",
+      "43804",
+      "14589",
+      "9483",
+      "9273",
+      "9100",
+      "28000",
+      "3844",
+      "391840",
+      "27317"
+    ],
+    "ranking_seconds": 0.0005232999999975618,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7480729999999909
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 18,
+    "test_index": 2000,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:08.0954695Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 772368000,
+          "load_duration": 2733000,
+          "prompt_eval_count": 534,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 133085000,
+          "eval_count": 57,
+          "eval_duration": 632038000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.4300000071525574,
+          0.2800000011920929,
+          0.05000000074505806,
+          0.14000000059604645,
+          0.05999999865889549,
+          -0.029999999329447746,
+          0.11999999731779099,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 18,
+        "attempt": 0,
+        "wall_seconds": 0.7845326000000057,
+        "prompt_sha256": "2c8a31d6d854b8a0f38cbebb4b79058a5e0c7c1975f1c6acc7930d81affe0dba"
+      }
+    ],
+    "api_wall_seconds": 0.7845326000000057,
+    "target_rank": 0,
+    "recommendations": [
+      "30961",
+      "94351",
+      "35965",
+      "131892",
+      "133536",
+      "129516",
+      "1255",
+      "38811",
+      "60555",
+      "31744"
+    ],
+    "ranking_seconds": 0.00045830000000535165,
+    "coefficients": [
+      0.23999999463558197,
+      0.4300000071525574,
+      0.2800000011920929,
+      0.05000000074505806,
+      0.14000000059604645,
+      0.05999999865889549,
+      -0.029999999329447746,
+      0.11999999731779099,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.784990900000011
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 19,
+    "test_index": 15205,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:08.9421903Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 812024600,
+          "load_duration": 2317300,
+          "prompt_eval_count": 513,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 141418000,
+          "eval_count": 56,
+          "eval_duration": 656115000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 19,
+        "attempt": 0,
+        "wall_seconds": 0.8440537999999975,
+        "prompt_sha256": "5eb43a092c5f0f7529de7c46128228ed446ade3408f015b6a5c41821a58af97e"
+      }
+    ],
+    "api_wall_seconds": 0.8440537999999975,
+    "target_rank": 0,
+    "recommendations": [
+      "151405",
+      "24271",
+      "4560",
+      "36355",
+      "31325",
+      "7464",
+      "67639",
+      "128652",
+      "23959",
+      "377812"
+    ],
+    "ranking_seconds": 0.0005017999999950007,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.8445555999999925
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 20,
+    "test_index": 17467,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:11.0315234Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 721464800,
+          "load_duration": 2223900,
+          "prompt_eval_count": 504,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 131396999,
+          "eval_count": 55,
+          "eval_duration": 583374000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.3100000023841858,
+          0.4000000059604645,
+          0.05000000074505806,
+          0.12999999523162842,
+          0.10000000149011612,
+          -0.029999999329447746,
+          0.12999999523162842,
+          -0.029999999329447746,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 20,
+        "attempt": 0,
+        "wall_seconds": 0.7325216999999924,
+        "prompt_sha256": "755d0749e272f8ee96a2705867e7b3238ab419fefc975cf244b0f12da5f9cce8"
+      }
+    ],
+    "api_wall_seconds": 0.7325216999999924,
+    "target_rank": 3,
+    "recommendations": [
+      "13044",
+      "31502",
+      "33890",
+      "11119",
+      "5348",
+      "6118",
+      "5659",
+      "1596",
+      "1595",
+      "6117"
+    ],
+    "ranking_seconds": 0.0003938999999917314,
+    "coefficients": [
+      0.23999999463558197,
+      0.3100000023841858,
+      0.4000000059604645,
+      0.05000000074505806,
+      0.12999999523162842,
+      0.10000000149011612,
+      -0.029999999329447746,
+      0.12999999523162842,
+      -0.029999999329447746,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.7329155999999841
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 21,
+    "test_index": 15886,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:11.8147848Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 753896800,
+          "load_duration": 1818000,
+          "prompt_eval_count": 560,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 143252000,
+          "eval_count": 57,
+          "eval_duration": 603846000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.4300000071525574,
+          0.2800000011920929,
+          0.05000000074505806,
+          0.14000000059604645,
+          0.05999999865889549,
+          -0.029999999329447746,
+          0.11999999731779099,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 21,
+        "attempt": 0,
+        "wall_seconds": 0.7818544000000003,
+        "prompt_sha256": "0c1e465f4c2a5e230389bdad86b0c974c90570b39d3c6dfc34ed63cea12565c8"
+      }
+    ],
+    "api_wall_seconds": 0.7818544000000003,
+    "target_rank": 0,
+    "recommendations": [
+      "70659",
+      "15518",
+      "33907",
+      "11809",
+      "9416",
+      "20022",
+      "34142",
+      "15386",
+      "1985",
+      "3541"
+    ],
+    "ranking_seconds": 0.0004362000000099897,
+    "coefficients": [
+      0.23999999463558197,
+      0.4300000071525574,
+      0.2800000011920929,
+      0.05000000074505806,
+      0.14000000059604645,
+      0.05999999865889549,
+      -0.029999999329447746,
+      0.11999999731779099,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7822906000000103
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 22,
+    "test_index": 1991,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:13.9311607Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 741202700,
+          "load_duration": 2745900,
+          "prompt_eval_count": 507,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 139834000,
+          "eval_count": 56,
+          "eval_duration": 594351000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 22,
+        "attempt": 0,
+        "wall_seconds": 0.7701861000000036,
+        "prompt_sha256": "749a93903574130c8c48b79b1068b00ab4ac4f50961e16728282ae8b5bd27932"
+      }
+    ],
+    "api_wall_seconds": 0.7701861000000036,
+    "target_rank": 0,
+    "recommendations": [
+      "5446",
+      "10162",
+      "2047",
+      "35332",
+      "30058",
+      "34215",
+      "2877",
+      "5818",
+      "33041",
+      "6066"
+    ],
+    "ranking_seconds": 0.0003942000000023427,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.770580300000006
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 23,
+    "test_index": 2735,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:14.7140262Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 753950700,
+          "load_duration": 2146000,
+          "prompt_eval_count": 545,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 144879000,
+          "eval_count": 57,
+          "eval_duration": 602129000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.24,0.43,0.28,0.05],\"interactions\":[0.14,0.06,-0.03,0.12,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.23999999463558197,
+          0.4300000071525574,
+          0.2800000011920929,
+          0.05000000074505806,
+          0.14000000059604645,
+          0.05999999865889549,
+          -0.029999999329447746,
+          0.11999999731779099,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 23,
+        "attempt": 0,
+        "wall_seconds": 0.7705167999999958,
+        "prompt_sha256": "c20e593e3ae3e9064de2b7193d019c95710a8e57491f4a030e38dee255a3ebb4"
+      }
+    ],
+    "api_wall_seconds": 0.7705167999999958,
+    "target_rank": 7,
+    "recommendations": [
+      "125",
+      "35386",
+      "32126",
+      "87515",
+      "89620",
+      "90570",
+      "65708",
+      "1822",
+      "15190",
+      "64834"
+    ],
+    "ranking_seconds": 0.0004741000000052509,
+    "coefficients": [
+      0.23999999463558197,
+      0.4300000071525574,
+      0.2800000011920929,
+      0.05000000074505806,
+      0.14000000059604645,
+      0.05999999865889549,
+      -0.029999999329447746,
+      0.11999999731779099,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.770990900000001
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 24,
+    "test_index": 19823,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:16.8105844Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 754678900,
+          "load_duration": 2125800,
+          "prompt_eval_count": 513,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 146687000,
+          "eval_count": 56,
+          "eval_duration": 600940000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.14000000059604645,
+          0.3799999952316284,
+          0.4399999976158142,
+          0.03999999910593033,
+          0.07999999821186066,
+          0.03999999910593033,
+          -0.009999999776482582,
+          0.10000000149011612,
+          -0.019999999552965164,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 24,
+        "attempt": 0,
+        "wall_seconds": 0.7741278999999963,
+        "prompt_sha256": "fb0465a51a38259b703f36ee66e842e0fb7f85389bf8ec7523c7deea1f373eb6"
+      }
+    ],
+    "api_wall_seconds": 0.7741278999999963,
+    "target_rank": 0,
+    "recommendations": [
+      "117680",
+      "133228",
+      "139070",
+      "89648",
+      "85555",
+      "35690",
+      "10540",
+      "42023",
+      "13122",
+      "25633"
+    ],
+    "ranking_seconds": 0.00040179999999168103,
+    "coefficients": [
+      0.14000000059604645,
+      0.3799999952316284,
+      0.4399999976158142,
+      0.03999999910593033,
+      0.07999999821186066,
+      0.03999999910593033,
+      -0.009999999776482582,
+      0.10000000149011612,
+      -0.019999999552965164,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.774529699999988
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 25,
+    "test_index": 8327,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:17.5830274Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 750294000,
+          "load_duration": 2138500,
+          "prompt_eval_count": 511,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 137808000,
+          "eval_count": 56,
+          "eval_duration": 605847000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.14000000059604645,
+          0.3799999952316284,
+          0.4399999976158142,
+          0.03999999910593033,
+          0.07999999821186066,
+          0.03999999910593033,
+          -0.009999999776482582,
+          0.10000000149011612,
+          -0.019999999552965164,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 25,
+        "attempt": 0,
+        "wall_seconds": 0.7799727999999959,
+        "prompt_sha256": "a3810515d547a0bee532b297adeea7d00e9ac428e29a6f8562d90f63f737e918"
+      }
+    ],
+    "api_wall_seconds": 0.7799727999999959,
+    "target_rank": 0,
+    "recommendations": [
+      "41203",
+      "87021",
+      "134384",
+      "11588",
+      "2552",
+      "73596",
+      "73597",
+      "43939",
+      "10858",
+      "36451"
+    ],
+    "ranking_seconds": 0.00046119999998950334,
+    "coefficients": [
+      0.14000000059604645,
+      0.3799999952316284,
+      0.4399999976158142,
+      0.03999999910593033,
+      0.07999999821186066,
+      0.03999999910593033,
+      -0.009999999776482582,
+      0.10000000149011612,
+      -0.019999999552965164,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.7804339999999854
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 26,
+    "test_index": 1922,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:19.7127479Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 748323300,
+          "load_duration": 2176100,
+          "prompt_eval_count": 505,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 146776000,
+          "eval_count": 56,
+          "eval_duration": 594672000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.14000000059604645,
+          0.3799999952316284,
+          0.4399999976158142,
+          0.03999999910593033,
+          0.07999999821186066,
+          0.03999999910593033,
+          -0.009999999776482582,
+          0.10000000149011612,
+          -0.019999999552965164,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 26,
+        "attempt": 0,
+        "wall_seconds": 0.7804669000000075,
+        "prompt_sha256": "d98046c78e069edd7e76ab765ad70f0628b662a435fde557843ea0eac94582ff"
+      }
+    ],
+    "api_wall_seconds": 0.7804669000000075,
+    "target_rank": 0,
+    "recommendations": [
+      "73408",
+      "35800",
+      "13623",
+      "162071",
+      "31678",
+      "5545",
+      "125653",
+      "13287",
+      "46976",
+      "201888"
+    ],
+    "ranking_seconds": 0.000548200000011434,
+    "coefficients": [
+      0.14000000059604645,
+      0.3799999952316284,
+      0.4399999976158142,
+      0.03999999910593033,
+      0.07999999821186066,
+      0.03999999910593033,
+      -0.009999999776482582,
+      0.10000000149011612,
+      -0.019999999552965164,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.781015100000019
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 27,
+    "test_index": 19656,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:20.4857799Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 742986600,
+          "load_duration": 2610300,
+          "prompt_eval_count": 507,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 134012000,
+          "eval_count": 56,
+          "eval_duration": 601850000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.14,0.38,0.44,0.04],\"interactions\":[0.08,0.04,-0.01,0.1,-0.02,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.14000000059604645,
+          0.3799999952316284,
+          0.4399999976158142,
+          0.03999999910593033,
+          0.07999999821186066,
+          0.03999999910593033,
+          -0.009999999776482582,
+          0.10000000149011612,
+          -0.019999999552965164,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 27,
+        "attempt": 0,
+        "wall_seconds": 0.7604149000000007,
+        "prompt_sha256": "37427aab75e79cd7c0e6e0c52e031a6c35b76fd88a9f60b6862b07dc071caa0b"
+      }
+    ],
+    "api_wall_seconds": 0.7604149000000007,
+    "target_rank": 0,
+    "recommendations": [
+      "46805",
+      "2828",
+      "125425",
+      "36386",
+      "90144",
+      "5844",
+      "36807",
+      "378101",
+      "414308",
+      "79141"
+    ],
+    "ranking_seconds": 0.00044629999999301617,
+    "coefficients": [
+      0.14000000059604645,
+      0.3799999952316284,
+      0.4399999976158142,
+      0.03999999910593033,
+      0.07999999821186066,
+      0.03999999910593033,
+      -0.009999999776482582,
+      0.10000000149011612,
+      -0.019999999552965164,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.7608611999999937
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 28,
+    "test_index": 8571,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:22.5719137Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.1,0.24,0.62,0.04],\"interactions\":[0.04,0.08,-0.01,0.13,-0.02,-0.03]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 750491000,
+          "load_duration": 2721400,
+          "prompt_eval_count": 502,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 147173000,
+          "eval_count": 56,
+          "eval_duration": 596415000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.1,0.24,0.62,0.04],\"interactions\":[0.04,0.08,-0.01,0.13,-0.02,-0.03]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.10000000149011612,
+          0.23999999463558197,
+          0.6200000047683716,
+          0.03999999910593033,
+          0.03999999910593033,
+          0.07999999821186066,
+          -0.009999999776482582,
+          0.12999999523162842,
+          -0.019999999552965164,
+          -0.029999999329447746
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 28,
+        "attempt": 0,
+        "wall_seconds": 0.7614196999999905,
+        "prompt_sha256": "cd37e72c33061a170f04885d4a6f7b62fd11793571b8936093c103b092c088be"
+      }
+    ],
+    "api_wall_seconds": 0.7614196999999905,
+    "target_rank": 1,
+    "recommendations": [
+      "33655",
+      "169146",
+      "198614",
+      "14614",
+      "6848",
+      "12862",
+      "36031",
+      "49272",
+      "36956",
+      "10858"
+    ],
+    "ranking_seconds": 0.0003714999999999691,
+    "coefficients": [
+      0.10000000149011612,
+      0.23999999463558197,
+      0.6200000047683716,
+      0.03999999910593033,
+      0.03999999910593033,
+      0.07999999821186066,
+      -0.009999999776482582,
+      0.12999999523162842,
+      -0.019999999552965164,
+      -0.029999999329447746
+    ],
+    "recommendation_seconds": 0.7617911999999905
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "case_index": 29,
+    "test_index": 2159,
+    "success": true,
+    "attempts": [
+      {
+        "response": {
+          "model": "qwen3.5:2b-q4_K_M",
+          "created_at": "2026-11-12T10:46:23.3269459Z",
+          "message": {
+            "role": "assistant",
+            "content": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}"
+          },
+          "done": true,
+          "done_reason": "stop",
+          "total_duration": 741856000,
+          "load_duration": 2207800,
+          "prompt_eval_count": 512,
+          "prompt_eval_cached_count": 89,
+          "prompt_eval_duration": 136910000,
+          "eval_count": 56,
+          "eval_duration": 598295000
+        },
+        "success": true,
+        "text": "{\"weights\":[0.28,0.42,0.25,0.05],\"interactions\":[0.15,0.05,-0.03,0.1,-0.03,-0.02]}",
+        "thinking_characters": 0,
+        "coefficients": [
+          0.2800000011920929,
+          0.41999998688697815,
+          0.25,
+          0.05000000074505806,
+          0.15000000596046448,
+          0.05000000074505806,
+          -0.029999999329447746,
+          0.10000000149011612,
+          -0.029999999329447746,
+          -0.019999999552965164
+        ],
+        "raw_weight_sum": 1.0,
+        "condition": "teacher",
+        "case_index": 29,
+        "attempt": 0,
+        "wall_seconds": 0.7536506000000003,
+        "prompt_sha256": "d506d3a1669dec3735a4cbf5f2662817cc0e1dac0a3b9adf71c9435d94567545"
+      }
+    ],
+    "api_wall_seconds": 0.7536506000000003,
+    "target_rank": 0,
+    "recommendations": [
+      "9511",
+      "65597",
+      "13417",
+      "211899",
+      "55115",
+      "35452",
+      "131120",
+      "89938",
+      "13279",
+      "128512"
+    ],
+    "ranking_seconds": 0.0004554000000069891,
+    "coefficients": [
+      0.2800000011920929,
+      0.41999998688697815,
+      0.25,
+      0.05000000074505806,
+      0.15000000596046448,
+      0.05000000074505806,
+      -0.029999999329447746,
+      0.10000000149011612,
+      -0.029999999329447746,
+      -0.019999999552965164
+    ],
+    "recommendation_seconds": 0.7541060000000073
+  }
+]

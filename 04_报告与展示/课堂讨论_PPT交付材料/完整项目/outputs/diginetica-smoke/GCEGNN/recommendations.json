@@ -1,0 +1,655 @@
+[
+  {
+    "session_id": "4794",
+    "history_item_ids": [
+      "9933",
+      "1304",
+      "28625",
+      "19542",
+      "29212"
+    ],
+    "true_next_item_id": "6428",
+    "target_in_top10": false,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "19542",
+        "model_score": 9.70346736907959
+      },
+      {
+        "rank": 2,
+        "item_id": "28625",
+        "model_score": 8.791526794433594
+      },
+      {
+        "rank": 3,
+        "item_id": "1304",
+        "model_score": 7.843732833862305
+      },
+      {
+        "rank": 4,
+        "item_id": "9933",
+        "model_score": 7.676262855529785
+      },
+      {
+        "rank": 5,
+        "item_id": "208277",
+        "model_score": 6.376104831695557
+      },
+      {
+        "rank": 6,
+        "item_id": "12965",
+        "model_score": 6.35330867767334
+      },
+      {
+        "rank": 7,
+        "item_id": "82729",
+        "model_score": 6.2901997566223145
+      },
+      {
+        "rank": 8,
+        "item_id": "86304",
+        "model_score": 5.973560810089111
+      },
+      {
+        "rank": 9,
+        "item_id": "300",
+        "model_score": 5.962804317474365
+      },
+      {
+        "rank": 10,
+        "item_id": "79662",
+        "model_score": 5.458355903625488
+      }
+    ]
+  },
+  {
+    "session_id": "5488",
+    "history_item_ids": [
+      "4124",
+      "77299",
+      "4124",
+      "136316"
+    ],
+    "true_next_item_id": "34113",
+    "target_in_top10": false,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "4124",
+        "model_score": 8.105705261230469
+      },
+      {
+        "rank": 2,
+        "item_id": "77299",
+        "model_score": 5.3401007652282715
+      },
+      {
+        "rank": 3,
+        "item_id": "27087",
+        "model_score": 4.297603607177734
+      },
+      {
+        "rank": 4,
+        "item_id": "125942",
+        "model_score": 3.64863657951355
+      },
+      {
+        "rank": 5,
+        "item_id": "168102",
+        "model_score": 3.611854314804077
+      },
+      {
+        "rank": 6,
+        "item_id": "3335",
+        "model_score": 3.5157034397125244
+      },
+      {
+        "rank": 7,
+        "item_id": "126487",
+        "model_score": 3.4910404682159424
+      },
+      {
+        "rank": 8,
+        "item_id": "13967",
+        "model_score": 3.440216541290283
+      },
+      {
+        "rank": 9,
+        "item_id": "20277",
+        "model_score": 3.4012718200683594
+      },
+      {
+        "rank": 10,
+        "item_id": "173671",
+        "model_score": 3.3853132724761963
+      }
+    ]
+  },
+  {
+    "session_id": "6254",
+    "history_item_ids": [
+      "43004",
+      "410411",
+      "70845",
+      "2650"
+    ],
+    "true_next_item_id": "2650",
+    "target_in_top10": false,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "70845",
+        "model_score": 11.345511436462402
+      },
+      {
+        "rank": 2,
+        "item_id": "410411",
+        "model_score": 9.253630638122559
+      },
+      {
+        "rank": 3,
+        "item_id": "43004",
+        "model_score": 8.730656623840332
+      },
+      {
+        "rank": 4,
+        "item_id": "206744",
+        "model_score": 7.824998378753662
+      },
+      {
+        "rank": 5,
+        "item_id": "4124",
+        "model_score": 6.733745098114014
+      },
+      {
+        "rank": 6,
+        "item_id": "48332",
+        "model_score": 6.711023807525635
+      },
+      {
+        "rank": 7,
+        "item_id": "89497",
+        "model_score": 6.517912864685059
+      },
+      {
+        "rank": 8,
+        "item_id": "33628",
+        "model_score": 6.482813358306885
+      },
+      {
+        "rank": 9,
+        "item_id": "59045",
+        "model_score": 6.466325283050537
+      },
+      {
+        "rank": 10,
+        "item_id": "36872",
+        "model_score": 6.333128929138184
+      }
+    ]
+  },
+  {
+    "session_id": "4344",
+    "history_item_ids": [
+      "85558",
+      "353154",
+      "353154",
+      "353154",
+      "353154",
+      "353154",
+      "29575",
+      "29575"
+    ],
+    "true_next_item_id": "29575",
+    "target_in_top10": true,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "29575",
+        "model_score": 12.534745216369629
+      },
+      {
+        "rank": 2,
+        "item_id": "353154",
+        "model_score": 11.956618309020996
+      },
+      {
+        "rank": 3,
+        "item_id": "10706",
+        "model_score": 7.589748859405518
+      },
+      {
+        "rank": 4,
+        "item_id": "55518",
+        "model_score": 7.380752086639404
+      },
+      {
+        "rank": 5,
+        "item_id": "12865",
+        "model_score": 7.27453088760376
+      },
+      {
+        "rank": 6,
+        "item_id": "81043",
+        "model_score": 6.987400054931641
+      },
+      {
+        "rank": 7,
+        "item_id": "1534",
+        "model_score": 6.640995979309082
+      },
+      {
+        "rank": 8,
+        "item_id": "81081",
+        "model_score": 6.617484092712402
+      },
+      {
+        "rank": 9,
+        "item_id": "25041",
+        "model_score": 6.5681071281433105
+      },
+      {
+        "rank": 10,
+        "item_id": "14300",
+        "model_score": 6.539541244506836
+      }
+    ]
+  },
+  {
+    "session_id": "5727",
+    "history_item_ids": [
+      "27198",
+      "19588",
+      "13831",
+      "34216",
+      "13831",
+      "34216",
+      "140617"
+    ],
+    "true_next_item_id": "29828",
+    "target_in_top10": false,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "34216",
+        "model_score": 8.73075008392334
+      },
+      {
+        "rank": 2,
+        "item_id": "13831",
+        "model_score": 6.50697135925293
+      },
+      {
+        "rank": 3,
+        "item_id": "19588",
+        "model_score": 4.8134636878967285
+      },
+      {
+        "rank": 4,
+        "item_id": "33875",
+        "model_score": 4.606818199157715
+      },
+      {
+        "rank": 5,
+        "item_id": "36092",
+        "model_score": 4.527087688446045
+      },
+      {
+        "rank": 6,
+        "item_id": "27198",
+        "model_score": 4.263891696929932
+      },
+      {
+        "rank": 7,
+        "item_id": "14614",
+        "model_score": 4.2590460777282715
+      },
+      {
+        "rank": 8,
+        "item_id": "13334",
+        "model_score": 4.1724724769592285
+      },
+      {
+        "rank": 9,
+        "item_id": "55531",
+        "model_score": 3.626044750213623
+      },
+      {
+        "rank": 10,
+        "item_id": "177828",
+        "model_score": 3.598851203918457
+      }
+    ]
+  },
+  {
+    "session_id": "6755",
+    "history_item_ids": [
+      "35879",
+      "35879",
+      "35879",
+      "32134",
+      "57925",
+      "88887",
+      "9667",
+      "89718",
+      "9894"
+    ],
+    "true_next_item_id": "77310",
+    "target_in_top10": false,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "89718",
+        "model_score": 9.579961776733398
+      },
+      {
+        "rank": 2,
+        "item_id": "88887",
+        "model_score": 7.01597261428833
+      },
+      {
+        "rank": 3,
+        "item_id": "9667",
+        "model_score": 6.475148677825928
+      },
+      {
+        "rank": 4,
+        "item_id": "35879",
+        "model_score": 5.435262680053711
+      },
+      {
+        "rank": 5,
+        "item_id": "13749",
+        "model_score": 5.083619117736816
+      },
+      {
+        "rank": 6,
+        "item_id": "71927",
+        "model_score": 5.074538230895996
+      },
+      {
+        "rank": 7,
+        "item_id": "62241",
+        "model_score": 4.930771350860596
+      },
+      {
+        "rank": 8,
+        "item_id": "9894",
+        "model_score": 4.562193870544434
+      },
+      {
+        "rank": 9,
+        "item_id": "5688",
+        "model_score": 4.508098602294922
+      },
+      {
+        "rank": 10,
+        "item_id": "9625",
+        "model_score": 4.455780982971191
+      }
+    ]
+  },
+  {
+    "session_id": "7455",
+    "history_item_ids": [
+      "385497",
+      "385497",
+      "32418",
+      "36214",
+      "9252",
+      "14452",
+      "31926",
+      "3704",
+      "36214",
+      "34131",
+      "3168"
+    ],
+    "true_next_item_id": "3189",
+    "target_in_top10": false,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "34131",
+        "model_score": 6.628070831298828
+      },
+      {
+        "rank": 2,
+        "item_id": "36214",
+        "model_score": 6.207279205322266
+      },
+      {
+        "rank": 3,
+        "item_id": "31926",
+        "model_score": 5.458860397338867
+      },
+      {
+        "rank": 4,
+        "item_id": "3704",
+        "model_score": 5.274721145629883
+      },
+      {
+        "rank": 5,
+        "item_id": "9252",
+        "model_score": 4.590824604034424
+      },
+      {
+        "rank": 6,
+        "item_id": "14452",
+        "model_score": 4.503629684448242
+      },
+      {
+        "rank": 7,
+        "item_id": "36061",
+        "model_score": 4.50164270401001
+      },
+      {
+        "rank": 8,
+        "item_id": "257715",
+        "model_score": 4.401208400726318
+      },
+      {
+        "rank": 9,
+        "item_id": "32950",
+        "model_score": 4.144678592681885
+      },
+      {
+        "rank": 10,
+        "item_id": "32418",
+        "model_score": 3.9948666095733643
+      }
+    ]
+  },
+  {
+    "session_id": "7398",
+    "history_item_ids": [
+      "35885",
+      "59028",
+      "38186",
+      "21075",
+      "1881",
+      "7740"
+    ],
+    "true_next_item_id": "92852",
+    "target_in_top10": false,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "1881",
+        "model_score": 6.977083683013916
+      },
+      {
+        "rank": 2,
+        "item_id": "38186",
+        "model_score": 5.5343017578125
+      },
+      {
+        "rank": 3,
+        "item_id": "59028",
+        "model_score": 5.445835113525391
+      },
+      {
+        "rank": 4,
+        "item_id": "21075",
+        "model_score": 5.150043964385986
+      },
+      {
+        "rank": 5,
+        "item_id": "7801",
+        "model_score": 5.088859558105469
+      },
+      {
+        "rank": 6,
+        "item_id": "11647",
+        "model_score": 4.861940383911133
+      },
+      {
+        "rank": 7,
+        "item_id": "35885",
+        "model_score": 4.481795310974121
+      },
+      {
+        "rank": 8,
+        "item_id": "29519",
+        "model_score": 4.460549831390381
+      },
+      {
+        "rank": 9,
+        "item_id": "257715",
+        "model_score": 4.028887748718262
+      },
+      {
+        "rank": 10,
+        "item_id": "32184",
+        "model_score": 4.009579181671143
+      }
+    ]
+  },
+  {
+    "session_id": "2525",
+    "history_item_ids": [
+      "48286",
+      "34985",
+      "9291",
+      "34985",
+      "34985"
+    ],
+    "true_next_item_id": "128694",
+    "target_in_top10": false,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "34985",
+        "model_score": 12.70920181274414
+      },
+      {
+        "rank": 2,
+        "item_id": "4916",
+        "model_score": 10.787267684936523
+      },
+      {
+        "rank": 3,
+        "item_id": "48286",
+        "model_score": 9.505958557128906
+      },
+      {
+        "rank": 4,
+        "item_id": "9291",
+        "model_score": 6.761796951293945
+      },
+      {
+        "rank": 5,
+        "item_id": "35063",
+        "model_score": 6.718972682952881
+      },
+      {
+        "rank": 6,
+        "item_id": "131192",
+        "model_score": 6.294396877288818
+      },
+      {
+        "rank": 7,
+        "item_id": "9502",
+        "model_score": 6.2436676025390625
+      },
+      {
+        "rank": 8,
+        "item_id": "9971",
+        "model_score": 6.238550662994385
+      },
+      {
+        "rank": 9,
+        "item_id": "9303",
+        "model_score": 6.214198112487793
+      },
+      {
+        "rank": 10,
+        "item_id": "30366",
+        "model_score": 6.00740909576416
+      }
+    ]
+  },
+  {
+    "session_id": "198746",
+    "history_item_ids": [
+      "232991",
+      "24140",
+      "89995",
+      "24732"
+    ],
+    "true_next_item_id": "34126",
+    "target_in_top10": false,
+    "recommendations": [
+      {
+        "rank": 1,
+        "item_id": "89995",
+        "model_score": 8.444602012634277
+      },
+      {
+        "rank": 2,
+        "item_id": "24140",
+        "model_score": 8.258089065551758
+      },
+      {
+        "rank": 3,
+        "item_id": "232991",
+        "model_score": 7.453421115875244
+      },
+      {
+        "rank": 4,
+        "item_id": "173442",
+        "model_score": 4.666875839233398
+      },
+      {
+        "rank": 5,
+        "item_id": "14487",
+        "model_score": 4.598779201507568
+      },
+      {
+        "rank": 6,
+        "item_id": "78866",
+        "model_score": 4.596179485321045
+      },
+      {
+        "rank": 7,
+        "item_id": "20277",
+        "model_score": 4.436997413635254
+      },
+      {
+        "rank": 8,
+        "item_id": "164978",
+        "model_score": 4.411221504211426
+      },
+      {
+        "rank": 9,
+        "item_id": "11723",
+        "model_score": 4.3772783279418945
+      },
+      {
+        "rank": 10,
+        "item_id": "17510",
+        "model_score": 4.288791656494141
+      }
+    ]
+  }
+]

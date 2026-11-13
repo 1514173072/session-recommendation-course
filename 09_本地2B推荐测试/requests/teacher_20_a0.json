@@ -1,0 +1,40 @@
+{
+  "response": {
+    "model": "qwen3.5:2b-q4_K_M",
+    "created_at": "2026-11-12T10:46:11.0315234Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 721464800,
+    "load_duration": 2223900,
+    "prompt_eval_count": 504,
+    "prompt_eval_cached_count": 89,
+    "prompt_eval_duration": 131396999,
+    "eval_count": 55,
+    "eval_duration": 583374000
+  },
+  "success": true,
+  "text": "{\"weights\":[0.24,0.31,0.4,0.05],\"interactions\":[0.13,0.1,-0.03,0.13,-0.03,-0.03]}",
+  "thinking_characters": 0,
+  "coefficients": [
+    0.23999999463558197,
+    0.3100000023841858,
+    0.4000000059604645,
+    0.05000000074505806,
+    0.12999999523162842,
+    0.10000000149011612,
+    -0.029999999329447746,
+    0.12999999523162842,
+    -0.029999999329447746,
+    -0.029999999329447746
+  ],
+  "raw_weight_sum": 1.0,
+  "condition": "teacher",
+  "case_index": 20,
+  "attempt": 0,
+  "wall_seconds": 0.7325216999999924,
+  "prompt_sha256": "755d0749e272f8ee96a2705867e7b3238ab419fefc975cf244b0f12da5f9cce8"
+}

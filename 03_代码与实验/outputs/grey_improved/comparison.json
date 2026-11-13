@@ -1,0 +1,72 @@
+[
+  {
+    "model": "SRGNN",
+    "recall@10": 0.28175,
+    "mrr@10": 0.13395529761904762,
+    "ndcg@10": 0.1687674312224673,
+    "hit@10": 0.28175,
+    "precision@10": 0.028175,
+    "repeat_target_recall@10": 0.7144568006843456,
+    "novel_target_recall@10": 0.10307311903920877,
+    "response_mean_ms": 1.2773037777777778,
+    "response_median_ms": 1.2236500000000001,
+    "response_p95_ms": 1.6778499999999998,
+    "numeric_state_mb_decimal": 8.688896
+  },
+  {
+    "model": "GCSAN",
+    "recall@10": 0.29525,
+    "mrr@10": 0.13874021825396826,
+    "ndcg@10": 0.17556878527687858,
+    "hit@10": 0.29525,
+    "precision@10": 0.029525000000000003,
+    "repeat_target_recall@10": 0.6523524379811805,
+    "novel_target_recall@10": 0.1477922995407983,
+    "response_mean_ms": 1.7546067777777776,
+    "response_median_ms": 1.69705,
+    "response_p95_ms": 2.2216049999999994,
+    "numeric_state_mb_decimal": 8.822272
+  },
+  {
+    "model": "GCEGNN",
+    "recall@10": 0.33135,
+    "mrr@10": 0.15904168650793649,
+    "ndcg@10": 0.19979042781804632,
+    "hit@10": 0.33135,
+    "precision@10": 0.033135,
+    "repeat_target_recall@10": 0.7984602224123182,
+    "novel_target_recall@10": 0.13846697280113035,
+    "response_mean_ms": 1.954447,
+    "response_median_ms": 1.8798,
+    "response_p95_ms": 2.4088499999999997,
+    "numeric_state_mb_decimal": 13.309712
+  },
+  {
+    "model": "GRA-original",
+    "recall@10": 0.28875,
+    "mrr@10": 0.14374609126984125,
+    "ndcg@10": 0.1784833848016636,
+    "hit@10": 0.28875,
+    "precision@10": 0.028875,
+    "repeat_target_recall@10": 0.7899059024807528,
+    "novel_target_recall@10": 0.08180854821617803,
+    "response_mean_ms": 0.6332738888888889,
+    "response_median_ms": 0.61515,
+    "response_p95_ms": 0.797035,
+    "numeric_state_mb_decimal": 4.938028
+  },
+  {
+    "model": "GRA-improved",
+    "recall@10": 0.3719,
+    "mrr@10": 0.18065607142857143,
+    "ndcg@10": 0.22592089526330014,
+    "hit@10": 0.3719,
+    "precision@10": 0.03719,
+    "repeat_target_recall@10": 0.9881950384944397,
+    "novel_target_recall@10": 0.11741434122218297,
+    "response_mean_ms": 0.45544011111111116,
+    "response_median_ms": 0.3952,
+    "response_p95_ms": 0.8410749999999997,
+    "numeric_state_mb_decimal": 7.109648
+  }
+]

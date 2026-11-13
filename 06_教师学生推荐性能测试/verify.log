@@ -1,0 +1,129 @@
+D:\Envs\recbole-gnn-py39\lib\site-packages\scipy\sparse\_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+{
+  "all_passed": true,
+  "scope": "independent performance pilot, not part of course paper",
+  "source_and_existing_GRA_unchanged": true,
+  "split_hashes": {
+    "train": "b9d1b3bd47d3bc7905ffa4dc4219618a19a2539427983d3a40f064b286a77f11",
+    "valid": "dce0721d44aaa6eb2285ff8135450ab9616a17d535fb1279b04085d6913f8311",
+    "test": "6e490221d53344ec678614e5ab9fe2051e079b7036e324b893228796ae717212"
+  },
+  "train_prefixes_exclude_heldout_positions": true,
+  "session_oof_training_features_checked": 50,
+  "teacher_evidence_train_only": true,
+  "teacher_prototypes": 12,
+  "actual_observed_groups": 12,
+  "teacher_guidance_records_checked": 2000,
+  "independent_llm_calls": 0,
+  "same_student_init_batches_budget": true,
+  "reload_and_independent_forward": {
+    "student_plain": {
+      "parameters": 282,
+      "fp32_parameter_bytes": 1128,
+      "numpy_forward_matches": true
+    },
+    "student_teacher": {
+      "parameters": 282,
+      "fp32_parameter_bytes": 1128,
+      "numpy_forward_matches": true
+    }
+  },
+  "models_frozen_match_test_freeze": true,
+  "models": {
+    "gra_original": {
+      "full_prediction_rows": 20000,
+      "independent_metrics": {
+        "recall@10": 0.28875,
+        "mrr@10": 0.1437460912698416,
+        "ndcg@10": 0.1784833848016577
+      },
+      "latency_correctness_queries": 300,
+      "timed_calls": 900
+    },
+    "gra_beta7": {
+      "full_prediction_rows": 20000,
+      "independent_metrics": {
+        "recall@10": 0.3554,
+        "mrr@10": 0.1609937103174613,
+        "ndcg@10": 0.2068091067642531
+      },
+      "latency_correctness_queries": 300,
+      "timed_calls": 900
+    },
+    "teacher_rules": {
+      "full_prediction_rows": 20000,
+      "independent_metrics": {
+        "recall@10": 0.3548,
+        "mrr@10": 0.16049134920635033,
+        "ndcg@10": 0.2062089640189363
+      },
+      "latency_correctness_queries": 300,
+      "timed_calls": 900
+    },
+    "student_plain": {
+      "full_prediction_rows": 20000,
+      "independent_metrics": {
+        "recall@10": 0.36375,
+        "mrr@10": 0.16767579365079424,
+        "ndcg@10": 0.21377222309759444
+      },
+      "latency_correctness_queries": 300,
+      "timed_calls": 900
+    },
+    "student_teacher": {
+      "full_prediction_rows": 20000,
+      "independent_metrics": {
+        "recall@10": 0.36475,
+        "mrr@10": 0.17241988095238206,
+        "ndcg@10": 0.21772275495158552
+      },
+      "latency_correctness_queries": 300,
+      "timed_calls": 900
+    },
+    "SRGNN": {
+      "full_prediction_rows": 20000,
+      "independent_metrics": {
+        "recall@10": 0.28175,
+        "mrr@10": 0.1339552976190475,
+        "ndcg@10": 0.1687674312224634
+      },
+      "latency_correctness_queries": 300,
+      "timed_calls": 900
+    },
+    "GCSAN": {
+      "full_prediction_rows": 20000,
+      "independent_metrics": {
+        "recall@10": 0.29525,
+        "mrr@10": 0.13874021825396857,
+        "ndcg@10": 0.17556878527687417
+      },
+      "latency_correctness_queries": 300,
+      "timed_calls": 900
+    },
+    "GCEGNN": {
+      "full_prediction_rows": 20000,
+      "independent_metrics": {
+        "recall@10": 0.33135,
+        "mrr@10": 0.15904168650793699,
+        "ndcg@10": 0.1997904278180391
+      },
+      "latency_correctness_queries": 300,
+      "timed_calls": 900
+    }
+  },
+  "identical_benchmark_queries": true,
+  "online_llm_latency_measured": false,
+  "no_API_speedup_claim": true,
+  "script_sha256": {
+    "benchmark.py": "d8ee484868c3cc3334b7c97286733c3b790d9c6b9a24f46d5f45c350011bb6c6",
+    "common.py": "6cfc559a4a905ac483216a38298644d2fa50426a71e598e0f3c60ddd9af5f2b5",
+    "evaluate.py": "c5f2307e5956b84ae5ecc2d8bd1f9a7be56e83a408f9b83a21e0ecba9914c6a1",
+    "predict.py": "da09fbdf2e02c383cd2524f339820ef225223037c1b34c347a65615a81ba0d67",
+    "prepare.py": "835ce66f82ff2a94d6154d224ab6a0f0c58533e869c086ac40a489ce091fd41b",
+    "report.py": "0f5e6d6495d8e5c1e53f9b6d1f0be7a0ee7403157dd33768f4d254e5e03afd3d",
+    "run_remaining.py": "77b7484f264e4f1ac5648d94eafca5f768f36cfc6bc483c9fd5e049722f343eb",
+    "train.py": "4a09fd2c49d84126b8c561abd09c7adf171b8b1ba8aba5c4f8d7284837e1b6ce",
+    "verify.py": "d93cf9d28c71a8de2dd393e1dd832a8fd4e05cb4cc3e3a05979b0d67a1267b1f"
+  }
+}

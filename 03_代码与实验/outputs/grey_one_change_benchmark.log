@@ -1,0 +1,20 @@
+baseline: mean=0.6464ms, bytes=4938028
+repeat_last_only: mean=0.6073ms, bytes=4938028
+geometric_mean: mean=0.7851ms, bytes=4938028
+harmonic_mean: mean=0.6445ms, bytes=4938028
+transition_power: mean=1.1792ms, bytes=4938028
+popularity_power: mean=0.9053ms, bytes=4938028
+repeat_power: mean=0.8917ms, bytes=4938028
+cooccurrence_power: mean=0.8356ms, bytes=4938028
+repeat_weight: mean=0.6258ms, bytes=4938028
+popularity_weight: mean=0.6300ms, bytes=4938028
+all_binary: mean=0.6239ms, bytes=4938028
+transition_weight: mean=0.6328ms, bytes=4938028
+max_aggregation: mean=0.6116ms, bytes=4938028
+repeat_binary: mean=0.6199ms, bytes=4938028
+keep_self_cooccurrence: mean=0.6281ms, bytes=5172444
+repeat_count: mean=0.6189ms, bytes=4938028
+all_power: mean=1.8309ms, bytes=4938028
+rho: mean=0.6087ms, bytes=4938028
+cooccurrence_weight: mean=0.6250ms, bytes=4938028
+All literal one-line implementations verified and benchmarked.

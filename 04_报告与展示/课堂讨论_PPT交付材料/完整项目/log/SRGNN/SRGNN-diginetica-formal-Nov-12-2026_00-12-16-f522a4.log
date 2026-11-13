@@ -1,0 +1,49 @@
+Thu 12 Nov 2026 00:12:19 INFO  Constructing session graphs.
+Thu 12 Nov 2026 00:12:25 INFO  Constructing session graphs.
+Thu 12 Nov 2026 00:12:26 INFO  Constructing session graphs.
+Thu 12 Nov 2026 00:12:28 INFO  SessionGraph Transform in DataLoader.
+Thu 12 Nov 2026 00:12:28 INFO  SessionGraph Transform in DataLoader.
+Thu 12 Nov 2026 00:12:28 INFO  SessionGraph Transform in DataLoader.
+Thu 12 Nov 2026 00:12:28 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Thu 12 Nov 2026 00:12:28 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Thu 12 Nov 2026 00:13:03 INFO  epoch 0 training [time: 34.29s, train loss: 7358.8455]
+Thu 12 Nov 2026 00:13:05 INFO  epoch 0 evaluating [time: 2.78s, valid_score: 0.074000]
+Thu 12 Nov 2026 00:13:05 INFO  valid result: 
+recall@10 : 0.1318    mrr@10 : 0.074    ndcg@10 : 0.0877    hit@10 : 0.1318    precision@10 : 0.0132
+Thu 12 Nov 2026 00:13:05 INFO  Saving current: .\outputs\formal\SRGNN-rerun20261112\seed42\checkpoints\SRGNN-Nov-12-2026_00-12-28.pth
+Thu 12 Nov 2026 00:13:40 INFO  epoch 1 training [time: 34.28s, train loss: 5752.3895]
+Thu 12 Nov 2026 00:13:42 INFO  epoch 1 evaluating [time: 2.71s, valid_score: 0.131700]
+Thu 12 Nov 2026 00:13:42 INFO  valid result: 
+recall@10 : 0.2627    mrr@10 : 0.1317    ndcg@10 : 0.1627    hit@10 : 0.2627    precision@10 : 0.0263
+Thu 12 Nov 2026 00:13:42 INFO  Saving current: .\outputs\formal\SRGNN-rerun20261112\seed42\checkpoints\SRGNN-Nov-12-2026_00-12-28.pth
+Thu 12 Nov 2026 00:14:17 INFO  epoch 2 training [time: 34.58s, train loss: 4143.3973]
+Thu 12 Nov 2026 00:14:20 INFO  epoch 2 evaluating [time: 2.76s, valid_score: 0.144600]
+Thu 12 Nov 2026 00:14:20 INFO  valid result: 
+recall@10 : 0.2974    mrr@10 : 0.1446    ndcg@10 : 0.1807    hit@10 : 0.2974    precision@10 : 0.0297
+Thu 12 Nov 2026 00:14:20 INFO  Saving current: .\outputs\formal\SRGNN-rerun20261112\seed42\checkpoints\SRGNN-Nov-12-2026_00-12-28.pth
+Thu 12 Nov 2026 00:14:55 INFO  epoch 3 training [time: 35.65s, train loss: 3313.3733]
+Thu 12 Nov 2026 00:14:58 INFO  epoch 3 evaluating [time: 2.74s, valid_score: 0.138400]
+Thu 12 Nov 2026 00:14:58 INFO  valid result: 
+recall@10 : 0.2929    mrr@10 : 0.1384    ndcg@10 : 0.1749    hit@10 : 0.2929    precision@10 : 0.0293
+Thu 12 Nov 2026 00:15:33 INFO  epoch 4 training [time: 35.12s, train loss: 2718.7701]
+Thu 12 Nov 2026 00:15:36 INFO  epoch 4 evaluating [time: 2.71s, valid_score: 0.137500]
+Thu 12 Nov 2026 00:15:36 INFO  valid result: 
+recall@10 : 0.2858    mrr@10 : 0.1375    ndcg@10 : 0.1725    hit@10 : 0.2858    precision@10 : 0.0286
+Thu 12 Nov 2026 00:16:12 INFO  epoch 5 training [time: 35.87s, train loss: 2240.5459]
+Thu 12 Nov 2026 00:16:15 INFO  epoch 5 evaluating [time: 2.73s, valid_score: 0.131200]
+Thu 12 Nov 2026 00:16:15 INFO  valid result: 
+recall@10 : 0.2738    mrr@10 : 0.1312    ndcg@10 : 0.1648    hit@10 : 0.2738    precision@10 : 0.0274
+Thu 12 Nov 2026 00:16:51 INFO  epoch 6 training [time: 36.04s, train loss: 1875.8201]
+Thu 12 Nov 2026 00:16:53 INFO  epoch 6 evaluating [time: 2.79s, valid_score: 0.121500]
+Thu 12 Nov 2026 00:16:53 INFO  valid result: 
+recall@10 : 0.2524    mrr@10 : 0.1215    ndcg@10 : 0.1524    hit@10 : 0.2524    precision@10 : 0.0252
+Thu 12 Nov 2026 00:17:30 INFO  epoch 7 training [time: 36.10s, train loss: 1605.6144]
+Thu 12 Nov 2026 00:17:33 INFO  epoch 7 evaluating [time: 3.17s, valid_score: 0.121700]
+Thu 12 Nov 2026 00:17:33 INFO  valid result: 
+recall@10 : 0.2516    mrr@10 : 0.1217    ndcg@10 : 0.1523    hit@10 : 0.2516    precision@10 : 0.0252
+Thu 12 Nov 2026 00:18:09 INFO  epoch 8 training [time: 35.94s, train loss: 1407.5470]
+Thu 12 Nov 2026 00:18:11 INFO  epoch 8 evaluating [time: 2.80s, valid_score: 0.117400]
+Thu 12 Nov 2026 00:18:11 INFO  valid result: 
+recall@10 : 0.2385    mrr@10 : 0.1174    ndcg@10 : 0.146    hit@10 : 0.2385    precision@10 : 0.0239
+Thu 12 Nov 2026 00:18:11 INFO  Finished training, best eval result in epoch 2
+Thu 12 Nov 2026 00:18:11 INFO  Loading model structure and parameters from .\outputs\formal\SRGNN-rerun20261112\seed42\checkpoints\SRGNN-Nov-12-2026_00-12-28.pth

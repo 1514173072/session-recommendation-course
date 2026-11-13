@@ -1,0 +1,28 @@
+Mon 02 Nov 2026 18:26:41 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:26:47 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:26:49 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:26:50 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:26:50 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:26:50 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:26:50 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Mon 02 Nov 2026 18:26:50 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Mon 02 Nov 2026 18:26:58 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:27:04 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:27:05 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:27:07 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:27:07 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:27:07 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:27:07 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Mon 02 Nov 2026 18:27:07 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Mon 02 Nov 2026 18:27:16 INFO  Reversing sessions.
+Mon 02 Nov 2026 18:27:18 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:27:46 INFO  Reversing sessions.
+Mon 02 Nov 2026 18:27:46 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:27:52 INFO  Reversing sessions.
+Mon 02 Nov 2026 18:27:53 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:28:00 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:28:00 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:28:00 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:28:00 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Mon 02 Nov 2026 18:28:00 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Mon 02 Nov 2026 18:28:00 INFO  Constructing global graphs.

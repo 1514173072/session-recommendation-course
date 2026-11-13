@@ -1,0 +1,147 @@
+{
+  "baseline": {
+    "config": {
+      "family": "baseline",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.27565,
+      "mrr@10": 0.14170093253968255,
+      "ndcg@10": 0.17382686952254975,
+      "hit@10": 0.27565,
+      "precision@10": 0.027565
+    }
+  },
+  "selected_per_family": [
+    {
+      "config": {
+        "family": "adaptive_column_cv",
+        "value": null
+      },
+      "valid": {
+        "recall@10": 0.22215,
+        "mrr@10": 0.12830136904761907,
+        "ndcg@10": 0.15113863431849464,
+        "hit@10": 0.22215,
+        "precision@10": 0.022215
+      }
+    },
+    {
+      "config": {
+        "family": "adaptive_column_inverse_cv",
+        "value": null
+      },
+      "valid": {
+        "recall@10": 0.2801,
+        "mrr@10": 0.14306111111111108,
+        "ndcg@10": 0.17590075097173466,
+        "hit@10": 0.2801,
+        "precision@10": 0.02801
+      }
+    },
+    {
+      "config": {
+        "family": "adaptive_column_mean",
+        "value": null
+      },
+      "valid": {
+        "recall@10": 0.28945,
+        "mrr@10": 0.14534480158730156,
+        "ndcg@10": 0.17983957002684792,
+        "hit@10": 0.28945,
+        "precision@10": 0.028945
+      }
+    },
+    {
+      "config": {
+        "family": "adaptive_global_mean",
+        "value": null
+      },
+      "valid": {
+        "recall@10": 0.30205,
+        "mrr@10": 0.14803684523809524,
+        "ndcg@10": 0.1847943547436555,
+        "hit@10": 0.30205,
+        "precision@10": 0.030205
+      }
+    },
+    {
+      "config": {
+        "family": "adaptive_positive_deviation",
+        "value": null
+      },
+      "valid": {
+        "recall@10": 0.28885,
+        "mrr@10": 0.142675,
+        "ndcg@10": 0.17757119425779264,
+        "hit@10": 0.28885,
+        "precision@10": 0.028885
+      }
+    },
+    {
+      "config": {
+        "family": "distance_power",
+        "value": 4
+      },
+      "valid": {
+        "recall@10": 0.3446,
+        "mrr@10": 0.15887132936507936,
+        "ndcg@10": 0.20265087746598637,
+        "hit@10": 0.3446,
+        "precision@10": 0.034460000000000005
+      }
+    },
+    {
+      "config": {
+        "family": "exponential_distance",
+        "value": 4
+      },
+      "valid": {
+        "recall@10": 0.3432,
+        "mrr@10": 0.15891525793650793,
+        "ndcg@10": 0.2024225040530493,
+        "hit@10": 0.3432,
+        "precision@10": 0.03432
+      }
+    },
+    {
+      "config": {
+        "family": "rational_distance",
+        "value": 7
+      },
+      "valid": {
+        "recall@10": 0.3453,
+        "mrr@10": 0.1597728968253968,
+        "ndcg@10": 0.2035423265894494,
+        "hit@10": 0.3453,
+        "precision@10": 0.03453
+      }
+    }
+  ],
+  "primary": {
+    "config": {
+      "family": "rational_distance",
+      "value": 7
+    },
+    "valid": {
+      "recall@10": 0.3453,
+      "mrr@10": 0.1597728968253968,
+      "ndcg@10": 0.2035423265894494,
+      "hit@10": 0.3453,
+      "precision@10": 0.03453
+    }
+  },
+  "configurations": 31,
+  "families": 8,
+  "criterion": "Validation MRR@10, tie-break Recall@10; no test in selection",
+  "full_catalogue_validation_checks": 270,
+  "original_source_sha256": "739d567276fd223db0d8a26b4fff23e313d9ade38eba888b3eb7eb795a0f6732",
+  "invariants": [
+    "four original inputs",
+    "same min-max normalization",
+    "equal weights .25",
+    "arithmetic aggregation",
+    "training statistics unchanged"
+  ],
+  "only_change": "inside grey_coefficients function"
+}

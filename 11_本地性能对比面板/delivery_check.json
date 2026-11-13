@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "models": 8,
+  "records": 20,
+  "scope_counts": {
+    "30": 8,
+    "1000": 6,
+    "20000": 6
+  },
+  "no_external_assets": true,
+  "no_save_export_or_metric_switch": true,
+  "original_online_qwen_only_30_cases": true,
+  "sources_unchanged": true,
+  "javascript_syntax_passed": true,
+  "html_sha256": "0e2fd0ee0823c9c404375904439b950e58008bc962d37233b8a5abeca9b53944"
+}

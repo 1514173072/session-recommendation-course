@@ -1,0 +1,67 @@
+{
+  "curves": {
+    "SRGNN": {
+      "epochs": [
+        1,
+        2,
+        3
+      ],
+      "loss_sum": [
+        1393.8345,
+        1295.188,
+        1085.49
+      ],
+      "valid_mrr10": [
+        0.0021,
+        0.0435,
+        0.0889
+      ]
+    },
+    "GCSAN": {
+      "epochs": [
+        1,
+        2,
+        3
+      ],
+      "loss_sum": [
+        1380.4357,
+        1263.4308,
+        1126.9561
+      ],
+      "valid_mrr10": [
+        0.0729,
+        0.0955,
+        0.1129
+      ]
+    },
+    "GCEGNN": {
+      "epochs": [
+        1,
+        2,
+        3
+      ],
+      "loss_sum": [
+        1323.7994,
+        1068.2501,
+        845.5783
+      ],
+      "valid_mrr10": [
+        0.1257,
+        0.1442,
+        0.1485
+      ]
+    }
+  },
+  "source_sha256": {
+    "outputs\\console\\SRGNN-train.log": "896b6f9cfccb4cd3d5cdc11aae9697696e13fc62aaeb13d0b19186ffbcd4bd19",
+    "outputs\\diginetica-smoke\\SRGNN\\result.json": "bc5559963c41977b1ae539ad0b23f124dc762791ecb30a46dfc470da14333ca7",
+    "outputs\\diginetica-smoke\\SRGNN\\recommendations.json": "58e78056bb367632a79e1c173e51e825a622b45f9b61378fc46187c9676fda3e",
+    "outputs\\console\\GCSAN-train.log": "37fab64cf0ce65f51f82f89fa78c085c0368d19cbd28261fd605f766e9c49962",
+    "outputs\\diginetica-smoke\\GCSAN\\result.json": "61c731da37f4d979e8205d2948d83266d20e0208d7eac83cb1fae52641193b90",
+    "outputs\\diginetica-smoke\\GCSAN\\recommendations.json": "a1d687322916ab3f8b3d7c44c72d5738ea620019a239e30303b5b1e44de1238b",
+    "outputs\\console\\GCEGNN-train.log": "4f51e2cbf2e08b0854d0dc78ed5250fd64ed1ad50d806a876397631766a26c6f",
+    "outputs\\diginetica-smoke\\GCEGNN\\result.json": "d9d0b7009dc0c734a7f350f5477ecaa54ec85ff871f6b7846b1324b280016401",
+    "outputs\\diginetica-smoke\\GCEGNN\\recommendations.json": "bab6531891f12ef1ba091c8a3215edd0f2455f4dac13bb9af0b134c0615fdf08"
+  },
+  "scope": "2000 real sessions, 3 epochs, seed=42, CPU; single-run smoke verification."
+}

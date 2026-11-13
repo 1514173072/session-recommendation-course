@@ -1,0 +1,30 @@
+{
+  "key": "GCEGNN",
+  "method": "GCE-GNN＋属性",
+  "ablation": false,
+  "test_sessions": 8970,
+  "catalogue_items": 42503,
+  "recall@10": 0.5394648829431438,
+  "mrr@10": 0.3310917785917786,
+  "ndcg@10": 0.3806808230000825,
+  "mean_ms": 1.306295,
+  "p95_ms": 1.6086099999999999,
+  "calls": 600,
+  "scope": "CPU4, batch1, internal history -> features/graph -> full catalogue scores -> history mask -> Top10; model loading and static catalogue preparation excluded",
+  "warm_metrics": {
+    "recall@10": 0.5454960091220068,
+    "mrr@10": 0.3359006624314492,
+    "ndcg@10": 0.38578505846931
+  },
+  "cold_metrics": {
+    "recall@10": 0.275,
+    "mrr@10": 0.12022222222222222,
+    "ndcg@10": 0.15686009767445785
+  },
+  "cold_targets": 200,
+  "training_seconds": 2242.6771252,
+  "loading_and_catalogue_compile_seconds": 4.559410499999984,
+  "quality_evaluation_seconds": 3.757084700000007,
+  "online_llm_calls": 0,
+  "prediction_sha256": "25e042571c9e8d5c2330297d18d228105bdbc4da92c6f86d79784c2f1da76644"
+}

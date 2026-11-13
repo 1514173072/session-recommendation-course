@@ -1,0 +1,405 @@
+[
+  {
+    "config": {
+      "family": "baseline",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.27565,
+      "mrr@10": 0.14170093253968255,
+      "ndcg@10": 0.17382686952254975,
+      "hit@10": 0.27565,
+      "precision@10": 0.027565
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 0.25
+    },
+    "valid": {
+      "recall@10": 0.2342,
+      "mrr@10": 0.1290300992063492,
+      "ndcg@10": 0.1541568730990714,
+      "hit@10": 0.2342,
+      "precision@10": 0.02342
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 0.5
+    },
+    "valid": {
+      "recall@10": 0.2395,
+      "mrr@10": 0.13026130952380952,
+      "ndcg@10": 0.15633944719841492,
+      "hit@10": 0.2395,
+      "precision@10": 0.02395
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 2
+    },
+    "valid": {
+      "recall@10": 0.3317,
+      "mrr@10": 0.15591255952380953,
+      "ndcg@10": 0.1975820197245902,
+      "hit@10": 0.3317,
+      "precision@10": 0.03317
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 4
+    },
+    "valid": {
+      "recall@10": 0.3446,
+      "mrr@10": 0.15887132936507936,
+      "ndcg@10": 0.20265087746598637,
+      "hit@10": 0.3446,
+      "precision@10": 0.034460000000000005
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 8
+    },
+    "valid": {
+      "recall@10": 0.346,
+      "mrr@10": 0.1567850595238095,
+      "ndcg@10": 0.20127631582016442,
+      "hit@10": 0.346,
+      "precision@10": 0.0346
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 16
+    },
+    "valid": {
+      "recall@10": 0.3459,
+      "mrr@10": 0.15607970238095237,
+      "ndcg@10": 0.2007177255687257,
+      "hit@10": 0.3459,
+      "precision@10": 0.034589999999999996
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 32
+    },
+    "valid": {
+      "recall@10": 0.34505,
+      "mrr@10": 0.15577986111111108,
+      "ndcg@10": 0.2003041476999253,
+      "hit@10": 0.34505,
+      "precision@10": 0.034505
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 64
+    },
+    "valid": {
+      "recall@10": 0.33945,
+      "mrr@10": 0.15445751984126985,
+      "ndcg@10": 0.19812741034617426,
+      "hit@10": 0.33945,
+      "precision@10": 0.033944999999999996
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 128
+    },
+    "valid": {
+      "recall@10": 0.3329,
+      "mrr@10": 0.15242777777777777,
+      "ndcg@10": 0.1951654564935812,
+      "hit@10": 0.3329,
+      "precision@10": 0.03329
+    }
+  },
+  {
+    "config": {
+      "family": "distance_power",
+      "value": 256
+    },
+    "valid": {
+      "recall@10": 0.3263,
+      "mrr@10": 0.15085261904761907,
+      "ndcg@10": 0.1924492881395738,
+      "hit@10": 0.3263,
+      "precision@10": 0.03263
+    }
+  },
+  {
+    "config": {
+      "family": "rational_distance",
+      "value": 1
+    },
+    "valid": {
+      "recall@10": 0.318,
+      "mrr@10": 0.15209801587301586,
+      "ndcg@10": 0.191593700405759,
+      "hit@10": 0.318,
+      "precision@10": 0.0318
+    }
+  },
+  {
+    "config": {
+      "family": "rational_distance",
+      "value": 3
+    },
+    "valid": {
+      "recall@10": 0.33785,
+      "mrr@10": 0.15744321428571428,
+      "ndcg@10": 0.20013511276124082,
+      "hit@10": 0.33785,
+      "precision@10": 0.033784999999999996
+    }
+  },
+  {
+    "config": {
+      "family": "rational_distance",
+      "value": 7
+    },
+    "valid": {
+      "recall@10": 0.3453,
+      "mrr@10": 0.1597728968253968,
+      "ndcg@10": 0.2035423265894494,
+      "hit@10": 0.3453,
+      "precision@10": 0.03453
+    }
+  },
+  {
+    "config": {
+      "family": "rational_distance",
+      "value": 15
+    },
+    "valid": {
+      "recall@10": 0.347,
+      "mrr@10": 0.15974708333333332,
+      "ndcg@10": 0.20387410374212692,
+      "hit@10": 0.347,
+      "precision@10": 0.034699999999999995
+    }
+  },
+  {
+    "config": {
+      "family": "rational_distance",
+      "value": 31
+    },
+    "valid": {
+      "recall@10": 0.3477,
+      "mrr@10": 0.15936182539682542,
+      "ndcg@10": 0.20372207397269204,
+      "hit@10": 0.3477,
+      "precision@10": 0.03477
+    }
+  },
+  {
+    "config": {
+      "family": "rational_distance",
+      "value": 63
+    },
+    "valid": {
+      "recall@10": 0.34795,
+      "mrr@10": 0.15917940476190473,
+      "ndcg@10": 0.20362142666308972,
+      "hit@10": 0.34795,
+      "precision@10": 0.034795
+    }
+  },
+  {
+    "config": {
+      "family": "rational_distance",
+      "value": 127
+    },
+    "valid": {
+      "recall@10": 0.34725,
+      "mrr@10": 0.15888099206349207,
+      "ndcg@10": 0.20323610214166654,
+      "hit@10": 0.34725,
+      "precision@10": 0.034725
+    }
+  },
+  {
+    "config": {
+      "family": "rational_distance",
+      "value": 255
+    },
+    "valid": {
+      "recall@10": 0.347,
+      "mrr@10": 0.15877184523809523,
+      "ndcg@10": 0.20309756777008245,
+      "hit@10": 0.347,
+      "precision@10": 0.034699999999999995
+    }
+  },
+  {
+    "config": {
+      "family": "exponential_distance",
+      "value": 0.5
+    },
+    "valid": {
+      "recall@10": 0.29365,
+      "mrr@10": 0.14618194444444443,
+      "ndcg@10": 0.1814448782989539,
+      "hit@10": 0.29365,
+      "precision@10": 0.029365000000000002
+    }
+  },
+  {
+    "config": {
+      "family": "exponential_distance",
+      "value": 1
+    },
+    "valid": {
+      "recall@10": 0.30945,
+      "mrr@10": 0.14990353174603174,
+      "ndcg@10": 0.18795423109045067,
+      "hit@10": 0.30945,
+      "precision@10": 0.030945
+    }
+  },
+  {
+    "config": {
+      "family": "exponential_distance",
+      "value": 2
+    },
+    "valid": {
+      "recall@10": 0.3288,
+      "mrr@10": 0.1548534722222222,
+      "ndcg@10": 0.19612753778818473,
+      "hit@10": 0.3288,
+      "precision@10": 0.03288
+    }
+  },
+  {
+    "config": {
+      "family": "exponential_distance",
+      "value": 4
+    },
+    "valid": {
+      "recall@10": 0.3432,
+      "mrr@10": 0.15891525793650793,
+      "ndcg@10": 0.2024225040530493,
+      "hit@10": 0.3432,
+      "precision@10": 0.03432
+    }
+  },
+  {
+    "config": {
+      "family": "exponential_distance",
+      "value": 8
+    },
+    "valid": {
+      "recall@10": 0.346,
+      "mrr@10": 0.1578375,
+      "ndcg@10": 0.20211494913929393,
+      "hit@10": 0.346,
+      "precision@10": 0.0346
+    }
+  },
+  {
+    "config": {
+      "family": "exponential_distance",
+      "value": 16
+    },
+    "valid": {
+      "recall@10": 0.3454,
+      "mrr@10": 0.1562395238095238,
+      "ndcg@10": 0.20073670841613542,
+      "hit@10": 0.3454,
+      "precision@10": 0.03454
+    }
+  },
+  {
+    "config": {
+      "family": "exponential_distance",
+      "value": 32
+    },
+    "valid": {
+      "recall@10": 0.3457,
+      "mrr@10": 0.15587511904761905,
+      "ndcg@10": 0.20050633370068627,
+      "hit@10": 0.3457,
+      "precision@10": 0.034570000000000004
+    }
+  },
+  {
+    "config": {
+      "family": "adaptive_global_mean",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.30205,
+      "mrr@10": 0.14803684523809524,
+      "ndcg@10": 0.1847943547436555,
+      "hit@10": 0.30205,
+      "precision@10": 0.030205
+    }
+  },
+  {
+    "config": {
+      "family": "adaptive_column_mean",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.28945,
+      "mrr@10": 0.14534480158730156,
+      "ndcg@10": 0.17983957002684792,
+      "hit@10": 0.28945,
+      "precision@10": 0.028945
+    }
+  },
+  {
+    "config": {
+      "family": "adaptive_column_cv",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.22215,
+      "mrr@10": 0.12830136904761907,
+      "ndcg@10": 0.15113863431849464,
+      "hit@10": 0.22215,
+      "precision@10": 0.022215
+    }
+  },
+  {
+    "config": {
+      "family": "adaptive_column_inverse_cv",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.2801,
+      "mrr@10": 0.14306111111111108,
+      "ndcg@10": 0.17590075097173466,
+      "hit@10": 0.2801,
+      "precision@10": 0.02801
+    }
+  },
+  {
+    "config": {
+      "family": "adaptive_positive_deviation",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.28885,
+      "mrr@10": 0.142675,
+      "ndcg@10": 0.17757119425779264,
+      "hit@10": 0.28885,
+      "precision@10": 0.028885
+    }
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "sessions": 20000,
+  "methods": 6,
+  "original_three_predictions_unchanged": true,
+  "grey_histories_targets_aligned": 20000,
+  "offline_ranks_match_existing_20000": true,
+  "online_llm_calls": 0,
+  "all_top10_legal_unique": true,
+  "offline_metrics": {
+    "recall@10": 0.3662,
+    "mrr@10": 0.1745411904761905,
+    "ndcg@10": 0.21988778665226946,
+    "hit@10": 0.3662,
+    "precision@10": 0.03662
+  },
+  "build_prediction_seconds": 13.6831733,
+  "sources_sha256": {
+    "D:\\Projects\\算法分析与理论课程\\12_会话推荐演示扩展\\原三模型演示备份.html": "a0ab6945a8ac30b30341b355e7b7683bc474551d41fc0a44f8fd25c1a7c19a57",
+    "D:\\Projects\\算法分析与理论课程\\06_教师学生推荐性能测试\\predictions\\gra_original.jsonl": "455bd39c2fdae96fa1eefe5457c91ea215a9af65fe79eeaf4c36c4554cdf9773",
+    "D:\\Projects\\算法分析与理论课程\\06_教师学生推荐性能测试\\predictions\\gra_beta7.jsonl": "ddb5711ac1c5a91916bfea3faeafbb743e1cf935b34705f54cf8cced1830105e",
+    "D:\\Projects\\算法分析与理论课程\\10_本地2B低延迟优化\\results\\offline_llm_policy_cache.json": "7a0388334f3f8a7c5782a1d224a185cf67b277ae3f72ac86cae4fcaba17430f1",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\grey_relation\\grey_model.npz": "92e6972b44d51e88594956be25fde3ab2afc0253d93f63059b2f052034a9f601",
+    "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\grey_improved\\tokens.json": "627e0248640a6c05e7c1d6069505a410492070a49a603fd863901bb908511b5f",
+    "D:\\Projects\\算法分析与理论课程\\06_教师学生推荐性能测试\\teacher\\prototypes.json": "bf1bb0d4c54c430042f10c71bdfe4d6a6d0bc9dc61843cf45f26a436cd94632a"
+  },
+  "target": "D:\\Projects\\算法分析与理论课程\\04_报告与展示\\课堂讨论_PPT交付材料\\06_实机演示\\会话推荐演示.html",
+  "target_sha256": "fd46a41f62bd398e3a715d53451cbed01a8acfe6f42c7456a3678550ea4ca0b8"
+}

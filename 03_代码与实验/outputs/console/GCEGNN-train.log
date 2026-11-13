@@ -1,0 +1,147 @@
+29 Oct 15:57    INFO  Reversing sessions.
+
+  0%|          | 0/9813 [00:00<?, ?it/s]
+ 46%|████▋     | 4558/9813 [00:00<00:00, 45425.93it/s]
+ 93%|█████████▎| 9101/9813 [00:00<00:00, 44862.12it/s]
+100%|██████████| 9813/9813 [00:00<00:00, 45131.05it/s]
+29 Oct 15:57    INFO  Constructing session graphs.
+
+  0%|          | 0/9813 [00:00<?, ?it/s]
+  3%|▎         | 321/9813 [00:00<00:02, 3210.00it/s]
+  7%|▋         | 679/9813 [00:00<00:02, 3422.62it/s]
+ 11%|█         | 1083/9813 [00:00<00:02, 3697.98it/s]
+ 15%|█▌        | 1483/9813 [00:00<00:02, 3815.38it/s]
+ 19%|█▉        | 1878/9813 [00:00<00:02, 3852.05it/s]
+ 23%|██▎       | 2286/9813 [00:00<00:01, 3917.46it/s]
+ 27%|██▋       | 2678/9813 [00:00<00:01, 3911.82it/s]
+ 31%|███▏      | 3079/9813 [00:00<00:01, 3942.75it/s]
+ 36%|███▌      | 3488/9813 [00:00<00:01, 3988.47it/s]
+ 40%|███▉      | 3903/9813 [00:01<00:01, 4030.62it/s]
+ 44%|████▍     | 4307/9813 [00:01<00:01, 4023.13it/s]
+ 48%|████▊     | 4710/9813 [00:01<00:01, 4013.04it/s]
+ 52%|█████▏    | 5116/9813 [00:01<00:01, 4024.88it/s]
+ 56%|█████▌    | 5519/9813 [00:01<00:01, 4022.48it/s]
+ 60%|██████    | 5922/9813 [00:01<00:00, 3961.58it/s]
+ 64%|██████▍   | 6319/9813 [00:01<00:00, 3928.96it/s]
+ 68%|██████▊   | 6713/9813 [00:01<00:00, 3920.74it/s]
+ 73%|███████▎  | 7117/9813 [00:01<00:00, 3956.03it/s]
+ 77%|███████▋  | 7521/9813 [00:01<00:00, 3979.95it/s]
+ 81%|████████  | 7928/9813 [00:02<00:00, 4005.36it/s]
+ 85%|████████▍ | 8332/9813 [00:02<00:00, 4015.70it/s]
+ 89%|████████▉ | 8734/9813 [00:02<00:00, 4005.02it/s]
+ 93%|█████████▎| 9135/9813 [00:02<00:00, 3845.02it/s]
+ 97%|█████████▋| 9526/9813 [00:02<00:00, 3859.15it/s]
+100%|██████████| 9813/9813 [00:02<00:00, 3917.36it/s]
+29 Oct 15:57    INFO  Reversing sessions.
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 46516.03it/s]
+29 Oct 15:57    INFO  Constructing session graphs.
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 18%|█▊        | 358/2000 [00:00<00:00, 3544.55it/s]
+ 36%|███▌      | 724/2000 [00:00<00:00, 3599.11it/s]
+ 55%|█████▍    | 1092/2000 [00:00<00:00, 3622.12it/s]
+ 73%|███████▎  | 1455/2000 [00:00<00:00, 2798.05it/s]
+ 91%|█████████▏| 1825/2000 [00:00<00:00, 3068.78it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 3200.52it/s]
+29 Oct 15:57    INFO  Reversing sessions.
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 48449.58it/s]
+29 Oct 15:57    INFO  Constructing session graphs.
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 18%|█▊        | 353/2000 [00:00<00:00, 3524.02it/s]
+ 35%|███▌      | 706/2000 [00:00<00:00, 3505.71it/s]
+ 53%|█████▎    | 1057/2000 [00:00<00:00, 3475.90it/s]
+ 70%|███████   | 1406/2000 [00:00<00:00, 3467.87it/s]
+ 88%|████████▊ | 1753/2000 [00:00<00:00, 3439.77it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 3468.74it/s]
+29 Oct 15:57    INFO  SessionGraph Transform in DataLoader.
+29 Oct 15:57    INFO  SessionGraph Transform in DataLoader.
+29 Oct 15:57    INFO  SessionGraph Transform in DataLoader.
+29 Oct 15:57    INFO  [Training]: train_batch_size = [64] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+29 Oct 15:57    INFO  [Evaluation]: eval_batch_size = [64] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+29 Oct 15:57    INFO  Constructing global graphs.
+
+Converting:   0%|          | 0/9813 [00:00<?, ?it/s]
+Converting: 100%|██████████| 9813/9813 [00:00<00:00, 611716.09it/s]
+
+Sorting:   0%|          | 0/9110 [00:00<?, ?it/s]
+Sorting: 100%|██████████| 9110/9110 [00:00<00:00, 379516.59it/s]
+29 Oct 15:57    INFO  epoch 0 training [time: 3.96s, train loss: 1323.7994]
+29 Oct 15:57    INFO  epoch 0 evaluating [time: 0.31s, valid_score: 0.125700]
+29 Oct 15:57    INFO  valid result: 
+recall@10 : 0.2165    mrr@10 : 0.1257    ndcg@10 : 0.1479    hit@10 : 0.2165    precision@10 : 0.0217
+29 Oct 15:57    INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCEGNN\checkpoints\GCEGNN-Oct-29-2026_15-57-52.pth
+29 Oct 15:58    INFO  epoch 1 training [time: 3.85s, train loss: 1068.2501]
+29 Oct 15:58    INFO  epoch 1 evaluating [time: 0.32s, valid_score: 0.144200]
+29 Oct 15:58    INFO  valid result: 
+recall@10 : 0.2435    mrr@10 : 0.1442    ndcg@10 : 0.1687    hit@10 : 0.2435    precision@10 : 0.0244
+29 Oct 15:58    INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCEGNN\checkpoints\GCEGNN-Oct-29-2026_15-57-52.pth
+29 Oct 15:58    INFO  epoch 2 training [time: 4.27s, train loss: 845.5783]
+29 Oct 15:58    INFO  epoch 2 evaluating [time: 0.32s, valid_score: 0.148500]
+29 Oct 15:58    INFO  valid result: 
+recall@10 : 0.2575    mrr@10 : 0.1485    ndcg@10 : 0.1753    hit@10 : 0.2575    precision@10 : 0.0258
+29 Oct 15:58    INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCEGNN\checkpoints\GCEGNN-Oct-29-2026_15-57-52.pth
+29 Oct 15:58    INFO  Loading model structure and parameters from D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCEGNN\checkpoints\GCEGNN-Oct-29-2026_15-57-52.pth
+29 Oct 15:58    INFO  Constructing global graphs.
+
+Converting:   0%|          | 0/9813 [00:00<?, ?it/s]
+Converting: 100%|██████████| 9813/9813 [00:00<00:00, 381717.65it/s]
+
+Sorting:   0%|          | 0/9110 [00:00<?, ?it/s]
+Sorting: 100%|██████████| 9110/9110 [00:00<00:00, 205447.26it/s]
+{
+  "model": "GCEGNN",
+  "dataset": "diginetica-smoke",
+  "scope": "Small-scale runtime verification; not official leaderboard reproduction.",
+  "epochs_requested": 3,
+  "seed": 42,
+  "device": "cpu",
+  "raw_session_count": 2000,
+  "candidate_items": 9109,
+  "train_examples": 9813,
+  "valid_examples": 2000,
+  "test_examples": 2000,
+  "split_session_target_sha256": {
+    "train": "1d6793d55d6957ce0aacbce57365978da0ee4c8482a1debdefd0229d34c9ce3c",
+    "valid": "fd87f69f683ffebc0035aca6898189126dd32dbde9096de0351cc75f939774e8",
+    "test": "ef21ccbc6647adbcac71320878a0555d26e8dbb6cc0fc5e7026ff829be82d73e"
+  },
+  "best_valid_score": 0.1485,
+  "best_valid_result": {
+    "recall@10": 0.2575,
+    "mrr@10": 0.1485,
+    "ndcg@10": 0.1753,
+    "hit@10": 0.2575,
+    "precision@10": 0.0258
+  },
+  "test_result": {
+    "recall@10": 0.2485,
+    "mrr@10": 0.1518,
+    "ndcg@10": 0.1754,
+    "hit@10": 0.2485,
+    "precision@10": 0.0249
+  },
+  "data_preparation_seconds": 4.4337965,
+  "training_and_validation_seconds": 13.083666299999999,
+  "test_seconds": 0.3772816999999975,
+  "prediction_batch_size": 1081,
+  "prediction_batch_seconds": 0.009117900000003232,
+  "checkpoint": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\diginetica-smoke\\GCEGNN\\checkpoints\\GCEGNN-Oct-29-2026_15-57-52.pth",
+  "checkpoint_sha256": "35ca70e9d5bca8376f34e5b84f82e751e1b7520aeccceca8ef407044f4a2ff73",
+  "checkpoint_reload_passed": true,
+  "max_reload_score_difference": 0.0,
+  "top10_validation_passed": true,
+  "parameters": 613568,
+  "environment": {
+    "python": "3.9.21",
+    "torch": "2.1.2+cpu",
+    "numpy": "1.23.5",
+    "recbole": "1.1.1",
+    "pyg": "2.4.0",
+    "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+  }
+}

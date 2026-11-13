@@ -1,0 +1,38 @@
+{
+  "model": "gra_beta7",
+  "sample_sha256": "e0c60cf2f758ae3727bbea3199d92c4be4fbed57ecf86325f64e7b6812a5f0a1",
+  "distinct_queries": 300,
+  "calls": 900,
+  "mean_ms": 0.6939185555555556,
+  "median_ms": 0.6808,
+  "p95_ms": 0.79899,
+  "numeric_state_bytes": 4938028,
+  "trainable_parameters": 0,
+  "model_load_seconds_excluded": 0.020999499999999838,
+  "process_rss_before_model_load_bytes": 203972608,
+  "process_rss_after_load_bytes": 208764928,
+  "process_rss_after_requests_bytes": 212389888,
+  "process_peak_working_set_bytes": 212393984,
+  "correctness_queries": 300,
+  "max_score_diff": 0.0,
+  "per_round": [
+    {
+      "mean_ms": 0.703267,
+      "p95_ms": 0.8044250000000001
+    },
+    {
+      "mean_ms": 0.6937383333333332,
+      "p95_ms": 0.797815
+    },
+    {
+      "mean_ms": 0.6847503333333332,
+      "p95_ms": 0.780615
+    }
+  ],
+  "scope": "warm CPU4threads, raw item IDs -> feature/graph construction -> full catalogue score -> top10 raw IDs; excludes startup, disk IO, HTTP and queueing",
+  "memory_scope": "RSS includes Python, torch and loader/dataset objects; numeric state includes retained statistics/context arrays and network; these are different quantities",
+  "teacher_scope": null,
+  "python": "3.9.21",
+  "torch": "2.1.2+cpu",
+  "platform": "Windows-10-10.0.19044-SP0"
+}

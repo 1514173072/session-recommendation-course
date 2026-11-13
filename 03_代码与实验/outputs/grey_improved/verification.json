@@ -1,0 +1,35 @@
+{
+  "all_passed": true,
+  "frozen_config_matches_selection": true,
+  "test_sparse_dense_top10_checks": 100,
+  "independent_reload_three_queries_exact": true,
+  "all_top10_legal": true,
+  "all_comparison_history_targets_aligned": {
+    "SRGNN": {
+      "rows": 20000,
+      "history_target_aligned": true,
+      "sha256": "d76f47d236285573f860f4486162eedfa5bdbe7da525b5193909008cb171af0e"
+    },
+    "GCSAN": {
+      "rows": 20000,
+      "history_target_aligned": true,
+      "sha256": "077e87f2a7048c1b06069b3beb09cdbc23caf7226b100e6de1d2448e4755413c"
+    },
+    "GCEGNN": {
+      "rows": 20000,
+      "history_target_aligned": true,
+      "sha256": "e639a4ed7adf449d840724d893bae0135fce8bf74861c42cadca61286d272b75"
+    },
+    "GRA-original": {
+      "rows": 20000,
+      "history_target_aligned": true,
+      "sha256": "fb9685db9ce1e679d271872aed054b60be03142a7e3c91e84dea55811a5ea525"
+    }
+  },
+  "predictions_sha256": "39bff8e9fccd7eb371ff3ffa9a28518f3a4f0f3988b9b6f301587633b0d9cb21",
+  "code_sha256": {
+    "evaluate_grey_improvement.py": "e04d578a911f5576c5f820b0401b2ab65b15cf2a1de64197941f8bc3bbbf2f08",
+    "grey_session_fast.py": "99a101a6f036f91fa6218bdd34850846d4769db2b0e6d09e0c5e4bc1a7db1c74",
+    "tune_grey_improvement.py": "4d245fb8dbfb91ed056493087fb6c4235e4486553f95f34cc57bf8dbbe5cf763"
+  }
+}

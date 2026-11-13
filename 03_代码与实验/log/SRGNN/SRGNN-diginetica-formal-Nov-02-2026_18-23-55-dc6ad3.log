@@ -1,0 +1,8 @@
+Mon 02 Nov 2026 18:23:59 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:24:05 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:24:07 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:24:08 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:24:08 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:24:08 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:24:08 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Mon 02 Nov 2026 18:24:08 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]

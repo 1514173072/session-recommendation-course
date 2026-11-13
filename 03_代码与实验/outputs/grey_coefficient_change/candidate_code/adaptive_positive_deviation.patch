@@ -1,0 +1,12 @@
+--- grey_session.py
++++ grey_session.py
+@@ -15,6 +15,9 @@
+     if not 0 < rho <= 1:
+         raise ValueError('rho must be in (0, 1]')
+     delta = np.abs(1.0 - normalized)
++    positive = normalized > 0
++    positive_count = positive.sum(axis=1, keepdims=True)
++    rho = np.clip(np.divide((delta * positive).sum(axis=1, keepdims=True, dtype=np.float64), positive_count, out=np.ones((normalized.shape[0], 1), dtype=np.float64), where=positive_count > 0), 0.05, 1.0).astype(np.float32)
+     lo, hi = float(delta.min()), float(delta.max())
+     if hi == 0:
+         return np.ones_like(normalized)

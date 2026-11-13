@@ -1,0 +1,40 @@
+{
+  "response": {
+    "model": "qwen3.5:2b-q4_K_M",
+    "created_at": "2026-11-12T10:46:00.804058Z",
+    "message": {
+      "role": "assistant",
+      "content": "{\"weights\":[1,0,0,0],\"interactions\":[0,0,0,0,0,0]}"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 383989300,
+    "load_duration": 2144900,
+    "prompt_eval_count": 376,
+    "prompt_eval_cached_count": 89,
+    "prompt_eval_duration": 98850000,
+    "eval_count": 27,
+    "eval_duration": 278709000
+  },
+  "success": true,
+  "text": "{\"weights\":[1,0,0,0],\"interactions\":[0,0,0,0,0,0]}",
+  "thinking_characters": 0,
+  "coefficients": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "raw_weight_sum": 1.0,
+  "condition": "plain",
+  "case_index": 13,
+  "attempt": 0,
+  "wall_seconds": 0.4128165999999993,
+  "prompt_sha256": "1f1a1d2e689c1a2c2feff9f2498f1ff935cc902b6d5f11a69c2fbb7050f1e301"
+}

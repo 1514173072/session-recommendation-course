@@ -1,0 +1,24 @@
+Thu 29 Oct 2026 15:57:18 INFO  Constructing session graphs.
+Thu 29 Oct 2026 15:57:19 INFO  Constructing session graphs.
+Thu 29 Oct 2026 15:57:19 INFO  Constructing session graphs.
+Thu 29 Oct 2026 15:57:19 INFO  SessionGraph Transform in DataLoader.
+Thu 29 Oct 2026 15:57:19 INFO  SessionGraph Transform in DataLoader.
+Thu 29 Oct 2026 15:57:19 INFO  SessionGraph Transform in DataLoader.
+Thu 29 Oct 2026 15:57:19 INFO  [Training]: train_batch_size = [64] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Thu 29 Oct 2026 15:57:19 INFO  [Evaluation]: eval_batch_size = [64] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Thu 29 Oct 2026 15:57:22 INFO  epoch 0 training [time: 2.27s, train loss: 1393.8345]
+Thu 29 Oct 2026 15:57:22 INFO  epoch 0 evaluating [time: 0.20s, valid_score: 0.002100]
+Thu 29 Oct 2026 15:57:22 INFO  valid result: 
+recall@10 : 0.0055    mrr@10 : 0.0021    ndcg@10 : 0.0029    hit@10 : 0.0055    precision@10 : 0.0005
+Thu 29 Oct 2026 15:57:22 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\SRGNN\checkpoints\SRGNN-Oct-29-2026_15-57-19.pth
+Thu 29 Oct 2026 15:57:24 INFO  epoch 1 training [time: 2.25s, train loss: 1295.1880]
+Thu 29 Oct 2026 15:57:24 INFO  epoch 1 evaluating [time: 0.20s, valid_score: 0.043500]
+Thu 29 Oct 2026 15:57:24 INFO  valid result: 
+recall@10 : 0.0785    mrr@10 : 0.0435    ndcg@10 : 0.0517    hit@10 : 0.0785    precision@10 : 0.0078
+Thu 29 Oct 2026 15:57:24 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\SRGNN\checkpoints\SRGNN-Oct-29-2026_15-57-19.pth
+Thu 29 Oct 2026 15:57:27 INFO  epoch 2 training [time: 2.19s, train loss: 1085.4900]
+Thu 29 Oct 2026 15:57:27 INFO  epoch 2 evaluating [time: 0.17s, valid_score: 0.088900]
+Thu 29 Oct 2026 15:57:27 INFO  valid result: 
+recall@10 : 0.1565    mrr@10 : 0.0889    ndcg@10 : 0.1051    hit@10 : 0.1565    precision@10 : 0.0157
+Thu 29 Oct 2026 15:57:27 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\SRGNN\checkpoints\SRGNN-Oct-29-2026_15-57-19.pth
+Thu 29 Oct 2026 15:57:27 INFO  Loading model structure and parameters from D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\SRGNN\checkpoints\SRGNN-Oct-29-2026_15-57-19.pth

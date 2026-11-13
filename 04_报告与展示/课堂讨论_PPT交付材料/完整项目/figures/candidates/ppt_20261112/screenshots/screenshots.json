@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "image_style": "Result-region export; no page title, controls, explanatory prose or footer.",
+  "html_sha256": "a0ab6945a8ac30b30341b355e7b7683bc474551d41fc0a44f8fd25c1a7c19a57",
+  "sessions": 20000,
+  "checks": [
+    "all case-type filters",
+    "Top5/Top10 switch",
+    "search and empty state",
+    "temporal-order note on affected cases",
+    "mobile width",
+    "no JavaScript errors",
+    "no network requests",
+    "all rendered IDs, histories, targets match stored predictions"
+  ],
+  "screenshots": [
+    {
+      "file": "07_演示_三模型共同命中.png",
+      "session_id": "10114",
+      "history": [
+        "13669",
+        "8719",
+        "13669",
+        "9841"
+      ],
+      "target": "13669",
+      "target_ranks": {
+        "SRGNN": 7,
+        "GCSAN": 6,
+        "GCEGNN": 1
+      },
+      "sha256": "3f2365800b0a5e64ce7be8ddf87443f5b54f072db07b4acb597724df917286b6"
+    },
+    {
+      "file": "08_演示_仅GCEGNN命中.png",
+      "session_id": "4998",
+      "history": [
+        "5152",
+        "34614",
+        "13326",
+        "5152"
+      ],
+      "target": "34614",
+      "target_ranks": {
+        "SRGNN": 0,
+        "GCSAN": 0,
+        "GCEGNN": 1
+      },
+      "sha256": "f4097386f8a2c48882735374f92232fabf0c8694910f4507f173af125f2f946d"
+    },
+    {
+      "file": "09_演示_GCEGNN失败案例.png",
+      "session_id": "11348",
+      "history": [
+        "36687",
+        "49111",
+        "1231",
+        "72246",
+        "38280"
+      ],
+      "target": "36687",
+      "target_ranks": {
+        "SRGNN": 1,
+        "GCSAN": 0,
+        "GCEGNN": 0
+      },
+      "sha256": "eaa761130a9d1f887f46a33913982bb201db8772a22971a898c1500b8df841ae"
+    },
+    {
+      "file": "10_演示_三个模型均失败.png",
+      "session_id": "4829",
+      "history": [
+        "24817",
+        "11092",
+        "10234",
+        "1961",
+        "12922",
+        "158050",
+        "46820",
+        "24200"
+      ],
+      "target": "57585",
+      "target_ranks": {
+        "SRGNN": 0,
+        "GCSAN": 0,
+        "GCEGNN": 0
+      },
+      "sha256": "bf9fe713d14c384cf43e6e397d641ba88d792f57be85c0fdb63de127461f02d9"
+    }
+  ],
+  "case_selection": "Post-hoc illustrative success/failure examples; not representative sampling."
+}

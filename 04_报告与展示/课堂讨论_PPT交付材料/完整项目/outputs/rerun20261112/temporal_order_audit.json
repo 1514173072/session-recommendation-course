@@ -1,0 +1,35 @@
+{
+  "sessions": 20000,
+  "exact_history_mismatches": [
+    "379088",
+    "487756",
+    "101003",
+    "512911",
+    "176932",
+    "88683",
+    "165329",
+    "220592",
+    "288185",
+    "353309",
+    "78849",
+    "346958",
+    "242739",
+    "513678"
+  ],
+  "exact_target_mismatches": [
+    "101003"
+  ],
+  "float32_mismatches": [],
+  "interpretation": "RecBole converts float fields to float32 before sequential ordering. Nearby epoch-second timestamps can become equal. Histories and labels follow the actual training/evaluation dataset order.",
+  "dataset_conversion_code": "    def _dataframe_to_interaction(self, data):\n        \"\"\"Convert :class:`pandas.DataFrame` to :class:`~recbole.data.interaction.Interaction`.\n\n        Args:\n            data (pandas.DataFrame): data to be converted.\n\n        Returns:\n            :class:`~recbole.data.interaction.Interaction`: Converted data.\n        \"\"\"\n        new_data = {}\n        for k in data:\n            value = data[k].values\n            ftype = self.field2type[k]\n            if ftype == FeatureType.TOKEN:\n                new_data[k] = torch.LongTensor(value)\n            elif ftype == FeatureType.FLOAT:\n                if k in self.config[\"numerical_features\"]:\n                    new_data[k] = torch.FloatTensor(value.tolist())\n                else:\n                    new_data[k] = torch.FloatTensor(value)\n            elif ftype == FeatureType.TOKEN_SEQ:\n                seq_data = [torch.LongTensor(d[: self.field2seqlen[k]]) for d in value]\n                new_data[k] = rnn_utils.pad_sequence(seq_data, batch_first=True)\n            elif ftype == FeatureType.FLOAT_SEQ:\n                if k in self.config[\"numerical_features\"]:\n                    base = [\n                        torch.FloatTensor(d[0][: self.field2seqlen[k]]) for d in value\n                    ]\n                    base = rnn_utils.pad_sequence(base, batch_first=True)\n                    index = [\n                        torch.FloatTensor(d[1][: self.field2seqlen[k]]) for d in value\n                    ]\n                    index = rnn_utils.pad_sequence(index, batch_first=True)\n                    new_data[k] = torch.stack([base, index], dim=-1)\n                else:\n                    seq_data = [\n                        torch.FloatTensor(d[: self.field2seqlen[k]]) for d in value\n                    ]\n                    new_data[k] = rnn_utils.pad_sequence(seq_data, batch_first=True)\n        return Interaction(new_data)\n",
+  "sources": [
+    {
+      "path": "data/diginetica-formal/diginetica-formal.inter",
+      "sha256": "d5e0c1c2ca3f3fe629ec1a3fa0e5bd06b2633ffd97323cf09000447178608c45"
+    },
+    {
+      "path": "outputs/formal/predictions-rerun20261112/SRGNN.jsonl",
+      "sha256": "d76f47d236285573f860f4486162eedfa5bdbe7da525b5193909008cb171af0e"
+    }
+  ]
+}

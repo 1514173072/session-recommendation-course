@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:\Projects\算法分析与理论课程\15_Amazon_M2算法对比\train.py", line 114, in <module>
+    if __name__=='__main__':main()
+  File "D:\Projects\算法分析与理论课程\15_Amazon_M2算法对比\train.py", line 96, in main
+    if name=='GCSAN':loss+=model.reg_weight*model.reg_loss(model.item_embedding.weight)
+RuntimeError: output with shape [] doesn't match the broadcast shape [1]

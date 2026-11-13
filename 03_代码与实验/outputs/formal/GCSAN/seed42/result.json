@@ -1,0 +1,49 @@
+{
+  "model": "GCSAN",
+  "variant": "base",
+  "dataset": "diginetica-formal",
+  "scope": "Formal course-project experiment on a 20k-session disjoint subset; not an official leaderboard reproduction.",
+  "epochs_requested": 20,
+  "seed": 42,
+  "device": "cpu",
+  "raw_session_count": 20000,
+  "candidate_items": 32968,
+  "train_examples": 97273,
+  "valid_examples": 20000,
+  "test_examples": 20000,
+  "split_session_target_sha256": {
+    "train": "b9d1b3bd47d3bc7905ffa4dc4219618a19a2539427983d3a40f064b286a77f11",
+    "valid": "dce0721d44aaa6eb2285ff8135450ab9616a17d535fb1279b04085d6913f8311",
+    "test": "6e490221d53344ec678614e5ab9fe2051e079b7036e324b893228796ae717212"
+  },
+  "best_valid_score": 0.1552,
+  "best_valid_result": {
+    "recall@10": 0.3337,
+    "mrr@10": 0.1552,
+    "ndcg@10": 0.1973,
+    "hit@10": 0.3337,
+    "precision@10": 0.0334
+  },
+  "test_result": {
+    "recall@10": 0.2952,
+    "mrr@10": 0.1387,
+    "ndcg@10": 0.1756,
+    "hit@10": 0.2952,
+    "precision@10": 0.0295
+  },
+  "data_preparation_seconds": 14.3018645,
+  "training_and_validation_seconds": 603.6835454000001,
+  "test_seconds": 4.090067299999987,
+  "checkpoint": "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\GCSAN\\seed42\\checkpoints\\GCSAN-Nov-02-2026_17-59-07.pth",
+  "checkpoint_sha256": "fc997bda916752dc98acc7c08cae5f48b135d47893cf5f635be470676ea25c7c",
+  "parameters": 2205568,
+  "log_file": "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\outputs\\formal\\GCSAN\\seed42\\train.log",
+  "environment": {
+    "python": "3.9.21",
+    "torch": "2.1.2+cpu",
+    "numpy": "1.23.5",
+    "recbole": "1.1.1",
+    "pyg": "2.4.0",
+    "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+  }
+}

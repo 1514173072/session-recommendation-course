@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "methods": 6,
+  "sessions": 20000,
+  "checkbox_changes_cards_and_case_counts": true,
+  "top5_changes_display_and_hit_label": true,
+  "all_selected_hit_filter_returns": 3181,
+  "default_session": "10114",
+  "new_methods_visible": [
+    "灰色关联",
+    "改进灰色关联（β=7）",
+    "离线qwen3.5-2B"
+  ]
+}

@@ -1,0 +1,13 @@
+Mon 02 Nov 2026 17:36:30 INFO  Constructing session graphs.
+Mon 02 Nov 2026 17:36:32 INFO  Constructing session graphs.
+Mon 02 Nov 2026 17:36:33 INFO  Constructing session graphs.
+Mon 02 Nov 2026 17:36:34 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 17:36:34 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 17:36:34 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 17:36:34 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Mon 02 Nov 2026 17:36:34 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Mon 02 Nov 2026 17:36:40 INFO  epoch 0 training [time: 6.00s, train loss: 2365.9021]
+Mon 02 Nov 2026 17:36:40 INFO  epoch 0 evaluating [time: 0.63s, valid_score: 0.155900]
+Mon 02 Nov 2026 17:36:40 INFO  valid result: 
+recall@10 : 0.2684    mrr@10 : 0.1559    ndcg@10 : 0.1825    hit@10 : 0.2684    precision@10 : 0.0268
+Mon 02 Nov 2026 17:36:40 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\SRGNN-bench\seed42\checkpoints\SRGNN-Nov-02-2026_17-36-34.pth

@@ -1,0 +1,52 @@
+{
+  "model": "GCEGNN",
+  "dataset": "diginetica-smoke",
+  "scope": "Small-scale runtime verification; not official leaderboard reproduction.",
+  "epochs_requested": 3,
+  "seed": 42,
+  "device": "cpu",
+  "raw_session_count": 2000,
+  "candidate_items": 9109,
+  "train_examples": 9813,
+  "valid_examples": 2000,
+  "test_examples": 2000,
+  "split_session_target_sha256": {
+    "train": "1d6793d55d6957ce0aacbce57365978da0ee4c8482a1debdefd0229d34c9ce3c",
+    "valid": "fd87f69f683ffebc0035aca6898189126dd32dbde9096de0351cc75f939774e8",
+    "test": "ef21ccbc6647adbcac71320878a0555d26e8dbb6cc0fc5e7026ff829be82d73e"
+  },
+  "best_valid_score": 0.1485,
+  "best_valid_result": {
+    "recall@10": 0.2575,
+    "mrr@10": 0.1485,
+    "ndcg@10": 0.1753,
+    "hit@10": 0.2575,
+    "precision@10": 0.0258
+  },
+  "test_result": {
+    "recall@10": 0.2485,
+    "mrr@10": 0.1518,
+    "ndcg@10": 0.1754,
+    "hit@10": 0.2485,
+    "precision@10": 0.0249
+  },
+  "data_preparation_seconds": 4.656556300000001,
+  "training_and_validation_seconds": 0.0,
+  "test_seconds": 0.3109763999999995,
+  "prediction_batch_size": 64,
+  "prediction_batch_seconds": 0.007311699999998922,
+  "checkpoint": "outputs/diginetica-smoke/GCEGNN/checkpoints/GCEGNN-Oct-29-2026_15-57-52.pth",
+  "checkpoint_sha256": "c471087c36f59dff181d37b15dc2d8eb08f9ebbf868656ce91dcf715a4e3df08",
+  "checkpoint_reload_passed": true,
+  "max_reload_score_difference": 0.0,
+  "top10_validation_passed": true,
+  "parameters": 613568,
+  "environment": {
+    "python": "3.9.21",
+    "torch": "2.1.2+cpu",
+    "numpy": "1.23.5",
+    "recbole": "1.1.1",
+    "pyg": "2.4.0",
+    "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+  }
+}

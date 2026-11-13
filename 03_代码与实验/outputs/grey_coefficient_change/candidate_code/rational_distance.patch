@@ -1,0 +1,10 @@
+--- grey_session.py
++++ grey_session.py
+@@ -15,6 +15,7 @@
+     if not 0 < rho <= 1:
+         raise ValueError('rho must be in (0, 1]')
+     delta = np.abs(1.0 - normalized)
++    delta = delta / (1.0 + 7 * (1.0 - delta))
+     lo, hi = float(delta.min()), float(delta.max())
+     if hi == 0:
+         return np.ones_like(normalized)

@@ -1,0 +1,962 @@
+[
+  {
+    "index": 0,
+    "expected": "F",
+    "wall_ms": 5122.26599999849,
+    "response": {
+      "index": 0,
+      "content": "C",
+      "tokens": [
+        34
+      ],
+      "id_slot": 0,
+      "stop": true,
+      "model": "D:\\Models\\Ollama\\blobs\\sha256-20cb277f0967ace47b0b5d5658e5e494a88937f7378b74b5a266496400938f4c",
+      "tokens_predicted": 1,
+      "tokens_evaluated": 959,
+      "generation_settings": {
+        "seed": 42,
+        "temperature": 0.0,
+        "dynatemp_range": 0.0,
+        "dynatemp_exponent": 1.0,
+        "top_k": 40,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1.0,
+        "xtc_probability": 0.0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1.0,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "dry_multiplier": 0.0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "dry_sequence_breakers": [
+          "\n",
+          ":",
+          "\"",
+          "*"
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5.0,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1.0,
+        "adaptive_decay": 0.8999999761581421,
+        "stop": [],
+        "max_tokens": 1,
+        "n_predict": 1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "logit_bias": [],
+        "n_probs": 12,
+        "min_keep": 0,
+        "grammar": "root ::= [A-L]",
+        "grammar_lazy": false,
+        "grammar_triggers": [],
+        "preserved_tokens": [],
+        "chat_format": "Content-only",
+        "reasoning_format": "deepseek",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": true,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "prompt": "<|im_start|>system\nYou choose a session-recommendation scoring policy from a training-derived menu. Use length, repeated interest, and training popularity to choose an appropriate policy. short means length<=3; medium means4..7; long means>=8. popular1 means last-click normalized popularity>=0.23069553; repeat1 means last item appeared before. Return only the matching policy letter.\nA: short_repeat0_popular0; weights=[0.12, 0.38, 0.46, 0.04]; interactions=[0.08, 0.04, -0.01, 0.08, -0.02, -0.03]\nB: short_repeat0_popular1; weights=[0.34, 0.4, 0.2, 0.06]; interactions=[0.14, 0.05, -0.03, 0.08, -0.02, -0.02]\nC: short_repeat1_popular0; weights=[0.08, 0.22, 0.66, 0.04]; interactions=[0.03, 0.06, 0, 0.1, -0.01, -0.03]\nD: short_repeat1_popular1; weights=[0.28, 0.27, 0.4, 0.05]; interactions=[0.12, 0.1, -0.03, 0.1, -0.02, -0.03]\nE: medium_repeat0_popular0; weights=[0.14, 0.38, 0.44, 0.04]; interactions=[0.08, 0.04, -0.01, 0.1, -0.02, -0.03]\nF: medium_repeat0_popular1; weights=[0.28, 0.42, 0.25, 0.05]; interactions=[0.15, 0.05, -0.03, 0.1, -0.03, -0.02]\nG: medium_repeat1_popular0; weights=[0.1, 0.24, 0.62, 0.04]; interactions=[0.04, 0.08, -0.01, 0.13, -0.02, -0.03]\nH: medium_repeat1_popular1; weights=[0.24, 0.31, 0.4, 0.05]; interactions=[0.13, 0.1, -0.03, 0.13, -0.03, -0.03]\nI: long_repeat0_popular0; weights=[0.12, 0.43, 0.41, 0.04]; interactions=[0.08, 0.04, -0.01, 0.12, -0.02, -0.03]\nJ: long_repeat0_popular1; weights=[0.24, 0.43, 0.28, 0.05]; interactions=[0.14, 0.06, -0.03, 0.12, -0.03, -0.02]\nK: long_repeat1_popular0; weights=[0.1, 0.28, 0.58, 0.04]; interactions=[0.05, 0.08, -0.01, 0.14, -0.02, -0.03]\nL: long_repeat1_popular1; weights=[0.22, 0.34, 0.39, 0.05]; interactions=[0.14, 0.1, -0.03, 0.15, -0.03, -0.03]<|im_end|>\n<|im_start|>user\nlength=6 repeat=0 popularity=0.376<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "has_new_line": false,
+      "truncated": false,
+      "stop_type": "limit",
+      "stopping_word": "",
+      "tokens_cached": 959,
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 959,
+        "prompt_ms": 5107.548,
+        "prompt_per_token_ms": 5.325910323253389,
+        "prompt_per_second": 187.7613289194737,
+        "predicted_n": 1,
+        "predicted_ms": 0.001,
+        "predicted_per_token_ms": 0.0,
+        "predicted_per_second": 0.0
+      },
+      "completion_probabilities": [
+        {
+          "id": 34,
+          "token": "C",
+          "bytes": [
+            67
+          ],
+          "prob": 1.0,
+          "top_probs": [
+            {
+              "id": 34,
+              "token": "C",
+              "bytes": [
+                67
+              ],
+              "prob": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "index": 1,
+    "expected": "H",
+    "wall_ms": 2830.113199997868,
+    "response": {
+      "index": 0,
+      "content": "C",
+      "tokens": [
+        34
+      ],
+      "id_slot": 0,
+      "stop": true,
+      "model": "D:\\Models\\Ollama\\blobs\\sha256-20cb277f0967ace47b0b5d5658e5e494a88937f7378b74b5a266496400938f4c",
+      "tokens_predicted": 1,
+      "tokens_evaluated": 959,
+      "generation_settings": {
+        "seed": 42,
+        "temperature": 0.0,
+        "dynatemp_range": 0.0,
+        "dynatemp_exponent": 1.0,
+        "top_k": 40,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1.0,
+        "xtc_probability": 0.0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1.0,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "dry_multiplier": 0.0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "dry_sequence_breakers": [
+          "\n",
+          ":",
+          "\"",
+          "*"
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5.0,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1.0,
+        "adaptive_decay": 0.8999999761581421,
+        "stop": [],
+        "max_tokens": 1,
+        "n_predict": 1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "logit_bias": [],
+        "n_probs": 12,
+        "min_keep": 0,
+        "grammar": "root ::= [A-L]",
+        "grammar_lazy": false,
+        "grammar_triggers": [],
+        "preserved_tokens": [],
+        "chat_format": "Content-only",
+        "reasoning_format": "deepseek",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": true,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "prompt": "<|im_start|>system\nYou choose a session-recommendation scoring policy from a training-derived menu. Use length, repeated interest, and training popularity to choose an appropriate policy. short means length<=3; medium means4..7; long means>=8. popular1 means last-click normalized popularity>=0.23069553; repeat1 means last item appeared before. Return only the matching policy letter.\nA: short_repeat0_popular0; weights=[0.12, 0.38, 0.46, 0.04]; interactions=[0.08, 0.04, -0.01, 0.08, -0.02, -0.03]\nB: short_repeat0_popular1; weights=[0.34, 0.4, 0.2, 0.06]; interactions=[0.14, 0.05, -0.03, 0.08, -0.02, -0.02]\nC: short_repeat1_popular0; weights=[0.08, 0.22, 0.66, 0.04]; interactions=[0.03, 0.06, 0, 0.1, -0.01, -0.03]\nD: short_repeat1_popular1; weights=[0.28, 0.27, 0.4, 0.05]; interactions=[0.12, 0.1, -0.03, 0.1, -0.02, -0.03]\nE: medium_repeat0_popular0; weights=[0.14, 0.38, 0.44, 0.04]; interactions=[0.08, 0.04, -0.01, 0.1, -0.02, -0.03]\nF: medium_repeat0_popular1; weights=[0.28, 0.42, 0.25, 0.05]; interactions=[0.15, 0.05, -0.03, 0.1, -0.03, -0.02]\nG: medium_repeat1_popular0; weights=[0.1, 0.24, 0.62, 0.04]; interactions=[0.04, 0.08, -0.01, 0.13, -0.02, -0.03]\nH: medium_repeat1_popular1; weights=[0.24, 0.31, 0.4, 0.05]; interactions=[0.13, 0.1, -0.03, 0.13, -0.03, -0.03]\nI: long_repeat0_popular0; weights=[0.12, 0.43, 0.41, 0.04]; interactions=[0.08, 0.04, -0.01, 0.12, -0.02, -0.03]\nJ: long_repeat0_popular1; weights=[0.24, 0.43, 0.28, 0.05]; interactions=[0.14, 0.06, -0.03, 0.12, -0.03, -0.02]\nK: long_repeat1_popular0; weights=[0.1, 0.28, 0.58, 0.04]; interactions=[0.05, 0.08, -0.01, 0.14, -0.02, -0.03]\nL: long_repeat1_popular1; weights=[0.22, 0.34, 0.39, 0.05]; interactions=[0.14, 0.1, -0.03, 0.15, -0.03, -0.03]<|im_end|>\n<|im_start|>user\nlength=5 repeat=1 popularity=0.504<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "has_new_line": false,
+      "truncated": false,
+      "stop_type": "limit",
+      "stopping_word": "",
+      "tokens_cached": 959,
+      "timings": {
+        "cache_n": 443,
+        "prompt_n": 516,
+        "prompt_ms": 2827.326,
+        "prompt_per_token_ms": 5.479313953488372,
+        "prompt_per_second": 182.5045997525577,
+        "predicted_n": 1,
+        "predicted_ms": 0.001,
+        "predicted_per_token_ms": 0.0,
+        "predicted_per_second": 0.0
+      },
+      "completion_probabilities": [
+        {
+          "id": 34,
+          "token": "C",
+          "bytes": [
+            67
+          ],
+          "prob": 1.0,
+          "top_probs": [
+            {
+              "id": 34,
+              "token": "C",
+              "bytes": [
+                67
+              ],
+              "prob": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "index": 2,
+    "expected": "F",
+    "wall_ms": 2845.6767999996373,
+    "response": {
+      "index": 0,
+      "content": "C",
+      "tokens": [
+        34
+      ],
+      "id_slot": 0,
+      "stop": true,
+      "model": "D:\\Models\\Ollama\\blobs\\sha256-20cb277f0967ace47b0b5d5658e5e494a88937f7378b74b5a266496400938f4c",
+      "tokens_predicted": 1,
+      "tokens_evaluated": 959,
+      "generation_settings": {
+        "seed": 42,
+        "temperature": 0.0,
+        "dynatemp_range": 0.0,
+        "dynatemp_exponent": 1.0,
+        "top_k": 40,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1.0,
+        "xtc_probability": 0.0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1.0,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "dry_multiplier": 0.0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "dry_sequence_breakers": [
+          "\n",
+          ":",
+          "\"",
+          "*"
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5.0,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1.0,
+        "adaptive_decay": 0.8999999761581421,
+        "stop": [],
+        "max_tokens": 1,
+        "n_predict": 1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "logit_bias": [],
+        "n_probs": 12,
+        "min_keep": 0,
+        "grammar": "root ::= [A-L]",
+        "grammar_lazy": false,
+        "grammar_triggers": [],
+        "preserved_tokens": [],
+        "chat_format": "Content-only",
+        "reasoning_format": "deepseek",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": true,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "prompt": "<|im_start|>system\nYou choose a session-recommendation scoring policy from a training-derived menu. Use length, repeated interest, and training popularity to choose an appropriate policy. short means length<=3; medium means4..7; long means>=8. popular1 means last-click normalized popularity>=0.23069553; repeat1 means last item appeared before. Return only the matching policy letter.\nA: short_repeat0_popular0; weights=[0.12, 0.38, 0.46, 0.04]; interactions=[0.08, 0.04, -0.01, 0.08, -0.02, -0.03]\nB: short_repeat0_popular1; weights=[0.34, 0.4, 0.2, 0.06]; interactions=[0.14, 0.05, -0.03, 0.08, -0.02, -0.02]\nC: short_repeat1_popular0; weights=[0.08, 0.22, 0.66, 0.04]; interactions=[0.03, 0.06, 0, 0.1, -0.01, -0.03]\nD: short_repeat1_popular1; weights=[0.28, 0.27, 0.4, 0.05]; interactions=[0.12, 0.1, -0.03, 0.1, -0.02, -0.03]\nE: medium_repeat0_popular0; weights=[0.14, 0.38, 0.44, 0.04]; interactions=[0.08, 0.04, -0.01, 0.1, -0.02, -0.03]\nF: medium_repeat0_popular1; weights=[0.28, 0.42, 0.25, 0.05]; interactions=[0.15, 0.05, -0.03, 0.1, -0.03, -0.02]\nG: medium_repeat1_popular0; weights=[0.1, 0.24, 0.62, 0.04]; interactions=[0.04, 0.08, -0.01, 0.13, -0.02, -0.03]\nH: medium_repeat1_popular1; weights=[0.24, 0.31, 0.4, 0.05]; interactions=[0.13, 0.1, -0.03, 0.13, -0.03, -0.03]\nI: long_repeat0_popular0; weights=[0.12, 0.43, 0.41, 0.04]; interactions=[0.08, 0.04, -0.01, 0.12, -0.02, -0.03]\nJ: long_repeat0_popular1; weights=[0.24, 0.43, 0.28, 0.05]; interactions=[0.14, 0.06, -0.03, 0.12, -0.03, -0.02]\nK: long_repeat1_popular0; weights=[0.1, 0.28, 0.58, 0.04]; interactions=[0.05, 0.08, -0.01, 0.14, -0.02, -0.03]\nL: long_repeat1_popular1; weights=[0.22, 0.34, 0.39, 0.05]; interactions=[0.14, 0.1, -0.03, 0.15, -0.03, -0.03]<|im_end|>\n<|im_start|>user\nlength=4 repeat=0 popularity=0.522<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "has_new_line": false,
+      "truncated": false,
+      "stop_type": "limit",
+      "stopping_word": "",
+      "tokens_cached": 959,
+      "timings": {
+        "cache_n": 443,
+        "prompt_n": 516,
+        "prompt_ms": 2843.191,
+        "prompt_per_token_ms": 5.5100600775193795,
+        "prompt_per_second": 181.486224456957,
+        "predicted_n": 1,
+        "predicted_ms": 0.001,
+        "predicted_per_token_ms": 0.0,
+        "predicted_per_second": 0.0
+      },
+      "completion_probabilities": [
+        {
+          "id": 34,
+          "token": "C",
+          "bytes": [
+            67
+          ],
+          "prob": 1.0,
+          "top_probs": [
+            {
+              "id": 34,
+              "token": "C",
+              "bytes": [
+                67
+              ],
+              "prob": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "index": 3,
+    "expected": "E",
+    "wall_ms": 2817.5876999994216,
+    "response": {
+      "index": 0,
+      "content": "C",
+      "tokens": [
+        34
+      ],
+      "id_slot": 0,
+      "stop": true,
+      "model": "D:\\Models\\Ollama\\blobs\\sha256-20cb277f0967ace47b0b5d5658e5e494a88937f7378b74b5a266496400938f4c",
+      "tokens_predicted": 1,
+      "tokens_evaluated": 959,
+      "generation_settings": {
+        "seed": 42,
+        "temperature": 0.0,
+        "dynatemp_range": 0.0,
+        "dynatemp_exponent": 1.0,
+        "top_k": 40,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1.0,
+        "xtc_probability": 0.0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1.0,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "dry_multiplier": 0.0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "dry_sequence_breakers": [
+          "\n",
+          ":",
+          "\"",
+          "*"
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5.0,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1.0,
+        "adaptive_decay": 0.8999999761581421,
+        "stop": [],
+        "max_tokens": 1,
+        "n_predict": 1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "logit_bias": [],
+        "n_probs": 12,
+        "min_keep": 0,
+        "grammar": "root ::= [A-L]",
+        "grammar_lazy": false,
+        "grammar_triggers": [],
+        "preserved_tokens": [],
+        "chat_format": "Content-only",
+        "reasoning_format": "deepseek",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": true,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "prompt": "<|im_start|>system\nYou choose a session-recommendation scoring policy from a training-derived menu. Use length, repeated interest, and training popularity to choose an appropriate policy. short means length<=3; medium means4..7; long means>=8. popular1 means last-click normalized popularity>=0.23069553; repeat1 means last item appeared before. Return only the matching policy letter.\nA: short_repeat0_popular0; weights=[0.12, 0.38, 0.46, 0.04]; interactions=[0.08, 0.04, -0.01, 0.08, -0.02, -0.03]\nB: short_repeat0_popular1; weights=[0.34, 0.4, 0.2, 0.06]; interactions=[0.14, 0.05, -0.03, 0.08, -0.02, -0.02]\nC: short_repeat1_popular0; weights=[0.08, 0.22, 0.66, 0.04]; interactions=[0.03, 0.06, 0, 0.1, -0.01, -0.03]\nD: short_repeat1_popular1; weights=[0.28, 0.27, 0.4, 0.05]; interactions=[0.12, 0.1, -0.03, 0.1, -0.02, -0.03]\nE: medium_repeat0_popular0; weights=[0.14, 0.38, 0.44, 0.04]; interactions=[0.08, 0.04, -0.01, 0.1, -0.02, -0.03]\nF: medium_repeat0_popular1; weights=[0.28, 0.42, 0.25, 0.05]; interactions=[0.15, 0.05, -0.03, 0.1, -0.03, -0.02]\nG: medium_repeat1_popular0; weights=[0.1, 0.24, 0.62, 0.04]; interactions=[0.04, 0.08, -0.01, 0.13, -0.02, -0.03]\nH: medium_repeat1_popular1; weights=[0.24, 0.31, 0.4, 0.05]; interactions=[0.13, 0.1, -0.03, 0.13, -0.03, -0.03]\nI: long_repeat0_popular0; weights=[0.12, 0.43, 0.41, 0.04]; interactions=[0.08, 0.04, -0.01, 0.12, -0.02, -0.03]\nJ: long_repeat0_popular1; weights=[0.24, 0.43, 0.28, 0.05]; interactions=[0.14, 0.06, -0.03, 0.12, -0.03, -0.02]\nK: long_repeat1_popular0; weights=[0.1, 0.28, 0.58, 0.04]; interactions=[0.05, 0.08, -0.01, 0.14, -0.02, -0.03]\nL: long_repeat1_popular1; weights=[0.22, 0.34, 0.39, 0.05]; interactions=[0.14, 0.1, -0.03, 0.15, -0.03, -0.03]<|im_end|>\n<|im_start|>user\nlength=4 repeat=0 popularity=0.000<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "has_new_line": false,
+      "truncated": false,
+      "stop_type": "limit",
+      "stopping_word": "",
+      "tokens_cached": 959,
+      "timings": {
+        "cache_n": 443,
+        "prompt_n": 516,
+        "prompt_ms": 2814.662,
+        "prompt_per_token_ms": 5.454771317829457,
+        "prompt_per_second": 183.32574213173731,
+        "predicted_n": 1,
+        "predicted_ms": 0.001,
+        "predicted_per_token_ms": 0.0,
+        "predicted_per_second": 0.0
+      },
+      "completion_probabilities": [
+        {
+          "id": 34,
+          "token": "C",
+          "bytes": [
+            67
+          ],
+          "prob": 1.0,
+          "top_probs": [
+            {
+              "id": 34,
+              "token": "C",
+              "bytes": [
+                67
+              ],
+              "prob": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "index": 4,
+    "expected": "J",
+    "wall_ms": 2815.566299999773,
+    "response": {
+      "index": 0,
+      "content": "C",
+      "tokens": [
+        34
+      ],
+      "id_slot": 0,
+      "stop": true,
+      "model": "D:\\Models\\Ollama\\blobs\\sha256-20cb277f0967ace47b0b5d5658e5e494a88937f7378b74b5a266496400938f4c",
+      "tokens_predicted": 1,
+      "tokens_evaluated": 960,
+      "generation_settings": {
+        "seed": 42,
+        "temperature": 0.0,
+        "dynatemp_range": 0.0,
+        "dynatemp_exponent": 1.0,
+        "top_k": 40,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1.0,
+        "xtc_probability": 0.0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1.0,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "dry_multiplier": 0.0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "dry_sequence_breakers": [
+          "\n",
+          ":",
+          "\"",
+          "*"
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5.0,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1.0,
+        "adaptive_decay": 0.8999999761581421,
+        "stop": [],
+        "max_tokens": 1,
+        "n_predict": 1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "logit_bias": [],
+        "n_probs": 12,
+        "min_keep": 0,
+        "grammar": "root ::= [A-L]",
+        "grammar_lazy": false,
+        "grammar_triggers": [],
+        "preserved_tokens": [],
+        "chat_format": "Content-only",
+        "reasoning_format": "deepseek",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": true,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "prompt": "<|im_start|>system\nYou choose a session-recommendation scoring policy from a training-derived menu. Use length, repeated interest, and training popularity to choose an appropriate policy. short means length<=3; medium means4..7; long means>=8. popular1 means last-click normalized popularity>=0.23069553; repeat1 means last item appeared before. Return only the matching policy letter.\nA: short_repeat0_popular0; weights=[0.12, 0.38, 0.46, 0.04]; interactions=[0.08, 0.04, -0.01, 0.08, -0.02, -0.03]\nB: short_repeat0_popular1; weights=[0.34, 0.4, 0.2, 0.06]; interactions=[0.14, 0.05, -0.03, 0.08, -0.02, -0.02]\nC: short_repeat1_popular0; weights=[0.08, 0.22, 0.66, 0.04]; interactions=[0.03, 0.06, 0, 0.1, -0.01, -0.03]\nD: short_repeat1_popular1; weights=[0.28, 0.27, 0.4, 0.05]; interactions=[0.12, 0.1, -0.03, 0.1, -0.02, -0.03]\nE: medium_repeat0_popular0; weights=[0.14, 0.38, 0.44, 0.04]; interactions=[0.08, 0.04, -0.01, 0.1, -0.02, -0.03]\nF: medium_repeat0_popular1; weights=[0.28, 0.42, 0.25, 0.05]; interactions=[0.15, 0.05, -0.03, 0.1, -0.03, -0.02]\nG: medium_repeat1_popular0; weights=[0.1, 0.24, 0.62, 0.04]; interactions=[0.04, 0.08, -0.01, 0.13, -0.02, -0.03]\nH: medium_repeat1_popular1; weights=[0.24, 0.31, 0.4, 0.05]; interactions=[0.13, 0.1, -0.03, 0.13, -0.03, -0.03]\nI: long_repeat0_popular0; weights=[0.12, 0.43, 0.41, 0.04]; interactions=[0.08, 0.04, -0.01, 0.12, -0.02, -0.03]\nJ: long_repeat0_popular1; weights=[0.24, 0.43, 0.28, 0.05]; interactions=[0.14, 0.06, -0.03, 0.12, -0.03, -0.02]\nK: long_repeat1_popular0; weights=[0.1, 0.28, 0.58, 0.04]; interactions=[0.05, 0.08, -0.01, 0.14, -0.02, -0.03]\nL: long_repeat1_popular1; weights=[0.22, 0.34, 0.39, 0.05]; interactions=[0.14, 0.1, -0.03, 0.15, -0.03, -0.03]<|im_end|>\n<|im_start|>user\nlength=18 repeat=0 popularity=0.808<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "has_new_line": false,
+      "truncated": false,
+      "stop_type": "limit",
+      "stopping_word": "",
+      "tokens_cached": 960,
+      "timings": {
+        "cache_n": 443,
+        "prompt_n": 517,
+        "prompt_ms": 2812.468,
+        "prompt_per_token_ms": 5.439976789168278,
+        "prompt_per_second": 183.82431373441406,
+        "predicted_n": 1,
+        "predicted_ms": 0.001,
+        "predicted_per_token_ms": 0.0,
+        "predicted_per_second": 0.0
+      },
+      "completion_probabilities": [
+        {
+          "id": 34,
+          "token": "C",
+          "bytes": [
+            67
+          ],
+          "prob": 1.0,
+          "top_probs": [
+            {
+              "id": 34,
+              "token": "C",
+              "bytes": [
+                67
+              ],
+              "prob": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "index": 5,
+    "expected": "J",
+    "wall_ms": 2918.6264000018127,
+    "response": {
+      "index": 0,
+      "content": "C",
+      "tokens": [
+        34
+      ],
+      "id_slot": 0,
+      "stop": true,
+      "model": "D:\\Models\\Ollama\\blobs\\sha256-20cb277f0967ace47b0b5d5658e5e494a88937f7378b74b5a266496400938f4c",
+      "tokens_predicted": 1,
+      "tokens_evaluated": 960,
+      "generation_settings": {
+        "seed": 42,
+        "temperature": 0.0,
+        "dynatemp_range": 0.0,
+        "dynatemp_exponent": 1.0,
+        "top_k": 40,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1.0,
+        "xtc_probability": 0.0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1.0,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "dry_multiplier": 0.0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "dry_sequence_breakers": [
+          "\n",
+          ":",
+          "\"",
+          "*"
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5.0,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1.0,
+        "adaptive_decay": 0.8999999761581421,
+        "stop": [],
+        "max_tokens": 1,
+        "n_predict": 1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "logit_bias": [],
+        "n_probs": 12,
+        "min_keep": 0,
+        "grammar": "root ::= [A-L]",
+        "grammar_lazy": false,
+        "grammar_triggers": [],
+        "preserved_tokens": [],
+        "chat_format": "Content-only",
+        "reasoning_format": "deepseek",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": true,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "prompt": "<|im_start|>system\nYou choose a session-recommendation scoring policy from a training-derived menu. Use length, repeated interest, and training popularity to choose an appropriate policy. short means length<=3; medium means4..7; long means>=8. popular1 means last-click normalized popularity>=0.23069553; repeat1 means last item appeared before. Return only the matching policy letter.\nA: short_repeat0_popular0; weights=[0.12, 0.38, 0.46, 0.04]; interactions=[0.08, 0.04, -0.01, 0.08, -0.02, -0.03]\nB: short_repeat0_popular1; weights=[0.34, 0.4, 0.2, 0.06]; interactions=[0.14, 0.05, -0.03, 0.08, -0.02, -0.02]\nC: short_repeat1_popular0; weights=[0.08, 0.22, 0.66, 0.04]; interactions=[0.03, 0.06, 0, 0.1, -0.01, -0.03]\nD: short_repeat1_popular1; weights=[0.28, 0.27, 0.4, 0.05]; interactions=[0.12, 0.1, -0.03, 0.1, -0.02, -0.03]\nE: medium_repeat0_popular0; weights=[0.14, 0.38, 0.44, 0.04]; interactions=[0.08, 0.04, -0.01, 0.1, -0.02, -0.03]\nF: medium_repeat0_popular1; weights=[0.28, 0.42, 0.25, 0.05]; interactions=[0.15, 0.05, -0.03, 0.1, -0.03, -0.02]\nG: medium_repeat1_popular0; weights=[0.1, 0.24, 0.62, 0.04]; interactions=[0.04, 0.08, -0.01, 0.13, -0.02, -0.03]\nH: medium_repeat1_popular1; weights=[0.24, 0.31, 0.4, 0.05]; interactions=[0.13, 0.1, -0.03, 0.13, -0.03, -0.03]\nI: long_repeat0_popular0; weights=[0.12, 0.43, 0.41, 0.04]; interactions=[0.08, 0.04, -0.01, 0.12, -0.02, -0.03]\nJ: long_repeat0_popular1; weights=[0.24, 0.43, 0.28, 0.05]; interactions=[0.14, 0.06, -0.03, 0.12, -0.03, -0.02]\nK: long_repeat1_popular0; weights=[0.1, 0.28, 0.58, 0.04]; interactions=[0.05, 0.08, -0.01, 0.14, -0.02, -0.03]\nL: long_repeat1_popular1; weights=[0.22, 0.34, 0.39, 0.05]; interactions=[0.14, 0.1, -0.03, 0.15, -0.03, -0.03]<|im_end|>\n<|im_start|>user\nlength=11 repeat=0 popularity=0.231<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "has_new_line": false,
+      "truncated": false,
+      "stop_type": "limit",
+      "stopping_word": "",
+      "tokens_cached": 960,
+      "timings": {
+        "cache_n": 444,
+        "prompt_n": 516,
+        "prompt_ms": 2915.99,
+        "prompt_per_token_ms": 5.651143410852713,
+        "prompt_per_second": 176.95533935301563,
+        "predicted_n": 1,
+        "predicted_ms": 0.001,
+        "predicted_per_token_ms": 0.0,
+        "predicted_per_second": 0.0
+      },
+      "completion_probabilities": [
+        {
+          "id": 34,
+          "token": "C",
+          "bytes": [
+            67
+          ],
+          "prob": 1.0,
+          "top_probs": [
+            {
+              "id": 34,
+              "token": "C",
+              "bytes": [
+                67
+              ],
+              "prob": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "index": 6,
+    "expected": "H",
+    "wall_ms": 2872.0272999998997,
+    "response": {
+      "index": 0,
+      "content": "C",
+      "tokens": [
+        34
+      ],
+      "id_slot": 0,
+      "stop": true,
+      "model": "D:\\Models\\Ollama\\blobs\\sha256-20cb277f0967ace47b0b5d5658e5e494a88937f7378b74b5a266496400938f4c",
+      "tokens_predicted": 1,
+      "tokens_evaluated": 959,
+      "generation_settings": {
+        "seed": 42,
+        "temperature": 0.0,
+        "dynatemp_range": 0.0,
+        "dynatemp_exponent": 1.0,
+        "top_k": 40,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1.0,
+        "xtc_probability": 0.0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1.0,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "dry_multiplier": 0.0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "dry_sequence_breakers": [
+          "\n",
+          ":",
+          "\"",
+          "*"
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5.0,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1.0,
+        "adaptive_decay": 0.8999999761581421,
+        "stop": [],
+        "max_tokens": 1,
+        "n_predict": 1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "logit_bias": [],
+        "n_probs": 12,
+        "min_keep": 0,
+        "grammar": "root ::= [A-L]",
+        "grammar_lazy": false,
+        "grammar_triggers": [],
+        "preserved_tokens": [],
+        "chat_format": "Content-only",
+        "reasoning_format": "deepseek",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": true,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "prompt": "<|im_start|>system\nYou choose a session-recommendation scoring policy from a training-derived menu. Use length, repeated interest, and training popularity to choose an appropriate policy. short means length<=3; medium means4..7; long means>=8. popular1 means last-click normalized popularity>=0.23069553; repeat1 means last item appeared before. Return only the matching policy letter.\nA: short_repeat0_popular0; weights=[0.12, 0.38, 0.46, 0.04]; interactions=[0.08, 0.04, -0.01, 0.08, -0.02, -0.03]\nB: short_repeat0_popular1; weights=[0.34, 0.4, 0.2, 0.06]; interactions=[0.14, 0.05, -0.03, 0.08, -0.02, -0.02]\nC: short_repeat1_popular0; weights=[0.08, 0.22, 0.66, 0.04]; interactions=[0.03, 0.06, 0, 0.1, -0.01, -0.03]\nD: short_repeat1_popular1; weights=[0.28, 0.27, 0.4, 0.05]; interactions=[0.12, 0.1, -0.03, 0.1, -0.02, -0.03]\nE: medium_repeat0_popular0; weights=[0.14, 0.38, 0.44, 0.04]; interactions=[0.08, 0.04, -0.01, 0.1, -0.02, -0.03]\nF: medium_repeat0_popular1; weights=[0.28, 0.42, 0.25, 0.05]; interactions=[0.15, 0.05, -0.03, 0.1, -0.03, -0.02]\nG: medium_repeat1_popular0; weights=[0.1, 0.24, 0.62, 0.04]; interactions=[0.04, 0.08, -0.01, 0.13, -0.02, -0.03]\nH: medium_repeat1_popular1; weights=[0.24, 0.31, 0.4, 0.05]; interactions=[0.13, 0.1, -0.03, 0.13, -0.03, -0.03]\nI: long_repeat0_popular0; weights=[0.12, 0.43, 0.41, 0.04]; interactions=[0.08, 0.04, -0.01, 0.12, -0.02, -0.03]\nJ: long_repeat0_popular1; weights=[0.24, 0.43, 0.28, 0.05]; interactions=[0.14, 0.06, -0.03, 0.12, -0.03, -0.02]\nK: long_repeat1_popular0; weights=[0.1, 0.28, 0.58, 0.04]; interactions=[0.05, 0.08, -0.01, 0.14, -0.02, -0.03]\nL: long_repeat1_popular1; weights=[0.22, 0.34, 0.39, 0.05]; interactions=[0.14, 0.1, -0.03, 0.15, -0.03, -0.03]<|im_end|>\n<|im_start|>user\nlength=6 repeat=1 popularity=0.231<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "has_new_line": false,
+      "truncated": false,
+      "stop_type": "limit",
+      "stopping_word": "",
+      "tokens_cached": 959,
+      "timings": {
+        "cache_n": 444,
+        "prompt_n": 515,
+        "prompt_ms": 2869.49,
+        "prompt_per_token_ms": 5.571825242718446,
+        "prompt_per_second": 179.47440137446029,
+        "predicted_n": 1,
+        "predicted_ms": 0.001,
+        "predicted_per_token_ms": 0.0,
+        "predicted_per_second": 0.0
+      },
+      "completion_probabilities": [
+        {
+          "id": 34,
+          "token": "C",
+          "bytes": [
+            67
+          ],
+          "prob": 1.0,
+          "top_probs": [
+            {
+              "id": 34,
+              "token": "C",
+              "bytes": [
+                67
+              ],
+              "prob": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "index": 7,
+    "expected": "J",
+    "wall_ms": 2986.21009999988,
+    "response": {
+      "index": 0,
+      "content": "C",
+      "tokens": [
+        34
+      ],
+      "id_slot": 0,
+      "stop": true,
+      "model": "D:\\Models\\Ollama\\blobs\\sha256-20cb277f0967ace47b0b5d5658e5e494a88937f7378b74b5a266496400938f4c",
+      "tokens_predicted": 1,
+      "tokens_evaluated": 959,
+      "generation_settings": {
+        "seed": 42,
+        "temperature": 0.0,
+        "dynatemp_range": 0.0,
+        "dynatemp_exponent": 1.0,
+        "top_k": 40,
+        "top_p": 0.949999988079071,
+        "min_p": 0.05000000074505806,
+        "top_n_sigma": -1.0,
+        "xtc_probability": 0.0,
+        "xtc_threshold": 0.10000000149011612,
+        "typical_p": 1.0,
+        "repeat_last_n": 64,
+        "repeat_penalty": 1.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0,
+        "dry_multiplier": 0.0,
+        "dry_base": 1.75,
+        "dry_allowed_length": 2,
+        "dry_penalty_last_n": 64,
+        "dry_sequence_breakers": [
+          "\n",
+          ":",
+          "\"",
+          "*"
+        ],
+        "mirostat": 0,
+        "mirostat_tau": 5.0,
+        "mirostat_eta": 0.10000000149011612,
+        "adaptive_target": -1.0,
+        "adaptive_decay": 0.8999999761581421,
+        "stop": [],
+        "max_tokens": 1,
+        "n_predict": 1,
+        "n_keep": 0,
+        "n_discard": 0,
+        "ignore_eos": false,
+        "stream": false,
+        "logit_bias": [],
+        "n_probs": 12,
+        "min_keep": 0,
+        "grammar": "root ::= [A-L]",
+        "grammar_lazy": false,
+        "grammar_triggers": [],
+        "preserved_tokens": [],
+        "chat_format": "Content-only",
+        "reasoning_format": "deepseek",
+        "reasoning_in_content": false,
+        "generation_prompt": "",
+        "samplers": [
+          "penalties",
+          "dry",
+          "top_n_sigma",
+          "top_k",
+          "typ_p",
+          "top_p",
+          "min_p",
+          "xtc",
+          "temperature"
+        ],
+        "speculative.types": "none",
+        "timings_per_token": false,
+        "post_sampling_probs": true,
+        "backend_sampling": false,
+        "lora": []
+      },
+      "prompt": "<|im_start|>system\nYou choose a session-recommendation scoring policy from a training-derived menu. Use length, repeated interest, and training popularity to choose an appropriate policy. short means length<=3; medium means4..7; long means>=8. popular1 means last-click normalized popularity>=0.23069553; repeat1 means last item appeared before. Return only the matching policy letter.\nA: short_repeat0_popular0; weights=[0.12, 0.38, 0.46, 0.04]; interactions=[0.08, 0.04, -0.01, 0.08, -0.02, -0.03]\nB: short_repeat0_popular1; weights=[0.34, 0.4, 0.2, 0.06]; interactions=[0.14, 0.05, -0.03, 0.08, -0.02, -0.02]\nC: short_repeat1_popular0; weights=[0.08, 0.22, 0.66, 0.04]; interactions=[0.03, 0.06, 0, 0.1, -0.01, -0.03]\nD: short_repeat1_popular1; weights=[0.28, 0.27, 0.4, 0.05]; interactions=[0.12, 0.1, -0.03, 0.1, -0.02, -0.03]\nE: medium_repeat0_popular0; weights=[0.14, 0.38, 0.44, 0.04]; interactions=[0.08, 0.04, -0.01, 0.1, -0.02, -0.03]\nF: medium_repeat0_popular1; weights=[0.28, 0.42, 0.25, 0.05]; interactions=[0.15, 0.05, -0.03, 0.1, -0.03, -0.02]\nG: medium_repeat1_popular0; weights=[0.1, 0.24, 0.62, 0.04]; interactions=[0.04, 0.08, -0.01, 0.13, -0.02, -0.03]\nH: medium_repeat1_popular1; weights=[0.24, 0.31, 0.4, 0.05]; interactions=[0.13, 0.1, -0.03, 0.13, -0.03, -0.03]\nI: long_repeat0_popular0; weights=[0.12, 0.43, 0.41, 0.04]; interactions=[0.08, 0.04, -0.01, 0.12, -0.02, -0.03]\nJ: long_repeat0_popular1; weights=[0.24, 0.43, 0.28, 0.05]; interactions=[0.14, 0.06, -0.03, 0.12, -0.03, -0.02]\nK: long_repeat1_popular0; weights=[0.1, 0.28, 0.58, 0.04]; interactions=[0.05, 0.08, -0.01, 0.14, -0.02, -0.03]\nL: long_repeat1_popular1; weights=[0.22, 0.34, 0.39, 0.05]; interactions=[0.14, 0.1, -0.03, 0.15, -0.03, -0.03]<|im_end|>\n<|im_start|>user\nlength=8 repeat=0 popularity=0.437<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "has_new_line": false,
+      "truncated": false,
+      "stop_type": "limit",
+      "stopping_word": "",
+      "tokens_cached": 959,
+      "timings": {
+        "cache_n": 444,
+        "prompt_n": 515,
+        "prompt_ms": 2983.646,
+        "prompt_per_token_ms": 5.793487378640777,
+        "prompt_per_second": 172.60760827524444,
+        "predicted_n": 1,
+        "predicted_ms": 0.001,
+        "predicted_per_token_ms": 0.0,
+        "predicted_per_second": 0.0
+      },
+      "completion_probabilities": [
+        {
+          "id": 34,
+          "token": "C",
+          "bytes": [
+            67
+          ],
+          "prob": 1.0,
+          "top_probs": [
+            {
+              "id": 34,
+              "token": "C",
+              "bytes": [
+                67
+              ],
+              "prob": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "all_passed": true,
+  "queries": 20000,
+  "config": {
+    "family": "all_power",
+    "value": 0.0625
+  },
+  "test": {
+    "recall@10": 0.3553,
+    "mrr@10": 0.1615366865079365,
+    "ndcg@10": 0.20720917222830298,
+    "hit@10": 0.3553,
+    "precision@10": 0.03553
+  },
+  "one_line_implementation_matches_cached_ranks_all_queries": true
+}

@@ -1,0 +1,81 @@
+python.exe : 29 Oct 20:00    INFO  Constructing session graphs.
+At D:\Projects\算法分析与理论课程\03_代码与实验\run_smoke.ps1:27 char:9
++         & $runtimePython @scriptArguments 2>&1 | Tee-Object -FilePath ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (29 Oct 20:00   ...session graphs.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  0%|          | 0/9813 [00:00<?, ?it/s]
+ 14%|█▍        | 1393/9813 [00:00<00:00, 13798.75it/s]
+ 31%|███       | 2997/9813 [00:00<00:00, 15067.14it/s]
+ 49%|████▉     | 4845/9813 [00:00<00:00, 16557.53it/s]
+ 69%|██████▊   | 6727/9813 [00:00<00:00, 17378.56it/s]
+ 86%|████████▋ | 8465/9813 [00:00<00:00, 16234.26it/s]
+100%|██████████| 9813/9813 [00:00<00:00, 15539.03it/s]
+29 Oct 20:00    INFO  Constructing session graphs.
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 65%|██████▍   | 1299/2000 [00:00<00:00, 12887.81it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 13638.46it/s]
+29 Oct 20:00    INFO  Constructing session graphs.
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 76%|███████▌  | 1516/2000 [00:00<00:00, 15010.07it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 14814.32it/s]
+29 Oct 20:00    INFO  SessionGraph Transform in DataLoader.
+29 Oct 20:00    INFO  SessionGraph Transform in DataLoader.
+29 Oct 20:00    INFO  SessionGraph Transform in DataLoader.
+29 Oct 20:00    INFO  [Training]: train_batch_size = [64] negative sampling: [{'distribution': 'none', 'sample_num': 'n
+one', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+29 Oct 20:00    INFO  [Evaluation]: eval_batch_size = [64] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO
+', 'mode': 'full', 'group_by': 'user'}]
+{
+  "model": "SRGNN",
+  "dataset": "diginetica-smoke",
+  "scope": "Small-scale runtime verification; not official leaderboard reproduction.",
+  "epochs_requested": 3,
+  "seed": 42,
+  "device": "cpu",
+  "raw_session_count": 2000,
+  "candidate_items": 9109,
+  "train_examples": 9813,
+  "valid_examples": 2000,
+  "test_examples": 2000,
+  "split_session_target_sha256": {
+    "train": "1d6793d55d6957ce0aacbce57365978da0ee4c8482a1debdefd0229d34c9ce3c",
+    "valid": "fd87f69f683ffebc0035aca6898189126dd32dbde9096de0351cc75f939774e8",
+    "test": "ef21ccbc6647adbcac71320878a0555d26e8dbb6cc0fc5e7026ff829be82d73e"
+  },
+  "best_valid_score": 0.0889,
+  "best_valid_result": {
+    "recall@10": 0.1565,
+    "mrr@10": 0.0889,
+    "ndcg@10": 0.1051,
+    "hit@10": 0.1565,
+    "precision@10": 0.0157
+  },
+  "test_result": {
+    "recall@10": 0.137,
+    "mrr@10": 0.0864,
+    "ndcg@10": 0.0985,
+    "hit@10": 0.137,
+    "precision@10": 0.0137
+  },
+  "data_preparation_seconds": 1.4534140000000004,
+  "training_and_validation_seconds": 0.0,
+  "test_seconds": 0.26645430000000037,
+  "prediction_batch_size": 64,
+  "prediction_batch_seconds": 0.0025981000000001586,
+  "checkpoint": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\diginetica-smoke\\SRGNN\\checkpoints\\SRGNN-Oct-29-2026_15-57-19.pth",
+  "checkpoint_sha256": "c34dced36ea53a959a063e187a34b285fb10fdfade427b93f9bc5b4a2a267977",
+  "checkpoint_reload_passed": true,
+  "max_reload_score_difference": 0.0,
+  "top10_validation_passed": true,
+  "parameters": 645248,
+  "environment": {
+    "python": "3.9.21",
+    "torch": "2.1.2+cpu",
+    "numpy": "1.23.5",
+    "recbole": "1.1.1",
+    "pyg": "2.4.0",
+    "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+  }
+}

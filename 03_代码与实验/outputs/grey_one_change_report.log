@@ -1,0 +1,41 @@
+{
+  "recommendation": {
+    "family": "harmonic_mean",
+    "change": "\u7b97\u672f\u5747\u503c\u6539\u4e3a\u8c03\u548c\u5747\u503c",
+    "value": true,
+    "recall@10": 0.3488,
+    "mrr@10": 0.15909269841269844,
+    "ndcg@10": 0.20394243970143425,
+    "hit@10": 0.3488,
+    "precision@10": 0.03488,
+    "valid_mrr@10": 0.1555922619047619,
+    "recall_gain_percentage_points": 6.004999999999999,
+    "additional_hits_net": 1201,
+    "response_mean_ms": 0.6444888888888889,
+    "response_p95_ms": 0.74022,
+    "numeric_state_mb_decimal": 4.938028,
+    "mcnemar_holm_p": 3.9930052931123103e-258,
+    "repeat_target_recall": 0.9288280581693755,
+    "novel_target_recall": 0.10929000353232074
+  },
+  "preselected_primary": {
+    "family": "all_power",
+    "change": "\u56db\u9879\u6307\u6807\u6574\u4f53\u5e42\u53d8\u6362",
+    "value": 0.0625,
+    "recall@10": 0.3553,
+    "mrr@10": 0.1615366865079365,
+    "ndcg@10": 0.20720917222830298,
+    "hit@10": 0.3553,
+    "precision@10": 0.03553,
+    "valid_mrr@10": 0.1605458134920635,
+    "recall_gain_percentage_points": 6.654999999999999,
+    "additional_hits_net": 1331,
+    "response_mean_ms": 1.8308954444444445,
+    "response_p95_ms": 2.435945,
+    "numeric_state_mb_decimal": 4.938028,
+    "mcnemar_holm_p": 4.3475035545725945e-207,
+    "repeat_target_recall": 0.9231822070145423,
+    "novel_target_recall": 0.12080536912751678
+  },
+  "variants": 18
+}

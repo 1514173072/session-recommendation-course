@@ -1,0 +1,524 @@
+{
+  "sha256": "0c3d1b4121f2048cc20554c0901225df8600f3f17614d9f2e44145d4ebbcdc45",
+  "page_count": 86,
+  "pages": [
+    {
+      "page": 1,
+      "chars": 58,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 2,
+      "chars": 95,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 3,
+      "chars": 236,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 4,
+      "chars": 647,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 5,
+      "chars": 390,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 6,
+      "chars": 122,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 7,
+      "chars": 226,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 8,
+      "chars": 89,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 9,
+      "chars": 129,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 10,
+      "chars": 312,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 11,
+      "chars": 404,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 12,
+      "chars": 297,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 13,
+      "chars": 262,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 14,
+      "chars": 221,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 15,
+      "chars": 325,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 16,
+      "chars": 337,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 17,
+      "chars": 339,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 18,
+      "chars": 329,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 19,
+      "chars": 278,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 20,
+      "chars": 288,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 21,
+      "chars": 282,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 22,
+      "chars": 30,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 23,
+      "chars": 316,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 24,
+      "chars": 242,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 25,
+      "chars": 328,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 26,
+      "chars": 245,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 27,
+      "chars": 119,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 28,
+      "chars": 245,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 29,
+      "chars": 182,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 30,
+      "chars": 111,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 31,
+      "chars": 30,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 32,
+      "chars": 18,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 33,
+      "chars": 415,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 34,
+      "chars": 313,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 35,
+      "chars": 331,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 36,
+      "chars": 241,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 37,
+      "chars": 466,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 38,
+      "chars": 95,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 39,
+      "chars": 40,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 40,
+      "chars": 23,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 41,
+      "chars": 328,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 42,
+      "chars": 331,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 43,
+      "chars": 315,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 44,
+      "chars": 322,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 45,
+      "chars": 411,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 46,
+      "chars": 543,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 47,
+      "chars": 398,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 48,
+      "chars": 369,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 49,
+      "chars": 531,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 50,
+      "chars": 403,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 51,
+      "chars": 596,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 52,
+      "chars": 30,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 53,
+      "chars": 82,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 54,
+      "chars": 156,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 55,
+      "chars": 267,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 56,
+      "chars": 109,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 57,
+      "chars": 38,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 58,
+      "chars": 372,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 59,
+      "chars": 279,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 60,
+      "chars": 23,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 61,
+      "chars": 407,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 62,
+      "chars": 373,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 63,
+      "chars": 567,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 64,
+      "chars": 187,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 65,
+      "chars": 308,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 66,
+      "chars": 33,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 67,
+      "chars": 219,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 68,
+      "chars": 30,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 69,
+      "chars": 300,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 70,
+      "chars": 190,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 71,
+      "chars": 170,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 72,
+      "chars": 113,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 73,
+      "chars": 155,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 74,
+      "chars": 24,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 75,
+      "chars": 377,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 76,
+      "chars": 188,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 77,
+      "chars": 150,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 78,
+      "chars": 336,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 79,
+      "chars": 228,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 80,
+      "chars": 258,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 81,
+      "chars": 176,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 82,
+      "chars": 28,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 83,
+      "chars": 359,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 84,
+      "chars": 400,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 85,
+      "chars": 363,
+      "width": 960.0,
+      "height": 540.0
+    },
+    {
+      "page": 86,
+      "chars": 3,
+      "width": 960.0,
+      "height": 540.0
+    }
+  ],
+  "source_original": "D:\\缓存\\算法分析及理论开篇2026--给学生.pdf",
+  "source_project": "00_课程资料/原始课件/算法分析及理论开篇2026--给学生.pdf"
+}

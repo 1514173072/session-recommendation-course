@@ -1,0 +1,33 @@
+{
+  "figure": "电商会话推荐的问题建模",
+  "source_kind": "new_candidate",
+  "gallery_searches": [
+    "data-type=流程, keyword=建模: []",
+    "method-type=流程图, keyword=机器学习: []"
+  ],
+  "reason": "Existing raster figure needs accurate native-font typesetting and exact data screenshot; no compatible gallery template returned.",
+  "input_reference": "D:/网站download/电商会话推荐建模流程图.png",
+  "reference_sha256": "08c8c4ca8e6d7344f8dce8628668e439dbacc3d47e28beed4de382b4b82bc850",
+  "screenshot": "D:\\Projects\\算法分析与理论课程\\04_报告与展示\\课堂讨论_PPT交付材料\\02_问题建模\\原始数据截图.png",
+  "screenshot_sha256": "355a217f4548e606f36fef2ab40721e2134ed67b998bf08d40e73faf6f1880dc",
+  "output": "D:\\Projects\\算法分析与理论课程\\04_报告与展示\\课堂讨论_PPT交付材料\\02_问题建模\\电商会话推荐建模流程图_文字校正版.png",
+  "size": [
+    3840,
+    2160
+  ],
+  "output_sha256": "fb289672cf6b0eb98b4bedc1f474c2824b7f1b2dad99395cb9ba589650d8f951",
+  "repeated_render_identical": true,
+  "text_overflow": [],
+  "fonts": [
+    "Microsoft YaHei",
+    "Georgia"
+  ],
+  "scope": "Problem formulation and workflow; not experimental performance evidence.",
+  "checks": {
+    "data_counts": true,
+    "target_separate_from_history": true,
+    "unique_graph_nodes": true,
+    "caption_checked": true,
+    "text_figure_checked": true
+  }
+}

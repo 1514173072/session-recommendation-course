@@ -1,0 +1,388 @@
+{
+  "gra_miss_gce_hit": {
+    "gra": {
+      "model": "GRA",
+      "session_id": "4998",
+      "history": [
+        "5152",
+        "34614",
+        "13326",
+        "5152"
+      ],
+      "target": "34614",
+      "target_rank": 0,
+      "history_len": 4,
+      "target_in_history": true,
+      "recommendations": [
+        {
+          "rank": 1,
+          "item": "5152",
+          "score": 0.7409404516220093,
+          "normalized_features": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 0.17078249156475067,
+            "recency_weighted_repeat": 1.0,
+            "log_training_popularity": 0.6490821838378906
+          },
+          "grey_coefficients": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 0.3761611878871918,
+            "recency_weighted_repeat": 1.0,
+            "log_training_popularity": 0.587600827217102
+          }
+        },
+        {
+          "rank": 2,
+          "item": "57258",
+          "score": 0.7008872032165527,
+          "normalized_features": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.43665802478790283
+          },
+          "grey_coefficients": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.4702156186103821
+          }
+        },
+        {
+          "rank": 3,
+          "item": "5723",
+          "score": 0.6026192307472229,
+          "normalized_features": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 0.42305704951286316,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.6841615438461304
+          },
+          "grey_coefficients": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 0.46427714824676514,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.6128664016723633
+          }
+        },
+        {
+          "rank": 4,
+          "item": "13124",
+          "score": 0.6019792556762695,
+          "normalized_features": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 0.5982930064201355,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.5386089086532593
+          },
+          "grey_coefficients": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 0.554503858089447,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.5200797319412231
+          }
+        },
+        {
+          "rank": 5,
+          "item": "6848",
+          "score": 0.5091345310211182,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.16118119657039642,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.9981974363327026
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.37346354126930237,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.9964078068733215
+          }
+        },
+        {
+          "rank": 6,
+          "item": "11542",
+          "score": 0.503346860408783,
+          "normalized_features": {
+            "last_click_transition": 0.5,
+            "recency_weighted_cooccurrence": 0.08539124578237534,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.895112156867981
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.5,
+            "recency_weighted_cooccurrence": 0.3534546196460724,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.8265995383262634
+          }
+        },
+        {
+          "rank": 7,
+          "item": "36031",
+          "score": 0.5004917979240417,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.2864357829093933,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.9584589004516602
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.4120095372200012,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.9232909679412842
+          }
+        },
+        {
+          "rank": 8,
+          "item": "14614",
+          "score": 0.5,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 1.0
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.3333333432674408,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 1.0
+          }
+        },
+        {
+          "rank": 9,
+          "item": "14280",
+          "score": 0.4972407817840576,
+          "normalized_features": {
+            "last_click_transition": 0.5,
+            "recency_weighted_cooccurrence": 0.48371630907058716,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.7465808987617493
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.5,
+            "recency_weighted_cooccurrence": 0.49198856949806213,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.6636412739753723
+          }
+        },
+        {
+          "rank": 10,
+          "item": "36083",
+          "score": 0.4846118688583374,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.21826334297657013,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.9329040050506592
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.3900957405567169,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.8816849589347839
+          }
+        }
+      ]
+    },
+    "gnn_target_ranks": {
+      "SRGNN": 0,
+      "GCSAN": 0,
+      "GCEGNN": 1
+    }
+  },
+  "gra_hit_gce_miss": {
+    "gra": {
+      "model": "GRA",
+      "session_id": "5096",
+      "history": [
+        "12922",
+        "33038",
+        "7648",
+        "31497"
+      ],
+      "target": "233856",
+      "target_rank": 1,
+      "history_len": 4,
+      "target_in_history": false,
+      "recommendations": [
+        {
+          "rank": 1,
+          "item": "233856",
+          "score": 0.6756218671798706,
+          "normalized_features": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.14555267989635468
+          },
+          "grey_coefficients": {
+            "last_click_transition": 1.0,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.3691542446613312
+          }
+        },
+        {
+          "rank": 2,
+          "item": "31497",
+          "score": 0.5089552402496338,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.0,
+            "recency_weighted_repeat": 1.0,
+            "log_training_popularity": 0.14555267989635468
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.3333333432674408,
+            "recency_weighted_repeat": 1.0,
+            "log_training_popularity": 0.3691542446613312
+          }
+        },
+        {
+          "rank": 3,
+          "item": "42883",
+          "score": 0.5089552402496338,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.14555267989635468
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.3691542446613312
+          }
+        },
+        {
+          "rank": 4,
+          "item": "1674",
+          "score": 0.5089552402496338,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.14555267989635468
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.3691542446613312
+          }
+        },
+        {
+          "rank": 5,
+          "item": "56149",
+          "score": 0.5089552402496338,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.14555267989635468
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 1.0,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.3691542446613312
+          }
+        },
+        {
+          "rank": 6,
+          "item": "14614",
+          "score": 0.5,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 1.0
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.3333333432674408,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 1.0
+          }
+        },
+        {
+          "rank": 7,
+          "item": "6848",
+          "score": 0.4991019368171692,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.9981974363327026
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.3333333432674408,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.9964078068733215
+          }
+        },
+        {
+          "rank": 8,
+          "item": "12862",
+          "score": 0.48453524708747864,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.9670310616493225
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.3333333432674408,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.9381409883499146
+          }
+        },
+        {
+          "rank": 9,
+          "item": "36031",
+          "score": 0.48082274198532104,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.9584589004516602
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.3333333432674408,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.9232909679412842
+          }
+        },
+        {
+          "rank": 10,
+          "item": "49272",
+          "score": 0.47988930344581604,
+          "normalized_features": {
+            "last_click_transition": 0.0,
+            "recency_weighted_cooccurrence": 0.0,
+            "recency_weighted_repeat": 0.0,
+            "log_training_popularity": 0.9562600255012512
+          },
+          "grey_coefficients": {
+            "last_click_transition": 0.3333333432674408,
+            "recency_weighted_cooccurrence": 0.3333333432674408,
+            "recency_weighted_repeat": 0.3333333432674408,
+            "log_training_popularity": 0.9195572137832642
+          }
+        }
+      ]
+    },
+    "gnn_target_ranks": {
+      "SRGNN": 5,
+      "GCSAN": 1,
+      "GCEGNN": 0
+    }
+  }
+}

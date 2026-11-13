@@ -1,0 +1,195 @@
+D:\Envs\recbole-gnn-py39\lib\site-packages\scipy\sparse\_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+Policy evidence 256/1024
+Policy evidence 512/1024
+Policy evidence 768/1024
+Policy evidence 1024/1024
+Actual local Qwen state=99 label=A valid=True
+Actual local Qwen state=0 label=D valid=True
+Actual local Qwen state=1 label=B valid=True
+Actual local Qwen state=2 label=B valid=True
+Actual local Qwen state=3 label=B valid=True
+Actual local Qwen state=4 label=B valid=True
+Actual local Qwen state=5 label=B valid=True
+Actual local Qwen state=6 label=B valid=True
+Actual local Qwen state=7 label=D valid=True
+Actual local Qwen state=8 label=D valid=True
+Actual local Qwen state=9 label=B valid=True
+Actual local Qwen state=10 label=B valid=True
+Actual local Qwen state=11 label=D valid=True
+Actual local Qwen state=12 label=D valid=True
+Actual local Qwen state=13 label=D valid=True
+Actual local Qwen state=14 label=B valid=True
+Actual local Qwen state=15 label=D valid=True
+Policy evidence 256/1024
+Policy evidence 512/1024
+Policy evidence 768/1024
+Policy evidence 1024/1024
+{
+  "global_policy": 1,
+  "global_weights": [
+    0.5,
+    0.30000001192092896,
+    0.10000000149011612,
+    0.05000000074505806,
+    0.0,
+    0.0,
+    0.0,
+    0.05000000074505806
+  ],
+  "thresholds": [
+    3.0,
+    0.0,
+    0.6666666666666666,
+    0.1693926453590393
+  ],
+  "qwen_proposals": [
+    {
+      "state": 0,
+      "proposed": 1,
+      "guarded": 3,
+      "changed": true
+    },
+    {
+      "state": 1,
+      "proposed": 57,
+      "guarded": 57,
+      "changed": false
+    },
+    {
+      "state": 2,
+      "proposed": 57,
+      "guarded": 1,
+      "changed": true
+    },
+    {
+      "state": 3,
+      "proposed": 57,
+      "guarded": 57,
+      "changed": false
+    },
+    {
+      "state": 4,
+      "proposed": 57,
+      "guarded": 57,
+      "changed": false
+    },
+    {
+      "state": 5,
+      "proposed": 57,
+      "guarded": 57,
+      "changed": false
+    },
+    {
+      "state": 6,
+      "proposed": 57,
+      "guarded": 1,
+      "changed": true
+    },
+    {
+      "state": 7,
+      "proposed": 23,
+      "guarded": 23,
+      "changed": false
+    },
+    {
+      "state": 8,
+      "proposed": 23,
+      "guarded": 23,
+      "changed": false
+    },
+    {
+      "state": 9,
+      "proposed": 57,
+      "guarded": 57,
+      "changed": false
+    },
+    {
+      "state": 10,
+      "proposed": 57,
+      "guarded": 1,
+      "changed": true
+    },
+    {
+      "state": 11,
+      "proposed": 3,
+      "guarded": 1,
+      "changed": true
+    },
+    {
+      "state": 12,
+      "proposed": 16,
+      "guarded": 16,
+      "changed": false
+    },
+    {
+      "state": 13,
+      "proposed": 2,
+      "guarded": 1,
+      "changed": true
+    },
+    {
+      "state": 14,
+      "proposed": 1,
+      "guarded": 1,
+      "changed": false
+    },
+    {
+      "state": 15,
+      "proposed": 59,
+      "guarded": 57,
+      "changed": true
+    }
+  ],
+  "guarded_table": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    23,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1
+  ],
+  "alpha_choices_validation": [
+    {
+      "alpha": 0,
+      "recall@10": 0.5341796875,
+      "mrr@10": 0.3375124007936508,
+      "ndcg@10": 0.38448298393832847
+    },
+    {
+      "alpha": 0.5,
+      "recall@10": 0.5390625,
+      "mrr@10": 0.3394682384672619,
+      "ndcg@10": 0.3870699882103187
+    },
+    {
+      "alpha": 1,
+      "recall@10": 0.533203125,
+      "mrr@10": 0.3401983351934524,
+      "ndcg@10": 0.3863057805749578
+    }
+  ],
+  "selected_alpha": 1,
+  "selected_beta": 7,
+  "actual_policy_llm_calls": 16,
+  "warmup_calls": 1,
+  "valid_outputs": 16,
+  "policy_llm_wall_seconds": 3.6859858999999915,
+  "online_llm_calls_per_request": 0,
+  "full_policy_preparation_seconds": 89.4697725,
+  "training_evidence_only": true,
+  "selection_validation_only": true,
+  "test_targets_used_for_selection": false,
+  "data_sha256": "92d09affda99f4f99b92f72948ea46056caa52562fe9af9ddf580160447ab93e",
+  "attributes_sha256": "68918582571fbb3f6f76d25921a677e1683c1eb534ad72638dff6fd08a21effc"
+}

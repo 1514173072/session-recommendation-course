@@ -1,0 +1,14 @@
+You are implementing a small session-recommendation scoring component. This is a constrained code-integration test: return only one compact JSON object; do not use tools, read files, browse, or write code.
+The existing local implementation scores ALL candidate products by
+score=sum(weights[k]*z[k],k=0..3)+sum(interactions[j]*z[a]*z[b],j=0..5).
+The four normalized candidate features z are, in order:
+0 transition: training-only probability of next product after the last click;
+1 cooccurrence: recency-weighted cosine-normalized cooccurrence with the session history;
+2 history_support: recency-weighted support of a product within this session;
+3 popularity: log training clicks. All normalized to [0,1] over the full catalogue.
+Interactions are ordered [0*1,0*2,0*3,1*2,1*3,2*3].
+Select session-dependent scoring coefficients. Output exactly {"weights":[a,b,c,d],"interactions":[e,f,g,h,i,j]}. Weights must be nonnegative and sum to1. Each interaction must be between -0.5 and0.5. Do not output explanations or Markdown. Product IDs are anonymous; use only supplied behavioral evidence. The true next click is not supplied.
+Session evidence:
+{"history":["9100","9483","9100","28689"],"length":4,"unique_ratio":0.75,"last_product_repeated":false,"maximum_product_frequency_ratio":0.5,"last_product_training_popularity_normalized":0.33796,"last_product_transition_entropy":1.0}
+Teacher guidance derived exclusively from training data. Use this as a prior and adapt only if the session evidence warrants it:
+{"weights":[0.28,0.42,0.25,0.05],"interactions":[0.15,0.05,-0.03,0.1,-0.03,-0.02],"rationale":"共现正负均值0.2617与0.1178，历史支持0.1360与0.0288。提高共现相对权重，兼顾转移，降低单纯热度的影响。"}

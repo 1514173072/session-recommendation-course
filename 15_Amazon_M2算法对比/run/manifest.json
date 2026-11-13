@@ -1,0 +1,29 @@
+{
+  "locale": "ES",
+  "seed": 42,
+  "sessions": 89047,
+  "catalogue_items": 42503,
+  "splits": {
+    "train": 71191,
+    "validation": 8886,
+    "test": 8970
+  },
+  "train_seen_items": 40320,
+  "feature_fit_sessions": 64081,
+  "calibration_held_out_sessions": 7110,
+  "policy_calibration_samples": 1024,
+  "policy_validation_samples": 1024,
+  "test_cold_targets": 200,
+  "max_history": 20,
+  "duplicate_full_sequences_grouped": true,
+  "cross_split_full_sequence_overlap": 0,
+  "global_temporal_or_user_split": false,
+  "text_fit_training_catalogue_only": true,
+  "svd_explained_variance": 0.1278962379563014,
+  "data_sha256": "92d09affda99f4f99b92f72948ea46056caa52562fe9af9ddf580160447ab93e",
+  "attributes_sha256": "68918582571fbb3f6f76d25921a677e1683c1eb534ad72638dff6fd08a21effc",
+  "raw_sha256": {
+    "products_train.csv": "f4de2243372304af9820b6916210635c5f48e6d0b81012f0326906563f12f03b",
+    "sessions_train.csv": "83f9d5c72b7305243ceb1d06aaf96610a050e84d428ae55138e851e70e313954"
+  }
+}

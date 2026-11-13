@@ -1,0 +1,11 @@
+--- grey_session.py
++++ grey_session.py
+@@ -111,7 +111,7 @@
+ 
+     def recommend(self, history):
+         x = self.normalized_features(history)
+-        coefficients = grey_coefficients(x[:, 1:], self.rho)
++        coefficients = grey_coefficients(x[:, 1:], 1.0)
+         scores = np.full(self.item_num, -np.inf, dtype=np.float32)
+         scores[1:] = np.sum(self.weights[:, None] * coefficients, axis=0)
+         return stable_topk(scores), scores, x, coefficients

@@ -1,0 +1,21 @@
+{
+  "rho": 0.5,
+  "power": 1.0,
+  "weights": [
+    0.1666666716337204,
+    0.1666666716337204,
+    0.1666666716337204,
+    0.1666666716337204,
+    0.1666666716337204,
+    0.1666666716337204
+  ],
+  "neighbours": 100,
+  "features": [
+    "last_transition",
+    "history_cooccurrence",
+    "repeat_recency",
+    "log_popularity",
+    "session_neighbours",
+    "history_transition"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "model": "GRA",
+  "test_result": {
+    "recall@10": 0.28875,
+    "mrr@10": 0.14374609126984125,
+    "ndcg@10": 0.1784833848016636,
+    "hit@10": 0.28875,
+    "precision@10": 0.028875
+  },
+  "statistics_fit_seconds": 0.44335609999999903,
+  "test_scoring_seconds": 13.664261499999927,
+  "mean_scoring_ms_per_session": 0.6832130749999964,
+  "data_preparation_seconds": 13.179438099999999,
+  "train_prefix_clicks": 117273,
+  "training_seen_items": 29302,
+  "transition_nnz": 85384,
+  "cooccurrence_nnz": 449444,
+  "test_examples": 20000,
+  "candidate_items": 32968,
+  "rho": 0.5,
+  "weights": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "features": [
+    "last_click_transition",
+    "recency_weighted_cooccurrence",
+    "recency_weighted_repeat",
+    "log_training_popularity"
+  ],
+  "hyperparameter_selection": "Fixed a priori; no validation/test-based tuning.",
+  "split_session_target_sha256": {
+    "train": "b9d1b3bd47d3bc7905ffa4dc4219618a19a2539427983d3a40f064b286a77f11",
+    "valid": "dce0721d44aaa6eb2285ff8135450ab9616a17d535fb1279b04085d6913f8311",
+    "test": "6e490221d53344ec678614e5ab9fe2051e079b7036e324b893228796ae717212"
+  },
+  "split_semantics": "Within each session: final next-click target for test, penultimate for validation; earlier prefix examples for training.",
+  "scope": "Existing 20k-session formal subset, full catalogue Top-10; not full raw Diginetica or official leaderboard.",
+  "created_at": "2026-11-11T19:42:27",
+  "environment": {
+    "python": "3.9.21",
+    "numpy": "1.23.5",
+    "torch": "2.1.2+cpu",
+    "device": "cpu"
+  }
+}

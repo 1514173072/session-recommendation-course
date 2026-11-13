@@ -1,0 +1,106 @@
+{
+  "gra_original": {
+    "test": {
+      "recall@10": 0.28875,
+      "mrr@10": 0.14374609126984125,
+      "ndcg@10": 0.1784833848016636,
+      "hit@10": 0.28875,
+      "precision@10": 0.028875
+    },
+    "queries": 20000,
+    "evaluation_wall_seconds_including_output_io": 13.6419087,
+    "numeric_state_bytes": 4938028,
+    "predictions_sha256": "455bd39c2fdae96fa1eefe5457c91ea215a9af65fe79eeaf4c36c4554cdf9773"
+  },
+  "gra_beta7": {
+    "test": {
+      "recall@10": 0.3554,
+      "mrr@10": 0.16099371031746032,
+      "ndcg@10": 0.20680910676426043,
+      "hit@10": 0.3554,
+      "precision@10": 0.03554
+    },
+    "queries": 20000,
+    "evaluation_wall_seconds_including_output_io": 14.9684347,
+    "numeric_state_bytes": 4938028,
+    "predictions_sha256": "ddb5711ac1c5a91916bfea3faeafbb743e1cf935b34705f54cf8cced1830105e"
+  },
+  "teacher_rules": {
+    "test": {
+      "recall@10": 0.3548,
+      "mrr@10": 0.1604913492063492,
+      "ndcg@10": 0.20620896401894273,
+      "hit@10": 0.3548,
+      "precision@10": 0.03548
+    },
+    "queries": 20000,
+    "evaluation_wall_seconds_including_output_io": 14.2426472,
+    "numeric_state_bytes": 5202260,
+    "predictions_sha256": "10c54e247d45e450b301dc156951afbe7c189a27a00815e556b7133a95835e65"
+  },
+  "student_plain": {
+    "test": {
+      "recall@10": 0.36375,
+      "mrr@10": 0.16767579365079363,
+      "ndcg@10": 0.21377222309760108,
+      "hit@10": 0.36375,
+      "precision@10": 0.036375000000000005
+    },
+    "queries": 20000,
+    "evaluation_wall_seconds_including_output_io": 16.946441900000003,
+    "numeric_state_bytes": 5202908,
+    "predictions_sha256": "198ca608e3675443d76ed385f4d9af4eca90245e56157e75765dfa13fdda4cf9"
+  },
+  "student_teacher": {
+    "test": {
+      "recall@10": 0.36475,
+      "mrr@10": 0.17241988095238098,
+      "ndcg@10": 0.21772275495159174,
+      "hit@10": 0.36475,
+      "precision@10": 0.036475
+    },
+    "queries": 20000,
+    "evaluation_wall_seconds_including_output_io": 16.865790799999992,
+    "numeric_state_bytes": 5202908,
+    "predictions_sha256": "7fd7700012b91409b003277eb0556af2e46558b715b8f052946b98c8809f0a45"
+  },
+  "SRGNN": {
+    "test": {
+      "recall@10": 0.28175,
+      "mrr@10": 0.13395529761904762,
+      "ndcg@10": 0.1687674312224673,
+      "hit@10": 0.28175,
+      "precision@10": 0.028175
+    },
+    "queries": 20000,
+    "predictions_sha256": "d76f47d236285573f860f4486162eedfa5bdbe7da525b5193909008cb171af0e",
+    "reused_existing_predictions": true,
+    "history_and_target_exact": true
+  },
+  "GCSAN": {
+    "test": {
+      "recall@10": 0.29525,
+      "mrr@10": 0.13874021825396826,
+      "ndcg@10": 0.17556878527687858,
+      "hit@10": 0.29525,
+      "precision@10": 0.029525000000000003
+    },
+    "queries": 20000,
+    "predictions_sha256": "077e87f2a7048c1b06069b3beb09cdbc23caf7226b100e6de1d2448e4755413c",
+    "reused_existing_predictions": true,
+    "history_and_target_exact": true
+  },
+  "GCEGNN": {
+    "test": {
+      "recall@10": 0.33135,
+      "mrr@10": 0.15904168650793649,
+      "ndcg@10": 0.19979042781804632,
+      "hit@10": 0.33135,
+      "precision@10": 0.033135
+    },
+    "queries": 20000,
+    "predictions_sha256": "e639a4ed7adf449d840724d893bae0135fce8bf74861c42cadca61286d272b75",
+    "reused_existing_predictions": true,
+    "history_and_target_exact": true
+  }
+}

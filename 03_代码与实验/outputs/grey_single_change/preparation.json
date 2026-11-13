@@ -1,0 +1,7 @@
+{
+  "original_source_sha256": "739d567276fd223db0d8a26b4fff23e313d9ade38eba888b3eb7eb795a0f6732",
+  "original_model_sha256": "92e6972b44d51e88594956be25fde3ab2afc0253d93f63059b2f052034a9f601",
+  "single_line_deleted": "cooc.setdiag(0)",
+  "self_model_refit_seconds": 0.7285886,
+  "all_other_statistics_unchanged": true
+}

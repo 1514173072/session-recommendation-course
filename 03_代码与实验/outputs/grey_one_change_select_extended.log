@@ -1,0 +1,342 @@
+D:\Envs\recbole-gnn-py39\lib\site-packages\scipy\sparse\_index.py:146: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil_matrix is more efficient.
+  self._set_arrayXarray(i, j, x)
+VALID {'family': 'baseline', 'value': None}: Recall=0.27565 MRR=0.14170
+VALID {'family': 'repeat_weight', 'value': 0}: Recall=0.18355 MRR=0.09968
+VALID {'family': 'repeat_weight', 'value': 0.5}: Recall=0.24575 MRR=0.12201
+VALID {'family': 'repeat_weight', 'value': 1.5}: Recall=0.28715 MRR=0.15087
+VALID {'family': 'repeat_weight', 'value': 2}: Recall=0.29215 MRR=0.15395
+VALID {'family': 'repeat_weight', 'value': 3}: Recall=0.29710 MRR=0.15573
+VALID {'family': 'repeat_weight', 'value': 4}: Recall=0.30045 MRR=0.15706
+VALID {'family': 'repeat_weight', 'value': 6}: Recall=0.30355 MRR=0.15791
+VALID {'family': 'repeat_weight', 'value': 8}: Recall=0.30500 MRR=0.15834
+VALID {'family': 'repeat_weight', 'value': 16}: Recall=0.30615 MRR=0.15890
+VALID {'family': 'repeat_weight', 'value': 32}: Recall=0.30625 MRR=0.15902
+VALID {'family': 'popularity_weight', 'value': 0}: Recall=0.33795 MRR=0.15254
+VALID {'family': 'popularity_weight', 'value': 0.05}: Recall=0.33740 MRR=0.15265
+VALID {'family': 'popularity_weight', 'value': 0.1}: Recall=0.33705 MRR=0.15249
+VALID {'family': 'popularity_weight', 'value': 0.25}: Recall=0.33195 MRR=0.15207
+VALID {'family': 'popularity_weight', 'value': 0.5}: Recall=0.32035 MRR=0.15010
+VALID {'family': 'popularity_weight', 'value': 0.75}: Recall=0.30060 MRR=0.14678
+VALID {'family': 'popularity_weight', 'value': 1.5}: Recall=0.21860 MRR=0.12104
+VALID {'family': 'popularity_weight', 'value': 2}: Recall=0.14600 MRR=0.08598
+VALID {'family': 'cooccurrence_weight', 'value': 0}: Recall=0.17840 MRR=0.11770
+VALID {'family': 'cooccurrence_weight', 'value': 0.5}: Recall=0.22315 MRR=0.12839
+VALID {'family': 'cooccurrence_weight', 'value': 1.5}: Recall=0.30095 MRR=0.14137
+VALID {'family': 'cooccurrence_weight', 'value': 2}: Recall=0.31275 MRR=0.13594
+VALID {'family': 'cooccurrence_weight', 'value': 3}: Recall=0.32080 MRR=0.12326
+VALID {'family': 'cooccurrence_weight', 'value': 4}: Recall=0.32250 MRR=0.11902
+VALID {'family': 'transition_weight', 'value': 0}: Recall=0.24070 MRR=0.13849
+VALID {'family': 'transition_weight', 'value': 0.5}: Recall=0.26365 MRR=0.14535
+VALID {'family': 'transition_weight', 'value': 1.5}: Recall=0.27870 MRR=0.13760
+VALID {'family': 'transition_weight', 'value': 2}: Recall=0.28170 MRR=0.13762
+VALID {'family': 'transition_weight', 'value': 3}: Recall=0.28410 MRR=0.13767
+VALID {'family': 'transition_weight', 'value': 4}: Recall=0.28355 MRR=0.13692
+VALID {'family': 'rho', 'value': 0.1}: Recall=0.21060 MRR=0.12534
+VALID {'family': 'rho', 'value': 0.25}: Recall=0.24145 MRR=0.13269
+VALID {'family': 'rho', 'value': 0.75}: Recall=0.29365 MRR=0.14619
+VALID {'family': 'rho', 'value': 1.0}: Recall=0.30395 MRR=0.14854
+VALID {'family': 'all_power', 'value': 0.0625}: Recall=0.34810 MRR=0.16055
+VALID {'family': 'all_power', 'value': 0.125}: Recall=0.34785 MRR=0.16014
+VALID {'family': 'all_power', 'value': 0.25}: Recall=0.34300 MRR=0.15871
+VALID {'family': 'all_power', 'value': 0.5}: Recall=0.32690 MRR=0.15369
+VALID {'family': 'all_power', 'value': 0.75}: Recall=0.30320 MRR=0.14819
+VALID {'family': 'all_power', 'value': 1.5}: Recall=0.23705 MRR=0.13196
+VALID {'family': 'all_power', 'value': 2.0}: Recall=0.21835 MRR=0.12738
+VALID {'family': 'repeat_power', 'value': 0.0625}: Recall=0.30690 MRR=0.14568
+VALID {'family': 'repeat_power', 'value': 0.125}: Recall=0.30610 MRR=0.14705
+VALID {'family': 'repeat_power', 'value': 0.25}: Recall=0.30180 MRR=0.14722
+VALID {'family': 'repeat_power', 'value': 0.5}: Recall=0.29215 MRR=0.14572
+VALID {'family': 'repeat_power', 'value': 2.0}: Recall=0.25720 MRR=0.13640
+VALID {'family': 'repeat_power', 'value': 4.0}: Recall=0.24215 MRR=0.13284
+VALID {'family': 'popularity_power', 'value': 0.0625}: Recall=0.33530 MRR=0.15285
+VALID {'family': 'popularity_power', 'value': 0.125}: Recall=0.33040 MRR=0.15190
+VALID {'family': 'popularity_power', 'value': 0.25}: Recall=0.31900 MRR=0.15004
+VALID {'family': 'popularity_power', 'value': 0.5}: Recall=0.29675 MRR=0.14613
+VALID {'family': 'popularity_power', 'value': 2.0}: Recall=0.26760 MRR=0.13938
+VALID {'family': 'popularity_power', 'value': 4.0}: Recall=0.27480 MRR=0.13994
+VALID {'family': 'cooccurrence_power', 'value': 0.0625}: Recall=0.32485 MRR=0.15157
+VALID {'family': 'cooccurrence_power', 'value': 0.125}: Recall=0.32985 MRR=0.15232
+VALID {'family': 'cooccurrence_power', 'value': 0.25}: Recall=0.32095 MRR=0.15102
+VALID {'family': 'cooccurrence_power', 'value': 0.5}: Recall=0.30310 MRR=0.14736
+VALID {'family': 'cooccurrence_power', 'value': 0.75}: Recall=0.28750 MRR=0.14434
+VALID {'family': 'cooccurrence_power', 'value': 2.0}: Recall=0.24830 MRR=0.13491
+VALID {'family': 'cooccurrence_power', 'value': 4.0}: Recall=0.22710 MRR=0.12916
+VALID {'family': 'transition_power', 'value': 0.0625}: Recall=0.28635 MRR=0.14407
+VALID {'family': 'transition_power', 'value': 0.125}: Recall=0.28710 MRR=0.14441
+VALID {'family': 'transition_power', 'value': 0.25}: Recall=0.28625 MRR=0.14422
+VALID {'family': 'transition_power', 'value': 0.5}: Recall=0.28185 MRR=0.14313
+VALID {'family': 'transition_power', 'value': 2.0}: Recall=0.27110 MRR=0.14035
+VALID {'family': 'transition_power', 'value': 4.0}: Recall=0.26830 MRR=0.13950
+VALID {'family': 'repeat_binary', 'value': True}: Recall=0.30645 MRR=0.14322
+VALID {'family': 'repeat_count', 'value': True}: Recall=0.28170 MRR=0.14017
+VALID {'family': 'repeat_last_only', 'value': True}: Recall=0.22150 MRR=0.12476
+VALID {'family': 'keep_self_cooccurrence', 'value': True}: Recall=0.25490 MRR=0.14589
+VALID {'family': 'geometric_mean', 'value': True}: Recall=0.31220 MRR=0.15045
+VALID {'family': 'harmonic_mean', 'value': True}: Recall=0.33185 MRR=0.15559
+VALID {'family': 'max_aggregation', 'value': True}: Recall=0.19355 MRR=0.08303
+{
+  "criterion": "Within each family maximize full-validation MRR@10, tie-break Recall@10; primary family selected by the same rule before test.",
+  "test_used_in_selection": false,
+  "valid_queries": 20000,
+  "families": 17,
+  "configurations_including_baseline": 74,
+  "baseline": {
+    "config": {
+      "family": "baseline",
+      "value": null
+    },
+    "valid": {
+      "recall@10": 0.27565,
+      "mrr@10": 0.14170093253968255,
+      "ndcg@10": 0.17382686952254975,
+      "hit@10": 0.27565,
+      "precision@10": 0.027565
+    }
+  },
+  "selected_per_family": [
+    {
+      "config": {
+        "family": "all_power",
+        "value": 0.0625
+      },
+      "valid": {
+        "recall@10": 0.3481,
+        "mrr@10": 0.1605458134920635,
+        "ndcg@10": 0.2047661950258599,
+        "hit@10": 0.3481,
+        "precision@10": 0.03481
+      }
+    },
+    {
+      "config": {
+        "family": "cooccurrence_power",
+        "value": 0.125
+      },
+      "valid": {
+        "recall@10": 0.32985,
+        "mrr@10": 0.15232049603174605,
+        "ndcg@10": 0.19429494218792825,
+        "hit@10": 0.32985,
+        "precision@10": 0.032985
+      }
+    },
+    {
+      "config": {
+        "family": "cooccurrence_weight",
+        "value": 1.5
+      },
+      "valid": {
+        "recall@10": 0.30095,
+        "mrr@10": 0.14136503968253966,
+        "ndcg@10": 0.17930531117724555,
+        "hit@10": 0.30095,
+        "precision@10": 0.030095
+      }
+    },
+    {
+      "config": {
+        "family": "geometric_mean",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.3122,
+        "mrr@10": 0.15045212301587302,
+        "ndcg@10": 0.18900177814891667,
+        "hit@10": 0.3122,
+        "precision@10": 0.031219999999999998
+      }
+    },
+    {
+      "config": {
+        "family": "harmonic_mean",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.33185,
+        "mrr@10": 0.1555922619047619,
+        "ndcg@10": 0.19736680798822104,
+        "hit@10": 0.33185,
+        "precision@10": 0.033185
+      }
+    },
+    {
+      "config": {
+        "family": "keep_self_cooccurrence",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.2549,
+        "mrr@10": 0.145895,
+        "ndcg@10": 0.17239493645176965,
+        "hit@10": 0.2549,
+        "precision@10": 0.025490000000000002
+      }
+    },
+    {
+      "config": {
+        "family": "max_aggregation",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.19355,
+        "mrr@10": 0.08303232142857143,
+        "ndcg@10": 0.10999196084092501,
+        "hit@10": 0.19355,
+        "precision@10": 0.019355
+      }
+    },
+    {
+      "config": {
+        "family": "popularity_power",
+        "value": 0.0625
+      },
+      "valid": {
+        "recall@10": 0.3353,
+        "mrr@10": 0.1528486507936508,
+        "ndcg@10": 0.19583840225273924,
+        "hit@10": 0.3353,
+        "precision@10": 0.03353
+      }
+    },
+    {
+      "config": {
+        "family": "popularity_weight",
+        "value": 0.05
+      },
+      "valid": {
+        "recall@10": 0.3374,
+        "mrr@10": 0.15264992063492064,
+        "ndcg@10": 0.1960938391334264,
+        "hit@10": 0.3374,
+        "precision@10": 0.03374
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_binary",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.30645,
+        "mrr@10": 0.14322410714285713,
+        "ndcg@10": 0.18218970553324665,
+        "hit@10": 0.30645,
+        "precision@10": 0.030645
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_count",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.2817,
+        "mrr@10": 0.14016795634920634,
+        "ndcg@10": 0.17399420291595316,
+        "hit@10": 0.2817,
+        "precision@10": 0.02817
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_last_only",
+        "value": true
+      },
+      "valid": {
+        "recall@10": 0.2215,
+        "mrr@10": 0.12475617063492063,
+        "ndcg@10": 0.14810635792268254,
+        "hit@10": 0.2215,
+        "precision@10": 0.02215
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_power",
+        "value": 0.25
+      },
+      "valid": {
+        "recall@10": 0.3018,
+        "mrr@10": 0.1472154365079365,
+        "ndcg@10": 0.18425784235496898,
+        "hit@10": 0.3018,
+        "precision@10": 0.030180000000000002
+      }
+    },
+    {
+      "config": {
+        "family": "repeat_weight",
+        "value": 32
+      },
+      "valid": {
+        "recall@10": 0.30625,
+        "mrr@10": 0.15901575396825396,
+        "ndcg@10": 0.19454094960893298,
+        "hit@10": 0.30625,
+        "precision@10": 0.030625000000000003
+      }
+    },
+    {
+      "config": {
+        "family": "rho",
+        "value": 1.0
+      },
+      "valid": {
+        "recall@10": 0.30395,
+        "mrr@10": 0.14853686507936506,
+        "ndcg@10": 0.18562520474248287,
+        "hit@10": 0.30395,
+        "precision@10": 0.030395
+      }
+    },
+    {
+      "config": {
+        "family": "transition_power",
+        "value": 0.125
+      },
+      "valid": {
+        "recall@10": 0.2871,
+        "mrr@10": 0.14441384920634923,
+        "ndcg@10": 0.17846418868620922,
+        "hit@10": 0.2871,
+        "precision@10": 0.028710000000000003
+      }
+    },
+    {
+      "config": {
+        "family": "transition_weight",
+        "value": 0.5
+      },
+      "valid": {
+        "recall@10": 0.26365,
+        "mrr@10": 0.14534694444444443,
+        "ndcg@10": 0.17385487125310084,
+        "hit@10": 0.26365,
+        "precision@10": 0.026365
+      }
+    }
+  ],
+  "primary": {
+    "config": {
+      "family": "all_power",
+      "value": 0.0625
+    },
+    "valid": {
+      "recall@10": 0.3481,
+      "mrr@10": 0.1605458134920635,
+      "ndcg@10": 0.2047661950258599,
+      "hit@10": 0.3481,
+      "precision@10": 0.03481
+    }
+  },
+  "invariants": [
+    "four original features only",
+    "original training statistics except the sole self-diagonal variant",
+    "no session neighbours",
+    "no simultaneous interventions",
+    "rho=.5 unless rho is the sole changed parameter",
+    "equal weights unless one weight multiplier is the sole intervention"
+  ],
+  "source_sha256": "739d567276fd223db0d8a26b4fff23e313d9ade38eba888b3eb7eb795a0f6732",
+  "candidate_implementation_sha256": "615298d48736c0dc927603bd1c9cd487a424afbe2902f22c7289b4e0a52cb30e"
+}

@@ -1,0 +1,17 @@
+{
+  "all_passed": true,
+  "synchronous_response_rank_audits": 1030,
+  "cached_full_test_rank_audits": 20000,
+  "offline_actual_local_2b_calls": 12,
+  "cached_online_model_calls": 0,
+  "selection_used_validation_only": true,
+  "cache_and_synchronous_ranks_match_on_1030_cases": true,
+  "model_sha256": "20cb277f0967ace47b0b5d5658e5e494a88937f7378b74b5a266496400938f4c",
+  "scripts": {
+    "optimize.py": "ed73d984c51f1fc61e5c73d2f3edfca57cbc62b5961369d2581d035c73ad9f5e",
+    "refine.py": "1a774a213a0619dc61788f2c77eef7f62f916612481cbd20291dffcbadafd069",
+    "cache_compare.py": "4306e19b620db92da4f6b8685e95f5c77f2d888cf9935556c5c8cf68e5b5f5e0",
+    "baselines.py": "2cbd49c57a5141b3a8ea823aeabaf5df535b4e188ee276c096f667182d3823e0",
+    "report_verify.py": "cb55008015627f3c70c7f4ede43fb303c85f7935277a730231285e1e21cbda25"
+  }
+}

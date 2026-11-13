@@ -1,0 +1,35 @@
+# Small real-data verification; not the official leaderboard configuration.
+USER_ID_FIELD: session_id
+ITEM_ID_FIELD: item_id
+TIME_FIELD: timestamp
+load_col:
+  inter: [session_id, item_id, timestamp]
+ITEM_LIST_LENGTH_FIELD: item_length
+LIST_SUFFIX: _list
+MAX_ITEM_LIST_LENGTH: 20
+user_inter_num_interval: '[5,inf)'
+item_inter_num_interval: '[1,inf)'
+epochs: 3
+train_batch_size: 64
+eval_batch_size: 64
+stopping_step: 3
+learning_rate: 0.001
+embedding_size: 64
+hidden_size: 64
+loss_type: CE
+train_neg_sample_args: null
+eval_args:
+  split: {LS: valid_and_test}
+  order: TO
+  mode: full
+metrics: [Recall, MRR, NDCG, Hit, Precision]
+topk: [10]
+valid_metric: MRR@10
+seed: 42
+reproducibility: true
+show_progress: false
+worker: 0
+use_gpu: false
+save_dataset: false
+save_dataloaders: false
+state: INFO

@@ -1,0 +1,117 @@
+{
+  "original_source": "https://kddcup23.github.io/",
+  "mirror": "https://www.kaggle.com/datasets/marquis03/amazon-m2",
+  "download_url": "https://www.kaggle.com/api/v1/datasets/download/marquis03/amazon-m2?datasetVersionNumber=1",
+  "mirror_version": 1,
+  "archive": {
+    "name": "amazon-m2-v1.zip",
+    "bytes": 417556865,
+    "sha256": "c91cfa60e5b3ca0d5f4c085224522a7ac3085d5db90cddf603aa2dc76dcae3b7",
+    "all_entries_crc_passed": true
+  },
+  "archive_entries": [
+    {
+      "name": "products_train.csv",
+      "bytes": 588533540,
+      "compressed_bytes": 265380074,
+      "crc32": "da3aa295"
+    },
+    {
+      "name": "sessions_train.csv",
+      "bytes": 259228456,
+      "compressed_bytes": 110934289,
+      "crc32": "fb72b59c"
+    },
+    {
+      "name": "task1/gt_task1_phase1.csv",
+      "bytes": 4437611,
+      "compressed_bytes": 1916954,
+      "crc32": "af5b91ca"
+    },
+    {
+      "name": "task1/gt_task1_phase2.csv",
+      "bytes": 4437625,
+      "compressed_bytes": 1915257,
+      "crc32": "779e9fe8"
+    },
+    {
+      "name": "task1/sessions_test_task1_phase1.csv",
+      "bytes": 19368014,
+      "compressed_bytes": 7453486,
+      "crc32": "aa3d4d8a"
+    },
+    {
+      "name": "task1/sessions_test_task1_phase2.csv",
+      "bytes": 19296393,
+      "compressed_bytes": 7435413,
+      "crc32": "170071d1"
+    },
+    {
+      "name": "task2/gt_task2_phase1.csv",
+      "bytes": 485649,
+      "compressed_bytes": 181384,
+      "crc32": "a001277f"
+    },
+    {
+      "name": "task2/gt_task2_phase2.csv",
+      "bytes": 485677,
+      "compressed_bytes": 181321,
+      "crc32": "24d499a4"
+    },
+    {
+      "name": "task2/sessions_test_task2_phase1.csv",
+      "bytes": 1916085,
+      "compressed_bytes": 647215,
+      "crc32": "11e63c3f"
+    },
+    {
+      "name": "task2/sessions_test_task2_phase2.csv",
+      "bytes": 1914298,
+      "compressed_bytes": 646215,
+      "crc32": "ffcca024"
+    },
+    {
+      "name": "task3/gt_task3_phase1.csv",
+      "bytes": 21007857,
+      "compressed_bytes": 9411730,
+      "crc32": "3e46df45"
+    },
+    {
+      "name": "task3/gt_task3_phase2.csv",
+      "bytes": 20892931,
+      "compressed_bytes": 9359403,
+      "crc32": "a7b56f23"
+    },
+    {
+      "name": "task3/sessions_test_task3_phase1.csv",
+      "bytes": 2672442,
+      "compressed_bytes": 1046267,
+      "crc32": "7b89b0a4"
+    },
+    {
+      "name": "task3/sessions_test_task3_phase2.csv",
+      "bytes": 2669914,
+      "compressed_bytes": 1045407,
+      "crc32": "d3fc99b9"
+    }
+  ],
+  "archive_uncompressed_bytes": 947346492,
+  "extracted_files": [
+    {
+      "name": "products_train.csv",
+      "bytes": 588533540,
+      "sha256": "f4de2243372304af9820b6916210635c5f48e6d0b81012f0326906563f12f03b"
+    },
+    {
+      "name": "sessions_train.csv",
+      "bytes": 259228456,
+      "sha256": "83f9d5c72b7305243ceb1d06aaf96610a050e84d428ae55138e851e70e313954"
+    }
+  ],
+  "extracted_csv_bytes": 847761996,
+  "retained_archive_and_selected_csv_bytes": 1265318861,
+  "data_scope": "Unmodified original products_train.csv and sessions_train.csv across all six locales; no training or sampling performed.",
+  "temporary_download_part_bytes": 394403463,
+  "temporary_cleanup_status": "Automatic approval rejected Remove-Item; temporary parts retained.",
+  "current_raw_directory_bytes": 1659724769
+}

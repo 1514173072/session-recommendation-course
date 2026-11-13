@@ -1,0 +1,92 @@
+29 Oct 15:57    INFO  Constructing session graphs.
+
+  0%|          | 0/9813 [00:00<?, ?it/s]
+ 17%|█▋        | 1640/9813 [00:00<00:00, 16292.69it/s]
+ 33%|███▎      | 3270/9813 [00:00<00:00, 16107.69it/s]
+ 51%|█████     | 4974/9813 [00:00<00:00, 16484.56it/s]
+ 69%|██████▊   | 6727/9813 [00:00<00:00, 16881.04it/s]
+ 87%|████████▋ | 8506/9813 [00:00<00:00, 17155.34it/s]
+100%|██████████| 9813/9813 [00:00<00:00, 16966.56it/s]
+29 Oct 15:57    INFO  Constructing session graphs.
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 72%|███████▎  | 1450/2000 [00:00<00:00, 14458.23it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 14675.40it/s]
+29 Oct 15:57    INFO  Constructing session graphs.
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 74%|███████▎  | 1473/2000 [00:00<00:00, 14650.17it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 14647.22it/s]
+29 Oct 15:57    INFO  SessionGraph Transform in DataLoader.
+29 Oct 15:57    INFO  SessionGraph Transform in DataLoader.
+29 Oct 15:57    INFO  SessionGraph Transform in DataLoader.
+29 Oct 15:57    INFO  [Training]: train_batch_size = [64] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+29 Oct 15:57    INFO  [Evaluation]: eval_batch_size = [64] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+29 Oct 15:57    INFO  epoch 0 training [time: 3.10s, train loss: 1380.4357]
+29 Oct 15:57    INFO  epoch 0 evaluating [time: 0.25s, valid_score: 0.072900]
+29 Oct 15:57    INFO  valid result: 
+recall@10 : 0.103    mrr@10 : 0.0729    ndcg@10 : 0.08    hit@10 : 0.103    precision@10 : 0.0103
+29 Oct 15:57    INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCSAN\checkpoints\GCSAN-Oct-29-2026_15-57-33.pth
+29 Oct 15:57    INFO  epoch 1 training [time: 3.11s, train loss: 1263.4308]
+29 Oct 15:57    INFO  epoch 1 evaluating [time: 0.23s, valid_score: 0.095500]
+29 Oct 15:57    INFO  valid result: 
+recall@10 : 0.1595    mrr@10 : 0.0955    ndcg@10 : 0.1108    hit@10 : 0.1595    precision@10 : 0.016
+29 Oct 15:57    INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCSAN\checkpoints\GCSAN-Oct-29-2026_15-57-33.pth
+29 Oct 15:57    INFO  epoch 2 training [time: 3.05s, train loss: 1126.9561]
+29 Oct 15:57    INFO  epoch 2 evaluating [time: 0.30s, valid_score: 0.112900]
+29 Oct 15:57    INFO  valid result: 
+recall@10 : 0.1885    mrr@10 : 0.1129    ndcg@10 : 0.1313    hit@10 : 0.1885    precision@10 : 0.0189
+29 Oct 15:57    INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCSAN\checkpoints\GCSAN-Oct-29-2026_15-57-33.pth
+29 Oct 15:57    INFO  Loading model structure and parameters from D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCSAN\checkpoints\GCSAN-Oct-29-2026_15-57-33.pth
+{
+  "model": "GCSAN",
+  "dataset": "diginetica-smoke",
+  "scope": "Small-scale runtime verification; not official leaderboard reproduction.",
+  "epochs_requested": 3,
+  "seed": 42,
+  "device": "cpu",
+  "raw_session_count": 2000,
+  "candidate_items": 9109,
+  "train_examples": 9813,
+  "valid_examples": 2000,
+  "test_examples": 2000,
+  "split_session_target_sha256": {
+    "train": "1d6793d55d6957ce0aacbce57365978da0ee4c8482a1debdefd0229d34c9ce3c",
+    "valid": "fd87f69f683ffebc0035aca6898189126dd32dbde9096de0351cc75f939774e8",
+    "test": "ef21ccbc6647adbcac71320878a0555d26e8dbb6cc0fc5e7026ff829be82d73e"
+  },
+  "best_valid_score": 0.1129,
+  "best_valid_result": {
+    "recall@10": 0.1885,
+    "mrr@10": 0.1129,
+    "ndcg@10": 0.1313,
+    "hit@10": 0.1885,
+    "precision@10": 0.0189
+  },
+  "test_result": {
+    "recall@10": 0.135,
+    "mrr@10": 0.0804,
+    "ndcg@10": 0.0936,
+    "hit@10": 0.135,
+    "precision@10": 0.0135
+  },
+  "data_preparation_seconds": 1.2900400999999997,
+  "training_and_validation_seconds": 10.176469399999998,
+  "test_seconds": 0.28831190000000007,
+  "prediction_batch_size": 454,
+  "prediction_batch_seconds": 0.004701900000000592,
+  "checkpoint": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\diginetica-smoke\\GCSAN\\checkpoints\\GCSAN-Oct-29-2026_15-57-33.pth",
+  "checkpoint_sha256": "6638cd50419558fbab69c689682f75f7a4332c9e0fc73e578de7845eef9629fd",
+  "checkpoint_reload_passed": true,
+  "max_reload_score_difference": 0.0,
+  "top10_validation_passed": true,
+  "parameters": 678592,
+  "environment": {
+    "python": "3.9.21",
+    "torch": "2.1.2+cpu",
+    "numpy": "1.23.5",
+    "recbole": "1.1.1",
+    "pyg": "2.4.0",
+    "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "all_passed": true,
+  "prediction_rows": 20000,
+  "all_scores_match_equal_weighted_coefficients": true,
+  "all_coefficients_match_formula": true,
+  "metrics_recomputed_from_exported_rankings": {
+    "recall@10": 0.28875,
+    "mrr@10": 0.1437460912698416,
+    "ndcg@10": 0.1784833848016577
+  }
+}

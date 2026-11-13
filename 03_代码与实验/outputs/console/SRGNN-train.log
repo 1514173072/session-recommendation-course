@@ -1,0 +1,92 @@
+29 Oct 15:57    INFO  Constructing session graphs.
+
+  0%|          | 0/9813 [00:00<?, ?it/s]
+ 15%|█▌        | 1481/9813 [00:00<00:00, 14797.45it/s]
+ 33%|███▎      | 3205/9813 [00:00<00:00, 16151.40it/s]
+ 50%|█████     | 4943/9813 [00:00<00:00, 16646.79it/s]
+ 68%|██████▊   | 6699/9813 [00:00<00:00, 16980.50it/s]
+ 86%|████████▌ | 8397/9813 [00:00<00:00, 16910.18it/s]
+100%|██████████| 9813/9813 [00:00<00:00, 16511.03it/s]
+29 Oct 15:57    INFO  Constructing session graphs.
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 71%|███████   | 1411/2000 [00:00<00:00, 14038.92it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 14234.60it/s]
+29 Oct 15:57    INFO  Constructing session graphs.
+
+  0%|          | 0/2000 [00:00<?, ?it/s]
+ 56%|█████▌    | 1115/2000 [00:00<00:00, 11089.73it/s]
+100%|██████████| 2000/2000 [00:00<00:00, 11727.20it/s]
+29 Oct 15:57    INFO  SessionGraph Transform in DataLoader.
+29 Oct 15:57    INFO  SessionGraph Transform in DataLoader.
+29 Oct 15:57    INFO  SessionGraph Transform in DataLoader.
+29 Oct 15:57    INFO  [Training]: train_batch_size = [64] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+29 Oct 15:57    INFO  [Evaluation]: eval_batch_size = [64] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+29 Oct 15:57    INFO  epoch 0 training [time: 2.27s, train loss: 1393.8345]
+29 Oct 15:57    INFO  epoch 0 evaluating [time: 0.20s, valid_score: 0.002100]
+29 Oct 15:57    INFO  valid result: 
+recall@10 : 0.0055    mrr@10 : 0.0021    ndcg@10 : 0.0029    hit@10 : 0.0055    precision@10 : 0.0005
+29 Oct 15:57    INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\SRGNN\checkpoints\SRGNN-Oct-29-2026_15-57-19.pth
+29 Oct 15:57    INFO  epoch 1 training [time: 2.25s, train loss: 1295.1880]
+29 Oct 15:57    INFO  epoch 1 evaluating [time: 0.20s, valid_score: 0.043500]
+29 Oct 15:57    INFO  valid result: 
+recall@10 : 0.0785    mrr@10 : 0.0435    ndcg@10 : 0.0517    hit@10 : 0.0785    precision@10 : 0.0078
+29 Oct 15:57    INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\SRGNN\checkpoints\SRGNN-Oct-29-2026_15-57-19.pth
+29 Oct 15:57    INFO  epoch 2 training [time: 2.19s, train loss: 1085.4900]
+29 Oct 15:57    INFO  epoch 2 evaluating [time: 0.17s, valid_score: 0.088900]
+29 Oct 15:57    INFO  valid result: 
+recall@10 : 0.1565    mrr@10 : 0.0889    ndcg@10 : 0.1051    hit@10 : 0.1565    precision@10 : 0.0157
+29 Oct 15:57    INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\SRGNN\checkpoints\SRGNN-Oct-29-2026_15-57-19.pth
+29 Oct 15:57    INFO  Loading model structure and parameters from D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\SRGNN\checkpoints\SRGNN-Oct-29-2026_15-57-19.pth
+{
+  "model": "SRGNN",
+  "dataset": "diginetica-smoke",
+  "scope": "Small-scale runtime verification; not official leaderboard reproduction.",
+  "epochs_requested": 3,
+  "seed": 42,
+  "device": "cpu",
+  "raw_session_count": 2000,
+  "candidate_items": 9109,
+  "train_examples": 9813,
+  "valid_examples": 2000,
+  "test_examples": 2000,
+  "split_session_target_sha256": {
+    "train": "1d6793d55d6957ce0aacbce57365978da0ee4c8482a1debdefd0229d34c9ce3c",
+    "valid": "fd87f69f683ffebc0035aca6898189126dd32dbde9096de0351cc75f939774e8",
+    "test": "ef21ccbc6647adbcac71320878a0555d26e8dbb6cc0fc5e7026ff829be82d73e"
+  },
+  "best_valid_score": 0.0889,
+  "best_valid_result": {
+    "recall@10": 0.1565,
+    "mrr@10": 0.0889,
+    "ndcg@10": 0.1051,
+    "hit@10": 0.1565,
+    "precision@10": 0.0157
+  },
+  "test_result": {
+    "recall@10": 0.137,
+    "mrr@10": 0.0864,
+    "ndcg@10": 0.0985,
+    "hit@10": 0.137,
+    "precision@10": 0.0137
+  },
+  "data_preparation_seconds": 1.4368101000000006,
+  "training_and_validation_seconds": 7.435997300000002,
+  "test_seconds": 0.2565774000000012,
+  "prediction_batch_size": 454,
+  "prediction_batch_seconds": 0.0031098999999983334,
+  "checkpoint": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\diginetica-smoke\\SRGNN\\checkpoints\\SRGNN-Oct-29-2026_15-57-19.pth",
+  "checkpoint_sha256": "c34dced36ea53a959a063e187a34b285fb10fdfade427b93f9bc5b4a2a267977",
+  "checkpoint_reload_passed": true,
+  "max_reload_score_difference": 0.0,
+  "top10_validation_passed": true,
+  "parameters": 645248,
+  "environment": {
+    "python": "3.9.21",
+    "torch": "2.1.2+cpu",
+    "numpy": "1.23.5",
+    "recbole": "1.1.1",
+    "pyg": "2.4.0",
+    "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+  }
+}

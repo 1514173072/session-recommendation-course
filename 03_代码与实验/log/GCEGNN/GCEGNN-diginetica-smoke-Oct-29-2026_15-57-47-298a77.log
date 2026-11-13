@@ -1,0 +1,29 @@
+Thu 29 Oct 2026 15:57:47 INFO  Reversing sessions.
+Thu 29 Oct 2026 15:57:48 INFO  Constructing session graphs.
+Thu 29 Oct 2026 15:57:50 INFO  Reversing sessions.
+Thu 29 Oct 2026 15:57:50 INFO  Constructing session graphs.
+Thu 29 Oct 2026 15:57:51 INFO  Reversing sessions.
+Thu 29 Oct 2026 15:57:51 INFO  Constructing session graphs.
+Thu 29 Oct 2026 15:57:52 INFO  SessionGraph Transform in DataLoader.
+Thu 29 Oct 2026 15:57:52 INFO  SessionGraph Transform in DataLoader.
+Thu 29 Oct 2026 15:57:52 INFO  SessionGraph Transform in DataLoader.
+Thu 29 Oct 2026 15:57:52 INFO  [Training]: train_batch_size = [64] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Thu 29 Oct 2026 15:57:52 INFO  [Evaluation]: eval_batch_size = [64] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Thu 29 Oct 2026 15:57:52 INFO  Constructing global graphs.
+Thu 29 Oct 2026 15:57:56 INFO  epoch 0 training [time: 3.96s, train loss: 1323.7994]
+Thu 29 Oct 2026 15:57:56 INFO  epoch 0 evaluating [time: 0.31s, valid_score: 0.125700]
+Thu 29 Oct 2026 15:57:56 INFO  valid result: 
+recall@10 : 0.2165    mrr@10 : 0.1257    ndcg@10 : 0.1479    hit@10 : 0.2165    precision@10 : 0.0217
+Thu 29 Oct 2026 15:57:56 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCEGNN\checkpoints\GCEGNN-Oct-29-2026_15-57-52.pth
+Thu 29 Oct 2026 15:58:00 INFO  epoch 1 training [time: 3.85s, train loss: 1068.2501]
+Thu 29 Oct 2026 15:58:00 INFO  epoch 1 evaluating [time: 0.32s, valid_score: 0.144200]
+Thu 29 Oct 2026 15:58:00 INFO  valid result: 
+recall@10 : 0.2435    mrr@10 : 0.1442    ndcg@10 : 0.1687    hit@10 : 0.2435    precision@10 : 0.0244
+Thu 29 Oct 2026 15:58:00 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCEGNN\checkpoints\GCEGNN-Oct-29-2026_15-57-52.pth
+Thu 29 Oct 2026 15:58:04 INFO  epoch 2 training [time: 4.27s, train loss: 845.5783]
+Thu 29 Oct 2026 15:58:05 INFO  epoch 2 evaluating [time: 0.32s, valid_score: 0.148500]
+Thu 29 Oct 2026 15:58:05 INFO  valid result: 
+recall@10 : 0.2575    mrr@10 : 0.1485    ndcg@10 : 0.1753    hit@10 : 0.2575    precision@10 : 0.0258
+Thu 29 Oct 2026 15:58:05 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCEGNN\checkpoints\GCEGNN-Oct-29-2026_15-57-52.pth
+Thu 29 Oct 2026 15:58:05 INFO  Loading model structure and parameters from D:\Projects\算法分析与理论课程\03_代码与实验\outputs\diginetica-smoke\GCEGNN\checkpoints\GCEGNN-Oct-29-2026_15-57-52.pth
+Thu 29 Oct 2026 15:58:05 INFO  Constructing global graphs.

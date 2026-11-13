@@ -1,0 +1,51 @@
+{
+  "started_at": "2026-11-12T00:12:11",
+  "tag": "rerun20261112",
+  "status": "complete",
+  "steps": [
+    {
+      "name": "SRGNN-train",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:18:16"
+    },
+    {
+      "name": "SRGNN-predictions",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:18:38"
+    },
+    {
+      "name": "GCSAN-train",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:27:44"
+    },
+    {
+      "name": "GCSAN-predictions",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:28:05"
+    },
+    {
+      "name": "GCEGNN-train",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:39:41"
+    },
+    {
+      "name": "GCEGNN-predictions",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:40:35"
+    },
+    {
+      "name": "independent-verification",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:42:02"
+    }
+  ],
+  "configuration": {
+    "seed": 42,
+    "epochs_max": 20,
+    "device": "cpu",
+    "threads": 4
+  },
+  "active_step": null,
+  "updated_at": "2026-11-12T00:40:35",
+  "completed_at": "2026-11-12T00:42:02"
+}

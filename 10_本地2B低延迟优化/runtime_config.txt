@@ -1,0 +1,1 @@
+batch_size=32; checkpoints=16; full Qwen3.5-2B Q4; CUDA0; flash attention on

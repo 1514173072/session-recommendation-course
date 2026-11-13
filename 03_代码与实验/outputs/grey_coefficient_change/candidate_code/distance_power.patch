@@ -1,0 +1,11 @@
+--- grey_session.py
++++ grey_session.py
+@@ -14,7 +14,7 @@
+     """Deng coefficient relative to all-one ideal; extrema over items x features."""
+     if not 0 < rho <= 1:
+         raise ValueError('rho must be in (0, 1]')
+-    delta = np.abs(1.0 - normalized)
++    delta = np.abs(1.0 - normalized) ** 4
+     lo, hi = float(delta.min()), float(delta.max())
+     if hi == 0:
+         return np.ones_like(normalized)

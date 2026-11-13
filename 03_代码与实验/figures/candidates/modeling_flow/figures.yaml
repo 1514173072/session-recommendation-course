@@ -1,0 +1,15 @@
+figures:
+  - id: modeling_flow_native_text
+    source:
+      kind: new_candidate
+      gallery_searches: ["流程/建模: no match", "流程图/机器学习: no match"]
+      rejection_reason: "No matching template; preserve supplied five-module composition using native text and authentic screenshot."
+    code: build.cjs
+    inputs: ["original raster flowchart", "actual raw-data screenshot", "formal data manifest", "formal GCEGNN result"]
+    outputs: ["电商会话推荐建模流程图_排版源文件.html", "recheck.png"]
+    style: "Microsoft YaHei and Georgia; 3840x2160; navy/teal/orange; color plus labels and arrows"
+    statistics: "Frozen formal-subset counts, no performance claims or uncertainty estimates"
+    status: verified
+    caption_checked: true
+    text_figure_checked: true
+    reproduction_contract: "Two renders have identical SHA256; see verification.json"

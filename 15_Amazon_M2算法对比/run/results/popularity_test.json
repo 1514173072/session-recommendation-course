@@ -1,0 +1,28 @@
+{
+  "key": "popularity",
+  "method": "热门推荐",
+  "ablation": true,
+  "test_sessions": 8970,
+  "catalogue_items": 42503,
+  "recall@10": 0.0023411371237458192,
+  "mrr@10": 0.0009983896940418677,
+  "ndcg@10": 0.0013053206590174856,
+  "mean_ms": 0.35789166666666666,
+  "p95_ms": 0.404005,
+  "calls": 600,
+  "scope": "CPU4, batch1, internal history -> features/graph -> full catalogue scores -> history mask -> Top10; model loading and static catalogue preparation excluded",
+  "warm_metrics": {
+    "recall@10": 0.002394526795895097,
+    "mrr@10": 0.0010211579880907132,
+    "ndcg@10": 0.0013350885189722743
+  },
+  "cold_metrics": {
+    "recall@10": 0.0,
+    "mrr@10": 0.0,
+    "ndcg@10": 0.0
+  },
+  "cold_targets": 200,
+  "quality_evaluation_seconds": 3.3885381,
+  "online_llm_calls": 0,
+  "prediction_sha256": "117f188053575768a72a42cc1a5ac9ac6693e7563193bf7551300e958d0d01bb"
+}

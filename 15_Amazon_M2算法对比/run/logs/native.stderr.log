@@ -1,0 +1,1 @@
+0.01.111.005 W srv  server_setup: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)

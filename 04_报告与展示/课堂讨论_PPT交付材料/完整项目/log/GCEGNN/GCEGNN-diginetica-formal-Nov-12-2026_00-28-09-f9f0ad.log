@@ -1,0 +1,63 @@
+Thu 12 Nov 2026 00:28:12 INFO  Reversing sessions.
+Thu 12 Nov 2026 00:28:14 INFO  Constructing session graphs.
+Thu 12 Nov 2026 00:28:39 INFO  Reversing sessions.
+Thu 12 Nov 2026 00:28:40 INFO  Constructing session graphs.
+Thu 12 Nov 2026 00:28:45 INFO  Reversing sessions.
+Thu 12 Nov 2026 00:28:46 INFO  Constructing session graphs.
+Thu 12 Nov 2026 00:28:52 INFO  SessionGraph Transform in DataLoader.
+Thu 12 Nov 2026 00:28:52 INFO  SessionGraph Transform in DataLoader.
+Thu 12 Nov 2026 00:28:52 INFO  SessionGraph Transform in DataLoader.
+Thu 12 Nov 2026 00:28:52 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Thu 12 Nov 2026 00:28:52 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Thu 12 Nov 2026 00:28:52 INFO  Constructing global graphs.
+Thu 12 Nov 2026 00:29:46 INFO  epoch 0 training [time: 53.68s, train loss: 6638.8343]
+Thu 12 Nov 2026 00:29:50 INFO  epoch 0 evaluating [time: 4.00s, valid_score: 0.150000]
+Thu 12 Nov 2026 00:29:50 INFO  valid result: 
+recall@10 : 0.2808    mrr@10 : 0.15    ndcg@10 : 0.1812    hit@10 : 0.2808    precision@10 : 0.0281
+Thu 12 Nov 2026 00:29:50 INFO  Saving current: .\outputs\formal\GCEGNN-rerun20261112\seed42\checkpoints\GCEGNN-Nov-12-2026_00-28-53.pth
+Thu 12 Nov 2026 00:30:44 INFO  epoch 1 training [time: 54.10s, train loss: 4557.4183]
+Thu 12 Nov 2026 00:30:48 INFO  epoch 1 evaluating [time: 4.06s, valid_score: 0.162800]
+Thu 12 Nov 2026 00:30:48 INFO  valid result: 
+recall@10 : 0.335    mrr@10 : 0.1628    ndcg@10 : 0.2037    hit@10 : 0.335    precision@10 : 0.0335
+Thu 12 Nov 2026 00:30:48 INFO  Saving current: .\outputs\formal\GCEGNN-rerun20261112\seed42\checkpoints\GCEGNN-Nov-12-2026_00-28-53.pth
+Thu 12 Nov 2026 00:31:42 INFO  epoch 2 training [time: 53.98s, train loss: 3635.7721]
+Thu 12 Nov 2026 00:31:46 INFO  epoch 2 evaluating [time: 4.02s, valid_score: 0.165800]
+Thu 12 Nov 2026 00:31:46 INFO  valid result: 
+recall@10 : 0.3456    mrr@10 : 0.1658    ndcg@10 : 0.2083    hit@10 : 0.3456    precision@10 : 0.0346
+Thu 12 Nov 2026 00:31:46 INFO  Saving current: .\outputs\formal\GCEGNN-rerun20261112\seed42\checkpoints\GCEGNN-Nov-12-2026_00-28-53.pth
+Thu 12 Nov 2026 00:32:40 INFO  epoch 3 training [time: 53.99s, train loss: 3202.4965]
+Thu 12 Nov 2026 00:32:44 INFO  epoch 3 evaluating [time: 4.02s, valid_score: 0.166400]
+Thu 12 Nov 2026 00:32:44 INFO  valid result: 
+recall@10 : 0.3484    mrr@10 : 0.1664    ndcg@10 : 0.2094    hit@10 : 0.3484    precision@10 : 0.0348
+Thu 12 Nov 2026 00:32:44 INFO  Saving current: .\outputs\formal\GCEGNN-rerun20261112\seed42\checkpoints\GCEGNN-Nov-12-2026_00-28-53.pth
+Thu 12 Nov 2026 00:33:39 INFO  epoch 4 training [time: 54.54s, train loss: 2942.2841]
+Thu 12 Nov 2026 00:33:43 INFO  epoch 4 evaluating [time: 4.09s, valid_score: 0.167700]
+Thu 12 Nov 2026 00:33:43 INFO  valid result: 
+recall@10 : 0.3462    mrr@10 : 0.1677    ndcg@10 : 0.2098    hit@10 : 0.3462    precision@10 : 0.0346
+Thu 12 Nov 2026 00:33:43 INFO  Saving current: .\outputs\formal\GCEGNN-rerun20261112\seed42\checkpoints\GCEGNN-Nov-12-2026_00-28-53.pth
+Thu 12 Nov 2026 00:34:38 INFO  epoch 5 training [time: 54.39s, train loss: 2765.9228]
+Thu 12 Nov 2026 00:34:42 INFO  epoch 5 evaluating [time: 4.06s, valid_score: 0.163800]
+Thu 12 Nov 2026 00:34:42 INFO  valid result: 
+recall@10 : 0.3418    mrr@10 : 0.1638    ndcg@10 : 0.2059    hit@10 : 0.3418    precision@10 : 0.0342
+Thu 12 Nov 2026 00:35:36 INFO  epoch 6 training [time: 54.59s, train loss: 2630.5853]
+Thu 12 Nov 2026 00:35:40 INFO  epoch 6 evaluating [time: 4.08s, valid_score: 0.164100]
+Thu 12 Nov 2026 00:35:40 INFO  valid result: 
+recall@10 : 0.345    mrr@10 : 0.1641    ndcg@10 : 0.2068    hit@10 : 0.345    precision@10 : 0.0345
+Thu 12 Nov 2026 00:36:35 INFO  epoch 7 training [time: 54.26s, train loss: 2528.2278]
+Thu 12 Nov 2026 00:36:39 INFO  epoch 7 evaluating [time: 4.03s, valid_score: 0.164900]
+Thu 12 Nov 2026 00:36:39 INFO  valid result: 
+recall@10 : 0.3412    mrr@10 : 0.1649    ndcg@10 : 0.2065    hit@10 : 0.3412    precision@10 : 0.0341
+Thu 12 Nov 2026 00:37:33 INFO  epoch 8 training [time: 54.58s, train loss: 2440.8153]
+Thu 12 Nov 2026 00:37:37 INFO  epoch 8 evaluating [time: 4.03s, valid_score: 0.161500]
+Thu 12 Nov 2026 00:37:37 INFO  valid result: 
+recall@10 : 0.3375    mrr@10 : 0.1615    ndcg@10 : 0.2032    hit@10 : 0.3375    precision@10 : 0.0338
+Thu 12 Nov 2026 00:38:32 INFO  epoch 9 training [time: 54.64s, train loss: 2364.3735]
+Thu 12 Nov 2026 00:38:36 INFO  epoch 9 evaluating [time: 4.07s, valid_score: 0.161800]
+Thu 12 Nov 2026 00:38:36 INFO  valid result: 
+recall@10 : 0.3364    mrr@10 : 0.1618    ndcg@10 : 0.2031    hit@10 : 0.3364    precision@10 : 0.0336
+Thu 12 Nov 2026 00:39:30 INFO  epoch 10 training [time: 54.59s, train loss: 2294.7450]
+Thu 12 Nov 2026 00:39:35 INFO  epoch 10 evaluating [time: 4.06s, valid_score: 0.159200]
+Thu 12 Nov 2026 00:39:35 INFO  valid result: 
+recall@10 : 0.3326    mrr@10 : 0.1592    ndcg@10 : 0.2002    hit@10 : 0.3326    precision@10 : 0.0333
+Thu 12 Nov 2026 00:39:35 INFO  Finished training, best eval result in epoch 4
+Thu 12 Nov 2026 00:39:35 INFO  Loading model structure and parameters from .\outputs\formal\GCEGNN-rerun20261112\seed42\checkpoints\GCEGNN-Nov-12-2026_00-28-53.pth

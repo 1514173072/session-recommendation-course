@@ -1,0 +1,28 @@
+{
+  "key": "fixed_policy",
+  "method": "固定策略（消融）",
+  "ablation": true,
+  "test_sessions": 8970,
+  "catalogue_items": 42503,
+  "recall@10": 0.5577480490523968,
+  "mrr@10": 0.35544677142503234,
+  "ndcg@10": 0.4037956123325547,
+  "mean_ms": 0.9783945,
+  "p95_ms": 1.105815,
+  "calls": 600,
+  "scope": "CPU4, batch1, internal history -> features/graph -> full catalogue scores -> history mask -> Top10; model loading and static catalogue preparation excluded",
+  "warm_metrics": {
+    "recall@10": 0.5683010262257697,
+    "mrr@10": 0.36292723208629707,
+    "ndcg@10": 0.4120249315881655
+  },
+  "cold_metrics": {
+    "recall@10": 0.095,
+    "mrr@10": 0.027428571428571427,
+    "ndcg@10": 0.04293996297402072
+  },
+  "cold_targets": 200,
+  "quality_evaluation_seconds": 8.981408600000009,
+  "online_llm_calls": 0,
+  "prediction_sha256": "c02862eb87f168c69567f46e24af384d329340909c3fb23318b98a0097a4baf2"
+}

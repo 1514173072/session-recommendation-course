@@ -1,0 +1,211 @@
+{
+  "baseline": {
+    "config": {
+      "family": "baseline",
+      "value": null
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\baseline.py",
+    "added_lines": 0,
+    "deleted_lines": 0,
+    "changed_locations": 0,
+    "source_sha256": "dc3d054800baf1dfa013222ca455adf27d2dcb57a5bbc2c6508aaf6fa3928d56"
+  },
+  "all_binary": {
+    "config": {
+      "family": "all_binary",
+      "value": true
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\all_binary.py",
+    "added_lines": 1,
+    "deleted_lines": 0,
+    "changed_locations": 1,
+    "source_sha256": "a8dd8aac77034b1e631275cecacbd17e53e28f551534deb1b4fa6c590285a83e"
+  },
+  "all_power": {
+    "config": {
+      "family": "all_power",
+      "value": 0.0625
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\all_power.py",
+    "added_lines": 1,
+    "deleted_lines": 0,
+    "changed_locations": 1,
+    "source_sha256": "8e34222c31127923d535e2826436bc041d3b9050f00ec57240203f01a83f4038"
+  },
+  "cooccurrence_power": {
+    "config": {
+      "family": "cooccurrence_power",
+      "value": 0.125
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\cooccurrence_power.py",
+    "added_lines": 1,
+    "deleted_lines": 0,
+    "changed_locations": 1,
+    "source_sha256": "355f243d9a4fd3687176af3f1e4dabd4c46e2c5e9cf256aafddf86126d7cb2e7"
+  },
+  "cooccurrence_weight": {
+    "config": {
+      "family": "cooccurrence_weight",
+      "value": 1.5
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\cooccurrence_weight.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "f20a781f593978c24627e430b5a6faca111a2f9c10ce86052d6d6e29b26bc824"
+  },
+  "geometric_mean": {
+    "config": {
+      "family": "geometric_mean",
+      "value": true
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\geometric_mean.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "1d94fcc06752885e7f04478bb1f4d57d6d89727724f88b826659999abaafacc5"
+  },
+  "harmonic_mean": {
+    "config": {
+      "family": "harmonic_mean",
+      "value": true
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\harmonic_mean.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "0ab90b8443ef8566d913201b879d92ffdda6ccda08924d22a88309c96eebed58"
+  },
+  "keep_self_cooccurrence": {
+    "config": {
+      "family": "keep_self_cooccurrence",
+      "value": true
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\keep_self_cooccurrence.py",
+    "added_lines": 0,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "758144cc72b080361a55d095f8dfc596a4afe256c48aa2b2deb48089b38fcf57"
+  },
+  "max_aggregation": {
+    "config": {
+      "family": "max_aggregation",
+      "value": true
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\max_aggregation.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "4f057aacca67ba04fa9c537c0600d8e848fdfee8d7b3360a8e16d8e8fb5f5dfa"
+  },
+  "popularity_power": {
+    "config": {
+      "family": "popularity_power",
+      "value": 0.0625
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\popularity_power.py",
+    "added_lines": 1,
+    "deleted_lines": 0,
+    "changed_locations": 1,
+    "source_sha256": "2b72b244efa0c491778a31799c39390901996f66f521c4b9c08d343ad84af08c"
+  },
+  "popularity_weight": {
+    "config": {
+      "family": "popularity_weight",
+      "value": 0.05
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\popularity_weight.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "618c63a8a8680d68a6e8d3c4bd50ae19027a48ecadd306e24345901d028ba9eb"
+  },
+  "repeat_binary": {
+    "config": {
+      "family": "repeat_binary",
+      "value": true
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\repeat_binary.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "a47257b27c785c5b78f9a4f5ae65904ae112abbde6dfe9ae1ec4b46c52d5202a"
+  },
+  "repeat_count": {
+    "config": {
+      "family": "repeat_count",
+      "value": true
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\repeat_count.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "89a152c63cf09783478f2c7a7578755817aea31b6155e5a7f1e6ee00287f2bc8"
+  },
+  "repeat_last_only": {
+    "config": {
+      "family": "repeat_last_only",
+      "value": true
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\repeat_last_only.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "52c371c1f9493bf12e70e9854deccae30abfe19fe9ac9e99c7244da40ef6bfbd"
+  },
+  "repeat_power": {
+    "config": {
+      "family": "repeat_power",
+      "value": 0.25
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\repeat_power.py",
+    "added_lines": 1,
+    "deleted_lines": 0,
+    "changed_locations": 1,
+    "source_sha256": "6f83c31e6c84d6480fe9d12e7afd7eb5fb46ea8ba4d4740a728127e3ab9c9c64"
+  },
+  "repeat_weight": {
+    "config": {
+      "family": "repeat_weight",
+      "value": 32
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\repeat_weight.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "bd81e6dad035e8d40fc583bd3bec8e6bfb90dcf8c6366ec59e082fa45f7be7ba"
+  },
+  "rho": {
+    "config": {
+      "family": "rho",
+      "value": 1.0
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\rho.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "5f538a7c07ae271396b124c6596bde223582ff900a04524308e634efcae8d173"
+  },
+  "transition_power": {
+    "config": {
+      "family": "transition_power",
+      "value": 0.125
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\transition_power.py",
+    "added_lines": 1,
+    "deleted_lines": 0,
+    "changed_locations": 1,
+    "source_sha256": "bc425f7e9c27ff724e69ac0740aa85a22847cf759f4d43c7d23b1dd9fdc18d28"
+  },
+  "transition_weight": {
+    "config": {
+      "family": "transition_weight",
+      "value": 0.5
+    },
+    "source_file": "D:\\Projects\\\u7b97\u6cd5\u5206\u6790\u4e0e\u7406\u8bba\u8bfe\u7a0b\\03_\u4ee3\u7801\u4e0e\u5b9e\u9a8c\\outputs\\grey_single_change\\candidate_code\\transition_weight.py",
+    "added_lines": 1,
+    "deleted_lines": 1,
+    "changed_locations": 1,
+    "source_sha256": "5265a51af03d1c41c03572100e3aaaebbb14194361b927ebbfd956a2e7cb6ed0"
+  }
+}

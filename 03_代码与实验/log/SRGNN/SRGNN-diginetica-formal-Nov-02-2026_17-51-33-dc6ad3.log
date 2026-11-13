@@ -1,0 +1,49 @@
+Mon 02 Nov 2026 17:51:37 INFO  Constructing session graphs.
+Mon 02 Nov 2026 17:51:43 INFO  Constructing session graphs.
+Mon 02 Nov 2026 17:51:45 INFO  Constructing session graphs.
+Mon 02 Nov 2026 17:51:46 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 17:51:46 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 17:51:46 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 17:51:46 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Mon 02 Nov 2026 17:51:46 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Mon 02 Nov 2026 17:52:25 INFO  epoch 0 training [time: 38.82s, train loss: 7358.8455]
+Mon 02 Nov 2026 17:52:29 INFO  epoch 0 evaluating [time: 3.27s, valid_score: 0.074000]
+Mon 02 Nov 2026 17:52:29 INFO  valid result: 
+recall@10 : 0.1318    mrr@10 : 0.074    ndcg@10 : 0.0877    hit@10 : 0.1318    precision@10 : 0.0132
+Mon 02 Nov 2026 17:52:29 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\SRGNN\seed42\checkpoints\SRGNN-Nov-02-2026_17-51-46.pth
+Mon 02 Nov 2026 17:53:08 INFO  epoch 1 training [time: 39.62s, train loss: 5752.3895]
+Mon 02 Nov 2026 17:53:11 INFO  epoch 1 evaluating [time: 3.23s, valid_score: 0.131700]
+Mon 02 Nov 2026 17:53:11 INFO  valid result: 
+recall@10 : 0.2627    mrr@10 : 0.1317    ndcg@10 : 0.1627    hit@10 : 0.2627    precision@10 : 0.0263
+Mon 02 Nov 2026 17:53:11 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\SRGNN\seed42\checkpoints\SRGNN-Nov-02-2026_17-51-46.pth
+Mon 02 Nov 2026 17:53:52 INFO  epoch 2 training [time: 40.06s, train loss: 4143.3973]
+Mon 02 Nov 2026 17:53:55 INFO  epoch 2 evaluating [time: 3.31s, valid_score: 0.144600]
+Mon 02 Nov 2026 17:53:55 INFO  valid result: 
+recall@10 : 0.2974    mrr@10 : 0.1446    ndcg@10 : 0.1807    hit@10 : 0.2974    precision@10 : 0.0297
+Mon 02 Nov 2026 17:53:55 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\SRGNN\seed42\checkpoints\SRGNN-Nov-02-2026_17-51-46.pth
+Mon 02 Nov 2026 17:54:35 INFO  epoch 3 training [time: 40.27s, train loss: 3313.3733]
+Mon 02 Nov 2026 17:54:39 INFO  epoch 3 evaluating [time: 3.49s, valid_score: 0.138400]
+Mon 02 Nov 2026 17:54:39 INFO  valid result: 
+recall@10 : 0.2929    mrr@10 : 0.1384    ndcg@10 : 0.1749    hit@10 : 0.2929    precision@10 : 0.0293
+Mon 02 Nov 2026 17:55:20 INFO  epoch 4 training [time: 41.77s, train loss: 2718.7701]
+Mon 02 Nov 2026 17:55:25 INFO  epoch 4 evaluating [time: 4.22s, valid_score: 0.137500]
+Mon 02 Nov 2026 17:55:25 INFO  valid result: 
+recall@10 : 0.2858    mrr@10 : 0.1375    ndcg@10 : 0.1725    hit@10 : 0.2858    precision@10 : 0.0286
+Mon 02 Nov 2026 17:56:12 INFO  epoch 5 training [time: 47.41s, train loss: 2240.5459]
+Mon 02 Nov 2026 17:56:15 INFO  epoch 5 evaluating [time: 3.43s, valid_score: 0.131200]
+Mon 02 Nov 2026 17:56:15 INFO  valid result: 
+recall@10 : 0.2738    mrr@10 : 0.1312    ndcg@10 : 0.1648    hit@10 : 0.2738    precision@10 : 0.0274
+Mon 02 Nov 2026 17:57:02 INFO  epoch 6 training [time: 46.17s, train loss: 1875.8201]
+Mon 02 Nov 2026 17:57:06 INFO  epoch 6 evaluating [time: 4.42s, valid_score: 0.121500]
+Mon 02 Nov 2026 17:57:06 INFO  valid result: 
+recall@10 : 0.2524    mrr@10 : 0.1215    ndcg@10 : 0.1524    hit@10 : 0.2524    precision@10 : 0.0252
+Mon 02 Nov 2026 17:57:51 INFO  epoch 7 training [time: 44.48s, train loss: 1605.6144]
+Mon 02 Nov 2026 17:57:54 INFO  epoch 7 evaluating [time: 3.45s, valid_score: 0.121700]
+Mon 02 Nov 2026 17:57:54 INFO  valid result: 
+recall@10 : 0.2516    mrr@10 : 0.1217    ndcg@10 : 0.1523    hit@10 : 0.2516    precision@10 : 0.0252
+Mon 02 Nov 2026 17:58:40 INFO  epoch 8 training [time: 45.69s, train loss: 1407.5470]
+Mon 02 Nov 2026 17:58:43 INFO  epoch 8 evaluating [time: 3.48s, valid_score: 0.117400]
+Mon 02 Nov 2026 17:58:43 INFO  valid result: 
+recall@10 : 0.2385    mrr@10 : 0.1174    ndcg@10 : 0.146    hit@10 : 0.2385    precision@10 : 0.0239
+Mon 02 Nov 2026 17:58:43 INFO  Finished training, best eval result in epoch 2
+Mon 02 Nov 2026 17:58:43 INFO  Loading model structure and parameters from D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\SRGNN\seed42\checkpoints\SRGNN-Nov-02-2026_17-51-46.pth

@@ -1,0 +1,13 @@
+{
+  "models_completed": [
+    "SRGNN",
+    "GCSAN",
+    "GCEGNN"
+  ],
+  "same_split_passed": true,
+  "checkpoint_roundtrip_passed": true,
+  "independent_process_reload_passed": true,
+  "valid_top10_passed": true,
+  "full_data_downloaded": true,
+  "scope": "2000 real sessions, 3 epochs, CPU; runtime verification only."
+}

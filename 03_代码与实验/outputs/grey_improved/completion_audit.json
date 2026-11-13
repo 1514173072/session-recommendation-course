@@ -1,0 +1,24 @@
+{
+  "all_passed": true,
+  "source_and_original_splits_verified": true,
+  "training_statistics_refit_from_observed_prefixes_match": true,
+  "training_incidence_all_20000_sessions_match": true,
+  "validation_cache_25_queries_match_current_code": true,
+  "test_config_matches_validation_frozen_hash": true,
+  "independent_all_20000_prediction_metrics": {
+    "recall@10": 0.3719,
+    "mrr@10": 0.1806560714285725,
+    "ndcg@10": 0.22592089526329517
+  },
+  "sparse_full_catalogue_top10_checks": {
+    "validation": 120,
+    "test": 100
+  },
+  "five_models_same_300_query_benchmark_900_calls_each": true,
+  "improved_quality_and_lower_mean_latency_verified": true,
+  "numeric_model_state_smaller_than_all_three_gnns": true,
+  "complexity_derivation_written_and_checked_against_source": true,
+  "report_sha256": "18069e336d772b5e7231113e39d9e580c14a3a0048ea87c5fc8b36dadce7e416",
+  "selected_config_sha256": "121bf2b66bb5a55b3710191a6bd66198af467a8493e663c0ac705c13d6476ce8",
+  "scope": "Existing 20k subset, existing single-seed GNNs; validation-selected GRA. Latency is warm in-process batch=1. Memory means numeric model state, not total process RSS."
+}

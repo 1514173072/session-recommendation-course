@@ -1,0 +1,572 @@
+{
+  "tag": "rerun20261112",
+  "models": {
+    "SRGNN": {
+      "result": {
+        "model": "SRGNN",
+        "variant": "base",
+        "dataset": "diginetica-formal",
+        "scope": "Formal course-project experiment on a 20k-session disjoint subset; not an official leaderboard reproduction.",
+        "epochs_requested": 20,
+        "seed": 42,
+        "device": "cpu",
+        "raw_session_count": 20000,
+        "candidate_items": 32968,
+        "train_examples": 97273,
+        "valid_examples": 20000,
+        "test_examples": 20000,
+        "split_session_target_sha256": {
+          "train": "b9d1b3bd47d3bc7905ffa4dc4219618a19a2539427983d3a40f064b286a77f11",
+          "valid": "dce0721d44aaa6eb2285ff8135450ab9616a17d535fb1279b04085d6913f8311",
+          "test": "6e490221d53344ec678614e5ab9fe2051e079b7036e324b893228796ae717212"
+        },
+        "best_valid_score": 0.1446,
+        "best_valid_result": {
+          "recall@10": 0.2974,
+          "mrr@10": 0.1446,
+          "ndcg@10": 0.1807,
+          "hit@10": 0.2974,
+          "precision@10": 0.0297
+        },
+        "test_result": {
+          "recall@10": 0.2818,
+          "mrr@10": 0.134,
+          "ndcg@10": 0.1688,
+          "hit@10": 0.2818,
+          "precision@10": 0.0282
+        },
+        "data_preparation_seconds": 12.487455899999999,
+        "training_and_validation_seconds": 343.17392240000004,
+        "test_seconds": 2.8233163000000445,
+        "checkpoint": "outputs/formal/SRGNN-rerun20261112/seed42/checkpoints/SRGNN-Nov-12-2026_00-12-28.pth",
+        "checkpoint_sha256": "afd378dabbb4ad0774cbd6488d10d67449ceee6451e1151afb617a71e5461520",
+        "parameters": 2172224,
+        "log_file": "outputs/formal/SRGNN-rerun20261112/seed42/train.log",
+        "environment": {
+          "python": "3.9.21",
+          "torch": "2.1.2+cpu",
+          "numpy": "1.23.5",
+          "recbole": "1.1.1",
+          "pyg": "2.4.0",
+          "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+        }
+      },
+      "curve": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "loss_sum": [
+          7358.8455,
+          5752.3895,
+          4143.3973,
+          3313.3733,
+          2718.7701,
+          2240.5459,
+          1875.8201,
+          1605.6144,
+          1407.547
+        ],
+        "valid_mrr10": [
+          0.074,
+          0.1317,
+          0.1446,
+          0.1384,
+          0.1375,
+          0.1312,
+          0.1215,
+          0.1217,
+          0.1174
+        ]
+      },
+      "metrics_from_prediction_rows": {
+        "recall@10": 0.28175,
+        "mrr@10": 0.13395529761904762,
+        "ndcg@10": 0.1687674312224673
+      }
+    },
+    "GCSAN": {
+      "result": {
+        "model": "GCSAN",
+        "variant": "base",
+        "dataset": "diginetica-formal",
+        "scope": "Formal course-project experiment on a 20k-session disjoint subset; not an official leaderboard reproduction.",
+        "epochs_requested": 20,
+        "seed": 42,
+        "device": "cpu",
+        "raw_session_count": 20000,
+        "candidate_items": 32968,
+        "train_examples": 97273,
+        "valid_examples": 20000,
+        "test_examples": 20000,
+        "split_session_target_sha256": {
+          "train": "b9d1b3bd47d3bc7905ffa4dc4219618a19a2539427983d3a40f064b286a77f11",
+          "valid": "dce0721d44aaa6eb2285ff8135450ab9616a17d535fb1279b04085d6913f8311",
+          "test": "6e490221d53344ec678614e5ab9fe2051e079b7036e324b893228796ae717212"
+        },
+        "best_valid_score": 0.1552,
+        "best_valid_result": {
+          "recall@10": 0.3337,
+          "mrr@10": 0.1552,
+          "ndcg@10": 0.1973,
+          "hit@10": 0.3337,
+          "precision@10": 0.0334
+        },
+        "test_result": {
+          "recall@10": 0.2952,
+          "mrr@10": 0.1387,
+          "ndcg@10": 0.1756,
+          "hit@10": 0.2952,
+          "precision@10": 0.0295
+        },
+        "data_preparation_seconds": 12.087175,
+        "training_and_validation_seconds": 526.088774,
+        "test_seconds": 3.331412699999987,
+        "checkpoint": "outputs/formal/GCSAN-rerun20261112/seed42/checkpoints/GCSAN-Nov-12-2026_00-18-53.pth",
+        "checkpoint_sha256": "906cbbc2a24215c417130572060fd72f2c84a3880a71af1c4c59390d5eccad92",
+        "parameters": 2205568,
+        "log_file": "outputs/formal/GCSAN-rerun20261112/seed42/train.log",
+        "environment": {
+          "python": "3.9.21",
+          "torch": "2.1.2+cpu",
+          "numpy": "1.23.5",
+          "recbole": "1.1.1",
+          "pyg": "2.4.0",
+          "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+        }
+      },
+      "curve": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "loss_sum": [
+          7216.3643,
+          5208.5262,
+          3771.0593,
+          3165.6021,
+          2856.3352,
+          2607.4996,
+          2347.2754,
+          2060.3384,
+          1782.9723,
+          1554.0421,
+          1380.961
+        ],
+        "valid_mrr10": [
+          0.0893,
+          0.1414,
+          0.1518,
+          0.153,
+          0.1552,
+          0.1513,
+          0.1461,
+          0.1427,
+          0.1351,
+          0.1316,
+          0.1264
+        ]
+      },
+      "metrics_from_prediction_rows": {
+        "recall@10": 0.29525,
+        "mrr@10": 0.13874021825396826,
+        "ndcg@10": 0.17556878527687858
+      }
+    },
+    "GCEGNN": {
+      "result": {
+        "model": "GCEGNN",
+        "variant": "base",
+        "dataset": "diginetica-formal",
+        "scope": "Formal course-project experiment on a 20k-session disjoint subset; not an official leaderboard reproduction.",
+        "epochs_requested": 20,
+        "seed": 42,
+        "device": "cpu",
+        "raw_session_count": 20000,
+        "candidate_items": 32968,
+        "train_examples": 97273,
+        "valid_examples": 20000,
+        "test_examples": 20000,
+        "split_session_target_sha256": {
+          "train": "b9d1b3bd47d3bc7905ffa4dc4219618a19a2539427983d3a40f064b286a77f11",
+          "valid": "dce0721d44aaa6eb2285ff8135450ab9616a17d535fb1279b04085d6913f8311",
+          "test": "6e490221d53344ec678614e5ab9fe2051e079b7036e324b893228796ae717212"
+        },
+        "best_valid_score": 0.1677,
+        "best_valid_result": {
+          "recall@10": 0.3462,
+          "mrr@10": 0.1677,
+          "ndcg@10": 0.2098,
+          "hit@10": 0.3462,
+          "precision@10": 0.0346
+        },
+        "test_result": {
+          "recall@10": 0.3314,
+          "mrr@10": 0.159,
+          "ndcg@10": 0.1998,
+          "hit@10": 0.3314,
+          "precision@10": 0.0331
+        },
+        "data_preparation_seconds": 42.6910667,
+        "training_and_validation_seconds": 642.0352365,
+        "test_seconds": 4.304862700000058,
+        "checkpoint": "outputs/formal/GCEGNN-rerun20261112/seed42/checkpoints/GCEGNN-Nov-12-2026_00-28-53.pth",
+        "checkpoint_sha256": "9c06a12596ae0af85d373253002cb00b8817fbc860a549382bbfc31988e7415f",
+        "parameters": 2140544,
+        "log_file": "outputs/formal/GCEGNN-rerun20261112/seed42/train.log",
+        "environment": {
+          "python": "3.9.21",
+          "torch": "2.1.2+cpu",
+          "numpy": "1.23.5",
+          "recbole": "1.1.1",
+          "pyg": "2.4.0",
+          "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+        }
+      },
+      "curve": {
+        "epochs": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "loss_sum": [
+          6638.8343,
+          4557.4183,
+          3635.7721,
+          3202.4965,
+          2942.2841,
+          2765.9228,
+          2630.5853,
+          2528.2278,
+          2440.8153,
+          2364.3735,
+          2294.745
+        ],
+        "valid_mrr10": [
+          0.15,
+          0.1628,
+          0.1658,
+          0.1664,
+          0.1677,
+          0.1638,
+          0.1641,
+          0.1649,
+          0.1615,
+          0.1618,
+          0.1592
+        ]
+      },
+      "metrics_from_prediction_rows": {
+        "recall@10": 0.33135,
+        "mrr@10": 0.15904168650793649,
+        "ndcg@10": 0.19979042781804632
+      }
+    }
+  },
+  "sources": [
+    {
+      "path": "outputs/rerun20261112/temporal_order_audit.json",
+      "sha256": "8ee0ce81ecbd3b03aaa27824700d6bfc40f3376a85ca0770e456b72a7e5dc00d"
+    },
+    {
+      "path": "outputs/formal/SRGNN-rerun20261112/seed42/result.json",
+      "sha256": "fdfa463779f42ea311d542f671877f832869ec548365df50a6a3bf5ab940a2b4"
+    },
+    {
+      "path": "outputs/formal/SRGNN-rerun20261112/seed42/train.log",
+      "sha256": "b464619917c95018d0e2b44aed4560f1ca78ca373c00f50a895d3eb8114c814e"
+    },
+    {
+      "path": "outputs/formal/predictions-rerun20261112/SRGNN.jsonl",
+      "sha256": "d76f47d236285573f860f4486162eedfa5bdbe7da525b5193909008cb171af0e"
+    },
+    {
+      "path": "outputs/formal/GCSAN-rerun20261112/seed42/result.json",
+      "sha256": "f029f12a79690aed91b060912514f75c27d91fd4547a80a87b48e0632866648f"
+    },
+    {
+      "path": "outputs/formal/GCSAN-rerun20261112/seed42/train.log",
+      "sha256": "88e16fad27f32f32746ed2f31d2f7899e4b7a9d6eb56f9e1662be1c022500269"
+    },
+    {
+      "path": "outputs/formal/predictions-rerun20261112/GCSAN.jsonl",
+      "sha256": "077e87f2a7048c1b06069b3beb09cdbc23caf7226b100e6de1d2448e4755413c"
+    },
+    {
+      "path": "outputs/formal/GCEGNN-rerun20261112/seed42/result.json",
+      "sha256": "d875a7a7555e366e1567993bda63c13de82441fbbf815ff66b45bc37a59b360a"
+    },
+    {
+      "path": "outputs/formal/GCEGNN-rerun20261112/seed42/train.log",
+      "sha256": "00d2cb13860cafb0eb07fb0d2ffa863e7053fe50046c3d8974b4f87378fcfed5"
+    },
+    {
+      "path": "outputs/formal/predictions-rerun20261112/GCEGNN.jsonl",
+      "sha256": "e639a4ed7adf449d840724d893bae0135fce8bf74861c42cadca61286d272b75"
+    }
+  ],
+  "scope": "20k sessions, full-sort Top10, seed42, one run; no uncertainty intervals.",
+  "temporal_order_audit": {
+    "sessions": 20000,
+    "exact_history_mismatches": [
+      "379088",
+      "487756",
+      "101003",
+      "512911",
+      "176932",
+      "88683",
+      "165329",
+      "220592",
+      "288185",
+      "353309",
+      "78849",
+      "346958",
+      "242739",
+      "513678"
+    ],
+    "exact_target_mismatches": [
+      "101003"
+    ],
+    "float32_mismatches": [],
+    "interpretation": "RecBole converts float fields to float32 before sequential ordering. Nearby epoch-second timestamps can become equal. Histories and labels follow the actual training/evaluation dataset order.",
+    "dataset_conversion_code": "    def _dataframe_to_interaction(self, data):\n        \"\"\"Convert :class:`pandas.DataFrame` to :class:`~recbole.data.interaction.Interaction`.\n\n        Args:\n            data (pandas.DataFrame): data to be converted.\n\n        Returns:\n            :class:`~recbole.data.interaction.Interaction`: Converted data.\n        \"\"\"\n        new_data = {}\n        for k in data:\n            value = data[k].values\n            ftype = self.field2type[k]\n            if ftype == FeatureType.TOKEN:\n                new_data[k] = torch.LongTensor(value)\n            elif ftype == FeatureType.FLOAT:\n                if k in self.config[\"numerical_features\"]:\n                    new_data[k] = torch.FloatTensor(value.tolist())\n                else:\n                    new_data[k] = torch.FloatTensor(value)\n            elif ftype == FeatureType.TOKEN_SEQ:\n                seq_data = [torch.LongTensor(d[: self.field2seqlen[k]]) for d in value]\n                new_data[k] = rnn_utils.pad_sequence(seq_data, batch_first=True)\n            elif ftype == FeatureType.FLOAT_SEQ:\n                if k in self.config[\"numerical_features\"]:\n                    base = [\n                        torch.FloatTensor(d[0][: self.field2seqlen[k]]) for d in value\n                    ]\n                    base = rnn_utils.pad_sequence(base, batch_first=True)\n                    index = [\n                        torch.FloatTensor(d[1][: self.field2seqlen[k]]) for d in value\n                    ]\n                    index = rnn_utils.pad_sequence(index, batch_first=True)\n                    new_data[k] = torch.stack([base, index], dim=-1)\n                else:\n                    seq_data = [\n                        torch.FloatTensor(d[: self.field2seqlen[k]]) for d in value\n                    ]\n                    new_data[k] = rnn_utils.pad_sequence(seq_data, batch_first=True)\n        return Interaction(new_data)\n",
+    "sources": [
+      {
+        "path": "data/diginetica-formal/diginetica-formal.inter",
+        "sha256": "d5e0c1c2ca3f3fe629ec1a3fa0e5bd06b2633ffd97323cf09000447178608c45"
+      },
+      {
+        "path": "outputs/formal/predictions-rerun20261112/SRGNN.jsonl",
+        "sha256": "d76f47d236285573f860f4486162eedfa5bdbe7da525b5193909008cb171af0e"
+      }
+    ]
+  },
+  "length_groups": {
+    "bins": [
+      [
+        "4–6 次",
+        4,
+        6
+      ],
+      [
+        "7–10 次",
+        7,
+        10
+      ],
+      [
+        "11–14 次",
+        11,
+        14
+      ],
+      [
+        "15–19 次",
+        15,
+        19
+      ]
+    ],
+    "statistics": {
+      "SRGNN": {
+        "hit_counts": [
+          3320,
+          1635,
+          503,
+          177
+        ],
+        "sample_counts": [
+          11722,
+          5700,
+          1840,
+          738
+        ],
+        "recall10": [
+          0.283228118068589,
+          0.2868421052631579,
+          0.2733695652173913,
+          0.23983739837398374
+        ]
+      },
+      "GCSAN": {
+        "hit_counts": [
+          3495,
+          1656,
+          548,
+          206
+        ],
+        "sample_counts": [
+          11722,
+          5700,
+          1840,
+          738
+        ],
+        "recall10": [
+          0.29815731103907184,
+          0.2905263157894737,
+          0.29782608695652174,
+          0.2791327913279133
+        ]
+      },
+      "GCEGNN": {
+        "hit_counts": [
+          3911,
+          1882,
+          614,
+          220
+        ],
+        "sample_counts": [
+          11722,
+          5700,
+          1840,
+          738
+        ],
+        "recall10": [
+          0.3336461354717625,
+          0.33017543859649123,
+          0.33369565217391306,
+          0.2981029810298103
+        ]
+      }
+    }
+  },
+  "popularity_groups": {
+    "bins": [
+      [
+        "前 100 名",
+        1,
+        100
+      ],
+      [
+        "101–1,000 名",
+        101,
+        1000
+      ],
+      [
+        "1,001–5,000 名",
+        1001,
+        5000
+      ],
+      [
+        "5,000 名以后",
+        5001,
+        1000000
+      ]
+    ],
+    "statistics": {
+      "SRGNN": {
+        "hit_counts": [
+          380,
+          1283,
+          1837,
+          2135
+        ],
+        "sample_counts": [
+          719,
+          2736,
+          4694,
+          11851
+        ],
+        "recall10": [
+          0.5285118219749653,
+          0.4689327485380117,
+          0.39135066041755434,
+          0.18015357353809805
+        ]
+      },
+      "GCSAN": {
+        "hit_counts": [
+          396,
+          1408,
+          1836,
+          2265
+        ],
+        "sample_counts": [
+          719,
+          2736,
+          4694,
+          11851
+        ],
+        "recall10": [
+          0.5507649513212796,
+          0.5146198830409356,
+          0.39113762249680445,
+          0.1911231119736731
+        ]
+      },
+      "GCEGNN": {
+        "hit_counts": [
+          416,
+          1433,
+          2007,
+          2771
+        ],
+        "sample_counts": [
+          719,
+          2736,
+          4694,
+          11851
+        ],
+        "recall10": [
+          0.5785813630041725,
+          0.5237573099415205,
+          0.4275671069450362,
+          0.2338199308075268
+        ]
+      }
+    }
+  },
+  "session_graph": {
+    "session_id": "10114",
+    "history": [
+      "13669",
+      "8719",
+      "13669",
+      "9841"
+    ],
+    "target": "13669",
+    "node_click_counts": {
+      "13669": 2,
+      "8719": 1,
+      "9841": 1
+    },
+    "edges": [
+      {
+        "source": "13669",
+        "target": "8719",
+        "count": 1
+      },
+      {
+        "source": "8719",
+        "target": "13669",
+        "count": 1
+      },
+      {
+        "source": "13669",
+        "target": "9841",
+        "count": 1
+      }
+    ]
+  }
+}

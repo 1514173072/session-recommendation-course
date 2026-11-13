@@ -1,0 +1,113 @@
+scope: 20k sessions, full-sort Top10, seed42, one run; no uncertainty intervals.
+data: figures/candidates/ppt_20261112/figure_inputs.json
+code: experiments/export_ppt_figures.py
+gallery_queries:
+- data_type: 时间序列
+  keyword: 训练
+  matches: 0
+- method_type: 模型比较
+  keyword: 性能
+  matches: 0
+- keyword: 收敛
+  reviewed: 分面收敛曲线.md（外部模板查询记录）
+- keyword: 曲线
+  result: 查到因果、超参数稳健性等专用契约，与本次单种子训练和模型测试不同
+- keyword: 热图
+  result: 查到时滞与时空场矩阵等专用契约，不匹配本次三模型分组表
+rejection_reason: 已查看分面收敛曲线的 Markdown、PNG 和数据契约。它要求双参数分面和样本量网格；本任务只有训练轮次、单种子指标和会话组统计。其他专用契约也不匹配。新建基础折线、分组柱形和原始会话图，仅保存在项目候选池。
+figures:
+- id: '01'
+  claim_id: training_trace
+  task: training_trace
+  source:
+    kind: new_candidate
+  outputs:
+  - figures/candidates/ppt_20261112/01_模型训练过程.png
+  caption: 左侧为每轮批次交叉熵损失之和，右侧为验证集 MRR@10；空心圈为日志中最高验证分数。下降的训练损失与验证质量应结合阅读。
+  style:
+    font: Microsoft YaHei
+    size_inches:
+    - 12.8
+    - 7.2
+    png_dpi: 300
+    colors:
+    - '#0072B2'
+    - '#D58A00'
+    - '#009E73'
+    markers:
+    - o
+    - s
+    - ^
+    linestyles:
+    - '-'
+    - --
+    - -.
+  status: verified
+  caption_checked: true
+  text_figure_checked: true
+  review: Final PNGs inspected; numerical sources, units, zero baselines, counts,
+    single-seed scope and source hashes checked.
+- id: '02'
+  claim_id: model_comparison_table
+  task: model_comparison_table
+  source:
+    kind: new_candidate
+  outputs:
+  - figures/candidates/ppt_20261112/02_三模型对比汇总表.png
+  - figures/candidates/ppt_20261112/02_三模型对比汇总表.csv
+  caption: 表格汇总三个模型的推荐效果、训练及验证耗时、参数量、会话长度及商品流行度分组 Recall@10。百分比数值的单位为 %；会话数为对应组的分母。CSV
+    保存数值列，最多保留六位小数；PNG 显示两位小数。耗时不含图构建与最终测试，分组表现是描述性结果。
+  style:
+    font: Microsoft YaHei
+    size_inches:
+    - 16.0
+    - 8.4
+    png_dpi: 300
+    colors:
+    - '#0072B2'
+    - '#D58A00'
+    - '#009E73'
+    markers:
+    - o
+    - s
+    - ^
+    linestyles:
+    - '-'
+    - --
+    - -.
+  status: verified
+  caption_checked: true
+  text_figure_checked: true
+  review: Final PNGs inspected; numerical sources, units, zero baselines, counts,
+    single-seed scope and source hashes checked.
+- id: '06'
+  claim_id: sequence_to_graph
+  task: sequence_to_graph
+  source:
+    kind: new_candidate
+  outputs:
+  - figures/candidates/ppt_20261112/06_真实会话的序列转图.png
+  caption: 用真实会话说明序列如何形成去重节点和有向相邻转移。13669 出现两次、形成双向访问；图示为原始转移图，不代替各模型完整图构建或架构。
+  style:
+    font: Microsoft YaHei
+    size_inches:
+    - 12.8
+    - 7.2
+    png_dpi: 300
+    colors:
+    - '#0072B2'
+    - '#D58A00'
+    - '#009E73'
+    markers:
+    - o
+    - s
+    - ^
+    linestyles:
+    - '-'
+    - --
+    - -.
+  status: verified
+  caption_checked: true
+  text_figure_checked: true
+  review: Final PNGs inspected; numerical sources, units, zero baselines, counts,
+    single-seed scope and source hashes checked.

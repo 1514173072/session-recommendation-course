@@ -1,0 +1,56 @@
+{
+  "all_passed": true,
+  "original_source_unchanged": true,
+  "all_candidate_edits_inside_coefficient_function": {
+    "baseline": {
+      "only_grey_coefficients_changed": true,
+      "source_sha256": "dc3d054800baf1dfa013222ca455adf27d2dcb57a5bbc2c6508aaf6fa3928d56"
+    },
+    "adaptive_column_cv": {
+      "only_grey_coefficients_changed": true,
+      "source_sha256": "1867e4020d07291ddf23d7fba170b9118f9104ff706c58162dd69b244d649aec"
+    },
+    "adaptive_column_inverse_cv": {
+      "only_grey_coefficients_changed": true,
+      "source_sha256": "7fb2340a1632fa7d40280524369406e39af972f5b374817526d138d80adce8b7"
+    },
+    "adaptive_column_mean": {
+      "only_grey_coefficients_changed": true,
+      "source_sha256": "c8debcd51d51e32b5d4aafde4db9a6c970babdf50895daf7f3e51cbe31579fd1"
+    },
+    "adaptive_global_mean": {
+      "only_grey_coefficients_changed": true,
+      "source_sha256": "6cdb2014c23f10f1d396407345c2dc2bdf166048ebd6c37c05c437d367e8d75c"
+    },
+    "adaptive_positive_deviation": {
+      "only_grey_coefficients_changed": true,
+      "source_sha256": "d6d455c8d69b70d81e76e391ff2a8a4c1e62a448e9098f3fe7bc1fc15a709911"
+    },
+    "distance_power": {
+      "only_grey_coefficients_changed": true,
+      "source_sha256": "8c578c790c6442c524367c3b2809ba16c11e7ac4b9a176b93b3a7a0131be30b6"
+    },
+    "exponential_distance": {
+      "only_grey_coefficients_changed": true,
+      "source_sha256": "d281d8f9f1ba4b0673c274b808aa437ec4d4893bbf011ef61998814e37cbbb89"
+    },
+    "rational_distance": {
+      "only_grey_coefficients_changed": true,
+      "source_sha256": "b8fa3edda79ec111dc9cca192c5c1336b2a0c34ca508519ea2b3177b1f5931bb"
+    }
+  },
+  "same_four_features_equal_weights_arithmetic_mean": true,
+  "full_catalogue_evaluation_with_popularity_groups": true,
+  "all_20000_primary_literal_predictions_match": true,
+  "independent_primary_metrics": {
+    "recall@10": 0.3554,
+    "mrr@10": 0.1609937103174613,
+    "ndcg@10": 0.2068091067642531
+  },
+  "each_method_300_correctness_queries_and_900_timed_calls": true,
+  "same_sample_sha256": "e0c60cf2f758ae3727bbea3199d92c4be4fbed57ecf86325f64e7b6812a5f0a1",
+  "distance_bounds_monotonicity_endpoints_and_beta_zero_recovery": true,
+  "frozen_config_sha256": "d8f74bd785a19d8381ce77d07221d8094699cde1674e19d7226650dec40e6aa3",
+  "report_sha256": "c2c8e23b9ea6cc58b2f7442e1c62dc9efd2598d3f8a23ff8668fbb302c305d1a",
+  "predictions_sha256": "677e677d94cc53a080102e40a7c23d36a36b8577aaa5055e66f799cc1b2646f2"
+}

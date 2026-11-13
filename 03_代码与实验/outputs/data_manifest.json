@@ -1,0 +1,18 @@
+{
+  "primary_url": "https://recbole.s3-accelerate.amazonaws.com/ProcessedDatasets/DIGINETICA/not_merged/diginetica.zip",
+  "source_url": "https://drive.usercontent.google.com/download?id=1yQtXcZN_VleaZqCCO55I45FBMjwT6hhh&export=download&confirm=t",
+  "archive_sha256": "ce4bc4ffe85b8bd147bb4526a553eb4de25561d94c118a2bd0f4d23a32fbf4ec",
+  "full_file": "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\data\\diginetica-not-merged\\diginetica-not-merged.inter",
+  "full_sha256": "9d2535dbfc0644b83b8891948be763c4f232a0c523328df7f49529cffb38c393",
+  "raw_sessions": 204789,
+  "raw_items": 43136,
+  "raw_interactions": 993483,
+  "smoke_file": "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\data\\diginetica-smoke\\diginetica-smoke.inter",
+  "smoke_sha256": "33f183313cb7aca9d54d2242d0511df9829ce2c0e86c7c82d592feb38e8a2ba5",
+  "smoke_sessions": 2000,
+  "smoke_items": 9109,
+  "smoke_interactions": 15813,
+  "seed": 42,
+  "selection": "Complete real sessions with 5-20 raw clicks; seeded random session sample.",
+  "scope": "Smoke verification only; not the official 5-core benchmark protocol."
+}

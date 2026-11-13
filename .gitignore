@@ -1,0 +1,62 @@
+# Local environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+log_tensorboard/
+*.tfevents.*
+
+# Embedded upstream Git metadata; source and LICENSE are retained
+**/.git/
+
+# Downloaded datasets and reproducible large intermediate data
+/14_Amazon_M2推荐数据/data/raw/
+/15_Amazon_M2算法对比/run/data.json
+
+# Model weights, numerical caches, bulk predictions and installers
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.jsonl
+*.whl
+*.zip
+*.7z
+*.tar
+*.gz
+*.part
+*.exe
+*.dll
+*.pyd
+
+# Local administration and obsolete conversion backups
+/90_管理记录/
+/04_报告与展示/路径转换备份_20261112/
+*.bak
+*.tmp
+*.pid
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Credentials must stay outside Git
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.dpapi
+*recovery*codes*
+credentials.json
+credentials.yaml
+secrets.json
+secrets.yaml
+.ssh/

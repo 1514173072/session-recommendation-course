@@ -1,0 +1,19 @@
+{
+  "source_file": "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\data\\diginetica-not-merged\\diginetica-not-merged.inter",
+  "source_sha256": "9d2535dbfc0644b83b8891948be763c4f232a0c523328df7f49529cffb38c393",
+  "source_sessions": 204789,
+  "source_items": 43136,
+  "source_interactions": 993483,
+  "item_core": 5,
+  "items_after_global_5core": 42254,
+  "excluded_smoke_sessions": 2000,
+  "eligible_sessions": 75964,
+  "selected_sessions": 20000,
+  "selected_items": 32968,
+  "selected_interactions": 157273,
+  "seed": 2026,
+  "selection": "Global item 5-core on the full data; complete 5-20 click sessions; smoke excluded; seeded random sample.",
+  "output_file": "D:\\Projects\\算法分析与理论课程\\03_代码与实验\\data\\diginetica-formal\\diginetica-formal.inter",
+  "output_sha256": "d5e0c1c2ca3f3fe629ec1a3fa0e5bd06b2633ffd97323cf09000447178608c45",
+  "scope": "Formal course-project experiment subset; not the official leaderboard split."
+}

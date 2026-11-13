@@ -1,0 +1,38 @@
+{
+  "model": "teacher_rules",
+  "sample_sha256": "e0c60cf2f758ae3727bbea3199d92c4be4fbed57ecf86325f64e7b6812a5f0a1",
+  "distinct_queries": 300,
+  "calls": 900,
+  "mean_ms": 0.6379297777777778,
+  "median_ms": 0.62795,
+  "p95_ms": 0.7281949999999999,
+  "numeric_state_bytes": 5202260,
+  "trainable_parameters": 0,
+  "model_load_seconds_excluded": 0.08994219999999942,
+  "process_rss_before_model_load_bytes": 204328960,
+  "process_rss_after_load_bytes": 209141760,
+  "process_rss_after_requests_bytes": 211595264,
+  "process_peak_working_set_bytes": 211599360,
+  "correctness_queries": 300,
+  "max_score_diff": 0.0,
+  "per_round": [
+    {
+      "mean_ms": 0.6454903333333333,
+      "p95_ms": 0.7349
+    },
+    {
+      "mean_ms": 0.6305949999999999,
+      "p95_ms": 0.699735
+    },
+    {
+      "mean_ms": 0.6377039999999999,
+      "p95_ms": 0.746305
+    }
+  ],
+  "scope": "warm CPU4threads, raw item IDs -> feature/graph construction -> full catalogue score -> top10 raw IDs; excludes startup, disk IO, HTTP and queueing",
+  "memory_scope": "RSS includes Python, torch and loader/dataset objects; numeric state includes retained statistics/context arrays and network; these are different quantities",
+  "teacher_scope": "teacher_rules is a compiled assistant-authored policy, NOT an online LLM/API call",
+  "python": "3.9.21",
+  "torch": "2.1.2+cpu",
+  "platform": "Windows-10-10.0.19044-SP0"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "plain",
+    "queries": 30,
+    "valid_outputs": 30,
+    "actual_attempts": 30,
+    "recall@10": 0.3,
+    "mrr@10": 0.16277777777777777,
+    "ndcg@10": 0.19561512329229125,
+    "hit@10": 0.3,
+    "precision@10": 0.03,
+    "mean_api_wall_seconds": 0.682569953333333,
+    "mean_recommendation_seconds": 0.6830334700000018,
+    "p95_api_wall_seconds": 0.763038330000007,
+    "mean_prompt_eval_seconds": 0.13050753333333331,
+    "mean_decode_seconds": 0.5226314665666668,
+    "output_tokens": 1479,
+    "decode_tokens_per_second": 94.3303324690101,
+    "thinking_outputs": 0
+  },
+  {
+    "model": "qwen3.5:2b-q4_K_M",
+    "condition": "teacher",
+    "queries": 30,
+    "valid_outputs": 30,
+    "actual_attempts": 30,
+    "recall@10": 0.3333333333333333,
+    "mrr@10": 0.20753968253968255,
+    "ndcg@10": 0.23751210025178374,
+    "hit@10": 0.3333333333333333,
+    "precision@10": 0.03333333333333333,
+    "mean_api_wall_seconds": 0.7660787499999994,
+    "mean_recommendation_seconds": 0.7665323833333313,
+    "p95_api_wall_seconds": 0.8103710700000022,
+    "mean_prompt_eval_seconds": 0.13853389993333334,
+    "mean_decode_seconds": 0.6004487,
+    "output_tokens": 1680,
+    "decode_tokens_per_second": 93.26358771365481,
+    "thinking_outputs": 0
+  }
+]

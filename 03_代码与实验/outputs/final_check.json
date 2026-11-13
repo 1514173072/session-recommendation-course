@@ -1,0 +1,44 @@
+{
+  "final_checks_passed": true,
+  "windows_powershell_entry_passed": true,
+  "upstream_unchanged": true,
+  "models": [
+    {
+      "model": "SRGNN",
+      "test": {
+        "recall@10": 0.137,
+        "mrr@10": 0.0864,
+        "ndcg@10": 0.0985,
+        "hit@10": 0.137,
+        "precision@10": 0.0137
+      },
+      "batch_size": 64,
+      "reload": true
+    },
+    {
+      "model": "GCSAN",
+      "test": {
+        "recall@10": 0.135,
+        "mrr@10": 0.0804,
+        "ndcg@10": 0.0936,
+        "hit@10": 0.135,
+        "precision@10": 0.0135
+      },
+      "batch_size": 64,
+      "reload": true
+    },
+    {
+      "model": "GCEGNN",
+      "test": {
+        "recall@10": 0.2485,
+        "mrr@10": 0.1518,
+        "ndcg@10": 0.1754,
+        "hit@10": 0.2485,
+        "precision@10": 0.0249
+      },
+      "batch_size": 64,
+      "reload": true
+    }
+  ],
+  "unused_cuda_cache_cleanup": "Deletion blocked by automatic approval policy; incomplete temporary wheel retained. Does not affect runtime."
+}

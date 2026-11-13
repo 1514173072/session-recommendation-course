@@ -1,0 +1,49 @@
+2026-11-02 17:51:37,312 - Constructing session graphs.
+2026-11-02 17:51:43,706 - Constructing session graphs.
+2026-11-02 17:51:45,163 - Constructing session graphs.
+2026-11-02 17:51:46,908 - SessionGraph Transform in DataLoader.
+2026-11-02 17:51:46,909 - SessionGraph Transform in DataLoader.
+2026-11-02 17:51:46,909 - SessionGraph Transform in DataLoader.
+2026-11-02 17:51:46,909 - [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+2026-11-02 17:51:46,910 - [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+2026-11-02 17:52:25,804 - epoch 0 training [time: 38.82s, train loss: 7358.8455]
+2026-11-02 17:52:29,078 - epoch 0 evaluating [time: 3.27s, valid_score: 0.074000]
+2026-11-02 17:52:29,079 - valid result: 
+recall@10 : 0.1318    mrr@10 : 0.074    ndcg@10 : 0.0877    hit@10 : 0.1318    precision@10 : 0.0132
+2026-11-02 17:52:29,102 - Saving current: .\outputs\formal\SRGNN\seed42\checkpoints\SRGNN-Nov-02-2026_17-51-46.pth
+2026-11-02 17:53:08,725 - epoch 1 training [time: 39.62s, train loss: 5752.3895]
+2026-11-02 17:53:11,959 - epoch 1 evaluating [time: 3.23s, valid_score: 0.131700]
+2026-11-02 17:53:11,959 - valid result: 
+recall@10 : 0.2627    mrr@10 : 0.1317    ndcg@10 : 0.1627    hit@10 : 0.2627    precision@10 : 0.0263
+2026-11-02 17:53:11,984 - Saving current: .\outputs\formal\SRGNN\seed42\checkpoints\SRGNN-Nov-02-2026_17-51-46.pth
+2026-11-02 17:53:52,048 - epoch 2 training [time: 40.06s, train loss: 4143.3973]
+2026-11-02 17:53:55,363 - epoch 2 evaluating [time: 3.31s, valid_score: 0.144600]
+2026-11-02 17:53:55,363 - valid result: 
+recall@10 : 0.2974    mrr@10 : 0.1446    ndcg@10 : 0.1807    hit@10 : 0.2974    precision@10 : 0.0297
+2026-11-02 17:53:55,387 - Saving current: .\outputs\formal\SRGNN\seed42\checkpoints\SRGNN-Nov-02-2026_17-51-46.pth
+2026-11-02 17:54:35,660 - epoch 3 training [time: 40.27s, train loss: 3313.3733]
+2026-11-02 17:54:39,150 - epoch 3 evaluating [time: 3.49s, valid_score: 0.138400]
+2026-11-02 17:54:39,151 - valid result: 
+recall@10 : 0.2929    mrr@10 : 0.1384    ndcg@10 : 0.1749    hit@10 : 0.2929    precision@10 : 0.0293
+2026-11-02 17:55:20,919 - epoch 4 training [time: 41.77s, train loss: 2718.7701]
+2026-11-02 17:55:25,144 - epoch 4 evaluating [time: 4.22s, valid_score: 0.137500]
+2026-11-02 17:55:25,144 - valid result: 
+recall@10 : 0.2858    mrr@10 : 0.1375    ndcg@10 : 0.1725    hit@10 : 0.2858    precision@10 : 0.0286
+2026-11-02 17:56:12,554 - epoch 5 training [time: 47.41s, train loss: 2240.5459]
+2026-11-02 17:56:15,980 - epoch 5 evaluating [time: 3.43s, valid_score: 0.131200]
+2026-11-02 17:56:15,980 - valid result: 
+recall@10 : 0.2738    mrr@10 : 0.1312    ndcg@10 : 0.1648    hit@10 : 0.2738    precision@10 : 0.0274
+2026-11-02 17:57:02,152 - epoch 6 training [time: 46.17s, train loss: 1875.8201]
+2026-11-02 17:57:06,571 - epoch 6 evaluating [time: 4.42s, valid_score: 0.121500]
+2026-11-02 17:57:06,571 - valid result: 
+recall@10 : 0.2524    mrr@10 : 0.1215    ndcg@10 : 0.1524    hit@10 : 0.2524    precision@10 : 0.0252
+2026-11-02 17:57:51,048 - epoch 7 training [time: 44.48s, train loss: 1605.6144]
+2026-11-02 17:57:54,501 - epoch 7 evaluating [time: 3.45s, valid_score: 0.121700]
+2026-11-02 17:57:54,501 - valid result: 
+recall@10 : 0.2516    mrr@10 : 0.1217    ndcg@10 : 0.1523    hit@10 : 0.2516    precision@10 : 0.0252
+2026-11-02 17:58:40,189 - epoch 8 training [time: 45.69s, train loss: 1407.5470]
+2026-11-02 17:58:43,668 - epoch 8 evaluating [time: 3.48s, valid_score: 0.117400]
+2026-11-02 17:58:43,668 - valid result: 
+recall@10 : 0.2385    mrr@10 : 0.1174    ndcg@10 : 0.146    hit@10 : 0.2385    precision@10 : 0.0239
+2026-11-02 17:58:43,668 - Finished training, best eval result in epoch 2
+2026-11-02 17:58:43,689 - Loading model structure and parameters from .\outputs\formal\SRGNN\seed42\checkpoints\SRGNN-Nov-02-2026_17-51-46.pth

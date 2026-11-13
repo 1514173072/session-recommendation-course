@@ -1,0 +1,111 @@
+12 Nov 00:18    INFO  Constructing session graphs.
+  0%|          | 0/97273 [00:00<?, ?it/s]  2%|▏         | 1767/97273 [00:00<00:05, 17576.86it/s]  4%|▍         | 3675/97273 [00:00<00:05, 18366.92it/s]  6%|▌         | 5588/97273 [00:00<00:04, 18712.99it/s]  8%|▊         | 7489/97273 [00:00<00:04, 18822.59it/s] 10%|▉         | 9372/97273 [00:00<00:04, 18757.78it/s] 12%|█▏        | 11288/97273 [00:00<00:04, 18893.92it/s] 14%|█▎        | 13178/97273 [00:00<00:04, 18836.02it/s] 15%|█▌        | 15062/97273 [00:00<00:04, 18707.84it/s] 17%|█▋        | 16933/97273 [00:00<00:04, 18650.51it/s] 19%|█▉        | 18799/97273 [00:01<00:04, 18650.42it/s] 21%|██▏       | 20715/97273 [00:01<00:04, 18764.30it/s] 23%|██▎       | 22592/97273 [00:01<00:05, 14156.74it/s] 25%|██▌       | 24417/97273 [00:01<00:04, 15163.33it/s] 27%|██▋       | 26310/97273 [00:01<00:04, 16141.75it/s] 29%|██▉       | 28137/97273 [00:01<00:04, 16717.91it/s] 31%|███       | 30025/97273 [00:01<00:03, 17273.10it/s] 33%|███▎      | 31870/97273 [00:01<00:03, 17606.63it/s] 35%|███▍      | 33711/97273 [00:01<00:03, 17812.13it/s] 37%|███▋      | 35576/97273 [00:02<00:03, 18004.42it/s] 39%|███▊      | 37502/97273 [00:02<00:03, 18360.60it/s] 40%|████      | 39356/97273 [00:02<00:03, 18306.10it/s] 42%|████▏     | 41234/97273 [00:02<00:03, 18440.39it/s] 44%|████▍     | 43087/97273 [00:02<00:02, 18296.57it/s] 46%|████▌     | 44987/97273 [00:02<00:02, 18464.46it/s] 48%|████▊     | 46867/97273 [00:02<00:02, 18563.95it/s] 50%|█████     | 48749/97273 [00:02<00:02, 18584.98it/s] 52%|█████▏    | 50610/97273 [00:02<00:02, 18549.96it/s] 54%|█████▍    | 52467/97273 [00:03<00:03, 13844.76it/s] 56%|█████▌    | 54353/97273 [00:03<00:02, 15034.45it/s] 58%|█████▊    | 56257/97273 [00:03<00:02, 16045.50it/s] 60%|█████▉    | 58165/97273 [00:03<00:02, 16812.33it/s] 62%|██████▏   | 59982/97273 [00:03<00:02, 17183.48it/s] 64%|██████▎   | 61855/97273 [00:03<00:02, 17571.03it/s] 66%|██████▌   | 63755/97273 [00:03<00:01, 17932.51it/s] 68%|██████▊   | 65680/97273 [00:03<00:01, 18287.67it/s] 69%|██████▉   | 67564/97273 [00:03<00:01, 18419.97it/s] 71%|███████▏  | 69426/97273 [00:03<00:01, 18403.23it/s] 73%|███████▎  | 71280/97273 [00:04<00:01, 18389.32it/s] 75%|███████▌  | 73132/97273 [00:04<00:01, 18373.97it/s] 77%|███████▋  | 74976/97273 [00:04<00:01, 18290.62it/s] 79%|███████▉  | 76855/97273 [00:04<00:01, 18436.50it/s] 81%|████████  | 78732/97273 [00:04<00:01, 18481.32it/s] 83%|████████▎ | 80621/97273 [00:04<00:00, 18557.11it/s] 85%|████████▍ | 82547/97273 [00:04<00:00, 18765.79it/s] 87%|████████▋ | 84488/97273 [00:04<00:00, 18901.78it/s] 89%|████████▉ | 86380/97273 [00:04<00:00, 18878.19it/s] 91%|█████████ | 88269/97273 [00:04<00:00, 18671.76it/s] 93%|█████████▎| 90138/97273 [00:05<00:00, 13276.73it/s] 95%|█████████▍| 91938/97273 [00:05<00:00, 14369.05it/s] 96%|█████████▋| 93786/97273 [00:05<00:00, 15369.70it/s] 98%|█████████▊| 95653/97273 [00:05<00:00, 16220.02it/s]100%|██████████| 97273/97273 [00:05<00:00, 17431.83it/s]
+12 Nov 00:18    INFO  Constructing session graphs.
+  0%|          | 0/20000 [00:00<?, ?it/s]  7%|▋         | 1370/20000 [00:00<00:01, 13564.54it/s] 14%|█▎        | 2748/20000 [00:00<00:01, 13679.00it/s] 21%|██▏       | 4258/20000 [00:00<00:01, 14291.68it/s] 29%|██▉       | 5797/20000 [00:00<00:00, 14717.19it/s] 37%|███▋      | 7409/20000 [00:00<00:00, 15200.11it/s] 45%|████▍     | 8930/20000 [00:00<00:00, 15200.33it/s] 53%|█████▎    | 10508/20000 [00:00<00:00, 15360.19it/s] 60%|██████    | 12086/20000 [00:00<00:00, 15458.66it/s] 68%|██████▊   | 13689/20000 [00:00<00:00, 15636.33it/s] 76%|███████▋  | 15270/20000 [00:01<00:00, 15678.95it/s] 84%|████████▍ | 16863/20000 [00:01<00:00, 15718.65it/s] 92%|█████████▏| 18435/20000 [00:01<00:00, 15623.51it/s]100%|██████████| 20000/20000 [00:01<00:00, 15324.80it/s]
+12 Nov 00:18    INFO  Constructing session graphs.
+  0%|          | 0/20000 [00:00<?, ?it/s]  8%|▊         | 1522/20000 [00:00<00:01, 15121.12it/s] 15%|█▌        | 3041/20000 [00:00<00:01, 15125.87it/s] 23%|██▎       | 4565/20000 [00:00<00:01, 15177.70it/s] 31%|███       | 6101/20000 [00:00<00:00, 15210.22it/s] 38%|███▊      | 7623/20000 [00:00<00:00, 15188.95it/s] 46%|████▌     | 9142/20000 [00:00<00:01, 8985.44it/s]  53%|█████▎    | 10635/20000 [00:00<00:00, 10307.64it/s] 61%|██████    | 12105/20000 [00:01<00:00, 11362.94it/s] 68%|██████▊   | 13594/20000 [00:01<00:00, 12262.31it/s] 75%|███████▌  | 15099/20000 [00:01<00:00, 13008.89it/s] 83%|████████▎ | 16624/20000 [00:01<00:00, 13629.19it/s] 91%|█████████ | 18151/20000 [00:01<00:00, 14092.12it/s] 98%|█████████▊| 19647/20000 [00:01<00:00, 14342.18it/s]100%|██████████| 20000/20000 [00:01<00:00, 13086.67it/s]
+12 Nov 00:18    INFO  SessionGraph Transform in DataLoader.
+12 Nov 00:18    INFO  SessionGraph Transform in DataLoader.
+12 Nov 00:18    INFO  SessionGraph Transform in DataLoader.
+12 Nov 00:18    INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+12 Nov 00:18    INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+12 Nov 00:19    INFO  epoch 0 training [time: 43.56s, train loss: 7216.3643]
+12 Nov 00:19    INFO  epoch 0 evaluating [time: 3.25s, valid_score: 0.089300]
+12 Nov 00:19    INFO  valid result: 
+recall@10 : 0.1828    mrr@10 : 0.0893    ndcg@10 : 0.1113    hit@10 : 0.1828    precision@10 : 0.0183
+12 Nov 00:19    INFO  Saving current: .\outputs\formal\GCSAN-rerun20261112\seed42\checkpoints\GCSAN-Nov-12-2026_00-18-53.pth
+12 Nov 00:20    INFO  epoch 1 training [time: 44.65s, train loss: 5208.5262]
+12 Nov 00:20    INFO  epoch 1 evaluating [time: 3.60s, valid_score: 0.141400]
+12 Nov 00:20    INFO  valid result: 
+recall@10 : 0.3014    mrr@10 : 0.1414    ndcg@10 : 0.179    hit@10 : 0.3014    precision@10 : 0.0301
+12 Nov 00:20    INFO  Saving current: .\outputs\formal\GCSAN-rerun20261112\seed42\checkpoints\GCSAN-Nov-12-2026_00-18-53.pth
+12 Nov 00:21    INFO  epoch 2 training [time: 45.11s, train loss: 3771.0593]
+12 Nov 00:21    INFO  epoch 2 evaluating [time: 3.32s, valid_score: 0.151800]
+12 Nov 00:21    INFO  valid result: 
+recall@10 : 0.329    mrr@10 : 0.1518    ndcg@10 : 0.1934    hit@10 : 0.329    precision@10 : 0.0329
+12 Nov 00:21    INFO  Saving current: .\outputs\formal\GCSAN-rerun20261112\seed42\checkpoints\GCSAN-Nov-12-2026_00-18-53.pth
+12 Nov 00:22    INFO  epoch 3 training [time: 44.24s, train loss: 3165.6021]
+12 Nov 00:22    INFO  epoch 3 evaluating [time: 3.47s, valid_score: 0.153000]
+12 Nov 00:22    INFO  valid result: 
+recall@10 : 0.3359    mrr@10 : 0.153    ndcg@10 : 0.1961    hit@10 : 0.3359    precision@10 : 0.0336
+12 Nov 00:22    INFO  Saving current: .\outputs\formal\GCSAN-rerun20261112\seed42\checkpoints\GCSAN-Nov-12-2026_00-18-53.pth
+12 Nov 00:22    INFO  epoch 4 training [time: 44.48s, train loss: 2856.3352]
+12 Nov 00:22    INFO  epoch 4 evaluating [time: 3.29s, valid_score: 0.155200]
+12 Nov 00:22    INFO  valid result: 
+recall@10 : 0.3337    mrr@10 : 0.1552    ndcg@10 : 0.1973    hit@10 : 0.3337    precision@10 : 0.0334
+12 Nov 00:22    INFO  Saving current: .\outputs\formal\GCSAN-rerun20261112\seed42\checkpoints\GCSAN-Nov-12-2026_00-18-53.pth
+12 Nov 00:23    INFO  epoch 5 training [time: 44.51s, train loss: 2607.4996]
+12 Nov 00:23    INFO  epoch 5 evaluating [time: 3.48s, valid_score: 0.151300]
+12 Nov 00:23    INFO  valid result: 
+recall@10 : 0.3246    mrr@10 : 0.1513    ndcg@10 : 0.1921    hit@10 : 0.3246    precision@10 : 0.0325
+12 Nov 00:24    INFO  epoch 6 training [time: 44.20s, train loss: 2347.2754]
+12 Nov 00:24    INFO  epoch 6 evaluating [time: 3.40s, valid_score: 0.146100]
+12 Nov 00:24    INFO  valid result: 
+recall@10 : 0.309    mrr@10 : 0.1461    ndcg@10 : 0.1846    hit@10 : 0.309    precision@10 : 0.0309
+12 Nov 00:25    INFO  epoch 7 training [time: 45.25s, train loss: 2060.3384]
+12 Nov 00:25    INFO  epoch 7 evaluating [time: 3.30s, valid_score: 0.142700]
+12 Nov 00:25    INFO  valid result: 
+recall@10 : 0.2974    mrr@10 : 0.1427    ndcg@10 : 0.1792    hit@10 : 0.2974    precision@10 : 0.0297
+12 Nov 00:26    INFO  epoch 8 training [time: 44.06s, train loss: 1782.9723]
+12 Nov 00:26    INFO  epoch 8 evaluating [time: 3.28s, valid_score: 0.135100]
+12 Nov 00:26    INFO  valid result: 
+recall@10 : 0.2789    mrr@10 : 0.1351    ndcg@10 : 0.169    hit@10 : 0.2789    precision@10 : 0.0279
+12 Nov 00:26    INFO  epoch 9 training [time: 44.70s, train loss: 1554.0421]
+12 Nov 00:26    INFO  epoch 9 evaluating [time: 3.26s, valid_score: 0.131600]
+12 Nov 00:26    INFO  valid result: 
+recall@10 : 0.2707    mrr@10 : 0.1316    ndcg@10 : 0.1644    hit@10 : 0.2707    precision@10 : 0.0271
+12 Nov 00:27    INFO  epoch 10 training [time: 44.22s, train loss: 1380.9610]
+12 Nov 00:27    INFO  epoch 10 evaluating [time: 3.29s, valid_score: 0.126400]
+12 Nov 00:27    INFO  valid result: 
+recall@10 : 0.2569    mrr@10 : 0.1264    ndcg@10 : 0.1572    hit@10 : 0.2569    precision@10 : 0.0257
+12 Nov 00:27    INFO  Finished training, best eval result in epoch 4
+12 Nov 00:27    INFO  Loading model structure and parameters from .\outputs\formal\GCSAN-rerun20261112\seed42\checkpoints\GCSAN-Nov-12-2026_00-18-53.pth
+{
+  "model": "GCSAN",
+  "variant": "base",
+  "dataset": "diginetica-formal",
+  "scope": "Formal course-project experiment on a 20k-session disjoint subset; not an official leaderboard reproduction.",
+  "epochs_requested": 20,
+  "seed": 42,
+  "device": "cpu",
+  "raw_session_count": 20000,
+  "candidate_items": 32968,
+  "train_examples": 97273,
+  "valid_examples": 20000,
+  "test_examples": 20000,
+  "split_session_target_sha256": {
+    "train": "b9d1b3bd47d3bc7905ffa4dc4219618a19a2539427983d3a40f064b286a77f11",
+    "valid": "dce0721d44aaa6eb2285ff8135450ab9616a17d535fb1279b04085d6913f8311",
+    "test": "6e490221d53344ec678614e5ab9fe2051e079b7036e324b893228796ae717212"
+  },
+  "best_valid_score": 0.1552,
+  "best_valid_result": {
+    "recall@10": 0.3337,
+    "mrr@10": 0.1552,
+    "ndcg@10": 0.1973,
+    "hit@10": 0.3337,
+    "precision@10": 0.0334
+  },
+  "test_result": {
+    "recall@10": 0.2952,
+    "mrr@10": 0.1387,
+    "ndcg@10": 0.1756,
+    "hit@10": 0.2952,
+    "precision@10": 0.0295
+  },
+  "data_preparation_seconds": 12.087175,
+  "training_and_validation_seconds": 526.088774,
+  "test_seconds": 3.331412699999987,
+  "checkpoint": "outputs/formal/GCSAN-rerun20261112/seed42/checkpoints/GCSAN-Nov-12-2026_00-18-53.pth",
+  "checkpoint_sha256": "908e005c29dac3b680f24fadd542cc046079525982a303f9f2def1c9eb652fb5",
+  "parameters": 2205568,
+  "log_file": "outputs/formal/GCSAN-rerun20261112/seed42/train.log",
+  "environment": {
+    "python": "3.9.21",
+    "torch": "2.1.2+cpu",
+    "numpy": "1.23.5",
+    "recbole": "1.1.1",
+    "pyg": "2.4.0",
+    "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+  }
+}

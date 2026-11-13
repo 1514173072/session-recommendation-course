@@ -1,0 +1,11 @@
+--- grey_session.py
++++ grey_session.py
+@@ -97,7 +97,7 @@
+         for item, weight in zip(history, recency):
+             start, end = self.cooccurrence.indptr[item:item + 2]
+             x[1, self.cooccurrence.indices[start:end]] += weight * self.cooccurrence.data[start:end]
+-        np.add.at(x[2], history, recency)
++        x[2, history[-1]] = 1.0
+         x[3] = self.log_popularity
+         # Benefit-type min-max scaling across the FULL candidate catalogue.
+         # A constant column is mapped to zero and contributes the same to all items.

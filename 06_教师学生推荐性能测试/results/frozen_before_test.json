@@ -1,0 +1,12 @@
+{
+  "teacher_prototypes_sha256": "bf1bb0d4c54c430042f10c71bdfe4d6a6d0bc9dc61843cf45f26a436cd94632a",
+  "guidance_sha256": "f9007128de887c2ac1c5c2e1d9ebeb4a0da6e944f27bf0a52d658716c89d3a75",
+  "models": {
+    "student_plain": "ae17a3576183d310069c7693f0987157dd35e18a3c2c2ad64268545f333454d2",
+    "student_teacher": "3cb1fc0e545b81f9faf79fb30bb105107f9b5806726af94e90efb95dab530a49"
+  },
+  "selection": "best MRR@10 among epoch5,10,15,20,25,30 on fixed2000 validation samples",
+  "test_targets_used_for_training_or_selection": false,
+  "teacher_kind": "current-conversation assistant authored 12 evidence-based prototype policies; deterministic assignment to2000 anchors",
+  "teacher_online_llm_latency_measured": false
+}

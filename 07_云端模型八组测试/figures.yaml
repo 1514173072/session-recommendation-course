@@ -1,0 +1,21 @@
+figures:
+  - id: cloud-eight-groups
+    claim_id: prompt-guidance-cloud-pilot
+    need: needed
+    purpose: User-requested plain table image comparing four cloud models with and without teacher guidance.
+    source:
+      kind: new_candidate
+      gallery_queries:
+        - 'Previous same-project query data-type=多指标性能比较 keyword=性能: no matches'
+        - 'Previous same-project query method-type=基准比较 keyword=柱状: no matches'
+        - 'Previous same-project query keyword=表格: no matches'
+      reason: Existing inspected direction-classification and time-series templates have incompatible contracts; use a simple numeric results table as explicitly requested.
+    data: results/summary.json
+    code: export.py
+    candidate: figures/candidates/云端八组对比.png
+    delivery: ../08扩展对比/云端八组对比/云端八组对比.png
+    columns: [model, teacher, Recall_at_10, MRR_at_10, NDCG_at_10, total_call_seconds, valid_outputs]
+    uncertainty: Fixed30case pilot; no statistical-significance or full20000case claim.
+    caption_checked: true
+    text_figure_checked: true
+    status: verified

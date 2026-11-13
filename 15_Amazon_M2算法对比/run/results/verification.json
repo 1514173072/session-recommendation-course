@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "test_sessions": 8970,
+  "methods": 9,
+  "aligned_prediction_rows": 80730,
+  "raw_and_frozen_hashes_match": true,
+  "all_metrics_recomputed": true,
+  "history_filter_and_catalogue_aligned": true,
+  "gnn_checks": {
+    "SRGNN": {
+      "reloaded_test_predictions_exact": 40,
+      "attribute_contribution_nonzero": true,
+      "training_validation_reload_exact": true
+    },
+    "GCSAN": {
+      "reloaded_test_predictions_exact": 40,
+      "attribute_contribution_nonzero": true,
+      "training_validation_reload_exact": true
+    },
+    "GCEGNN": {
+      "reloaded_test_predictions_exact": 40,
+      "attribute_contribution_nonzero": true,
+      "training_validation_reload_exact": true
+    }
+  },
+  "qwen_full_dense_equivalence_cases": 8970,
+  "actual_local_llm_calls": 17,
+  "native_model_identity_and_outputs_verified": true,
+  "raw_qwen_choices_used_in_ablation": true,
+  "online_llm_calls_per_request": 0,
+  "exact_full_sequence_overlap_before_truncation": 0,
+  "truncated_sequence_overlaps": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "verify_source_sha256": "7debb9bac606fc95a378db94b709f135b2588a440b29e856dffb1987e0d92130"
+}

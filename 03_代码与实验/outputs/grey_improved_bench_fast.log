@@ -1,0 +1,45 @@
+GRA-improved round 1: {'mean_ms': 0.453428, 'median_ms': 0.3912, 'p95_ms': 0.8407300000000003}
+GRA-improved round 2: {'mean_ms': 0.45824899999999996, 'median_ms': 0.3998, 'p95_ms': 0.8539800000000001}
+GRA-improved round 3: {'mean_ms': 0.45464333333333345, 'median_ms': 0.3989, 'p95_ms': 0.8282300000000001}
+{
+  "model": "GRA-improved",
+  "batch_size": 1,
+  "device": "cpu",
+  "torch_threads": 4,
+  "distinct_queries": 300,
+  "rounds": 3,
+  "timed_calls": 900,
+  "sample_sha256": "e0c60cf2f758ae3727bbea3199d92c4be4fbed57ecf86325f64e7b6812a5f0a1",
+  "model_startup_seconds_excluded": 0.13786719999999986,
+  "mean_ms": 0.45544011111111116,
+  "median_ms": 0.3952,
+  "p95_ms": 0.8410749999999997,
+  "p99_ms": 0.991732,
+  "numeric_state_bytes": 7109648,
+  "per_round": [
+    {
+      "mean_ms": 0.453428,
+      "median_ms": 0.3912,
+      "p95_ms": 0.8407300000000003
+    },
+    {
+      "mean_ms": 0.45824899999999996,
+      "median_ms": 0.3998,
+      "p95_ms": 0.8539800000000001
+    },
+    {
+      "mean_ms": 0.45464333333333345,
+      "median_ms": 0.3989,
+      "p95_ms": 0.8282300000000001
+    }
+  ],
+  "correctness_queries": 300,
+  "max_score_diff_from_saved_predictions": 0,
+  "scope": "Warm in-process raw-history -> raw Top-10 latency, batch=1; includes input mapping, query features/graph, ranking and output mapping; excludes model startup, disk I/O, HTTP and queueing.",
+  "memory_scope": "Numeric model arrays/tensors, including sparse indexes and GCE global adjacency; excludes Python objects, shared token maps, dataset objects and runtime libraries.",
+  "platform": "Windows-10-10.0.19044-SP0",
+  "processor": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "python": "3.9.21",
+  "torch": "2.1.2+cpu",
+  "created_unix_time": 1794398144.4785624
+}

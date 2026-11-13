@@ -1,0 +1,19 @@
+{
+  "all_passed": true,
+  "unique_test_cases": 30,
+  "conditions": 2,
+  "case_results": 60,
+  "valid_outputs": 60,
+  "actual_api_attempts": 60,
+  "source_cases_and_prompts_unchanged": true,
+  "teacher_source_unchanged": true,
+  "no_heldout_target_field_in_prompts": true,
+  "all_predictions_recomputed_from_saved_outputs": true,
+  "metrics_and_times_recomputed": true,
+  "exported_csv_rows": 13,
+  "export_sha256": "a96b6574eed5d9eb38bf32ebca98bfda22652caead891b1cddf404f2340a85a1",
+  "scripts": {
+    "run.py": "bb089e8b6fa59599216c0a5acad4ad7f57f0d4a2336afe9f546f0963a58dd00c",
+    "verify.py": "0cab346b439fd70b8a34149e553107c4e2b35a67ecfc083473f9035e8b45a4d2"
+  }
+}

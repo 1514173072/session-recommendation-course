@@ -1,0 +1,13 @@
+student_plain epoch 5: ce=3.1945, kd=0.00000, valid={'recall@10': 0.3555, 'mrr@10': 0.15782579365079363, 'ndcg@10': 0.2045327241663317, 'hit@10': 0.3555, 'precision@10': 0.03555}, elapsed=20.3s
+student_plain epoch 10: ce=3.1847, kd=0.00000, valid={'recall@10': 0.353, 'mrr@10': 0.15668908730158732, 'ndcg@10': 0.20306159338730528, 'hit@10': 0.353, 'precision@10': 0.0353}, elapsed=40.4s
+student_plain epoch 15: ce=3.1821, kd=0.00000, valid={'recall@10': 0.3575, 'mrr@10': 0.16139424603174604, 'ndcg@10': 0.20770126041088435, 'hit@10': 0.3575, 'precision@10': 0.03575}, elapsed=60.8s
+student_plain epoch 20: ce=3.1800, kd=0.00000, valid={'recall@10': 0.359, 'mrr@10': 0.16204920634920633, 'ndcg@10': 0.20848763668555675, 'hit@10': 0.359, 'precision@10': 0.0359}, elapsed=81.1s
+student_plain epoch 25: ce=3.1786, kd=0.00000, valid={'recall@10': 0.359, 'mrr@10': 0.16078750000000003, 'ndcg@10': 0.20745768502569092, 'hit@10': 0.359, 'precision@10': 0.0359}, elapsed=101.8s
+student_plain epoch 30: ce=3.1783, kd=0.00000, valid={'recall@10': 0.3595, 'mrr@10': 0.1615170634920635, 'ndcg@10': 0.20815505485876448, 'hit@10': 0.3595, 'precision@10': 0.035949999999999996}, elapsed=122.2s
+student_teacher epoch 5: ce=3.2139, kd=0.06131, valid={'recall@10': 0.361, 'mrr@10': 0.1671924603174603, 'ndcg@10': 0.21292178329213576, 'hit@10': 0.361, 'precision@10': 0.0361}, elapsed=20.7s
+student_teacher epoch 10: ce=3.2059, kd=0.06266, valid={'recall@10': 0.3595, 'mrr@10': 0.16730257936507936, 'ndcg@10': 0.21268609255117757, 'hit@10': 0.3595, 'precision@10': 0.035949999999999996}, elapsed=41.5s
+student_teacher epoch 15: ce=3.2037, kd=0.06349, valid={'recall@10': 0.3635, 'mrr@10': 0.168218253968254, 'ndcg@10': 0.21428768509916146, 'hit@10': 0.3635, 'precision@10': 0.03635}, elapsed=62.2s
+student_teacher epoch 20: ce=3.2021, kd=0.06343, valid={'recall@10': 0.36, 'mrr@10': 0.1670625, 'ndcg@10': 0.2126941506390679, 'hit@10': 0.36, 'precision@10': 0.036}, elapsed=83.3s
+student_teacher epoch 25: ce=3.2006, kd=0.06360, valid={'recall@10': 0.3595, 'mrr@10': 0.1662013888888889, 'ndcg@10': 0.21194988820018024, 'hit@10': 0.3595, 'precision@10': 0.035949999999999996}, elapsed=104.2s
+student_teacher epoch 30: ce=3.2001, kd=0.06341, valid={'recall@10': 0.3595, 'mrr@10': 0.16753432539682542, 'ndcg@10': 0.21294119327070285, 'hit@10': 0.3595, 'precision@10': 0.035949999999999996}, elapsed=125.1s
+Both students frozen before test evaluation.

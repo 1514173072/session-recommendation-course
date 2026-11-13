@@ -1,0 +1,59 @@
+2026-11-02 17:58:57,236 - Constructing session graphs.
+2026-11-02 17:59:03,980 - Constructing session graphs.
+2026-11-02 17:59:05,609 - Constructing session graphs.
+2026-11-02 17:59:07,393 - SessionGraph Transform in DataLoader.
+2026-11-02 17:59:07,393 - SessionGraph Transform in DataLoader.
+2026-11-02 17:59:07,394 - SessionGraph Transform in DataLoader.
+2026-11-02 17:59:07,394 - [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+2026-11-02 17:59:07,394 - [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+2026-11-02 17:59:59,233 - epoch 0 training [time: 51.75s, train loss: 7216.3643]
+2026-11-02 18:00:03,221 - epoch 0 evaluating [time: 3.98s, valid_score: 0.089300]
+2026-11-02 18:00:03,221 - valid result: 
+recall@10 : 0.1828    mrr@10 : 0.0893    ndcg@10 : 0.1113    hit@10 : 0.1828    precision@10 : 0.0183
+2026-11-02 18:00:03,257 - Saving current: .\outputs\formal\GCSAN\seed42\checkpoints\GCSAN-Nov-02-2026_17-59-07.pth
+2026-11-02 18:00:53,454 - epoch 1 training [time: 50.20s, train loss: 5208.5262]
+2026-11-02 18:00:57,438 - epoch 1 evaluating [time: 3.98s, valid_score: 0.141400]
+2026-11-02 18:00:57,439 - valid result: 
+recall@10 : 0.3014    mrr@10 : 0.1414    ndcg@10 : 0.179    hit@10 : 0.3014    precision@10 : 0.0301
+2026-11-02 18:00:57,466 - Saving current: .\outputs\formal\GCSAN\seed42\checkpoints\GCSAN-Nov-02-2026_17-59-07.pth
+2026-11-02 18:01:48,751 - epoch 2 training [time: 51.28s, train loss: 3771.0593]
+2026-11-02 18:01:52,773 - epoch 2 evaluating [time: 4.02s, valid_score: 0.151800]
+2026-11-02 18:01:52,774 - valid result: 
+recall@10 : 0.329    mrr@10 : 0.1518    ndcg@10 : 0.1934    hit@10 : 0.329    precision@10 : 0.0329
+2026-11-02 18:01:52,811 - Saving current: .\outputs\formal\GCSAN\seed42\checkpoints\GCSAN-Nov-02-2026_17-59-07.pth
+2026-11-02 18:02:43,157 - epoch 3 training [time: 50.35s, train loss: 3165.6021]
+2026-11-02 18:02:47,136 - epoch 3 evaluating [time: 3.98s, valid_score: 0.153000]
+2026-11-02 18:02:47,136 - valid result: 
+recall@10 : 0.3359    mrr@10 : 0.153    ndcg@10 : 0.1961    hit@10 : 0.3359    precision@10 : 0.0336
+2026-11-02 18:02:47,163 - Saving current: .\outputs\formal\GCSAN\seed42\checkpoints\GCSAN-Nov-02-2026_17-59-07.pth
+2026-11-02 18:03:37,656 - epoch 4 training [time: 50.49s, train loss: 2856.3352]
+2026-11-02 18:03:41,613 - epoch 4 evaluating [time: 3.96s, valid_score: 0.155200]
+2026-11-02 18:03:41,613 - valid result: 
+recall@10 : 0.3337    mrr@10 : 0.1552    ndcg@10 : 0.1973    hit@10 : 0.3337    precision@10 : 0.0334
+2026-11-02 18:03:41,638 - Saving current: .\outputs\formal\GCSAN\seed42\checkpoints\GCSAN-Nov-02-2026_17-59-07.pth
+2026-11-02 18:04:32,670 - epoch 5 training [time: 51.03s, train loss: 2607.4996]
+2026-11-02 18:04:36,980 - epoch 5 evaluating [time: 4.31s, valid_score: 0.151300]
+2026-11-02 18:04:36,980 - valid result: 
+recall@10 : 0.3246    mrr@10 : 0.1513    ndcg@10 : 0.1921    hit@10 : 0.3246    precision@10 : 0.0325
+2026-11-02 18:05:27,779 - epoch 6 training [time: 50.80s, train loss: 2347.2754]
+2026-11-02 18:05:31,806 - epoch 6 evaluating [time: 4.03s, valid_score: 0.146100]
+2026-11-02 18:05:31,807 - valid result: 
+recall@10 : 0.309    mrr@10 : 0.1461    ndcg@10 : 0.1846    hit@10 : 0.309    precision@10 : 0.0309
+2026-11-02 18:06:22,260 - epoch 7 training [time: 50.45s, train loss: 2060.3384]
+2026-11-02 18:06:26,281 - epoch 7 evaluating [time: 4.02s, valid_score: 0.142700]
+2026-11-02 18:06:26,281 - valid result: 
+recall@10 : 0.2974    mrr@10 : 0.1427    ndcg@10 : 0.1792    hit@10 : 0.2974    precision@10 : 0.0297
+2026-11-02 18:07:17,210 - epoch 8 training [time: 50.93s, train loss: 1782.9723]
+2026-11-02 18:07:21,160 - epoch 8 evaluating [time: 3.95s, valid_score: 0.135100]
+2026-11-02 18:07:21,160 - valid result: 
+recall@10 : 0.2789    mrr@10 : 0.1351    ndcg@10 : 0.169    hit@10 : 0.2789    precision@10 : 0.0279
+2026-11-02 18:08:12,105 - epoch 9 training [time: 50.94s, train loss: 1554.0421]
+2026-11-02 18:08:16,101 - epoch 9 evaluating [time: 4.00s, valid_score: 0.131600]
+2026-11-02 18:08:16,101 - valid result: 
+recall@10 : 0.2707    mrr@10 : 0.1316    ndcg@10 : 0.1644    hit@10 : 0.2707    precision@10 : 0.0271
+2026-11-02 18:09:07,153 - epoch 10 training [time: 51.05s, train loss: 1380.9610]
+2026-11-02 18:09:11,147 - epoch 10 evaluating [time: 3.99s, valid_score: 0.126400]
+2026-11-02 18:09:11,148 - valid result: 
+recall@10 : 0.2569    mrr@10 : 0.1264    ndcg@10 : 0.1572    hit@10 : 0.2569    precision@10 : 0.0257
+2026-11-02 18:09:11,148 - Finished training, best eval result in epoch 4
+2026-11-02 18:09:11,177 - Loading model structure and parameters from .\outputs\formal\GCSAN\seed42\checkpoints\GCSAN-Nov-02-2026_17-59-07.pth

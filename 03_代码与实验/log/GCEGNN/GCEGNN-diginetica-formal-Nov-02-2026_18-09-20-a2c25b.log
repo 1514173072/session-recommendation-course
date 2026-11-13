@@ -1,0 +1,63 @@
+Mon 02 Nov 2026 18:09:25 INFO  Reversing sessions.
+Mon 02 Nov 2026 18:09:28 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:09:55 INFO  Reversing sessions.
+Mon 02 Nov 2026 18:09:56 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:10:02 INFO  Reversing sessions.
+Mon 02 Nov 2026 18:10:02 INFO  Constructing session graphs.
+Mon 02 Nov 2026 18:10:09 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:10:09 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:10:09 INFO  SessionGraph Transform in DataLoader.
+Mon 02 Nov 2026 18:10:09 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Mon 02 Nov 2026 18:10:09 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Mon 02 Nov 2026 18:10:09 INFO  Constructing global graphs.
+Mon 02 Nov 2026 18:11:10 INFO  epoch 0 training [time: 60.59s, train loss: 6638.8343]
+Mon 02 Nov 2026 18:11:15 INFO  epoch 0 evaluating [time: 4.86s, valid_score: 0.150000]
+Mon 02 Nov 2026 18:11:15 INFO  valid result: 
+recall@10 : 0.2808    mrr@10 : 0.15    ndcg@10 : 0.1812    hit@10 : 0.2808    precision@10 : 0.0281
+Mon 02 Nov 2026 18:11:15 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\GCEGNN\seed42\checkpoints\GCEGNN-Nov-02-2026_18-10-10.pth
+Mon 02 Nov 2026 18:12:16 INFO  epoch 1 training [time: 60.71s, train loss: 4557.4183]
+Mon 02 Nov 2026 18:12:21 INFO  epoch 1 evaluating [time: 4.97s, valid_score: 0.162800]
+Mon 02 Nov 2026 18:12:21 INFO  valid result: 
+recall@10 : 0.335    mrr@10 : 0.1628    ndcg@10 : 0.2037    hit@10 : 0.335    precision@10 : 0.0335
+Mon 02 Nov 2026 18:12:21 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\GCEGNN\seed42\checkpoints\GCEGNN-Nov-02-2026_18-10-10.pth
+Mon 02 Nov 2026 18:13:23 INFO  epoch 2 training [time: 61.63s, train loss: 3635.7721]
+Mon 02 Nov 2026 18:13:28 INFO  epoch 2 evaluating [time: 4.99s, valid_score: 0.165800]
+Mon 02 Nov 2026 18:13:28 INFO  valid result: 
+recall@10 : 0.3456    mrr@10 : 0.1658    ndcg@10 : 0.2083    hit@10 : 0.3456    precision@10 : 0.0346
+Mon 02 Nov 2026 18:13:28 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\GCEGNN\seed42\checkpoints\GCEGNN-Nov-02-2026_18-10-10.pth
+Mon 02 Nov 2026 18:14:29 INFO  epoch 3 training [time: 61.29s, train loss: 3202.4965]
+Mon 02 Nov 2026 18:14:34 INFO  epoch 3 evaluating [time: 4.95s, valid_score: 0.166400]
+Mon 02 Nov 2026 18:14:34 INFO  valid result: 
+recall@10 : 0.3484    mrr@10 : 0.1664    ndcg@10 : 0.2094    hit@10 : 0.3484    precision@10 : 0.0348
+Mon 02 Nov 2026 18:14:34 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\GCEGNN\seed42\checkpoints\GCEGNN-Nov-02-2026_18-10-10.pth
+Mon 02 Nov 2026 18:15:36 INFO  epoch 4 training [time: 61.68s, train loss: 2942.2841]
+Mon 02 Nov 2026 18:15:40 INFO  epoch 4 evaluating [time: 4.93s, valid_score: 0.167700]
+Mon 02 Nov 2026 18:15:40 INFO  valid result: 
+recall@10 : 0.3462    mrr@10 : 0.1677    ndcg@10 : 0.2098    hit@10 : 0.3462    precision@10 : 0.0346
+Mon 02 Nov 2026 18:15:40 INFO  Saving current: D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\GCEGNN\seed42\checkpoints\GCEGNN-Nov-02-2026_18-10-10.pth
+Mon 02 Nov 2026 18:16:42 INFO  epoch 5 training [time: 61.19s, train loss: 2765.9228]
+Mon 02 Nov 2026 18:16:47 INFO  epoch 5 evaluating [time: 4.96s, valid_score: 0.163800]
+Mon 02 Nov 2026 18:16:47 INFO  valid result: 
+recall@10 : 0.3418    mrr@10 : 0.1638    ndcg@10 : 0.2059    hit@10 : 0.3418    precision@10 : 0.0342
+Mon 02 Nov 2026 18:17:48 INFO  epoch 6 training [time: 61.55s, train loss: 2630.5853]
+Mon 02 Nov 2026 18:17:53 INFO  epoch 6 evaluating [time: 4.95s, valid_score: 0.164100]
+Mon 02 Nov 2026 18:17:53 INFO  valid result: 
+recall@10 : 0.345    mrr@10 : 0.1641    ndcg@10 : 0.2068    hit@10 : 0.345    precision@10 : 0.0345
+Mon 02 Nov 2026 18:18:55 INFO  epoch 7 training [time: 61.40s, train loss: 2528.2278]
+Mon 02 Nov 2026 18:19:00 INFO  epoch 7 evaluating [time: 4.99s, valid_score: 0.164900]
+Mon 02 Nov 2026 18:19:00 INFO  valid result: 
+recall@10 : 0.3412    mrr@10 : 0.1649    ndcg@10 : 0.2065    hit@10 : 0.3412    precision@10 : 0.0341
+Mon 02 Nov 2026 18:20:01 INFO  epoch 8 training [time: 61.91s, train loss: 2440.8153]
+Mon 02 Nov 2026 18:20:06 INFO  epoch 8 evaluating [time: 4.99s, valid_score: 0.161500]
+Mon 02 Nov 2026 18:20:06 INFO  valid result: 
+recall@10 : 0.3375    mrr@10 : 0.1615    ndcg@10 : 0.2032    hit@10 : 0.3375    precision@10 : 0.0338
+Mon 02 Nov 2026 18:21:08 INFO  epoch 9 training [time: 62.01s, train loss: 2364.3735]
+Mon 02 Nov 2026 18:21:13 INFO  epoch 9 evaluating [time: 4.97s, valid_score: 0.161800]
+Mon 02 Nov 2026 18:21:13 INFO  valid result: 
+recall@10 : 0.3364    mrr@10 : 0.1618    ndcg@10 : 0.2031    hit@10 : 0.3364    precision@10 : 0.0336
+Mon 02 Nov 2026 18:22:16 INFO  epoch 10 training [time: 62.49s, train loss: 2294.7450]
+Mon 02 Nov 2026 18:22:21 INFO  epoch 10 evaluating [time: 4.99s, valid_score: 0.159200]
+Mon 02 Nov 2026 18:22:21 INFO  valid result: 
+recall@10 : 0.3326    mrr@10 : 0.1592    ndcg@10 : 0.2002    hit@10 : 0.3326    precision@10 : 0.0333
+Mon 02 Nov 2026 18:22:21 INFO  Finished training, best eval result in epoch 4
+Mon 02 Nov 2026 18:22:21 INFO  Loading model structure and parameters from D:\Projects\算法分析与理论课程\03_代码与实验\outputs\formal\GCEGNN\seed42\checkpoints\GCEGNN-Nov-02-2026_18-10-10.pth

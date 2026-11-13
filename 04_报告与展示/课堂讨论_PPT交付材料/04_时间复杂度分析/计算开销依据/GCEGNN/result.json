@@ -1,0 +1,49 @@
+{
+  "model": "GCEGNN",
+  "variant": "base",
+  "dataset": "diginetica-formal",
+  "scope": "Formal course-project experiment on a 20k-session disjoint subset; not an official leaderboard reproduction.",
+  "epochs_requested": 20,
+  "seed": 42,
+  "device": "cpu",
+  "raw_session_count": 20000,
+  "candidate_items": 32968,
+  "train_examples": 97273,
+  "valid_examples": 20000,
+  "test_examples": 20000,
+  "split_session_target_sha256": {
+    "train": "b9d1b3bd47d3bc7905ffa4dc4219618a19a2539427983d3a40f064b286a77f11",
+    "valid": "dce0721d44aaa6eb2285ff8135450ab9616a17d535fb1279b04085d6913f8311",
+    "test": "6e490221d53344ec678614e5ab9fe2051e079b7036e324b893228796ae717212"
+  },
+  "best_valid_score": 0.1677,
+  "best_valid_result": {
+    "recall@10": 0.3462,
+    "mrr@10": 0.1677,
+    "ndcg@10": 0.2098,
+    "hit@10": 0.3462,
+    "precision@10": 0.0346
+  },
+  "test_result": {
+    "recall@10": 0.3314,
+    "mrr@10": 0.159,
+    "ndcg@10": 0.1998,
+    "hit@10": 0.3314,
+    "precision@10": 0.0331
+  },
+  "data_preparation_seconds": 42.6910667,
+  "training_and_validation_seconds": 642.0352365,
+  "test_seconds": 4.304862700000058,
+  "checkpoint": "outputs/formal/GCEGNN-rerun20261112/seed42/checkpoints/GCEGNN-Nov-12-2026_00-28-53.pth",
+  "checkpoint_sha256": "9c06a12596ae0af85d373253002cb00b8817fbc860a549382bbfc31988e7415f",
+  "parameters": 2140544,
+  "log_file": "outputs/formal/GCEGNN-rerun20261112/seed42/train.log",
+  "environment": {
+    "python": "3.9.21",
+    "torch": "2.1.2+cpu",
+    "numpy": "1.23.5",
+    "recbole": "1.1.1",
+    "pyg": "2.4.0",
+    "upstream_commit": "632ef888589944c190ad8f449b49ca559618d4df"
+  }
+}

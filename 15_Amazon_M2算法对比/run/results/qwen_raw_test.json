@@ -1,0 +1,28 @@
+{
+  "key": "qwen_raw",
+  "method": "离线Qwen原始选策（消融）",
+  "ablation": true,
+  "test_sessions": 8970,
+  "catalogue_items": 42503,
+  "recall@10": 0.5441471571906354,
+  "mrr@10": 0.3493453486931748,
+  "ndcg@10": 0.3958778390347378,
+  "mean_ms": 0.7085581666666667,
+  "p95_ms": 1.112515,
+  "calls": 600,
+  "scope": "CPU4, batch1, internal history -> features/graph -> full catalogue scores -> history mask -> Top10; model loading and static catalogue preparation excluded",
+  "warm_metrics": {
+    "recall@10": 0.554618015963512,
+    "mrr@10": 0.3564376662865831,
+    "ndcg@10": 0.40378794287394953
+  },
+  "cold_metrics": {
+    "recall@10": 0.085,
+    "mrr@10": 0.03834722222222223,
+    "ndcg@10": 0.049019785685301576
+  },
+  "cold_targets": 200,
+  "quality_evaluation_seconds": 6.5960071000000084,
+  "online_llm_calls": 0,
+  "prediction_sha256": "cd9f70216f05120a1d5e0cbb2582a6741b2d9b1909350a933c94551ec82b7388"
+}

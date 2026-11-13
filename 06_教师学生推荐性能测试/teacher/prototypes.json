@@ -1,0 +1,261 @@
+{
+  "author": "current-conversation assistant",
+  "model_identity": "GPT-6.1 Sol as reported by user UI; not independently verified via API",
+  "analysis_date": "2026-11-12",
+  "source": "Assistant reviewed real train-only, session-level five-fold cross-fitted grouped evidence and displayed representative training cases",
+  "evidence_sha256": "5d57f880539ce33aa55ac5df3fa953e34b5b051470a729c647975b05d90e5596",
+  "generation_type": "12 assistant-authored heuristic prototype parameter sets, then deterministic assignment to 2000 training anchors",
+  "independent_llm_api_calls": 0,
+  "parameters_tuned_on_validation_or_test": false,
+  "features": [
+    "transition",
+    "cooccurrence",
+    "history_support",
+    "popularity"
+  ],
+  "interaction_order": [
+    "transition*cooccurrence",
+    "transition*history_support",
+    "transition*popularity",
+    "cooccurrence*history_support",
+    "cooccurrence*popularity",
+    "history_support*popularity"
+  ],
+  "interpretation": "Predictive feature-combination guidance, not causal effects or statistically estimated optimum. Positive interaction hypothesizes reinforcement; small negative popularity interactions temper redundant popularity evidence.",
+  "notes": [
+    "Positive-negative means depend on the hard/uniform training sampler; they do not estimate population effect sizes.",
+    "OOF exclusion removes own-session target contamination. Rare-target all-zero cases remain intrinsically indistinguishable to these four features.",
+    "Cross-fitting leaves some items unseen and can shift feature distributions relative to full-training inference statistics.",
+    "All twelve cells have observed training evidence. Continuous context distinctions are left to student supervised training."
+  ],
+  "prototypes": [
+    {
+      "group": "short_repeat0_popular0",
+      "weights": [
+        0.12,
+        0.38,
+        0.46,
+        0.04
+      ],
+      "interactions": [
+        0.08,
+        0.04,
+        -0.01,
+        0.08,
+        -0.02,
+        -0.03
+      ],
+      "rationale": "训练正商品转移均值仅0.0124，共现0.0751、历史支持0.1143。低热度转移稀疏，优先历史证据和共现，保留转移；热度均值低于硬负样本，不以热度主导。",
+      "training_observed": true
+    },
+    {
+      "group": "short_repeat0_popular1",
+      "weights": [
+        0.34,
+        0.4,
+        0.2,
+        0.06
+      ],
+      "interactions": [
+        0.14,
+        0.05,
+        -0.03,
+        0.08,
+        -0.02,
+        -0.02
+      ],
+      "rationale": "转移和共现均值分别0.1431、0.2381，高于负样本0.0447、0.1099。短历史下保留最近点击；历史支持仍有信号，热度提供小权重。",
+      "training_observed": true
+    },
+    {
+      "group": "short_repeat1_popular0",
+      "weights": [
+        0.08,
+        0.22,
+        0.66,
+        0.04
+      ],
+      "interactions": [
+        0.03,
+        0.06,
+        0,
+        0.1,
+        -0.01,
+        -0.03
+      ],
+      "rationale": "重复目标比例0.333，历史支持正负均值0.2927与0.0113，转移近零。提高历史支持并以共现辅助；该权重为教师启发式指导，非拟合出的最优系数。",
+      "training_observed": true
+    },
+    {
+      "group": "short_repeat1_popular1",
+      "weights": [
+        0.28,
+        0.27,
+        0.4,
+        0.05
+      ],
+      "interactions": [
+        0.12,
+        0.1,
+        -0.03,
+        0.1,
+        -0.02,
+        -0.03
+      ],
+      "rationale": "重复目标比例0.305，支持特征均值0.2753；同时转移正均值0.1974较强。兼顾重复倾向与最近点击，使用转移-支持和共现-支持的交互。",
+      "training_observed": true
+    },
+    {
+      "group": "medium_repeat0_popular0",
+      "weights": [
+        0.14,
+        0.38,
+        0.44,
+        0.04
+      ],
+      "interactions": [
+        0.08,
+        0.04,
+        -0.01,
+        0.1,
+        -0.02,
+        -0.03
+      ],
+      "rationale": "中等历史的共现均值0.1380与支持0.1312均高于负样本，但转移仅0.0119。主用历史支持和共现，保留罕见强转移的机会。",
+      "training_observed": true
+    },
+    {
+      "group": "medium_repeat0_popular1",
+      "weights": [
+        0.28,
+        0.42,
+        0.25,
+        0.05
+      ],
+      "interactions": [
+        0.15,
+        0.05,
+        -0.03,
+        0.1,
+        -0.03,
+        -0.02
+      ],
+      "rationale": "共现正负均值0.2617与0.1178，历史支持0.1360与0.0288。提高共现相对权重，兼顾转移，降低单纯热度的影响。",
+      "training_observed": true
+    },
+    {
+      "group": "medium_repeat1_popular0",
+      "weights": [
+        0.1,
+        0.24,
+        0.62,
+        0.04
+      ],
+      "interactions": [
+        0.04,
+        0.08,
+        -0.01,
+        0.13,
+        -0.02,
+        -0.03
+      ],
+      "rationale": "重复目标比例0.410；支持正均值0.2745而转移仅0.0099。强调会话内重复证据，同时保留共现与支持组合。",
+      "training_observed": true
+    },
+    {
+      "group": "medium_repeat1_popular1",
+      "weights": [
+        0.24,
+        0.31,
+        0.4,
+        0.05
+      ],
+      "interactions": [
+        0.13,
+        0.1,
+        -0.03,
+        0.13,
+        -0.03,
+        -0.03
+      ],
+      "rationale": "重复目标比例0.391，转移/共现/支持均有区分。分配更多权重给支持，再结合共现和转移；交互是可检验的组合假设。",
+      "training_observed": true
+    },
+    {
+      "group": "long_repeat0_popular0",
+      "weights": [
+        0.12,
+        0.43,
+        0.41,
+        0.04
+      ],
+      "interactions": [
+        0.08,
+        0.04,
+        -0.01,
+        0.12,
+        -0.02,
+        -0.03
+      ],
+      "rationale": "较长历史下共现正均值0.1617，支持0.1269；低热度转移稀疏。更多使用累积浏览共现，兼顾已浏览商品。",
+      "training_observed": true
+    },
+    {
+      "group": "long_repeat0_popular1",
+      "weights": [
+        0.24,
+        0.43,
+        0.28,
+        0.05
+      ],
+      "interactions": [
+        0.14,
+        0.06,
+        -0.03,
+        0.12,
+        -0.03,
+        -0.02
+      ],
+      "rationale": "共现正负均值0.2696和0.1232，长历史提供更完整共同浏览证据。以共现为主，保留转移及历史支持。",
+      "training_observed": true
+    },
+    {
+      "group": "long_repeat1_popular0",
+      "weights": [
+        0.1,
+        0.28,
+        0.58,
+        0.04
+      ],
+      "interactions": [
+        0.05,
+        0.08,
+        -0.01,
+        0.14,
+        -0.02,
+        -0.03
+      ],
+      "rationale": "重复目标比例0.453，支持正负均值0.2857与0.0271。提高支持的作用，共现作为补充；低热度转移仍弱。",
+      "training_observed": true
+    },
+    {
+      "group": "long_repeat1_popular1",
+      "weights": [
+        0.22,
+        0.34,
+        0.39,
+        0.05
+      ],
+      "interactions": [
+        0.14,
+        0.1,
+        -0.03,
+        0.15,
+        -0.03,
+        -0.03
+      ],
+      "rationale": "重复目标比例0.481；共现和历史支持正均值分别0.3047、0.2769。兼顾长历史共现与重复偏好，并保留转移。",
+      "training_observed": true
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "completed_at": "2026-11-12T00:42:02",
+  "tag": "rerun20261112",
+  "models": [
+    {
+      "model": "SRGNN",
+      "test_result": {
+        "recall@10": 0.2818,
+        "mrr@10": 0.134,
+        "ndcg@10": 0.1688,
+        "hit@10": 0.2818,
+        "precision@10": 0.0282
+      },
+      "difference_from_previous": {
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "ndcg@10": 0.0,
+        "hit@10": 0.0,
+        "precision@10": 0.0
+      },
+      "same_data_split": true
+    },
+    {
+      "model": "GCSAN",
+      "test_result": {
+        "recall@10": 0.2952,
+        "mrr@10": 0.1387,
+        "ndcg@10": 0.1756,
+        "hit@10": 0.2952,
+        "precision@10": 0.0295
+      },
+      "difference_from_previous": {
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "ndcg@10": 0.0,
+        "hit@10": 0.0,
+        "precision@10": 0.0
+      },
+      "same_data_split": true
+    },
+    {
+      "model": "GCEGNN",
+      "test_result": {
+        "recall@10": 0.3314,
+        "mrr@10": 0.159,
+        "ndcg@10": 0.1998,
+        "hit@10": 0.3314,
+        "precision@10": 0.0331
+      },
+      "difference_from_previous": {
+        "recall@10": 0.0,
+        "mrr@10": 0.0,
+        "ndcg@10": 0.0,
+        "hit@10": 0.0,
+        "precision@10": 0.0
+      },
+      "same_data_split": true
+    }
+  ],
+  "dataset_sha256": "d5e0c1c2ca3f3fe629ec1a3fa0e5bd06b2633ffd97323cf09000447178608c45",
+  "scope": "Fresh training, full-test prediction export and independent checkpoint evaluation; same single seed 42."
+}

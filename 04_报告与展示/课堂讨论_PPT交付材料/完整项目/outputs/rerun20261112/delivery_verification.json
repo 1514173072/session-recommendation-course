@@ -1,0 +1,117 @@
+{
+  "verified_at": "2026-11-12T01:01:01",
+  "passed": true,
+  "rerun_steps": [
+    {
+      "name": "SRGNN-train",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:18:16"
+    },
+    {
+      "name": "SRGNN-predictions",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:18:38"
+    },
+    {
+      "name": "GCSAN-train",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:27:44"
+    },
+    {
+      "name": "GCSAN-predictions",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:28:05"
+    },
+    {
+      "name": "GCEGNN-train",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:39:41"
+    },
+    {
+      "name": "GCEGNN-predictions",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:40:35"
+    },
+    {
+      "name": "independent-verification",
+      "exit_code": 0,
+      "finished_at": "2026-11-12T00:42:02"
+    }
+  ],
+  "test_sessions": 20000,
+  "png_images": 7,
+  "vector_pdf_images": 0,
+  "csv_tables": 1,
+  "html_sha256": "a0ab6945a8ac30b30341b355e7b7683bc474551d41fc0a44f8fd25c1a7c19a57",
+  "figures_source": "full rerun rerun20261112",
+  "assets": [
+    {
+      "path": "../04_时间复杂度分析/01_模型训练过程.png",
+      "sha256": "1ecdee02447eaa38bff263a3b11b16b0d9a2228a9eab73f54db0d04f4e47d179"
+    },
+    {
+      "path": "../05_设计对比实验并分析结果/02_三模型对比汇总表.png",
+      "sha256": "c983c445e0d0af3c34c8e071e3c6c670a04e1cab94c1aba8f8ed963ed49861f4"
+    },
+    {
+      "path": "../05_设计对比实验并分析结果/02_三模型对比汇总表.csv",
+      "sha256": "d2594b8514f32583ba917c29266d311b62ca1ed02dee7deaa5593a298589bfdc"
+    },
+    {
+      "path": "../06_实机演示/06_真实会话的序列转图.png",
+      "sha256": "1ef1a8afc5f31855be8fee775a8bdcb12a9203f225b12e4568fe853a0c5a677c"
+    },
+    {
+      "path": "../06_实机演示/07_演示_三模型共同命中.png",
+      "sha256": "3f2365800b0a5e64ce7be8ddf87443f5b54f072db07b4acb597724df917286b6"
+    },
+    {
+      "path": "../07_讨论算法局限性以及失败案例/08_演示_仅GCEGNN命中.png",
+      "sha256": "f4097386f8a2c48882735374f92232fabf0c8694910f4507f173af125f2f946d"
+    },
+    {
+      "path": "../07_讨论算法局限性以及失败案例/09_演示_GCEGNN失败案例.png",
+      "sha256": "eaa761130a9d1f887f46a33913982bb201db8772a22971a898c1500b8df841ae"
+    },
+    {
+      "path": "../07_讨论算法局限性以及失败案例/10_演示_三个模型均失败.png",
+      "sha256": "bf9fe713d14c384cf43e6e397d641ba88d792f57be85c0fdb63de127461f02d9"
+    }
+  ],
+  "scope": "Same single seed, unchanged official model implementations, identical data split. Training/testing completed; independent reload verified. This does not establish general superiority.",
+  "temporal_order_audit": {
+    "sessions": 20000,
+    "exact_history_mismatches": [
+      "379088",
+      "487756",
+      "101003",
+      "512911",
+      "176932",
+      "88683",
+      "165329",
+      "220592",
+      "288185",
+      "353309",
+      "78849",
+      "346958",
+      "242739",
+      "513678"
+    ],
+    "exact_target_mismatches": [
+      "101003"
+    ],
+    "float32_mismatches": [],
+    "interpretation": "RecBole converts float fields to float32 before sequential ordering. Nearby epoch-second timestamps can become equal. Histories and labels follow the actual training/evaluation dataset order.",
+    "dataset_conversion_code": "    def _dataframe_to_interaction(self, data):\n        \"\"\"Convert :class:`pandas.DataFrame` to :class:`~recbole.data.interaction.Interaction`.\n\n        Args:\n            data (pandas.DataFrame): data to be converted.\n\n        Returns:\n            :class:`~recbole.data.interaction.Interaction`: Converted data.\n        \"\"\"\n        new_data = {}\n        for k in data:\n            value = data[k].values\n            ftype = self.field2type[k]\n            if ftype == FeatureType.TOKEN:\n                new_data[k] = torch.LongTensor(value)\n            elif ftype == FeatureType.FLOAT:\n                if k in self.config[\"numerical_features\"]:\n                    new_data[k] = torch.FloatTensor(value.tolist())\n                else:\n                    new_data[k] = torch.FloatTensor(value)\n            elif ftype == FeatureType.TOKEN_SEQ:\n                seq_data = [torch.LongTensor(d[: self.field2seqlen[k]]) for d in value]\n                new_data[k] = rnn_utils.pad_sequence(seq_data, batch_first=True)\n            elif ftype == FeatureType.FLOAT_SEQ:\n                if k in self.config[\"numerical_features\"]:\n                    base = [\n                        torch.FloatTensor(d[0][: self.field2seqlen[k]]) for d in value\n                    ]\n                    base = rnn_utils.pad_sequence(base, batch_first=True)\n                    index = [\n                        torch.FloatTensor(d[1][: self.field2seqlen[k]]) for d in value\n                    ]\n                    index = rnn_utils.pad_sequence(index, batch_first=True)\n                    new_data[k] = torch.stack([base, index], dim=-1)\n                else:\n                    seq_data = [\n                        torch.FloatTensor(d[: self.field2seqlen[k]]) for d in value\n                    ]\n                    new_data[k] = rnn_utils.pad_sequence(seq_data, batch_first=True)\n        return Interaction(new_data)\n",
+    "sources": [
+      {
+        "path": "data/diginetica-formal/diginetica-formal.inter",
+        "sha256": "d5e0c1c2ca3f3fe629ec1a3fa0e5bd06b2633ffd97323cf09000447178608c45"
+      },
+      {
+        "path": "outputs/formal/predictions-rerun20261112/SRGNN.jsonl",
+        "sha256": "d76f47d236285573f860f4486162eedfa5bdbe7da525b5193909008cb171af0e"
+      }
+    ]
+  }
+}

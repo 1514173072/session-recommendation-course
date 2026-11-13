@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-12 00:40:38",
+  "models": {
+    "SRGNN": {
+      "checkpoint": "outputs/formal/SRGNN-rerun20261112/seed42/checkpoints/SRGNN-Nov-12-2026_00-12-28.pth",
+      "test_result_reloaded": {
+        "recall@10": 0.2818,
+        "mrr@10": 0.134,
+        "ndcg@10": 0.1688,
+        "hit@10": 0.2818,
+        "precision@10": 0.0282
+      },
+      "max_metric_difference": 0.0,
+      "reload_passed": true,
+      "prediction_rows": 20000,
+      "expected_rows": 20000,
+      "top10_passed": true,
+      "top10_error": "",
+      "passed": true
+    },
+    "GCSAN": {
+      "checkpoint": "outputs/formal/GCSAN-rerun20261112/seed42/checkpoints/GCSAN-Nov-12-2026_00-18-53.pth",
+      "test_result_reloaded": {
+        "recall@10": 0.2952,
+        "mrr@10": 0.1387,
+        "ndcg@10": 0.1756,
+        "hit@10": 0.2952,
+        "precision@10": 0.0295
+      },
+      "max_metric_difference": 0.0,
+      "reload_passed": true,
+      "prediction_rows": 20000,
+      "expected_rows": 20000,
+      "top10_passed": true,
+      "top10_error": "",
+      "passed": true
+    },
+    "GCEGNN": {
+      "checkpoint": "outputs/formal/GCEGNN-rerun20261112/seed42/checkpoints/GCEGNN-Nov-12-2026_00-28-53.pth",
+      "test_result_reloaded": {
+        "recall@10": 0.3314,
+        "mrr@10": 0.159,
+        "ndcg@10": 0.1998,
+        "hit@10": 0.3314,
+        "precision@10": 0.0331
+      },
+      "max_metric_difference": 0.0,
+      "reload_passed": true,
+      "prediction_rows": 20000,
+      "expected_rows": 20000,
+      "top10_passed": true,
+      "top10_error": "",
+      "passed": true
+    }
+  },
+  "all_passed": true,
+  "scope": "Independent-process reload and Top-10 legality check for the 20k formal experiment."
+}

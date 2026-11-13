@@ -1,0 +1,12 @@
+Thu 12 Nov 2026 00:39:48 INFO  Reversing sessions.
+Thu 12 Nov 2026 00:39:50 INFO  Constructing session graphs.
+Thu 12 Nov 2026 00:40:15 INFO  Reversing sessions.
+Thu 12 Nov 2026 00:40:16 INFO  Constructing session graphs.
+Thu 12 Nov 2026 00:40:21 INFO  Reversing sessions.
+Thu 12 Nov 2026 00:40:22 INFO  Constructing session graphs.
+Thu 12 Nov 2026 00:40:28 INFO  SessionGraph Transform in DataLoader.
+Thu 12 Nov 2026 00:40:28 INFO  SessionGraph Transform in DataLoader.
+Thu 12 Nov 2026 00:40:28 INFO  SessionGraph Transform in DataLoader.
+Thu 12 Nov 2026 00:40:28 INFO  [Training]: train_batch_size = [128] negative sampling: [{'distribution': 'none', 'sample_num': 'none', 'alpha': 'none', 'dynamic': False, 'candidate_num': 0}]
+Thu 12 Nov 2026 00:40:28 INFO  [Evaluation]: eval_batch_size = [128] eval_args: [{'split': {'LS': 'valid_and_test'}, 'order': 'TO', 'mode': 'full', 'group_by': 'user'}]
+Thu 12 Nov 2026 00:40:28 INFO  Constructing global graphs.

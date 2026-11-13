@@ -1,0 +1,29 @@
+{
+  "all_identical": true,
+  "files": [
+    {
+      "file": "01_模型训练过程.png",
+      "first_sha256": "1ecdee02447eaa38bff263a3b11b16b0d9a2228a9eab73f54db0d04f4e47d179",
+      "second_sha256": "1ecdee02447eaa38bff263a3b11b16b0d9a2228a9eab73f54db0d04f4e47d179",
+      "identical": true
+    },
+    {
+      "file": "02_三模型对比汇总表.png",
+      "first_sha256": "c983c445e0d0af3c34c8e071e3c6c670a04e1cab94c1aba8f8ed963ed49861f4",
+      "second_sha256": "c983c445e0d0af3c34c8e071e3c6c670a04e1cab94c1aba8f8ed963ed49861f4",
+      "identical": true
+    },
+    {
+      "file": "02_三模型对比汇总表.csv",
+      "first_sha256": "d2594b8514f32583ba917c29266d311b62ca1ed02dee7deaa5593a298589bfdc",
+      "second_sha256": "d2594b8514f32583ba917c29266d311b62ca1ed02dee7deaa5593a298589bfdc",
+      "identical": true
+    },
+    {
+      "file": "06_真实会话的序列转图.png",
+      "first_sha256": "1ef1a8afc5f31855be8fee775a8bdcb12a9203f225b12e4568fe853a0c5a677c",
+      "second_sha256": "1ef1a8afc5f31855be8fee775a8bdcb12a9203f225b12e4568fe853a0c5a677c",
+      "identical": true
+    }
+  ]
+}

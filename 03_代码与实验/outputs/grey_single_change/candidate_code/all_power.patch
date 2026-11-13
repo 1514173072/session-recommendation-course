@@ -1,0 +1,10 @@
+--- grey_session.py
++++ grey_session.py
+@@ -107,6 +107,7 @@
+         np.subtract(candidate, lo, out=candidate)
+         np.divide(candidate, span, out=candidate, where=span > 0)
+         candidate[span[:, 0] == 0] = 0
++        candidate **= 0.0625
+         return x
+ 
+     def recommend(self, history):
